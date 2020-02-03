@@ -1,11 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef BEHAVIOUR_BehaviourCharacter_generated_h
@@ -13,26 +13,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BEHAVIOUR_BehaviourCharacter_generated_h
 
+#define Behaviour_Source_Behaviour_BehaviourCharacter_h_12_SPARSE_DATA
 #define Behaviour_Source_Behaviour_BehaviourCharacter_h_12_RPC_WRAPPERS
 #define Behaviour_Source_Behaviour_BehaviourCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define Behaviour_Source_Behaviour_BehaviourCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABehaviourCharacter(); \
-	friend BEHAVIOUR_API class UClass* Z_Construct_UClass_ABehaviourCharacter(); \
+	friend struct Z_Construct_UClass_ABehaviourCharacter_Statics; \
 public: \
-	DECLARE_CLASS(ABehaviourCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Behaviour"), NO_API) \
-	DECLARE_SERIALIZER(ABehaviourCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ABehaviourCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Behaviour"), NO_API) \
+	DECLARE_SERIALIZER(ABehaviourCharacter)
 
 
 #define Behaviour_Source_Behaviour_BehaviourCharacter_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesABehaviourCharacter(); \
-	friend BEHAVIOUR_API class UClass* Z_Construct_UClass_ABehaviourCharacter(); \
+	friend struct Z_Construct_UClass_ABehaviourCharacter_Statics; \
 public: \
-	DECLARE_CLASS(ABehaviourCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/Behaviour"), NO_API) \
-	DECLARE_SERIALIZER(ABehaviourCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(ABehaviourCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Behaviour"), NO_API) \
+	DECLARE_SERIALIZER(ABehaviourCharacter)
 
 
 #define Behaviour_Source_Behaviour_BehaviourCharacter_h_12_STANDARD_CONSTRUCTORS \
@@ -69,6 +68,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABehaviourCharacter); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_SPARSE_DATA \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_RPC_WRAPPERS \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_INCLASS \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_STANDARD_CONSTRUCTORS \
@@ -80,12 +80,15 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_SPARSE_DATA \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	Behaviour_Source_Behaviour_BehaviourCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> BEHAVIOUR_API UClass* StaticClass<class ABehaviourCharacter>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID Behaviour_Source_Behaviour_BehaviourCharacter_h
