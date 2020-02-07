@@ -1,0 +1,3 @@
+C:\Users\Dong Hyeong Lee\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Dialogue_BS.Build.cs
+C:\Users\Dong Hyeong Lee\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS.Target.cs
+C:\Users\Dong Hyeong Lee\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BSEditor.Target.cs
