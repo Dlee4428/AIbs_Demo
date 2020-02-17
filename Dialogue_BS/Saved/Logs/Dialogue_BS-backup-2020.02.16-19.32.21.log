@@ -1,0 +1,1250 @@
+﻿Log file open, 02/16/20 17:20:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Dialogue_BS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1249940121) SRandInit(1249940121).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.177583
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogModuleManager: Warning: Module file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-3608.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Incompatible or missing module: UE4Editor-Dialogue_BS.dll
+Running D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS Development Win64 -project="C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+@progress pop
+Target is up to date
+Total build time: 0.46 seconds (NoActionsToExecute executor: 0.00 seconds)
+LogModuleManager: Display: Found up-to-date module file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.02.16-22.20.49:704][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.16-22.20.49:704][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.16-22.20.49:718][  0]LogInit: Computer: DESKTOP-1KTVQO3
+[2020.02.16-22.20.49:718][  0]LogInit: User: fuckm
+[2020.02.16-22.20.49:718][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.16-22.20.49:718][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.16-22.20.49:718][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.16-22.20.49:718][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.16-22.20.49:718][  0]LogMemory: Process Physical Memory: 279.43 MB used, 279.43 MB peak
+[2020.02.16-22.20.49:718][  0]LogMemory: Process Virtual Memory: 270.96 MB used, 270.96 MB peak
+[2020.02.16-22.20.49:718][  0]LogMemory: Physical Memory: 6577.50 MB used,  9704.48 MB free, 16281.98 MB total
+[2020.02.16-22.20.49:718][  0]LogMemory: Virtual Memory: 4816.48 MB used,  9704.48 MB free, 134217728.00 MB total
+[2020.02.16-22.20.49:855][  0]LogInit: Using OS detected language (en-US).
+[2020.02.16-22.20.49:855][  0]LogInit: Using OS detected locale (en-CA).
+[2020.02.16-22.20.49:858][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.16-22.20.50:259][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.16-22.20.50:563][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.16-22.20.51:027][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2020.02.16-22.20.51:027][  0]LogD3D11RHI:       3032/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.16-22.20.51:035][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.02.16-22.20.51:036][  0]LogD3D11RHI:       128/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.16-22.20.51:038][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.16-22.20.51:038][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.16-22.20.51:038][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.16-22.20.51:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.16-22.20.51:072][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.16-22.20.51:072][  0]LogWindows: EnumDisplayDevices:
+[2020.02.16-22.20.51:072][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.02.16-22.20.51:072][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.02.16-22.20.51:072][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.02.16-22.20.51:073][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.02.16-22.20.51:073][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2020.02.16-22.20.51:073][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.02.16-22.20.51:073][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.02.16-22.20.51:073][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2020.02.16-22.20.51:118][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.16-22.20.51:130][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.16-22.20.51:131][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/15040/).
+[2020.02.16-22.20.51:131][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/fuckm/AppData/Local/Temp/UnrealShaderWorkingDir/A40BDBE84E865FFDB94D779EA0875E93/'.
+[2020.02.16-22.20.51:131][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.16-22.20.52:046][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.02.16-22.20.52:092][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.02.16-22.20.52:138][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.02.16-22.20.52:184][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.02.16-22.20.52:230][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.02.16-22.20.52:279][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.02.16-22.20.52:326][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.02.16-22.20.52:374][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.02.16-22.20.52:413][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.02.16-22.20.52:461][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.02.16-22.20.52:507][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.02.16-22.20.52:552][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.02.16-22.20.52:597][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.02.16-22.20.52:644][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.02.16-22.20.52:735][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.02.16-22.20.52:735][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.02.16-22.20.52:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.02.16-22.20.52:815][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.02.16-22.20.52:897][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.02.16-22.20.52:923][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.02.16-22.20.52:969][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.02.16-22.20.53:014][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.02.16-22.20.53:060][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.02.16-22.20.53:105][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.02.16-22.20.53:105][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.16-22.20.53:505][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.16-22.20.53:573][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/fuckm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.02.16-22.20.53:573][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/fuckm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.02.16-22.20.53:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.16-22.20.53:573][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.16-22.20.53:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.16-22.20.53:573][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.16-22.20.53:590][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.16-22.20.53:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fuckm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.16-22.20.53:614][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.16-22.20.53:614][  0]LogSlate: Using Freetype 2.6.0
+[2020.02.16-22.20.53:614][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.16-22.20.53:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.16-22.20.53:965][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.16-22.20.54:197][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.02.16-22.20.54:233][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.02.16-22.20.54:233][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.16-22.20.54:233][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.02.16-22.20.54:233][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.02.16-22.20.54:233][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.02.16-22.20.54:339][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
+[2020.02.16-22.20.54:509][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2020.02.16-22.20.55:025][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068957 seconds
+[2020.02.16-22.20.55:030][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.02.16-22.20.55:030][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.02.16-22.20.55:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.16-22.20.55:076][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.02.16-22.20.57:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.16-22.20.57:619][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.16-22.20.58:429][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.02.16-22.20.58:815][  0]SourceControl: Source control is disabled
+[2020.02.16-22.20.58:815][  0]SourceControl: Source control is disabled
+[2020.02.16-22.20.58:861][  0]SourceControl: Source control is disabled
+[2020.02.16-22.20.58:908][  0]SourceControl: Source control is disabled
+[2020.02.16-22.20.59:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.16-22.20.59:860][  0]LogOcInput: OculusInput pre-init called
+[2020.02.16-22.21.00:102][  0]LogEngine: Initializing Engine...
+[2020.02.16-22.21.00:105][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.16-22.21.00:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.02.16-22.21.00:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.02.16-22.21.00:442][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.16-22.21.00:469][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.02.16-22.21.00:547][  0]LogInit: FAudioDevice initialized.
+[2020.02.16-22.21.00:640][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/fuckm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.02.16-22.21.00:652][  0]LogInit: Texture streaming: Enabled
+[2020.02.16-22.21.00:741][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.16-22.21.00:857][  0]LogInit: Transaction tracking system initialized
+[2020.02.16-22.21.01:137][  0]BlueprintLog: New page: Editor Load
+[2020.02.16-22.21.01:974][  0]LocalizationService: Localization service is disabled
+[2020.02.16-22.21.02:644][  0]LogConsoleResponse: Display: 
+[2020.02.16-22.21.02:807][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.16-22.21.02:807][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.16-22.21.02:807][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.02.16-22.21.03:172][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.02s
+[2020.02.16-22.21.03:875][  0]SourceControl: Source control is disabled
+[2020.02.16-22.21.03:875][  0]Cmd: MAP LOAD FILE="C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.16-22.21.03:876][  0]LightingResults: New page: Lighting Build
+[2020.02.16-22.21.03:913][  0]MapCheck: New page: Map Check
+[2020.02.16-22.21.03:913][  0]LightingResults: New page: Lighting Build
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.02.16-22.21.04:600][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2020.02.16-22.21.04:723][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.16-22.21.04:737][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.16-22.21.04:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.16-22.21.04:795][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.486ms to complete.
+[2020.02.16-22.21.04:795][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.921
+[2020.02.16-22.21.04:953][  0]LogCollectionManager: Loaded 0 collections in 0.001447 seconds
+[2020.02.16-22.21.05:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
+[2020.02.16-22.21.05:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/fuckm/Collections/' took 0.01s
+[2020.02.16-22.21.05:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
+[2020.02.16-22.21.05:031][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.02.16-22.21.05:040][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2366 classes and 522 folders.
+[2020.02.16-22.21.05:105][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.02.16-22.21.05:143][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.02.16-22.21.05:186][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.02.16-22.21.05:275][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2020.02.16-22.21.05:275][  0]LogLoad: (Engine Initialization) Total time: 23.42 seconds
+[2020.02.16-22.21.05:275][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.16-22.21.05:276][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.02.16-22.21.05:306][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.16-22.21.05:307][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.16-22.21.05:309][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.16-22.21.05:314][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.16-22.21.05:422][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.02.16-22.21.05:446][  1]LogAssetRegistry: Asset discovery search completed in 10.9588 seconds
+[2020.02.16-22.21.05:448][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.16-22.21.05:449][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2020.02.16-22.21.05:476][  2]LogRenderer: Reallocating scene render targets to support 904x484 Format 10 NumSamples 1 (Frame:1).
+[2020.02.16-22.21.47:158][967]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.02.16-22.21.47:206][967]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.16-22.22.01:092][583]Running D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" -game -rocket -progress
+[2020.02.16-22.22.01:398][583]Discovering modules, targets and source code for project...
+[2020.02.16-22.22.03:315][583]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.16-22.22.04:234][583]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.02.16-22.22.04:240][583]Candidate modules for hot reload:
+[2020.02.16-22.22.04:240][583]  Dialogue_BS
+[2020.02.16-22.22.04:241][583]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 3114 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.22.04:933][583]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:22:04 PM
+[2020.02.16-22.22.04:933][583]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.22.04:933][583]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.22.04:933][583]CompilerResultsLog: Target is up to date
+[2020.02.16-22.22.04:933][583]CompilerResultsLog: Total build time: 0.48 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2020.02.16-22.22.04:933][583]LogMainFrame: MainFrame: Module compiling took 0.699 seconds
+[2020.02.16-22.22.04:954][583]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2368 classes and 526 folders.
+[2020.02.16-22.22.04:954][583]Display: HotReload took  0.7s.
+[2020.02.16-22.22.04:959][583]Warning: HotReload operation took  0.7s.
+[2020.02.16-22.27.45:840][882]Candidate modules for hot reload:
+[2020.02.16-22.27.45:840][882]  Dialogue_BS
+[2020.02.16-22.27.45:840][882]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 4884 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.27.45:845][882]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.27.46:853][988]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:27:46 PM
+[2020.02.16-22.27.46:853][988]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.27.46:853][988]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.27.46:853][988]CompilerResultsLog: Target is up to date
+[2020.02.16-22.27.46:853][988]CompilerResultsLog: Total build time: 0.70 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2020.02.16-22.27.46:853][988]LogMainFrame: MainFrame: Module compiling took 1.019 seconds
+[2020.02.16-22.27.46:877][988]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2368 classes and 526 folders.
+[2020.02.16-22.27.46:878][988]Display: HotReload took  1.1s.
+[2020.02.16-22.36.18:425][223]Candidate modules for hot reload:
+[2020.02.16-22.36.18:425][223]  Dialogue_BS
+[2020.02.16-22.36.18:425][223]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 2740 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.36.18:430][223]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.36.24:744][957]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:36:24 PM
+[2020.02.16-22.36.24:744][957]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(44) : error C2059: syntax error: ')'
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2143: syntax error: missing ';' before '{'
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2740.dll
+[2020.02.16-22.36.24:745][957]CompilerResultsLog: Total build time: 6.01 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.36.24:745][957]LogMainFrame: MainFrame: Module compiling took 6.326 seconds
+[2020.02.16-22.36.24:745][957]Warning: HotReload failed, recompile failed
+[2020.02.16-22.37.45:905][ 20]Candidate modules for hot reload:
+[2020.02.16-22.37.45:905][ 20]  Dialogue_BS
+[2020.02.16-22.37.45:905][ 20]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 4824 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.37.45:907][ 20]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.37.52:427][746]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:37:52 PM
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(44) : error C2059: syntax error: ')'
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2143: syntax error: missing ';' before '{'
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-4824.dll
+[2020.02.16-22.37.52:428][746]CompilerResultsLog: Total build time: 6.21 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.37.52:428][746]LogMainFrame: MainFrame: Module compiling took 6.529 seconds
+[2020.02.16-22.37.52:428][746]Warning: HotReload failed, recompile failed
+[2020.02.16-22.38.11:951][709]Candidate modules for hot reload:
+[2020.02.16-22.38.11:951][709]  Dialogue_BS
+[2020.02.16-22.38.11:951][709]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 6389 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.38.11:953][709]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:38:13 PM
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(44) : error C2059: syntax error: ')'
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2143: syntax error: missing ';' before '{'
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.38.13:937][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.38.13:938][907]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.38.13:938][907]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-6389.dll
+[2020.02.16-22.38.13:938][907]CompilerResultsLog: Total build time: 1.68 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.38.13:938][907]LogMainFrame: MainFrame: Module compiling took 1.990 seconds
+[2020.02.16-22.38.13:938][907]Warning: HotReload failed, recompile failed
+[2020.02.16-22.38.22:610][201]Candidate modules for hot reload:
+[2020.02.16-22.38.22:610][201]  Dialogue_BS
+[2020.02.16-22.38.22:610][201]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 2021 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.38.22:612][201]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.38.24:432][384]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:38:24 PM
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(44) : error C2059: syntax error: ')'
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2143: syntax error: missing ';' before '{'
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(46) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.38.24:433][384]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.38.24:434][384]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2021.dll
+[2020.02.16-22.38.24:434][384]CompilerResultsLog: Total build time: 1.50 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.38.24:434][384]LogMainFrame: MainFrame: Module compiling took 1.829 seconds
+[2020.02.16-22.38.24:434][384]Warning: HotReload failed, recompile failed
+[2020.02.16-22.38.33:299][744]Candidate modules for hot reload:
+[2020.02.16-22.38.33:299][744]  Dialogue_BS
+[2020.02.16-22.38.33:300][744]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 7676 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.38.33:304][744]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:38:34 PM
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(12) : error C2059: syntax error: ')'
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(14) : error C2143: syntax error: missing ';' before '{'
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(14) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.38.34:960][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.38.34:961][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.38.34:961][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.38.34:961][909]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.38.34:961][909]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7676.dll
+[2020.02.16-22.38.34:961][909]CompilerResultsLog: Total build time: 1.35 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.38.34:961][909]LogMainFrame: MainFrame: Module compiling took 1.667 seconds
+[2020.02.16-22.38.34:961][909]Warning: HotReload failed, recompile failed
+[2020.02.16-22.39.26:665][403]Candidate modules for hot reload:
+[2020.02.16-22.39.26:665][403]  Dialogue_BS
+[2020.02.16-22.39.26:666][403]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 1153 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.39.26:668][403]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.39.50:768][162]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:39:50 PM
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (new files with reflected types)
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.39.50:769][162]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 16.0511939 seconds
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Dialogue_BS.init.gen.cpp
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(15) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(17) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(17) : error C4183: 'Modeifiers': missing return type; assumed to be a member function returning 'int'
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(18) : error C2523: 'FModeifiers::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.39.50:769][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(15) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(17) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(17) : error C4183: 'Modeifiers': missing return type; assumed to be a member function returning 'int'
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(18) : error C2523: 'FModeifiers::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(19) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(13) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(29) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(13) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-1153.dll
+[2020.02.16-22.39.50:770][162]CompilerResultsLog: Total build time: 23.78 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.39.50:770][162]LogMainFrame: MainFrame: Module compiling took 24.110 seconds
+[2020.02.16-22.39.50:770][162]Warning: HotReload failed, recompile failed
+[2020.02.16-22.40.41:546][400]Candidate modules for hot reload:
+[2020.02.16-22.40.41:546][400]  Dialogue_BS
+[2020.02.16-22.40.41:546][400]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 424 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.40.41:550][400]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.41.04:155][949]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:41:04 PM
+[2020.02.16-22.41.04:155][949]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.41.04:155][949]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (new files with reflected types)
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.41.04:156][949]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 15.3652559 seconds
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Dialogue_BS.init.gen.cpp
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(10) : error C2059: syntax error: ')'
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(12) : error C2143: syntax error: missing ';' before '{'
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(12) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-424.dll
+[2020.02.16-22.41.04:156][949]CompilerResultsLog: Total build time: 22.31 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.41.04:157][949]LogMainFrame: MainFrame: Module compiling took 22.616 seconds
+[2020.02.16-22.41.04:157][949]Warning: HotReload failed, recompile failed
+[2020.02.16-22.41.56:978][377]Candidate modules for hot reload:
+[2020.02.16-22.41.56:978][377]  Dialogue_BS
+[2020.02.16-22.41.56:978][377]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 1903 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.41.56:983][377]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:41:58 PM
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(11) : error C2236: unexpected token 'struct'. Did you forget a ';'?
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(14) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(14) : error C4183: 'Modeifiers': missing return type; assumed to be a member function returning 'int'
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(15) : error C2523: 'FModeifiers::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-1903.dll
+[2020.02.16-22.41.58:928][565]CompilerResultsLog: Total build time: 1.65 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.41.58:928][565]LogMainFrame: MainFrame: Module compiling took 1.955 seconds
+[2020.02.16-22.41.58:928][565]Warning: HotReload failed, recompile failed
+[2020.02.16-22.44.16:165][386]Candidate modules for hot reload:
+[2020.02.16-22.44.16:165][386]  Dialogue_BS
+[2020.02.16-22.44.16:166][386]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 5861 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.44.16:170][386]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.44.38:348][953]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:44:38 PM
+[2020.02.16-22.44.38:348][953]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.44.38:348][953]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-22.44.38:348][953]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.44.38:348][953]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.44.38:348][953]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.44.38:348][953]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 15.2608445 seconds
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Dialogue_BS.init.gen.cpp
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\Modeifiers.h(14) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(7) : error C4508: 'Modeifiers': function should return a value; 'void' return type assumed
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2653: 'Modeifiers': is not a class or namespace name
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(9) : error C2523: '<Unknown>::~Modeifiers': destructor tag mismatch
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(10) : error C2084: function 'int Modeifiers(void)' already has a body
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp(5) : note: see previous definition of 'Modeifiers'
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(14) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(19) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(12) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(29) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(12) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-5861.dll
+[2020.02.16-22.44.38:349][953]CompilerResultsLog: Total build time: 21.87 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.44.38:349][953]LogMainFrame: MainFrame: Module compiling took 22.190 seconds
+[2020.02.16-22.44.38:349][953]Warning: HotReload failed, recompile failed
+[2020.02.16-22.45.27:492][912]Candidate modules for hot reload:
+[2020.02.16-22.45.27:492][912]  Dialogue_BS
+[2020.02.16-22.45.27:492][912]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 7887 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.45.27:496][912]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.45.29:412][104]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:45:29 PM
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Modeifiers.cpp
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: c1xx: fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\Modeifiers.cpp': No such file or directory
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(14) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(19) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(12) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(29) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(12) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7887.dll
+[2020.02.16-22.45.29:413][104]CompilerResultsLog: Total build time: 1.63 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.45.29:413][104]LogMainFrame: MainFrame: Module compiling took 1.925 seconds
+[2020.02.16-22.45.29:413][104]Warning: HotReload failed, recompile failed
+[2020.02.16-22.46.25:141][775]Candidate modules for hot reload:
+[2020.02.16-22.46.25:141][775]  Dialogue_BS
+[2020.02.16-22.46.25:141][775]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 5218 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.46.25:143][775]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.46.42:977][828]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:46:42 PM
+[2020.02.16-22.46.42:977][828]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.46.42:977][828]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.46.42:977][828]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.46.42:977][828]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.46.42:977][828]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(14)  : Error: Struct 'Modeifiers' is missing a valid Unreal prefix, expecting 'FModeifiers'
+[2020.02.16-22.46.42:977][828]CompilerResultsLog: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest).
+[2020.02.16-22.46.42:977][828]LogMainFrame: MainFrame: Module compiling took 17.842 seconds
+[2020.02.16-22.46.42:977][828]Warning: HotReload failed, recompile failed
+[2020.02.16-22.47.25:414][340]Candidate modules for hot reload:
+[2020.02.16-22.47.25:414][340]  Dialogue_BS
+[2020.02.16-22.47.25:414][340]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 8534 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.47.25:416][340]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.47.47:559][942]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:47:47 PM
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.47.47:560][942]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 15.3925159 seconds
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(15) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(19) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(13) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modeifiers.gen.cpp(29) : error C2039: 'StaticStruct': is not a member of 'FModeifiers'
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/Modeifiers.h(13) : note: see declaration of 'FModeifiers'
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-8534.dll
+[2020.02.16-22.47.47:560][942]CompilerResultsLog: Total build time: 21.84 seconds (Local executor: 0.00 seconds)
+[2020.02.16-22.47.47:560][942]LogMainFrame: MainFrame: Module compiling took 22.152 seconds
+[2020.02.16-22.47.47:560][942]Warning: HotReload failed, recompile failed
+[2020.02.16-22.48.55:858][180]Candidate modules for hot reload:
+[2020.02.16-22.48.55:858][180]  Dialogue_BS
+[2020.02.16-22.48.55:858][180]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 6279 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.48.55:862][180]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.49.15:388][408]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:49:15 PM
+[2020.02.16-22.49.15:388][408]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.49.15:388][408]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.49.15:388][408]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.49.15:388][408]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.49.15:389][408]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 16.1035061 seconds
+[2020.02.16-22.49.15:389][408]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.49.15:389][408]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.49.15:389][408]CompilerResultsLog: [2/3] Link UE4Editor-Dialogue_BS-6279.dll
+[2020.02.16-22.49.15:389][408]CompilerResultsLog: [3/3] Link UE4Editor-Dialogue_BS-6279.lib
+[2020.02.16-22.49.15:389][408]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-6279.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-6279.exp
+[2020.02.16-22.49.15:389][408]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-6279.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-6279.suppressed.exp
+[2020.02.16-22.49.15:389][408]CompilerResultsLog: Total build time: 19.22 seconds (Local executor: 2.23 seconds)
+[2020.02.16-22.49.15:389][408]LogMainFrame: MainFrame: Module compiling took 19.535 seconds
+[2020.02.16-22.49.15:461][408]LogContentBrowser: Native class hierarchy updated for 'Dialogue_BS' in 0.0012 seconds. Added 3 classes and 3 folders.
+[2020.02.16-22.49.15:463][408]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2020.02.16-22.49.15:549][408]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2368 classes and 526 folders.
+[2020.02.16-22.49.15:549][408]Display: HotReload took 19.7s.
+[2020.02.16-22.53.24:074][ 75]Candidate modules for hot reload:
+[2020.02.16-22.53.24:074][ 75]  Dialogue_BS
+[2020.02.16-22.53.24:074][ 75]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 7195 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.53.24:076][ 75]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.53.44:390][294]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:53:44 PM
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.53.44:391][294]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 12.7450252 seconds
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: [2/3] Link UE4Editor-Dialogue_BS-7195.dll
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: [3/3] Link UE4Editor-Dialogue_BS-7195.lib
+[2020.02.16-22.53.44:391][294]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-7195.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-7195.exp
+[2020.02.16-22.53.44:391][294]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-7195.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-7195.suppressed.exp
+[2020.02.16-22.53.44:391][294]CompilerResultsLog: Total build time: 20.03 seconds (Local executor: 2.03 seconds)
+[2020.02.16-22.53.44:391][294]LogMainFrame: MainFrame: Module compiling took 20.323 seconds
+[2020.02.16-22.53.44:460][294]LogClass: Modeifiers HotReload.
+[2020.02.16-22.53.44:464][294]LogContentBrowser: Native class hierarchy updated for 'Dialogue_BS' in 0.0011 seconds. Added 3 classes and 3 folders.
+[2020.02.16-22.53.44:465][294]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2020.02.16-22.53.44:514][294]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2368 classes and 526 folders.
+[2020.02.16-22.53.44:514][294]Display: HotReload took 20.5s.
+[2020.02.16-22.54.10:288][658]Candidate modules for hot reload:
+[2020.02.16-22.54.10:288][658]  Dialogue_BS
+[2020.02.16-22.54.10:288][658]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 696 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-22.54.10:290][658]Warning: Starting HotReload took  0.0s.
+[2020.02.16-22.54.23:387][ 81]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 12:54:23 PM
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 9.994858 seconds
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: [2/3] Link UE4Editor-Dialogue_BS-696.dll
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: [3/3] Link UE4Editor-Dialogue_BS-696.lib
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-696.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-696.exp
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-696.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-696.suppressed.exp
+[2020.02.16-22.54.23:388][ 81]CompilerResultsLog: Total build time: 12.79 seconds (Local executor: 2.03 seconds)
+[2020.02.16-22.54.23:388][ 81]LogMainFrame: MainFrame: Module compiling took 13.106 seconds
+[2020.02.16-22.54.23:460][ 81]LogContentBrowser: Native class hierarchy updated for 'Dialogue_BS' in 0.0012 seconds. Added 3 classes and 3 folders.
+[2020.02.16-22.54.23:462][ 81]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2020.02.16-22.54.23:508][ 81]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2368 classes and 526 folders.
+[2020.02.16-22.54.23:508][ 81]Display: HotReload took 13.2s.
+[2020.02.16-23.02.02:554][942]Candidate modules for hot reload:
+[2020.02.16-23.02.02:554][942]  Dialogue_BS
+[2020.02.16-23.02.02:555][942]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 8952 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-23.02.02:558][942]Warning: Starting HotReload took  0.0s.
+[2020.02.16-23.02.18:689][910]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 1:02:18 PM
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-23.02.18:690][910]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(52)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.movementSpeed
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(54)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.searchSpeed
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(56)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.patrolSpeed
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(58)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.interceptSpeed
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(60)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.reactionSpeed
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(63)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.patrolFrequency
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(65)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.interceptFrequency
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(67)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.reactionFrequency
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(69)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.actionFrequency
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(72)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.movementDistance
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(74)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.searchDistance
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(76)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.patrolDistance
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(78)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.interceptDistance
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(80)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.reactionDistance
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(83)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.movementVariances
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(85)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.searchVariances
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(87)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.patrolVariances
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(89)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.interceptVariances
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(91)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.interactVariances
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(95)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.currentDialogueWeight
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(95)  : LogCompile: Error: Type 'uint32' is not supported by blueprint. Modeifiers.currentDialogueWeight
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(97)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.currentDialogueStage
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(97)  : LogCompile: Error: Type 'uint32' is not supported by blueprint. Modeifiers.currentDialogueStage
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(100)  : LogCompile: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Modeifiers.currentActionType
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(100)  : LogCompile: Error: Type 'uint32' is not supported by blueprint. Modeifiers.currentActionType
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(104)  : Error: Inappropriate '*' on variable of type 'unsigned', cannot have an exposed pointer to this type.
+[2020.02.16-23.02.18:690][910]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2020.02.16-23.02.18:691][910]LogMainFrame: MainFrame: Module compiling took 16.143 seconds
+[2020.02.16-23.02.18:691][910]Warning: HotReload failed, recompile failed
+[2020.02.16-23.04.18:873][894]Candidate modules for hot reload:
+[2020.02.16-23.04.18:874][894]  Dialogue_BS
+[2020.02.16-23.04.18:874][894]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 3922 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-23.04.18:878][894]Warning: Starting HotReload took  0.0s.
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 1:04:35 PM
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-23.04.35:477][890]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(95)  : LogCompile: Error: Type 'uint32' is not supported by blueprint. Modeifiers.currentDialogueWeight
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(97)  : LogCompile: Error: Type 'uint32' is not supported by blueprint. Modeifiers.currentDialogueStage
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(100)  : LogCompile: Error: Type 'uint32' is not supported by blueprint. Modeifiers.currentActionType
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(104)  : Error: Inappropriate '*' on variable of type 'unsigned', cannot have an exposed pointer to this type.
+[2020.02.16-23.04.35:477][890]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2020.02.16-23.04.35:477][890]LogMainFrame: MainFrame: Module compiling took 16.609 seconds
+[2020.02.16-23.04.35:477][890]Warning: HotReload failed, recompile failed
+[2020.02.16-23.06.30:968][692]Candidate modules for hot reload:
+[2020.02.16-23.06.30:968][692]  Dialogue_BS
+[2020.02.16-23.06.30:969][692]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 5988 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-23.06.30:973][692]Warning: Starting HotReload took  0.0s.
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 1:06:47 PM
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-23.06.47:654][693]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/Public/Modeifiers.h(104)  : Error: Inappropriate '*' on variable of type 'int', cannot have an exposed pointer to this type.
+[2020.02.16-23.06.47:654][693]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2020.02.16-23.06.47:655][693]LogMainFrame: MainFrame: Module compiling took 16.693 seconds
+[2020.02.16-23.06.47:655][693]Warning: HotReload failed, recompile failed
+[2020.02.16-23.07.11:615][919]Candidate modules for hot reload:
+[2020.02.16-23.07.11:615][919]  Dialogue_BS
+[2020.02.16-23.07.11:615][919]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 1754 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.02.16-23.07.11:617][919]Warning: Starting HotReload took  0.0s.
+[2020.02.16-23.07.31:089][ 87]CompilerResultsLog: New page: Compilation - Feb 16, 2020, 1:07:31 PM
+[2020.02.16-23.07.31:089][ 87]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.02.16-23.07.31:089][ 87]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (game project files are newer)
+[2020.02.16-23.07.31:089][ 87]CompilerResultsLog: Compiling game modules for hot reload
+[2020.02.16-23.07.31:089][ 87]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 11.9624874 seconds
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: Dialogue_BS.init.gen.cpp
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: PresetModifiers.cpp
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: PresetModifiers.gen.cpp
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: Modeifiers.gen.cpp
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: [5/6] Link UE4Editor-Dialogue_BS-1754.dll
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: [6/6] Link UE4Editor-Dialogue_BS-1754.lib
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-1754.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-1754.exp
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-1754.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-1754.suppressed.exp
+[2020.02.16-23.07.31:090][ 87]CompilerResultsLog: Total build time: 19.13 seconds (Local executor: 2.13 seconds)
+[2020.02.16-23.07.31:090][ 87]LogMainFrame: MainFrame: Module compiling took 19.479 seconds
+[2020.02.16-23.07.31:167][ 87]LogContentBrowser: Native class hierarchy updated for 'Dialogue_BS' in 0.0011 seconds. Added 3 classes and 3 folders.
+[2020.02.16-23.07.31:168][ 87]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2020.02.16-23.07.31:217][ 87]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2368 classes and 526 folders.
+[2020.02.16-23.07.31:217][ 87]Display: HotReload took 19.6s.
+[2020.02.16-23.12.41:531][650]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 116 classes and 0 folders.
+[2020.02.16-23.12.42:430][650]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2020.02.16-23.12.42:584][650]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2020.02.16-23.13.11:426][232]LogSlate: Took 0.016461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.16-23.14.14:882][  4]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.02.16-23.14.22:212][419]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.021
+[2020.02.16-23.14.22:214][419]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2020.02.16-23.14.22:249][419]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2020.02.16-23.14.22:249][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2020.02.16-23.14.22:300][419]LogSavePackage: Save=34.01ms
+[2020.02.16-23.14.22:300][419]LogSavePackage: Moving 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonCharacter_Auto16E85259241AE7FD559F66BA607EC2F5E.tmp' to 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2020.02.16-23.14.22:302][419]LogSavePackage: Display: Finished SavePackage C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2020.02.16-23.14.22:302][419]LogFileHelpers: Auto-saving content packages took 0.089
+[2020.02.16-23.26.08:055][868]LogSavePackage: Save=20.91ms
+[2020.02.16-23.26.08:055][868]LogSavePackage: Moving 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonCharacter4B571C49422BCDC8F36796AB69FFED32.tmp' to 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.02.16-23.26.08:062][868]LogSavePackage: Display: Finished SavePackage C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2020.02.16-23.26.08:366][869]Cmd: QUIT_EDITOR
+[2020.02.16-23.26.08:385][869]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.16-23.26.08:404][869]LogExit: Preparing to exit.
+[2020.02.16-23.26.08:699][869]LogExit: Editor shut down
+[2020.02.16-23.26.08:721][869]LogExit: Transaction tracking system shut down
+[2020.02.16-23.26.08:809][869]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.02.16-23.26.08:809][869]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.02.16-23.26.08:809][869]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.02.16-23.26.08:809][869]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.02.16-23.26.08:810][869]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.02.16-23.26.08:810][869]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.02.16-23.26.08:810][869]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.02.16-23.26.08:897][869]LogExit: Object subsystem successfully closed.
+[2020.02.16-23.26.08:923][869]LogD3D11RHI: Shutdown
+[2020.02.16-23.26.08:923][869]LogD3D11RHI: CleanupD3DDevice
+[2020.02.16-23.26.08:927][869]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.02.16-23.26.08:936][869]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
+[2020.02.16-23.26.08:936][869]LogModuleManager: Shutting down and abandoning module Dialogue_BS (554)
+[2020.02.16-23.26.08:936][869]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2020.02.16-23.26.08:936][869]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2020.02.16-23.26.08:936][869]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2020.02.16-23.26.08:936][869]LogDirectoryWatcher: A directory notification for 'D:/GameDevelopment/Engines/UE_4.18/FeaturePacks/' was aborted.
+[2020.02.16-23.26.08:940][869]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2020.02.16-23.26.08:940][869]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2020.02.16-23.26.08:940][869]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2020.02.16-23.26.08:940][869]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' was aborted.
+[2020.02.16-23.26.08:940][869]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/fuckm/Collections/' was aborted.
+[2020.02.16-23.26.08:940][869]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' was aborted.
+[2020.02.16-23.26.08:940][869]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
+[2020.02.16-23.26.08:940][869]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
+[2020.02.16-23.26.08:940][869]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module BspMode (522)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module SessionServices (480)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
+[2020.02.16-23.26.08:941][869]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
+[2020.02.16-23.26.08:942][869]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
+[2020.02.16-23.26.08:942][869]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
+[2020.02.16-23.26.08:942][869]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
+[2020.02.16-23.26.08:942][869]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
+[2020.02.16-23.26.08:942][869]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
+[2020.02.16-23.26.09:573][869]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
+[2020.02.16-23.26.09:573][869]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
+[2020.02.16-23.26.09:573][869]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
+[2020.02.16-23.26.09:573][869]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
+[2020.02.16-23.26.09:573][869]LogModuleManager: Shutting down and abandoning module MergeActors (448)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module SizeMap (446)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module TreeMap (444)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module XmlParser (430)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module Blutility (428)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
+[2020.02.16-23.26.09:574][869]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module AutomationController (408)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module Layers (404)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module Persona (396)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2020.02.16-23.26.09:641][869]LogModuleManager: Shutting down and abandoning module Kismet (390)
+[2020.02.16-23.26.09:648][869]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
+[2020.02.16-23.26.09:650][869]LogModuleManager: Shutting down and abandoning module Toolbox (386)
+[2020.02.16-23.26.09:650][869]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
+[2020.02.16-23.26.09:650][869]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module OutputLog (380)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module GammaUI (378)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module Documentation (376)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module MovieScene (372)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module PortalServices (364)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module AIModule (358)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
+[2020.02.16-23.26.09:651][869]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2020.02.16-23.26.09:714][869]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2020.02.16-23.26.09:714][869]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2020.02.16-23.26.09:714][869]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2020.02.16-23.26.09:715][869]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2020.02.16-23.26.09:716][869]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2020.02.16-23.26.09:716][869]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2020.02.16-23.26.09:717][869]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2020.02.16-23.26.09:717][869]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2020.02.16-23.26.09:717][869]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2020.02.16-23.26.09:717][869]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64' was aborted.
+[2020.02.16-23.26.09:717][869]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2020.02.16-23.26.09:717][869]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2020.02.16-23.26.09:717][869]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2020.02.16-23.26.09:718][869]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2020.02.16-23.26.09:718][869]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2020.02.16-23.26.09:718][869]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2020.02.16-23.26.09:718][869]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2020.02.16-23.26.09:718][869]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2020.02.16-23.26.09:819][869]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2020.02.16-23.26.09:920][869]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2020.02.16-23.26.09:920][869]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2020.02.16-23.26.09:920][869]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2020.02.16-23.26.09:920][869]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2020.02.16-23.26.09:920][869]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2020.02.16-23.26.09:920][869]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2020.02.16-23.26.09:921][869]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2020.02.16-23.26.09:921][869]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2020.02.16-23.26.09:921][869]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2020.02.16-23.26.09:921][869]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2020.02.16-23.26.09:924][869]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2020.02.16-23.26.09:924][869]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2020.02.16-23.26.09:924][869]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2020.02.16-23.26.09:924][869]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2020.02.16-23.26.09:924][869]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2020.02.16-23.26.09:924][869]LogModuleManager: Shutting down and abandoning module Media (223)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.02.16-23.26.09:930][869]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.02.16-23.26.09:931][869]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.02.16-23.26.09:931][869]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.02.16-23.26.09:931][869]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.02.16-23.26.09:931][869]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.02.16-23.26.09:931][869]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module LevelSequence (170)
+[2020.02.16-23.26.09:933][869]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (168)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module MeshUtilities (164)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (163)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (162)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (161)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (159)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (157)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module MaterialBaking (153)
+[2020.02.16-23.26.09:937][869]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
+[2020.02.16-23.26.10:036][869]LogDerivedDataCache: Shutdown
+[2020.02.16-23.26.10:036][869]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
+[2020.02.16-23.26.10:036][869]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
+[2020.02.16-23.26.10:036][869]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
+[2020.02.16-23.26.10:036][869]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
+[2020.02.16-23.26.10:036][869]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2020.02.16-23.26.10:037][869]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2020.02.16-23.26.10:038][869]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2020.02.16-23.26.10:038][869]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.02.16-23.26.10:038][869]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD3E8766D-4368-DF1C-EBE2-BFB616D907E0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=f9a50b2544e9ff334c989db8cc03c83b%7Cafb0113ceeeb4a8386c4f7b35a90e63c%7C0d8c1c7a-310f-4e65-80f3-4f791f3bb21e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.02.16-23.26.10:043][869]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.02.16-23.26.10:045][869]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.02.16-23.26.10:046][869]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.02.16-23.26.10:050][869]LogExit: Exiting.
+[2020.02.16-23.26.10:067][869]Log file closed, 02/16/20 18:26:10

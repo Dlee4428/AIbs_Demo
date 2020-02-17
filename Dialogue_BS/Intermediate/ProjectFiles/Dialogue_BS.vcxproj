@@ -422,7 +422,7 @@
     <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.cpp" />
     <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.h" />
     <ClCompile Include="..\..\Source\Dialogue_BS\Private\PresetModifiers.cpp" />
-    <ClInclude Include="..\..\Source\Dialogue_BS\Public\Modeifiers.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifiers.h" />
     <ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifiers.h" />
   </ItemGroup>
   <PropertyGroup>

@@ -62,10 +62,12 @@
     <Filter Include="Source\Dialogue_BS\Public">
       <UniqueIdentifier>{66C2D928-65CB-4BBF-BD3D-3926D3997DB6}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Public\Modeifiers.h">
+    <ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifiers.h">
       <Filter>Source\Dialogue_BS\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifiers.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifiers.h">
       <Filter>Source\Dialogue_BS\Public</Filter>
     </ClInclude>
   </ItemGroup>
