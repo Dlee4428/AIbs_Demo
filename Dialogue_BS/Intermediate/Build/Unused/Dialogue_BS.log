@@ -1,0 +1,8 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading Dialogue_BSEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 1 actions (4 in parallel)
+  [1/1] Link UE4Editor-Dialogue_BS-392.dll
+     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-392.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-392.suppressed.exp
+  Deploying Dialogue_BSEditor Win64 Development...
+  Total build time: 5.69 seconds (Local executor: 1.02 seconds)
