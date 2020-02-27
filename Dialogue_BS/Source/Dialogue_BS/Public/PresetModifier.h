@@ -17,13 +17,13 @@ class DIALOGUE_BS_API UPresetModifier : public UActorComponent
 
 private:
 	FModifier base;
-	PersonalityFrameWork* personality;
+	UPersonalityFrameWork* personality;
 	float IE, SN, TF, JP;
 
 public:
 	// Sets default values for this component's properties
 	UPresetModifier();
-	UPresetModifier(PersonalityFrameWork &personality_);
+	UPresetModifier(UPersonalityFrameWork &personality_);
 	~UPresetModifier();
 
 protected:
@@ -54,7 +54,7 @@ private:
 	void AddAction(float actionWeight_, unsigned int actionType_, unsigned int actionTarget_ = NULL, float actionCost_ = 0.0f, float actionTimeDelay_ = 0.0f);
 
 	//Relations
-	void PreGenerateRelationship(PersonalityFrameWork *otherPersonality);
+	void PreGenerateRelationship(UPersonalityFrameWork *otherPersonality);
 
 };
 

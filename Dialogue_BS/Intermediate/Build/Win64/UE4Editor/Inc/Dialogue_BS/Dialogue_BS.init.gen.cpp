@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BS_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Dialogue_BS",
 				PKG_CompiledIn | 0x00000000,
-				0xBFD5FD3E,
-				0xBA78BA92,
+				0x6D72C4FB,
+				0x66CEF234,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

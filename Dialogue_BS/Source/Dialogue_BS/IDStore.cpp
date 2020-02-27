@@ -20,11 +20,11 @@ void IDStore::ConstructStore(int size_)
 	key = "00000000";
 	//Instantiates ID HashTable 
 	if (IDTable == nullptr)
-		IDTable = new IDHashTable<PersonalityFrameWork*>(size_);
+		IDTable = new IDHashTable<UPersonalityFrameWork*>(size_);
 	else
 	{
 		delete IDTable;
-		IDTable = new IDHashTable<PersonalityFrameWork*>(size_);
+		IDTable = new IDHashTable<UPersonalityFrameWork*>(size_);
 	}
 	counter = 0;
 	iterator = 0;
@@ -40,7 +40,7 @@ IDStore * IDStore::getInstance()
 }
 
 //Handles up to 99,999,999 ID's
-void IDStore::assignID(PersonalityFrameWork &toBehaviour)
+void IDStore::assignID(UPersonalityFrameWork &toBehaviour)
 {
 	//If a floating ID has been released, reuse those ID's
 	if (floatingIDs.size() > 0)

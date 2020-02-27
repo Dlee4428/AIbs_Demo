@@ -38,7 +38,7 @@ UPresetModifier::UPresetModifier()
 }
 
 
-UPresetModifier::UPresetModifier(PersonalityFrameWork & personality_)
+UPresetModifier::UPresetModifier(UPersonalityFrameWork & personality_)
 {
 	personality = &personality_;
 
@@ -341,7 +341,7 @@ void UPresetModifier::AddAction(float actionWeight_, unsigned int actionType_, u
 
 //TODO: Relationships
 
-void UPresetModifier::PreGenerateRelationship(PersonalityFrameWork * otherPersonality)
+void UPresetModifier::PreGenerateRelationship(UPersonalityFrameWork * otherPersonality)
 {
 	//if an ID has been found for the other personality
 	if (otherPersonality->GetID())

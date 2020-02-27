@@ -3,16 +3,21 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UObject/Class.h"
 
 #include "StatsModifier.h"
 #include "BehaviourModifier.h"
 #include "Relationship.h"
+#include "PersonalityFrameWork.generated.h"
+
 
 /**
  *
  */
-class DIALOGUE_BS_API  PersonalityFrameWork
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class DIALOGUE_BS_API  UPersonalityFrameWork : public UObject
 {
+	GENERATED_BODY()
 	friend class IDStore;
 public:
 
@@ -24,8 +29,8 @@ private:
 	BehaviourModifier* behaviour;
 	Relationship* relationship;
 public:
-	PersonalityFrameWork();
-	~PersonalityFrameWork();
+	UPersonalityFrameWork();
+	~UPersonalityFrameWork();
 
 	void AttachID(std::string &ID);
 

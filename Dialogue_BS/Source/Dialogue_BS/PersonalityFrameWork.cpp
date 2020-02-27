@@ -15,7 +15,7 @@ std::default_random_engine StatsModifier::generator;
 //default 2 (meaning that for every 2 people one will be a male) or 1 in 2 people
 #define GENDERRATIO 2
 
-PersonalityFrameWork::PersonalityFrameWork()
+UPersonalityFrameWork::UPersonalityFrameWork()
 {
 	behaviour = new BehaviourModifier();
 	if (ID)
@@ -25,7 +25,7 @@ PersonalityFrameWork::PersonalityFrameWork()
 	relationship = new Relationship();
 }
 
-PersonalityFrameWork::~PersonalityFrameWork()
+UPersonalityFrameWork::~UPersonalityFrameWork()
 {
 	behaviour->~BehaviourModifier();
 	delete stats;
@@ -35,52 +35,52 @@ PersonalityFrameWork::~PersonalityFrameWork()
 	
 }
 
-void PersonalityFrameWork::AttachID(std::string & ID_)
+void UPersonalityFrameWork::AttachID(std::string & ID_)
 {
 	*ID = ID_;
 	behaviour->AttachID(*ID);
 }
 
-void PersonalityFrameWork::EstablishPersonality()
+void UPersonalityFrameWork::EstablishPersonality()
 {
 	//Re-establishes personlaity
 	behaviour->EstablishPersonality();
 
 }
 
-StatsModifier* PersonalityFrameWork::GetStats()
+StatsModifier* UPersonalityFrameWork::GetStats()
 {
 	return stats;
 }
 
-BehaviourModifier* PersonalityFrameWork::GetBehaviour()
+BehaviourModifier* UPersonalityFrameWork::GetBehaviour()
 {
 	return behaviour;
 }
 
-Relationship* PersonalityFrameWork::GetRelationship()
+Relationship* UPersonalityFrameWork::GetRelationship()
 {
 	return relationship;
 }
 
-std::string  *PersonalityFrameWork::GetID()
+std::string  *UPersonalityFrameWork::GetID()
 {
 	return ID;
 }
 
-void PersonalityFrameWork::OverridePersonalityValue(int personalityType, double value)
+void UPersonalityFrameWork::OverridePersonalityValue(int personalityType, double value)
 {
 	behaviour->ForcefullySetPersonalityValue(personalityType, value);
 }
 
 
 
-void PersonalityFrameWork::PrintStats()
+void UPersonalityFrameWork::PrintStats()
 {
 	stats->Print();
 }
 
-void PersonalityFrameWork::PrintBehaviour()
+void UPersonalityFrameWork::PrintBehaviour()
 {
 	for (int i = 0; i < 4; i++)
 	{
@@ -88,7 +88,7 @@ void PersonalityFrameWork::PrintBehaviour()
 	}
 }
 
-void PersonalityFrameWork::PrintRelationship(std::string nameOfRelationshipParameter)
+void UPersonalityFrameWork::PrintRelationship(std::string nameOfRelationshipParameter)
 {
 	relationship->PrintRelationshipInfo(nameOfRelationshipParameter);
 }
