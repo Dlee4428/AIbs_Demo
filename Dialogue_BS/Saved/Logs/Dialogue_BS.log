@@ -1,4 +1,4 @@
-﻿Log file open, 02/29/20 20:34:41
+﻿Log file open, 02/29/20 21:04:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dialogue_BS
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1955572573) SRandInit(1955572574).
+LogInit: Display: RandInit(-1302787242) SRandInit(-1302787241).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.211726
+LogStats: Stats thread started at 0.195384
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,91 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-7090.dll (API version 3709383).
+LogModuleManager: Warning: Module file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-1808.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Incompatible or missing module: UE4Editor-Dialogue_BS.dll
+Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS Development Win64 -project="C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+@progress pop
+Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7090.dll".
+Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7090.pdb".
+Target is up to date
+Deploying Dialogue_BSEditor Win64 Development...
+Total build time: 3.68 seconds (NoActionsToExecute executor: 0.00 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -197,192 +281,95 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.03.01-01.34.47:746][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.01-01.34.47:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.01-01.34.47:838][  0]LogInit: Computer: DESKTOP-M25UTED
-[2020.03.01-01.34.47:838][  0]LogInit: User: Delam
-[2020.03.01-01.34.47:838][  0]LogInit: CPU Page size=4096, Cores=3
-[2020.03.01-01.34.47:838][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.01-01.34.47:838][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.03.01-01.34.47:838][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.01-01.34.47:838][  0]LogMemory: Process Physical Memory: 273.54 MB used, 273.54 MB peak
-[2020.03.01-01.34.47:839][  0]LogMemory: Process Virtual Memory: 270.90 MB used, 270.90 MB peak
-[2020.03.01-01.34.47:839][  0]LogMemory: Physical Memory: 6052.55 MB used,  2098.04 MB free, 8150.58 MB total
-[2020.03.01-01.34.47:839][  0]LogMemory: Virtual Memory: 4767.50 MB used,  2098.04 MB free, 134217728.00 MB total
-[2020.03.01-01.34.48:586][  0]LogInit: Using OS detected language (en-US).
-[2020.03.01-01.34.48:586][  0]LogInit: Using OS detected locale (en-US).
-[2020.03.01-01.34.48:619][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.03.01-01.34.49:494][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.01-01.34.53:458][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.01-01.34.53:503][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
-[2020.03.01-01.34.53:503][  0]LogD3D11RHI:       4043/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.03.01-01.34.53:561][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.01-01.34.53:561][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.01-01.34.53:561][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.01-01.34.53:581][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.01-01.34.53:582][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
-[2020.03.01-01.34.53:582][  0]LogWindows: EnumDisplayDevices:
-[2020.03.01-01.34.53:582][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
-[2020.03.01-01.34.53:583][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-01.34.53:583][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-01.34.53:583][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-01.34.53:584][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-01.34.53:584][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.03.01-01.34.53:584][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
-[2020.03.01-01.34.53:584][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.03.01-01.34.53:584][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.03.01-01.34.53:584][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2020.03.01-01.34.53:728][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.01-01.34.53:748][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.03.01-01.34.53:750][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/16120/).
-[2020.03.01-01.34.53:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/25C3AA1547B24D166CE0609DE4D5141B/'.
-[2020.03.01-01.34.53:751][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.01-01.34.59:205][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.03.01-01.34.59:346][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.03.01-01.34.59:488][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.03.01-01.34.59:628][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.03.01-01.34.59:797][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.03.01-01.34.59:939][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.03.01-01.35.00:130][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.03.01-01.35.00:274][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.03.01-01.35.00:427][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.03.01-01.35.00:596][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.03.01-01.35.00:733][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.03.01-01.35.00:870][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.03.01-01.35.01:010][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.03.01-01.35.01:147][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.03.01-01.35.01:436][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.03.01-01.35.01:436][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.03.01-01.35.01:600][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.01-01.35.01:753][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.03.01-01.35.02:050][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.03.01-01.35.02:124][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.03.01-01.35.02:281][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.03.01-01.35.02:441][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.03.01-01.35.02:579][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.03.01-01.35.02:727][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.03.01-01.35.02:728][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.01-01.35.04:527][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.01-01.35.05:492][  0]LogDerivedDataCache: Loaded boot cache 0.97s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.03.01-01.35.05:492][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.03.01-01.35.05:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.01-01.35.05:492][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.01-01.35.05:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.01-01.35.05:493][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.01-01.35.05:516][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.01-01.35.05:531][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.01-01.35.05:550][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.01-01.35.05:550][  0]LogSlate: Using Freetype 2.6.0
-[2020.03.01-01.35.05:552][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.01-01.35.05:552][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.01-01.35.09:346][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.01-01.35.10:397][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.03.01-01.35.10:553][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.03.01-01.35.10:553][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.01-01.35.10:553][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.03.01-01.35.10:553][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.03.01-01.35.10:553][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.03.01-01.35.10:605][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
-[2020.03.01-01.35.10:985][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
-[2020.03.01-01.35.12:134][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.178410 seconds
-[2020.03.01-01.35.12:143][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.03.01-01.35.12:143][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2020.03.01-01.35.12:143][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.01-01.35.12:343][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.03.01-01.35.40:478][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.01-01.35.40:583][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.01-01.35.43:370][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.03.01-01.35.44:600][  0]SourceControl: Source control is disabled
-[2020.03.01-01.35.44:600][  0]SourceControl: Source control is disabled
-[2020.03.01-01.35.44:793][  0]SourceControl: Source control is disabled
-[2020.03.01-01.35.44:999][  0]SourceControl: Source control is disabled
-[2020.03.01-01.35.48:044][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.01-01.35.48:880][  0]LogOcInput: OculusInput pre-init called
-[2020.03.01-01.35.49:735][  0]LogEngine: Initializing Engine...
-[2020.03.01-01.35.49:740][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.01-01.35.50:197][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.03.01-01.35.50:197][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.03.01-01.35.50:612][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.01-01.35.50:687][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.03.01-01.35.50:747][  0]LogInit: FAudioDevice initialized.
-[2020.03.01-01.35.51:049][  0]LogDerivedDataCache: Saved boot cache 0.30s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.03.01-01.35.51:095][  0]LogInit: Texture streaming: Enabled
-[2020.03.01-01.35.51:496][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.01-01.35.51:496][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DC4611B4-44B2-A4F3-9F20-7391A5203324}
-[2020.03.01-01.35.51:896][  0]LogInit: Transaction tracking system initialized
-[2020.03.01-01.35.53:033][  0]BlueprintLog: New page: Editor Load
-[2020.03.01-01.35.56:010][  0]LocalizationService: Localization service is disabled
-[2020.03.01-01.35.58:646][  0]LogConsoleResponse: Display: 
-[2020.03.01-01.35.59:407][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.01-01.35.59:407][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.01-01.35.59:407][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.03.01-01.36.00:212][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.02s
-[2020.03.01-01.36.03:742][  0]SourceControl: Source control is disabled
-[2020.03.01-01.36.03:743][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.01-01.36.03:743][  0]LightingResults: New page: Lighting Build
-[2020.03.01-01.36.03:866][  0]MapCheck: New page: Map Check
-[2020.03.01-01.36.03:866][  0]LightingResults: New page: Lighting Build
-[2020.03.01-01.36.04:255][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-01.36.04:256][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
-[2020.03.01-01.36.04:256][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
-[2020.03.01-01.36.04:314][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-01.36.04:315][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
-[2020.03.01-01.36.04:315][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
-[2020.03.01-01.36.04:320][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-01.36.04:320][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2020.03.01-01.36.04:320][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-01.36.04:320][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2020.03.01-01.36.04:362][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-01.36.04:362][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2020.03.01-01.36.04:362][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2020.03.01-01.36.04:362][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2020.03.01-01.36.04:720][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.03.01-01.36.04:740][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.01-01.36.04:768][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.01-01.36.04:898][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.01ms to complete.
-[2020.03.01-01.36.04:898][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.155
-[2020.03.01-01.36.05:129][  0]LogCollectionManager: Loaded 0 collections in 0.003050 seconds
-[2020.03.01-01.36.05:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
-[2020.03.01-01.36.05:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' took 0.01s
-[2020.03.01-01.36.05:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
-[2020.03.01-01.36.05:299][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.03.01-01.36.05:316][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2367 classes and 522 folders.
-[2020.03.01-01.36.05:516][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
-[2020.03.01-01.36.05:602][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
-[2020.03.01-01.36.05:726][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2020.03.01-01.36.05:978][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2020.03.01-01.36.05:978][  0]LogLoad: (Engine Initialization) Total time: 92.27 seconds
-[2020.03.01-01.36.05:978][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.01-01.36.05:978][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.03.01-01.36.06:349][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.01-01.36.06:352][  0]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.01-01.36.07:005][  3]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:0).
-[2020.03.01-01.36.07:324][  3]LogAssetRegistry: Asset discovery search completed in 56.3619 seconds
-[2020.03.01-01.36.07:327][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.03.01-01.36.07:327][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2020.03.01-01.40.33:882][982]LogSlate: Took 0.000440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.01-01.40.33:890][982]LogSlate: Took 0.000529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.01-01.40.34:037][982]LogRenderer: Reallocating scene render targets to support 864x472 Format 10 NumSamples 1 (Frame:1).
-[2020.03.01-01.40.34:037][982]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.01-01.40.35:086][ 67]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2020.03.01-01.40.35:092][ 67]Candidate modules for hot reload:
-[2020.03.01-01.40.35:092][ 67]  Dialogue_BS
-[2020.03.01-01.40.35:092][ 67]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 1808 Win64 Development -editorrecompile -canskiplink "C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.03.01-01.40.35:147][ 67]Warning: Starting HotReload took  0.1s.
-[2020.03.01-01.40.38:252][332]CompilerResultsLog: New page: Compilation - Feb 29, 2020, 3:40:38 PM
-[2020.03.01-01.40.38:252][332]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.03.01-01.40.38:252][332]CompilerResultsLog: Compiling game modules for hot reload
-[2020.03.01-01.40.38:252][332]CompilerResultsLog: Target is up to date
-[2020.03.01-01.40.38:253][332]CompilerResultsLog: Total build time: 2.29 seconds (NoActionsToExecute executor: 0.01 seconds)
-[2020.03.01-01.40.38:253][332]LogMainFrame: MainFrame: Module compiling took 3.166 seconds
-[2020.03.01-01.40.38:317][332]LogContentBrowser: Native class hierarchy populated in 0.0217 seconds. Added 2369 classes and 526 folders.
-[2020.03.01-01.40.38:321][332]Display: HotReload took  3.3s.
-[2020.03.01-01.40.48:456][218]LogSlate: Took 0.000621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.01-01.40.49:157][218]LogSlate: Took 0.000516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.01-01.40.49:602][218]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 116 classes and 0 folders.
-[2020.03.01-01.40.52:440][218]LogSlate: Took 0.009342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.03.01-01.40.53:300][219]LogSlate: Took 0.016473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.03.01-01.42.51:118][509]BlueprintLog: New page: Compile NPC_AI
-[2020.03.01-01.43.03:913][611]LogSavePackage: Save=173.38ms
-[2020.03.01-01.43.03:913][611]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/NPC_AIBA6E014B44DEBEEEF5A7A286936BC469.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset'
-[2020.03.01-01.43.03:929][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset
+[2020.03.01-02.05.10:818][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.01-02.05.10:818][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.01-02.05.10:840][  0]LogInit: Computer: DESKTOP-M25UTED
+[2020.03.01-02.05.10:840][  0]LogInit: User: Delam
+[2020.03.01-02.05.10:840][  0]LogInit: CPU Page size=4096, Cores=3
+[2020.03.01-02.05.10:840][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.01-02.05.10:840][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.03.01-02.05.10:840][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.01-02.05.10:840][  0]LogMemory: Process Physical Memory: 277.62 MB used, 277.62 MB peak
+[2020.03.01-02.05.10:840][  0]LogMemory: Process Virtual Memory: 271.49 MB used, 271.49 MB peak
+[2020.03.01-02.05.10:840][  0]LogMemory: Physical Memory: 5988.23 MB used,  2162.35 MB free, 8150.58 MB total
+[2020.03.01-02.05.10:840][  0]LogMemory: Virtual Memory: 4809.21 MB used,  2162.35 MB free, 134217728.00 MB total
+[2020.03.01-02.05.11:296][  0]LogInit: Using OS detected language (en-US).
+[2020.03.01-02.05.11:296][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.01-02.05.11:301][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.01-02.05.11:862][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.01-02.05.12:412][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.01-02.05.12:451][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2020.03.01-02.05.12:451][  0]LogD3D11RHI:       4043/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.03.01-02.05.12:454][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.01-02.05.12:454][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.01-02.05.12:454][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.01-02.05.12:470][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.01-02.05.12:470][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2020.03.01-02.05.12:470][  0]LogWindows: EnumDisplayDevices:
+[2020.03.01-02.05.12:471][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
+[2020.03.01-02.05.12:471][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.01-02.05.12:471][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.01-02.05.12:472][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.01-02.05.12:472][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.01-02.05.12:472][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.03.01-02.05.12:472][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2020.03.01-02.05.12:473][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.03.01-02.05.12:473][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.03.01-02.05.12:473][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.03.01-02.05.12:529][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.01-02.05.12:543][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.01-02.05.12:544][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/14080/).
+[2020.03.01-02.05.12:544][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/B392D1004F945EB4B37A9F8EC8CD53FF/'.
+[2020.03.01-02.05.12:545][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.01-02.05.14:475][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.01-02.05.14:704][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.01-02.05.14:866][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.01-02.05.15:001][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.01-02.05.15:132][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.01-02.05.15:269][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.01-02.05.15:408][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.01-02.05.15:545][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.01-02.05.15:667][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.01-02.05.15:798][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.03.01-02.05.15:927][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.03.01-02.05.16:058][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.03.01-02.05.16:192][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.03.01-02.05.16:325][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.03.01-02.05.16:600][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.03.01-02.05.16:600][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.03.01-02.05.16:737][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.01-02.05.16:851][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.01-02.05.17:067][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.01-02.05.17:139][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.01-02.05.17:276][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.01-02.05.17:413][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.01-02.05.17:546][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.01-02.05.17:677][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.01-02.05.17:677][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.01-02.05.19:023][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.01-02.05.19:210][  0]LogDerivedDataCache: Loaded boot cache 0.19s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.03.01-02.05.19:210][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.03.01-02.05.19:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.01-02.05.19:211][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.01-02.05.19:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.01-02.05.19:211][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.01-02.05.19:235][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.01-02.05.19:248][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.01-02.05.19:267][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.01-02.05.19:267][  0]LogSlate: Using Freetype 2.6.0
+[2020.03.01-02.05.19:268][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.01-02.05.19:268][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.01-02.05.19:933][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.01-02.05.20:738][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.01-02.05.20:856][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.01-02.05.20:856][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.01-02.05.20:856][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.01-02.05.20:856][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.03.01-02.05.20:856][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.03.01-02.05.20:906][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
+[2020.03.01-02.05.21:209][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2020.03.01-02.05.22:260][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.157751 seconds
+[2020.03.01-02.05.22:268][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.03.01-02.05.22:268][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2020.03.01-02.05.22:268][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.01-02.05.22:448][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
