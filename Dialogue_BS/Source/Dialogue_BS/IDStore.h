@@ -31,7 +31,7 @@ public:
 	static IDStore* getInstance();
 
 	//Assigns unique ID to UPersonalityFrameWork
-	void assignID(UPersonalityFrameWork&);
+	void assignID(UPersonalityFrameWork&toBehaviour);
 
 	//Detaches Unique ID/Person from the corresponding Person/ID
 	void releaseID(const std::string);

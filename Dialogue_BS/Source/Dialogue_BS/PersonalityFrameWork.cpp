@@ -1,5 +1,6 @@
 
 #include "PersonalityFrameWork.h"
+#include "IDStore.h"
 
 /*Since Personality and Stats are pure header files declaring there static variables here*/
 #ifndef GENERATORS
@@ -23,8 +24,7 @@ UPersonalityFrameWork::UPersonalityFrameWork()
 		behaviour->AttachID(*ID);
 	else
 	{
-		IDStore::getInstance()->assignID(behaviour);
-		behaviour->AttachID(*ID);
+		IDStore::getInstance()->assignID(*this);
 	}
 	behaviour->EstablishPersonality();
 	stats = new StatsModifier();
