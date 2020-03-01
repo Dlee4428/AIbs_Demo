@@ -15,7 +15,7 @@ private:
 	std::string key;
 	unsigned int iterator, counter;
 
-	IDHashTable<PersonalityFrameWork*>* IDTable;
+	IDHashTable<UPersonalityFrameWork*>* IDTable;
 	std::vector<string> floatingIDs;
 
 	static std::unique_ptr<IDStore> storeInstance;
@@ -30,8 +30,8 @@ public:
 	void ConstructStore(int size_ = 20);
 	static IDStore* getInstance();
 
-	//Assigns unique ID to PersonalityFrameWork
-	void assignID(PersonalityFrameWork&);
+	//Assigns unique ID to UPersonalityFrameWork
+	void assignID(UPersonalityFrameWork&toBehaviour);
 
 	//Detaches Unique ID/Person from the corresponding Person/ID
 	void releaseID(const std::string);

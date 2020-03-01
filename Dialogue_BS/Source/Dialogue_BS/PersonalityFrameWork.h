@@ -3,16 +3,21 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UObject/Class.h"
 
 #include "StatsModifier.h"
 #include "BehaviourModifier.h"
 #include "Relationship.h"
+#include "PersonalityFrameWork.generated.h"
+
 
 /**
  *
  */
-class DIALOGUE_BS_API  PersonalityFrameWork
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class DIALOGUE_BS_API  UPersonalityFrameWork : public UObject
 {
+	GENERATED_BODY()
 	friend class IDStore;
 public:
 
@@ -24,22 +29,24 @@ private:
 	BehaviourModifier* behaviour;
 	Relationship* relationship;
 public:
-	PersonalityFrameWork();
-	~PersonalityFrameWork();
+	UPersonalityFrameWork();
+	~UPersonalityFrameWork();
 
 	void AttachID(std::string &ID);
-
+	UFUNCTION(BlueprintCallable)
 	void EstablishPersonality();
 
 
 	// Create functions for altering subsystem variables \\
 	//Stat accessors
+	
 	StatsModifier* GetStats();
 	//Behaviour Accessors
 	BehaviourModifier* GetBehaviour();
 	//Realtionship accessors
 	Relationship* GetRelationship();
 	std::string *GetID();
+
 
 	//Allows the user to manually set personality attributes
 	void OverridePersonalityValue(int personalityType, double value);
