@@ -10,6 +10,7 @@ IDStore::IDStore()
 	IDTable = nullptr;
 	counter = 0;
 	iterator = 0;
+	
 }
 
 
@@ -35,8 +36,9 @@ IDStore * IDStore::getInstance()
 	if (storeInstance.get() == nullptr)
 	{
 		storeInstance.reset(new IDStore);
+		storeInstance->ConstructStore();
 	}
-	return nullptr;
+	return storeInstance.get();
 }
 
 //Handles up to 99,999,999 ID's

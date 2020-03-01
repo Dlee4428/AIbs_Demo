@@ -15,9 +15,14 @@ class DIALOGUE_BS_API UPresetModifier : public UActorComponent
 {
 	GENERATED_BODY()
 
-private:
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FModifier base;
-	UPersonalityFrameWork* personality;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPersonalityFrameWork *personality;
+private:
 	float IE, SN, TF, JP;
 
 public:
@@ -34,17 +39,26 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-private:
+
 	/****************************************************************
 		******************Structural Helper Functions********************
 		Acts as bulk template modifiers for base AI. In other words
 		is a preset modifier settings.
 		*/
+	UFUNCTION(BlueprintCallable)
 	void LoadAll();
 	void LoadMovementPresetModules();
 	void LoadActionPresetModules();
 	void LoadFrequencies();
 	void LoadPropertiesPresetModules();
+
+	UFUNCTION(BlueprintCallable)
+	void SetModifiers(FModifier modifier);
+
+
+	UFUNCTION(BlueprintCallable)
+	void SetPersonality(UPersonalityFrameWork* framework);
+
 
 	//Dialogue
 	unsigned int GetDialogueCategoryWeight();

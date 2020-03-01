@@ -1,8 +1,25 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for hot reloading Dialogue_BSEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Performing 1 actions (4 in parallel)
-  [1/1] Link UE4Editor-Dialogue_BS-392.dll
-     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-392.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-392.suppressed.exp
-  Deploying Dialogue_BSEditor Win64 Development...
-  Total build time: 5.69 seconds (Local executor: 1.02 seconds)
+  Performing 6 actions (3 in parallel)
+  PresetModifier.cpp
+  PersonalityFrameWork.cpp
+  PersonalityFrameWork.gen.cpp
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2065: 'UPersonalityFrameWork': undeclared identifier
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2059: syntax error: '>'
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34): error C2061: syntax error: identifier 'UPersonalityFrameWork'
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2065: 'UPersonalityFrameWork': undeclared identifier
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2059: syntax error: '>'
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34): error C2061: syntax error: identifier 'UPersonalityFrameWork'
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2065: 'UPersonalityFrameWork': undeclared identifier
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2059: syntax error: '>'
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34): error C2061: syntax error: identifier 'UPersonalityFrameWork'
+C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(26): error C2660: 'IDStore::assignID': function does not take 1 arguments
+  c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34): note: see declaration of 'IDStore::assignID'
+  PresetModifier.gen.cpp
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2065: 'UPersonalityFrameWork': undeclared identifier
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2059: syntax error: '>'
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34): error C2061: syntax error: identifier 'UPersonalityFrameWork'
+ERROR : UBT error : Failed to produce item: C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-25.dll
+  Total build time: 71.29 seconds (Local executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" Dialogue_BSEditor Win64 Development "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

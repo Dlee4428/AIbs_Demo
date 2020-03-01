@@ -148,6 +148,17 @@ void UPresetModifier::LoadPropertiesPresetModules()
 	base.searchVariances = float(SN + TF * 1.5 + JP) *SEARCHMODIFIER;
 }
 
+void UPresetModifier::SetModifiers(FModifier modifier)
+{
+	base = modifier;
+}
+
+void UPresetModifier::SetPersonality(UPersonalityFrameWork* framework)
+{
+	personality = framework;
+}
+
+
 unsigned int UPresetModifier::GetDialogueCategoryWeight()
 {
 	dialogueCategoryWeights weight;

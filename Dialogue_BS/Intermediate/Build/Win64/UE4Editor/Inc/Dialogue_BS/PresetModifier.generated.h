@@ -8,13 +8,71 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPersonalityFrameWork;
+struct FModifier;
 #ifdef DIALOGUE_BS_PresetModifier_generated_h
 #error "PresetModifier.generated.h already included, missing '#pragma once' in PresetModifier.h"
 #endif
 #define DIALOGUE_BS_PresetModifier_generated_h
 
-#define Dialogue_BS_Source_Dialogue_BS_Public_PresetModifier_h_16_RPC_WRAPPERS
-#define Dialogue_BS_Source_Dialogue_BS_Public_PresetModifier_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Dialogue_BS_Source_Dialogue_BS_Public_PresetModifier_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetPersonality) \
+	{ \
+		P_GET_OBJECT(UPersonalityFrameWork,Z_Param_framework); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetPersonality(Z_Param_framework); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetModifiers) \
+	{ \
+		P_GET_STRUCT(FModifier,Z_Param_modifier); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetModifiers(Z_Param_modifier); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLoadAll) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->LoadAll(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Dialogue_BS_Source_Dialogue_BS_Public_PresetModifier_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetPersonality) \
+	{ \
+		P_GET_OBJECT(UPersonalityFrameWork,Z_Param_framework); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetPersonality(Z_Param_framework); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetModifiers) \
+	{ \
+		P_GET_STRUCT(FModifier,Z_Param_modifier); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetModifiers(Z_Param_modifier); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLoadAll) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->LoadAll(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Dialogue_BS_Source_Dialogue_BS_Public_PresetModifier_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPresetModifier(); \

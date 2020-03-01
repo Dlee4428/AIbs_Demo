@@ -1,4 +1,4 @@
-﻿Log file open, 02/27/20 16:18:05
+﻿Log file open, 02/27/20 20:31:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dialogue_BS
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1920267931) SRandInit(1920267931).
+LogInit: Display: RandInit(-567696679) SRandInit(-567696679).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.179133
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.256013
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-2049.dll (API version 3709383).
+LogModuleManager: Warning: Module file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-3431.dll is missing. This is likely a stale module that must be recompiled.
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -151,773 +151,108 @@ LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
-LogInit: Using libcurl 7.47.1
-LogInit:  - built for x86_64-pc-win32
-LogInit:  - supports SSL with OpenSSL/1.0.2g
-LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
-LogInit:  - other features:
-LogInit:      CURL_VERSION_SSL
-LogInit:      CURL_VERSION_LIBZ
-LogInit:      CURL_VERSION_IPV6
-LogInit:      CURL_VERSION_ASYNCHDNS
-LogInit:      CURL_VERSION_LARGEFILE
-LogInit:      CURL_VERSION_IDN
-LogInit:  CurlRequestOptions (configurable via config and command line):
-LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
-LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.18-CL-3832480
-LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
-LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
-LogInit: Net CL: 3709383
-LogDevObjectVersion: Number of dev versions registered: 16
-LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
-LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
-LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
-LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
-LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
-LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
-LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
-LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
-LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
-LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
-LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
-LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
-LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
-LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
-LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
-LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
-LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
-LogInit: Compiled with Visual C++: 19.00.24215.01
-LogInit: Build Configuration: Development
-LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/Win64/
-LogInit: Installed Engine Build: 1
-LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogInit: Object subsystem initialized
-[2020.02.27-21.18.08:074][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.27-21.18.08:074][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.27-21.18.08:111][  0]LogInit: Computer: DESKTOP-1KTVQO3
-[2020.02.27-21.18.08:112][  0]LogInit: User: fuckm
-[2020.02.27-21.18.08:112][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.02.27-21.18.08:112][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.27-21.18.08:112][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.02.27-21.18.08:112][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.27-21.18.08:112][  0]LogMemory: Process Physical Memory: 273.62 MB used, 273.62 MB peak
-[2020.02.27-21.18.08:112][  0]LogMemory: Process Virtual Memory: 269.91 MB used, 269.91 MB peak
-[2020.02.27-21.18.08:112][  0]LogMemory: Physical Memory: 9093.28 MB used,  7188.70 MB free, 16281.98 MB total
-[2020.02.27-21.18.08:112][  0]LogMemory: Virtual Memory: 4763.27 MB used,  7188.70 MB free, 134217728.00 MB total
-[2020.02.27-21.18.08:835][  0]LogInit: Using OS detected language (en-US).
-[2020.02.27-21.18.08:835][  0]LogInit: Using OS detected locale (en-CA).
-[2020.02.27-21.18.08:939][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.27-21.18.09:591][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.27-21.18.12:690][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.27-21.18.12:777][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2020.02.27-21.18.12:777][  0]LogD3D11RHI:       3032/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.02.27-21.18.12:786][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.02.27-21.18.12:786][  0]LogD3D11RHI:       128/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.02.27-21.18.12:790][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.27-21.18.12:790][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.27-21.18.12:790][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.27-21.18.12:827][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.27-21.18.12:827][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.27-21.18.12:827][  0]LogWindows: EnumDisplayDevices:
-[2020.02.27-21.18.12:827][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.02.27-21.18.12:827][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.02.27-21.18.12:827][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.02.27-21.18.12:828][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.02.27-21.18.12:828][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2020.02.27-21.18.12:828][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.02.27-21.18.12:828][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.02.27-21.18.12:828][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
-[2020.02.27-21.18.12:872][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.27-21.18.12:885][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.27-21.18.12:886][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/16888/).
-[2020.02.27-21.18.12:887][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/fuckm/AppData/Local/Temp/UnrealShaderWorkingDir/A3FAA70D4BDD63752E2B0E8EB216A2F4/'.
-[2020.02.27-21.18.12:887][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.27-21.18.16:010][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.02.27-21.18.16:070][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.02.27-21.18.16:147][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.02.27-21.18.16:216][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.02.27-21.18.16:286][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.02.27-21.18.16:344][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.02.27-21.18.16:395][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.02.27-21.18.16:451][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.02.27-21.18.16:497][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.02.27-21.18.16:551][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.02.27-21.18.16:610][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.02.27-21.18.16:672][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.02.27-21.18.16:738][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.02.27-21.18.16:807][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.02.27-21.18.16:920][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.02.27-21.18.16:920][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.02.27-21.18.17:042][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.02.27-21.18.17:092][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.02.27-21.18.17:224][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.02.27-21.18.17:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.02.27-21.18.17:301][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.02.27-21.18.17:350][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.02.27-21.18.17:400][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.02.27-21.18.17:463][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.02.27-21.18.17:463][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.27-21.18.18:203][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.27-21.18.18:568][  0]LogDerivedDataCache: Loaded boot cache 0.36s 79MB C:/Users/fuckm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.02.27-21.18.18:569][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/fuckm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.02.27-21.18.18:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.27-21.18.18:569][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.27-21.18.18:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.27-21.18.18:569][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.27-21.18.18:591][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.27-21.18.18:604][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fuckm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.27-21.18.18:615][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.27-21.18.18:615][  0]LogSlate: Using Freetype 2.6.0
-[2020.02.27-21.18.18:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.27-21.18.18:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.27-21.18.22:739][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.27-21.18.23:233][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.02.27-21.18.23:280][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.02.27-21.18.23:280][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.27-21.18.23:280][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.02.27-21.18.23:280][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.02.27-21.18.23:280][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.02.27-21.18.23:327][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
-[2020.02.27-21.18.23:733][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
-[2020.02.27-21.18.24:394][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.090288 seconds
-[2020.02.27-21.18.24:401][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.02.27-21.18.24:401][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2020.02.27-21.18.24:401][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.27-21.18.24:475][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.02.27-21.18.43:072][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.27-21.18.43:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.27-21.18.44:297][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.02.27-21.18.44:807][  0]SourceControl: Source control is disabled
-[2020.02.27-21.18.44:807][  0]SourceControl: Source control is disabled
-[2020.02.27-21.18.44:900][  0]SourceControl: Source control is disabled
-[2020.02.27-21.18.44:988][  0]SourceControl: Source control is disabled
-[2020.02.27-21.18.46:355][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.27-21.18.46:665][  0]LogOcInput: OculusInput pre-init called
-[2020.02.27-21.18.47:035][  0]LogEngine: Initializing Engine...
-[2020.02.27-21.18.47:038][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.27-21.18.47:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.02.27-21.18.47:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.02.27-21.18.47:397][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.27-21.18.47:442][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2020.02.27-21.18.47:534][  0]LogInit: FAudioDevice initialized.
-[2020.02.27-21.18.47:629][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/fuckm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.02.27-21.18.47:643][  0]LogInit: Texture streaming: Enabled
-[2020.02.27-21.18.47:777][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.27-21.18.47:933][  0]LogInit: Transaction tracking system initialized
-[2020.02.27-21.18.48:293][  0]BlueprintLog: New page: Editor Load
-[2020.02.27-21.18.49:540][  0]LocalizationService: Localization service is disabled
-[2020.02.27-21.18.50:478][  0]LogConsoleResponse: Display: 
-[2020.02.27-21.18.50:880][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.27-21.18.50:880][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.27-21.18.50:880][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.02.27-21.18.51:356][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.02s
-[2020.02.27-21.18.52:516][  0]SourceControl: Source control is disabled
-[2020.02.27-21.18.52:516][  0]Cmd: MAP LOAD FILE="C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.27-21.18.52:517][  0]LightingResults: New page: Lighting Build
-[2020.02.27-21.18.52:570][  0]MapCheck: New page: Map Check
-[2020.02.27-21.18.52:570][  0]LightingResults: New page: Lighting Build
-[2020.02.27-21.18.53:297][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.02.27-21.18.53:314][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.27-21.18.53:329][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.27-21.18.53:389][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.678ms to complete.
-[2020.02.27-21.18.53:389][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.873
-[2020.02.27-21.18.53:591][  0]LogCollectionManager: Loaded 0 collections in 0.001057 seconds
-[2020.02.27-21.18.53:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
-[2020.02.27-21.18.53:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/fuckm/Collections/' took 0.01s
-[2020.02.27-21.18.53:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
-[2020.02.27-21.18.53:670][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.02.27-21.18.53:681][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2366 classes and 522 folders.
-[2020.02.27-21.18.53:757][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2020.02.27-21.18.55:132][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2020.02.27-21.18.55:192][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2020.02.27-21.18.55:324][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2020.02.27-21.18.55:324][  0]LogLoad: (Engine Initialization) Total time: 54.67 seconds
-[2020.02.27-21.18.55:324][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.27-21.18.55:324][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.02.27-21.18.55:362][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.27-21.18.55:379][  0]LogSlate: Took 0.016511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.27-21.18.55:392][  0]LogSlate: Took 0.010914 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.27-21.18.55:405][  0]LogSlate: Took 0.008919 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.27-21.18.55:535][  0]LogSlate: Took 0.001440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.02.27-21.18.55:565][  1]LogAssetRegistry: Asset discovery search completed in 31.8547 seconds
-[2020.02.27-21.18.55:568][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.02.27-21.18.55:568][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
-[2020.02.27-21.18.55:603][  2]LogRenderer: Reallocating scene render targets to support 904x472 Format 10 NumSamples 1 (Frame:1).
-[2020.02.27-21.20.58:090][618]LogSlate: Took 0.005043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.02.27-21.23.12:066][182]Candidate modules for hot reload:
-[2020.02.27-21.23.12:066][182]  Dialogue_BS
-[2020.02.27-21.23.12:066][182]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 4141 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.23.12:183][182]Warning: Starting HotReload took  0.2s.
-[2020.02.27-21.23.14:280][307]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:23:14 AM
-[2020.02.27-21.23.14:280][307]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.23.14:280][307]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.23.14:280][307]CompilerResultsLog: Target is up to date
-[2020.02.27-21.23.14:280][307]CompilerResultsLog: Total build time: 1.35 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2020.02.27-21.23.14:280][307]LogMainFrame: MainFrame: Module compiling took 2.220 seconds
-[2020.02.27-21.23.14:303][307]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2368 classes and 526 folders.
-[2020.02.27-21.23.14:303][307]Display: HotReload took  2.3s.
-[2020.02.27-21.30.24:739][788]Candidate modules for hot reload:
-[2020.02.27-21.30.24:739][788]  Dialogue_BS
-[2020.02.27-21.30.24:739][788]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 7929 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.30.24:743][788]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.31.35:912][ 58]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:31:35 AM
-[2020.02.27-21.31.35:912][ 58]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.31.35:913][ 58]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (new files with reflected types)
-[2020.02.27-21.31.35:913][ 58]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.31.35:913][ 58]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
-[2020.02.27-21.31.35:913][ 58]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.27-21.31.35:913][ 58]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/PersonalityFrameWork.h(1) : Error: No #include found for the .generated.h file - the .generated.h file should always be the last #include in a header
-[2020.02.27-21.31.35:913][ 58]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-[2020.02.27-21.31.35:913][ 58]LogMainFrame: MainFrame: Module compiling took 71.179 seconds
-[2020.02.27-21.31.35:913][ 58]Warning: HotReload failed, recompile failed
-[2020.02.27-21.32.48:288][ 25]Candidate modules for hot reload:
-[2020.02.27-21.32.48:288][ 25]  Dialogue_BS
-[2020.02.27-21.32.48:289][ 25]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 8960 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.32.48:291][ 25]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.32.55:787][473]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:32:55 AM
-[2020.02.27-21.32.55:787][473]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.32.55:787][473]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (new files with reflected types)
-[2020.02.27-21.32.55:787][473]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.32.55:787][473]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
-[2020.02.27-21.32.55:787][473]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.27-21.32.55:788][473]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/PersonalityFrameWork.h(1) : Error: Class 'UPersonalityFrameWork' must inherit UObject or a UObject-derived class
-[2020.02.27-21.32.55:788][473]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-[2020.02.27-21.32.55:788][473]LogMainFrame: MainFrame: Module compiling took 7.506 seconds
-[2020.02.27-21.32.55:788][473]Warning: HotReload failed, recompile failed
-[2020.02.27-21.33.37:724][150]Candidate modules for hot reload:
-[2020.02.27-21.33.37:725][150]  Dialogue_BS
-[2020.02.27-21.33.37:725][150]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 2311 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.33.37:728][150]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:33:55 AM
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (new files with reflected types)
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
-[2020.02.27-21.33.55:226][200]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: Error: C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/PersonalityFrameWork.h(60)  : Error: Expected a GENERATED_BODY() at the start of class
-[2020.02.27-21.33.55:226][200]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-[2020.02.27-21.33.55:226][200]LogMainFrame: MainFrame: Module compiling took 17.508 seconds
-[2020.02.27-21.33.55:226][200]Warning: HotReload failed, recompile failed
-[2020.02.27-21.34.51:807][921]Candidate modules for hot reload:
-[2020.02.27-21.34.51:808][921]  Dialogue_BS
-[2020.02.27-21.34.51:808][921]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 6093 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.34.51:810][921]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.36.57:503][462]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:36:57 AM
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Creating makefile for hot reloading Dialogue_BS (new files with reflected types)
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
-[2020.02.27-21.36.57:505][462]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 11.9975951 seconds
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Performing 8 actions (4 in parallel)
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Dialogue_BS.init.gen.cpp
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: PersonalityFrameWork.gen.cpp
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: PersonalityFrameWork.cpp
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'personality_': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2761: '{ctor}': redeclaration of member is not allowed
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(42) : error C2448: 'UPresetModifier::{ctor}': function-style initializer appears to be a function definition
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(154) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(156) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(158) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(160) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(169) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(181) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:505][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(183) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(192) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(205) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(207) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(209) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(218) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(230) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(232) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(241) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(266) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(268) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(275) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(282) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(284) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(291) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(298) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(300) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(307) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(314) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(316) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(323) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'otherPersonality': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2761: 'void UPresetModifier::PreGenerateRelationship(void)': redeclaration of member is not allowed
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(345) : error C2448: 'UPresetModifier::PreGenerateRelationship': function-style initializer appears to be a function definition
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(18) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(20) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(21) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(22) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(22) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(23) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(24) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(25) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(26) : error C4508: 'PersonalityFrameWork': function should return a value; 'void' return type assumed
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(28) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(28) : error C2523: '<Unknown>::~PersonalityFrameWork': destructor tag mismatch
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.36.57:506][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(29) : error C2084: function 'int PersonalityFrameWork(void)' already has a body
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(18) : note: see previous definition of 'PersonalityFrameWork'
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(30) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(31) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(31) : error C2541: 'delete': cannot delete objects that are not pointers
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(32) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(32) : error C2541: 'delete': cannot delete objects that are not pointers
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(33) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(34) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(38) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(40) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(41) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(41) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(44) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(47) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(51) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(53) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(56) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(58) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(61) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(63) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(66) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:507][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(68) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(71) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(73) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(78) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(80) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(83) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(87) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(91) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(93) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: IDStore.cpp
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: PresetModifier.gen.cpp
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2059: syntax error: '>'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2059: syntax error: '>'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2059: syntax error: '>'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'toBehaviour': undeclared identifier
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2761: 'void IDStore::assignID(void)': redeclaration of member is not allowed
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(44) : error C2448: 'IDStore::assignID': function-style initializer appears to be a function definition
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.36.57:508][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.36.57:509][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.36.57:509][462]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.36.57:509][462]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-6093.dll
-[2020.02.27-21.36.57:509][462]CompilerResultsLog: Total build time: 125.38 seconds (Local executor: 0.00 seconds)
-[2020.02.27-21.36.57:509][462]LogMainFrame: MainFrame: Module compiling took 125.707 seconds
-[2020.02.27-21.36.57:509][462]Warning: HotReload failed, recompile failed
-[2020.02.27-21.38.35:228][324]Candidate modules for hot reload:
-[2020.02.27-21.38.35:228][324]  Dialogue_BS
-[2020.02.27-21.38.35:228][324]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 9049 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.38.35:230][324]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.38.38:590][526]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:38:38 AM
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: Performing 6 actions (4 in parallel)
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: PresetModifier.gen.cpp
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: IDStore.cpp
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: PersonalityFrameWork.cpp
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.38.38:592][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(18) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(19) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(20) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(21) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(22) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(22) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(23) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(24) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(25) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(26) : error C4508: 'PersonalityFrameWork': function should return a value; 'void' return type assumed
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(28) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(28) : error C2523: '<Unknown>::~PersonalityFrameWork': destructor tag mismatch
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(29) : error C2084: function 'int PersonalityFrameWork(void)' already has a body
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'PersonalityFrameWork': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(18): note: see previous definition of 'PersonalityFrameWork'
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'personality_': undeclared identifier
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(30) : error C2065: 'behaviour': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41): error C2761: '{ctor}': redeclaration of member is not allowed
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:593][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(31) : error C2065: 'stats': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(42): error C2448: 'UPresetModifier::{ctor}': function-style initializer appears to be a function definition
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(31) : error C2541: 'delete': cannot delete objects that are not pointers
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(32) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(32) : error C2541: 'delete': cannot delete objects that are not pointers
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(33) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(34) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(38) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(40) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(41) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(41) : error C2065: 'ID': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(44) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(47) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(51) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(53) : error C2065: 'stats': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(56) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(58) : error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(61) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(154) : error C2065: 'personality': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(63): error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(156) : error C2065: 'personality': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(66): error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:594][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(158) : error C2065: 'personality': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(68): error C2065: 'ID': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(160) : error C2065: 'personality': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(71): error C2653: 'PersonalityFrameWork': is not a class or namespace namec:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18): error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2059: syntax error: '>'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(73): error C2065: 'behaviour': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(169) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(78) : error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(181) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(80) : error C2065: 'stats': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(183): error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(83) : error C2653: 'PersonalityFrameWork': is not a class or namespace nameC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(192): error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(87) : error C2065: 'behaviour': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(205): error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(207) : error C2065: 'personality': undeclared identifierC:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(91): error C2653: 'PersonalityFrameWork': is not a class or namespace name
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(209) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp(93) : error C2065: 'relationship': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(218) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(230) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(232) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(241) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:595][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(266) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(268) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(275) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(282) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(284) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(291) : error C2065: 'personality': undeclared identifierc:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34): error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: 
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(298) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(300) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(307) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(314) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(316) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(323) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'otherPersonality': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2761: 'void UPresetModifier::PreGenerateRelationship(void)': redeclaration of member is not allowed
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(345) : error C2448: 'UPresetModifier::PreGenerateRelationship': function-style initializer appears to be a function definition
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2059: syntax error: '>'
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2059: syntax error: '>'
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.38.38:596][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'toBehaviour': undeclared identifier
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2761: 'void IDStore::assignID(void)': redeclaration of member is not allowed
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(44) : error C2448: 'IDStore::assignID': function-style initializer appears to be a function definition
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-9049.dll
-[2020.02.27-21.38.38:597][526]CompilerResultsLog: Total build time: 3.08 seconds (Local executor: 0.00 seconds)
-[2020.02.27-21.38.38:597][526]LogMainFrame: MainFrame: Module compiling took 3.374 seconds
-[2020.02.27-21.38.38:597][526]Warning: HotReload failed, recompile failed
-[2020.02.27-21.40.31:508][783]Candidate modules for hot reload:
-[2020.02.27-21.40.31:508][783]  Dialogue_BS
-[2020.02.27-21.40.31:508][783]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 704 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.40.31:511][783]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.40.35:723][ 36]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:40:35 AM
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Performing 6 actions (4 in parallel)
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: PresetModifier.gen.cpp
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: IDStore.cpp
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: PersonalityFrameWork.cpp
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.40.35:724][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'personality_': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2761: '{ctor}': redeclaration of member is not allowed
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(42) : error C2448: 'UPresetModifier::{ctor}': function-style initializer appears to be a function definition
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(154) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(156) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(158) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(160) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(169) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(181) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(183) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(192) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(205) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(207) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(209) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(218) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(230) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(232) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(241) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(266) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:725][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(268) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(275) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(282) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(284) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(291) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(298) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(300) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(307) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(314) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(316) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(323) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'otherPersonality': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2761: 'void UPresetModifier::PreGenerateRelationship(void)': redeclaration of member is not allowed
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(345) : error C2448: 'UPresetModifier::PreGenerateRelationship': function-style initializer appears to be a function definition
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2059: syntax error: '>'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2059: syntax error: '>'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2059: syntax error: '>'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'toBehaviour': undeclared identifier
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2761: 'void IDStore::assignID(void)': redeclaration of member is not allowed
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(44) : error C2448: 'IDStore::assignID': function-style initializer appears to be a function definition
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.40.35:726][ 36]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-704.dll
-[2020.02.27-21.40.35:727][ 36]CompilerResultsLog: Total build time: 3.93 seconds (Local executor: 0.00 seconds)
-[2020.02.27-21.40.35:727][ 36]LogMainFrame: MainFrame: Module compiling took 4.225 seconds
-[2020.02.27-21.40.35:727][ 36]Warning: HotReload failed, recompile failed
-[2020.02.27-21.41.55:381][814]Candidate modules for hot reload:
-[2020.02.27-21.41.55:381][814]  Dialogue_BS
-[2020.02.27-21.41.55:381][814]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 4121 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.41.55:384][814]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.41.58:643][ 10]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:41:58 AM
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: IDStore.cpp
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: PresetModifier.gen.cpp
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public\PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2065: 'personality_': undeclared identifier
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(41) : error C2761: '{ctor}': redeclaration of member is not allowed
-[2020.02.27-21.41.58:645][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(42) : error C2448: 'UPresetModifier::{ctor}': function-style initializer appears to be a function definition
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(154) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(156) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(158) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(160) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(169) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(181) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(183) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(192) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(205) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(207) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(209) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(218) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(230) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(232) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(241) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(266) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(268) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(275) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:646][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(282) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(284) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(291) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(298) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(300) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(307) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(314) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(316) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(323) : error C2065: 'personality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2065: 'otherPersonality': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(344) : error C2761: 'void UPresetModifier::PreGenerateRelationship(void)': redeclaration of member is not allowed
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(345) : error C2448: 'UPresetModifier::PreGenerateRelationship': function-style initializer appears to be a function definition
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2059: syntax error: '>'
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2059: syntax error: '>'
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2059: syntax error: '>'
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.41.58:647][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'toBehaviour': undeclared identifier
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2761: 'void IDStore::assignID(void)': redeclaration of member is not allowed
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(44) : error C2448: 'IDStore::assignID': function-style initializer appears to be a function definition
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2143: syntax error: missing ';' before '*'
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(20) : error C2238: unexpected token(s) preceding ';'
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(26) : error C2535: 'UPresetModifier::UPresetModifier(void)': member function already defined or declared
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(25) : note: see declaration of 'UPresetModifier::UPresetModifier'
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Public/PresetModifier.h(57) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-4121.dll
-[2020.02.27-21.41.58:648][ 10]CompilerResultsLog: Total build time: 2.97 seconds (Local executor: 0.00 seconds)
-[2020.02.27-21.41.58:648][ 10]LogMainFrame: MainFrame: Module compiling took 3.273 seconds
-[2020.02.27-21.41.58:648][ 10]Warning: HotReload failed, recompile failed
-[2020.02.27-21.43.41:552][270]Candidate modules for hot reload:
-[2020.02.27-21.43.41:552][270]  Dialogue_BS
-[2020.02.27-21.43.41:552][270]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 2479 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.43.41:555][270]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.43.58:277][273]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:43:58 AM
-[2020.02.27-21.43.58:277][273]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.43.58:277][273]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.43.58:277][273]CompilerResultsLog: Parsing headers for Dialogue_BSEditor
-[2020.02.27-21.43.58:277][273]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Reflection code generated for Dialogue_BSEditor in 12.2452601 seconds
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: IDStore.cpp
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: PresetModifier.gen.cpp
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(18) : error C2059: syntax error: '>'
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\IDStore.h(34) : error C2061: syntax error: identifier 'PersonalityFrameWork'
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(23) : error C2059: syntax error: '>'
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(27) : error C2059: syntax error: '>'
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'PersonalityFrameWork': undeclared identifier
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2065: 'toBehaviour': undeclared identifier
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(43) : error C2761: 'void IDStore::assignID(void)': redeclaration of member is not allowed
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp(44) : error C2448: 'IDStore::assignID': function-style initializer appears to be a function definition
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\private\presetmodifier.cpp(332)  : warning C4701: potentially uninitialized local variable 'weight' used
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2479.dll
-[2020.02.27-21.43.58:278][273]CompilerResultsLog: Total build time: 16.41 seconds (Local executor: 0.00 seconds)
-[2020.02.27-21.43.58:278][273]LogMainFrame: MainFrame: Module compiling took 16.732 seconds
-[2020.02.27-21.43.58:278][273]Warning: HotReload failed, recompile failed
-[2020.02.27-21.46.00:722][636]Candidate modules for hot reload:
-[2020.02.27-21.46.00:722][636]  Dialogue_BS
-[2020.02.27-21.46.00:722][636]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 6235 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.46.00:725][636]Warning: Starting HotReload took  0.1s.
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:46:04 AM
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: Performing 4 actions (4 in parallel)
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: IDStore.cpp
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(262) : error C2440: 'initializing': cannot convert from 'int' to 'dialogueTraitWeights'
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: Error: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp(262) : note: Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or function-style cast)
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-6235.dll
-[2020.02.27-21.46.04:686][874]CompilerResultsLog: Total build time: 3.68 seconds (Local executor: 0.00 seconds)
-[2020.02.27-21.46.04:686][874]LogMainFrame: MainFrame: Module compiling took 3.969 seconds
-[2020.02.27-21.46.04:686][874]Warning: HotReload failed, recompile failed
-[2020.02.27-21.47.34:485][288]Candidate modules for hot reload:
-[2020.02.27-21.47.34:485][288]  Dialogue_BS
-[2020.02.27-21.47.34:485][288]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 446 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.47.34:500][288]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:47:39 AM
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: Performing 3 actions (4 in parallel)
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: PresetModifier.cpp
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: Error: c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\private\presetmodifier.cpp(332)  : warning C4701: potentially uninitialized local variable 'weight' used
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: [2/3] Link UE4Editor-Dialogue_BS-446.dll
-[2020.02.27-21.47.39:595][594]CompilerResultsLog: [3/3] Link UE4Editor-Dialogue_BS-446.lib
-[2020.02.27-21.47.39:596][594]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-446.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-446.exp
-[2020.02.27-21.47.39:596][594]CompilerResultsLog:    Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-446.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-446.suppressed.exp
-[2020.02.27-21.47.39:596][594]CompilerResultsLog: Total build time: 4.78 seconds (Local executor: 4.14 seconds)
-[2020.02.27-21.47.39:596][594]LogMainFrame: MainFrame: Module compiling took 5.116 seconds
-[2020.02.27-21.47.44:273][594]LogClass: Could not find existing class PersonalityFrameWork in package /Script/Dialogue_BS for HotReload, assuming new class
-[2020.02.27-21.47.44:274][594]LogClass: Modifier HotReload.
-[2020.02.27-21.47.44:278][594]LogContentBrowser: Native class hierarchy updated for 'Dialogue_BS' in 0.0014 seconds. Added 4 classes and 3 folders.
-[2020.02.27-21.47.44:279][594]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
-[2020.02.27-21.47.44:367][594]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2369 classes and 526 folders.
-[2020.02.27-21.47.44:367][594]Display: HotReload took  9.9s.
-[2020.02.27-21.47.52:020][ 49]Candidate modules for hot reload:
-[2020.02.27-21.47.52:021][ 49]  Dialogue_BS
-[2020.02.27-21.47.52:021][ 49]Launching UnrealBuildTool... [D:/GameDevelopment/Engines/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 9090 Win64 Development -editorrecompile -canskiplink "C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
-[2020.02.27-21.47.52:023][ 49]Warning: Starting HotReload took  0.0s.
-[2020.02.27-21.47.53:300][126]CompilerResultsLog: New page: Compilation - Feb 27, 2020, 11:47:53 AM
-[2020.02.27-21.47.53:300][126]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2020.02.27-21.47.53:300][126]CompilerResultsLog: Compiling game modules for hot reload
-[2020.02.27-21.47.53:300][126]CompilerResultsLog: Target is up to date
-[2020.02.27-21.47.53:300][126]CompilerResultsLog: Total build time: 1.00 seconds (NoActionsToExecute executor: 0.00 seconds)
-[2020.02.27-21.47.53:300][126]LogMainFrame: MainFrame: Module compiling took 1.285 seconds
-[2020.02.27-21.47.53:321][126]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2369 classes and 526 folders.
-[2020.02.27-21.47.53:321][126]Display: HotReload took  1.3s.
-[2020.02.27-21.49.15:666][558]LogSavePackage: Save=308.00ms
-[2020.02.27-21.49.15:666][558]LogSavePackage: Moving 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap902D038E414C1CE141702098E5273090.tmp' to 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2020.02.27-21.49.15:674][558]LogSavePackage: Display: Finished SavePackage C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2020.02.27-21.49.15:994][558]LogSavePackage: Save=216.44ms
-[2020.02.27-21.49.15:994][558]LogSavePackage: Moving 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_BuiltDataAEB0979247CD96B581C410A2D5C1DD00.tmp' to 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2020.02.27-21.49.15:996][558]LogSavePackage: Display: Finished SavePackage C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2020.02.27-21.49.18:303][690]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.02.27-21.49.18:498][691]Cmd: QUIT_EDITOR
-[2020.02.27-21.49.18:547][691]LogExit: Preparing to exit.
-[2020.02.27-21.49.19:058][691]LogExit: Editor shut down
-[2020.02.27-21.49.19:061][691]LogExit: Transaction tracking system shut down
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2020.02.27-21.49.19:172][691]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2020.02.27-21.49.26:842][691]LogWindows: Error: === Critical error: ===
-[2020.02.27-21.49.26:842][691]LogWindows: Error: 
-[2020.02.27-21.49.26:842][691]LogWindows: Error: Fatal error!
-[2020.02.27-21.49.26:842][691]LogWindows: Error: 
-[2020.02.27-21.49.26:842][691]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
-[2020.02.27-21.49.26:842][691]LogWindows: Error: 
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x00000000873B2605 UE4Editor-Dialogue_BS-446.dll!BehaviourModifier::~BehaviourModifier() [c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\behaviourmodifier.cpp:13]
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x00000000873B98C0 UE4Editor-Dialogue_BS-446.dll!UPersonalityFrameWork::~UPersonalityFrameWork() [c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\personalityframework.cpp:31]
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x00000000873B997B UE4Editor-Dialogue_BS-446.dll!UPersonalityFrameWork::`vector deleting destructor'() []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000058CE8CE4 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000058D7E56F UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000058BC2547 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000091DE0AE5 UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000091DE0953 UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000091DE4791 UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000091DE5465 UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:842][691]LogWindows: Error: [Callstack] 0x0000000091DE54AA UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:843][691]LogWindows: Error: [Callstack] 0x0000000091DF2379 UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:843][691]LogWindows: Error: [Callstack] 0x0000000091DF3D57 UE4Editor.exe!UnknownFunction []
-[2020.02.27-21.49.26:843][691]LogWindows: Error: [Callstack] 0x000000009A267BD4 KERNEL32.DLL!UnknownFunction []
-[2020.02.27-21.49.26:843][691]LogWindows: Error: [Callstack] 0x000000009B32CED1 ntdll.dll!UnknownFunction []
-[2020.02.27-21.49.26:843][691]LogWindows: Error: [Callstack] 0x000000009B32CED1 ntdll.dll!UnknownFunction []
-[2020.02.27-21.49.26:843][691]LogWindows: Error: 
+LogInit: Warning: Incompatible or missing module: UE4Editor-Dialogue_BS.dll
+Running C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS Development Win64 -project="C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+Parsing headers for Dialogue_BSEditor
+  Running UnrealHeaderTool "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Source/Dialogue_BS/PersonalityFrameWork.h(51) : Error: Missing '*' in Expected a pointer type
+UnrealHeaderTool failed for target 'Dialogue_BSEditor' (platform: Win64, module info: C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest).
+LogModuleManager: Warning: Module file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-3431.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Still incompatible or missing module: UE4Editor-Dialogue_BS.dll
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+LogModuleManager: Shutting down and abandoning module Renderer (16)
+LogModuleManager: Shutting down and abandoning module Engine (14)
+LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 02/27/20 20:31:50

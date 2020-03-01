@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Class.h"
-
+#include "IDStore.h"
 #include "StatsModifier.h"
 #include "BehaviourModifier.h"
 #include "Relationship.h"
@@ -33,18 +33,20 @@ public:
 	~UPersonalityFrameWork();
 
 	void AttachID(std::string &ID);
-
+	UFUNCTION(BlueprintCallable)
 	void EstablishPersonality();
 
 
 	// Create functions for altering subsystem variables \\
 	//Stat accessors
+	
 	StatsModifier* GetStats();
 	//Behaviour Accessors
 	BehaviourModifier* GetBehaviour();
 	//Realtionship accessors
 	Relationship* GetRelationship();
 	std::string *GetID();
+
 
 	//Allows the user to manually set personality attributes
 	void OverridePersonalityValue(int personalityType, double value);

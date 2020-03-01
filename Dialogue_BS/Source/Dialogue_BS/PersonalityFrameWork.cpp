@@ -17,9 +17,15 @@ std::default_random_engine StatsModifier::generator;
 
 UPersonalityFrameWork::UPersonalityFrameWork()
 {
+	
 	behaviour = new BehaviourModifier();
 	if (ID)
 		behaviour->AttachID(*ID);
+	else
+	{
+		IDStore::getInstance()->assignID(behaviour);
+		behaviour->AttachID(*ID);
+	}
 	behaviour->EstablishPersonality();
 	stats = new StatsModifier();
 	relationship = new Relationship();
