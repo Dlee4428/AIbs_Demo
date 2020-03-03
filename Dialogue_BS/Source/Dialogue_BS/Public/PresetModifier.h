@@ -16,11 +16,11 @@ class DIALOGUE_BS_API UPresetModifier : public UActorComponent
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "BaseModifiers")
 	FModifier base;
 
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Framework")
 	UPersonalityFrameWork *personality;
 private:
 	float IE, SN, TF, JP;

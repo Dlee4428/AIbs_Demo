@@ -58,6 +58,8 @@ void IDStore::assignID(UPersonalityFrameWork &toBehaviour)
 
 		std::string temp = std::to_string(iterator);
 		//temp.size() starts at 1
+		
+		
 		for (size_t i = temp.size(); i < 9; i++)
 		{
 			//Makes Sure that the key is 8 digits long
@@ -69,14 +71,22 @@ void IDStore::assignID(UPersonalityFrameWork &toBehaviour)
 
 }
 
+void IDStore::addfloatingID(const std::string IDToBePopulated)
+{
+	floatingIDs.push_back(IDToBePopulated);
+}
+
 //Should Only Be Used if Removing Person From World
 void IDStore::releaseID(const std::string IDToBeReleased)
 {
+	addfloatingID(IDToBeReleased);
 	if (IDTable->find(IDToBeReleased) != NULL)
-		floatingIDs.push_back(IDToBeReleased);
-
-	IDTable->find(IDToBeReleased)->ID->clear();
-	IDTable->remove(IDToBeReleased);
+	{
+	
+		IDTable->find(IDToBeReleased)->ID->clear();
+		IDTable->remove(IDToBeReleased);
+	}
+		
 }
 //Debugging
 void IDStore::Print()

@@ -31,7 +31,7 @@ private:
 public:
 	UPersonalityFrameWork();
 	~UPersonalityFrameWork();
-
+	UFUNCTION(BlueprintCallable)
 	void AttachID(std::string &ID);
 	UFUNCTION(BlueprintCallable)
 	void EstablishPersonality();
@@ -49,6 +49,7 @@ public:
 
 
 	//Allows the user to manually set personality attributes
+	UFUNCTION(BlueprintCallable)
 	void OverridePersonalityValue(int personalityType, double value);
 
 

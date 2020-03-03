@@ -1,7 +1,6 @@
 
 #include "BehaviourModifier.h"
 
-
 BehaviourModifier::BehaviourModifier()
 {
 }
@@ -17,6 +16,7 @@ BehaviourModifier::~BehaviourModifier()
 void BehaviourModifier::AttachID(std::string &ID_)
 {
 	*ID = ID_;
+	
 }
 
 void BehaviourModifier::GenerateGenderTrait(bool autoGenerateGenders, int genderRatio)

@@ -18,17 +18,25 @@ std::default_random_engine StatsModifier::generator;
 
 UPersonalityFrameWork::UPersonalityFrameWork()
 {
-	
-	behaviour = new BehaviourModifier();
-	if (ID)
-		behaviour->AttachID(*ID);
-	else
-	{
-		IDStore::getInstance()->assignID(*this);
-	}
-	behaviour->EstablishPersonality();
+
 	stats = new StatsModifier();
 	relationship = new Relationship();
+	behaviour = new BehaviourModifier();
+	if (ID)
+	{
+		//floats current ID and checks to see if it already stored in Table, if so removes then repopulates the ID sending it to the back of the stack of IDs
+		IDStore::getInstance()->releaseID(*ID);
+		IDStore::getInstance()->assignID(*this);
+		//for future implementation uses.
+		behaviour->AttachID(*ID);
+	}
+	else
+	{
+		//Populate the IDTable with generated ID
+		IDStore::getInstance()->assignID(*this);
+		behaviour->AttachID(*ID);
+	}
+	
 }
 
 UPersonalityFrameWork::~UPersonalityFrameWork()
@@ -43,13 +51,21 @@ UPersonalityFrameWork::~UPersonalityFrameWork()
 
 void UPersonalityFrameWork::AttachID(std::string & ID_)
 {
+	if (ID)
+	{
+		IDStore::getInstance()->releaseID(*ID);
+	}
+	//Adds ID_ to the back of floatingID's 
+	IDStore::getInstance()->addfloatingID(ID_);
 	*ID = ID_;
 	behaviour->AttachID(*ID);
+	//Assigns the back of floatingID's to this
+	IDStore::getInstance()->assignID(*this);
 }
 
 void UPersonalityFrameWork::EstablishPersonality()
 {
-	//Re-establishes personlaity
+	//Establishes personlaity
 	behaviour->EstablishPersonality();
 
 }

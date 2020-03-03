@@ -32,7 +32,7 @@ public:
 
 	//Assigns unique ID to UPersonalityFrameWork
 	void assignID(UPersonalityFrameWork&toBehaviour);
-
+	void addfloatingID(const std::string);
 	//Detaches Unique ID/Person from the corresponding Person/ID
 	void releaseID(const std::string);
 	//Debugging Print

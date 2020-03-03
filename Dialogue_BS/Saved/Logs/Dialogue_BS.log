@@ -377,3 +377,42 @@ LogInit: Object subsystem initialized
 [2020.03.01-16.52.05:053][106]LogSavePackage: Save=188.53ms
 [2020.03.01-16.52.05:053][106]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/NPC_AI75323AC944D6618F326C40A82C51F6C0.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset'
 [2020.03.01-16.52.05:069][106]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset
+[2020.03.01-17.01.47:892][101]LogSavePackage: Save=383.72ms
+[2020.03.01-17.01.47:892][101]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap7B8D2A3248FBF7B735B7829F150FEA05.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.03.01-17.01.47:920][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2020.03.01-17.01.49:360][184]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.01-17.01.49:716][185]Cmd: QUIT_EDITOR
+[2020.03.01-17.01.50:218][185]LogExit: Preparing to exit.
+[2020.03.01-17.01.50:879][185]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.03.01-17.01.51:084][185]LogExit: Editor shut down
+[2020.03.01-17.01.51:110][185]LogExit: Transaction tracking system shut down
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.03.01-17.02.06:408][185]LogWindows: Error: === Critical error: ===
+[2020.03.01-17.02.06:408][185]LogWindows: Error: 
+[2020.03.01-17.02.06:408][185]LogWindows: Error: Fatal error!
+[2020.03.01-17.02.06:408][185]LogWindows: Error: 
+[2020.03.01-17.02.06:408][185]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2020.03.01-17.02.06:408][185]LogWindows: Error: 
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000008ACD2605 UE4Editor-Dialogue_BS.dll!BehaviourModifier::~BehaviourModifier() [c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\behaviourmodifier.cpp:13]
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000008ACD9900 UE4Editor-Dialogue_BS.dll!UPersonalityFrameWork::~UPersonalityFrameWork() [c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\personalityframework.cpp:37]
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000008ACD99BB UE4Editor-Dialogue_BS.dll!UPersonalityFrameWork::`vector deleting destructor'() []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009D8C8CE4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009D95E56F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009D7A2547 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA0AE5 UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA0953 UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA4791 UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA5465 UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA54AA UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFB2379 UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFB3D57 UE4Editor.exe!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x00000000F8D17974 KERNEL32.DLL!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x00000000FA05A261 ntdll.dll!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x00000000FA05A261 ntdll.dll!UnknownFunction []
+[2020.03.01-17.02.06:408][185]LogWindows: Error: 
