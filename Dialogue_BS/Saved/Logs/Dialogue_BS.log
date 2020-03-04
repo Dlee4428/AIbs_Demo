@@ -1,4 +1,4 @@
-﻿Log file open, 03/01/20 11:29:28
+﻿Log file open, 03/04/20 14:27:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dialogue_BS
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1567058981) SRandInit(1567058981).
+LogInit: Display: RandInit(266454320) SRandInit(266454320).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 12.954460
+LogStats: Stats thread started at 41.941794
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -197,222 +197,345 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.03.01-16.29.43:732][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.01-16.29.43:732][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.01-16.29.43:935][  0]LogInit: Computer: DESKTOP-M25UTED
-[2020.03.01-16.29.43:935][  0]LogInit: User: Delam
-[2020.03.01-16.29.43:935][  0]LogInit: CPU Page size=4096, Cores=3
-[2020.03.01-16.29.43:935][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.01-16.29.43:935][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.03.01-16.29.43:935][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.01-16.29.43:935][  0]LogMemory: Process Physical Memory: 273.53 MB used, 273.53 MB peak
-[2020.03.01-16.29.43:935][  0]LogMemory: Process Virtual Memory: 270.86 MB used, 270.86 MB peak
-[2020.03.01-16.29.43:935][  0]LogMemory: Physical Memory: 6190.74 MB used,  1959.84 MB free, 8150.58 MB total
-[2020.03.01-16.29.43:936][  0]LogMemory: Virtual Memory: 4767.50 MB used,  1959.84 MB free, 134217728.00 MB total
-[2020.03.01-16.29.46:490][  0]LogInit: Using OS detected language (en-US).
-[2020.03.01-16.29.46:490][  0]LogInit: Using OS detected locale (en-US).
-[2020.03.01-16.29.46:790][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.03.01-16.29.49:572][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.01-16.29.59:314][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.01-16.29.59:395][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
-[2020.03.01-16.29.59:395][  0]LogD3D11RHI:       4043/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.03.01-16.29.59:418][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.01-16.29.59:418][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.01-16.29.59:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.01-16.29.59:839][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.01-16.29.59:839][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
-[2020.03.01-16.29.59:839][  0]LogWindows: EnumDisplayDevices:
-[2020.03.01-16.29.59:840][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
-[2020.03.01-16.29.59:840][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-16.29.59:841][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-16.29.59:841][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-16.29.59:841][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.01-16.29.59:842][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.03.01-16.29.59:842][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
-[2020.03.01-16.29.59:842][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.03.01-16.29.59:842][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.03.01-16.29.59:842][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2020.03.01-16.29.59:997][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.01-16.30.00:293][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.03.01-16.30.00:335][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/10228/).
-[2020.03.01-16.30.00:335][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/65317C3D4D816DD583C9ADA648C40C27/'.
-[2020.03.01-16.30.00:360][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.01-16.30.09:170][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.03.01-16.30.09:343][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.03.01-16.30.09:557][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.03.01-16.30.09:762][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.03.01-16.30.10:020][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.03.01-16.30.10:184][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.03.01-16.30.10:341][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.03.01-16.30.10:486][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.03.01-16.30.10:620][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.03.01-16.30.10:777][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.03.01-16.30.10:912][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.03.01-16.30.11:051][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.03.01-16.30.11:210][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.03.01-16.30.11:353][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.03.01-16.30.11:654][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.03.01-16.30.11:654][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.03.01-16.30.11:814][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.01-16.30.11:977][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.03.01-16.30.12:437][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.03.01-16.30.12:536][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.03.01-16.30.12:677][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.03.01-16.30.12:815][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.03.01-16.30.12:969][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.03.01-16.30.13:191][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.03.01-16.30.13:191][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.01-16.30.17:734][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.01-16.30.25:770][  0]LogDerivedDataCache: Loaded boot cache 8.00s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.03.01-16.30.25:770][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.03.01-16.30.25:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.01-16.30.25:770][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.01-16.30.25:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.01-16.30.25:770][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.01-16.30.25:982][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.01-16.30.25:995][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.01-16.30.26:434][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.01-16.30.26:802][  0]LogSlate: Using Freetype 2.6.0
-[2020.03.01-16.30.26:941][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.01-16.30.26:945][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.01-16.30.58:740][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.01-16.31.12:337][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.03.01-16.31.13:376][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.03.01-16.31.13:597][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.01-16.31.13:598][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.03.01-16.31.13:598][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.03.01-16.31.13:598][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.03.01-16.31.18:438][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
-[2020.03.01-16.31.24:853][  0]LogAssetRegistry: FAssetRegistry took 0.1801 seconds to start up
-[2020.03.01-16.31.47:750][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.817443 seconds
-[2020.03.01-16.31.47:863][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.03.01-16.31.47:863][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2020.03.01-16.31.47:863][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.01-16.31.48:408][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.03.01-16.33.01:276][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.01-16.33.01:499][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.01-16.33.17:520][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.03.01-16.33.21:709][  0]SourceControl: Source control is disabled
-[2020.03.01-16.33.21:753][  0]SourceControl: Source control is disabled
-[2020.03.01-16.33.22:608][  0]SourceControl: Source control is disabled
-[2020.03.01-16.33.22:972][  0]SourceControl: Source control is disabled
-[2020.03.01-16.33.29:080][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.01-16.33.30:430][  0]LogOcInput: OculusInput pre-init called
-[2020.03.01-16.33.32:303][  0]LogEngine: Initializing Engine...
-[2020.03.01-16.33.32:416][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.01-16.33.34:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.03.01-16.33.34:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.038 s
-[2020.03.01-16.33.36:824][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.01-16.33.38:084][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.03.01-16.33.38:236][  0]LogInit: FAudioDevice initialized.
-[2020.03.01-16.33.38:478][  0]LogDerivedDataCache: Saved boot cache 0.20s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.03.01-16.33.38:525][  0]LogInit: Texture streaming: Enabled
-[2020.03.01-16.33.40:712][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.01-16.33.43:615][  0]LogInit: Transaction tracking system initialized
-[2020.03.01-16.33.45:754][  0]BlueprintLog: New page: Editor Load
-[2020.03.01-16.33.55:849][  0]LocalizationService: Localization service is disabled
-[2020.03.01-16.34.05:325][  0]LogConsoleResponse: Display: 
-[2020.03.01-16.34.12:578][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.11s
-[2020.03.01-16.34.12:579][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.01-16.34.12:580][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.01-16.34.12:590][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.03.01-16.34.21:900][  0]SourceControl: Source control is disabled
-[2020.03.01-16.34.22:444][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.01-16.34.22:465][  0]LightingResults: New page: Lighting Build
-[2020.03.01-16.34.23:221][  0]MapCheck: New page: Map Check
-[2020.03.01-16.34.23:221][  0]LightingResults: New page: Lighting Build
-[2020.03.01-16.34.29:224][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-16.34.29:224][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
-[2020.03.01-16.34.29:264][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
-[2020.03.01-16.34.31:140][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-16.34.31:140][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
-[2020.03.01-16.34.31:141][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData
-[2020.03.01-16.34.31:146][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-16.34.31:146][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2020.03.01-16.34.31:146][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-16.34.31:146][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2020.03.01-16.34.31:469][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData'
-[2020.03.01-16.34.31:469][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2020.03.01-16.34.31:469][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
-[2020.03.01-16.34.31:469][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
-[2020.03.01-16.34.35:221][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.03.01-16.34.38:085][  0]LogEditorServer: Finished looking for orphan Actors (0.093 secs)
-[2020.03.01-16.34.40:761][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.01-16.34.41:624][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 815.724ms to complete.
-[2020.03.01-16.34.41:624][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 19.203
-[2020.03.01-16.34.49:964][  0]LogCollectionManager: Loaded 0 collections in 0.003678 seconds
-[2020.03.01-16.34.50:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
-[2020.03.01-16.34.50:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' took 0.01s
-[2020.03.01-16.34.50:757][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
-[2020.03.01-16.34.50:757][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.03.01-16.34.50:972][  0]LogContentBrowser: Native class hierarchy populated in 0.1716 seconds. Added 2367 classes and 522 folders.
-[2020.03.01-16.34.51:635][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2020.03.01-16.34.58:602][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2020.03.01-16.34.59:361][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2020.03.01-16.35.03:354][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2020.03.01-16.35.03:354][  0]LogLoad: (Engine Initialization) Total time: 399.24 seconds
-[2020.03.01-16.35.03:354][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.01-16.35.03:445][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.03.01-16.35.04:807][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.01-16.35.05:355][  0]LogSlate: Took 0.062127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.01-16.35.06:330][  2]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:0).
-[2020.03.01-16.35.07:429][  2]LogSlate: Took 0.042923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.01-16.35.07:634][  3]LogAssetRegistry: Asset discovery search completed in 222.8219 seconds
-[2020.03.01-16.35.07:682][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2020.03.01-16.35.07:682][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
-[2020.03.01-16.48.02:073][485]LogSlate: Took 0.020422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.01-16.48.02:202][485]LogSlate: Took 0.023029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.01-16.48.03:577][485]LogRenderer: Reallocating scene render targets to support 864x472 Format 10 NumSamples 1 (Frame:1).
-[2020.03.01-16.48.03:577][485]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.01-16.48.07:092][669]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.01-16.48.07:821][669]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.01-16.48.08:237][669]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0136 seconds. Added 116 classes and 0 folders.
-[2020.03.01-16.48.10:956][669]LogSlate: Took 0.010469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.03.01-16.48.11:849][670]LogSlate: Took 0.019371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.03.01-16.51.29:010][345]LogEditorTransaction: Undo Move Node
-[2020.03.01-16.51.30:744][519]LogEditorTransaction: Undo Move Node
-[2020.03.01-16.51.31:290][575]LogEditorTransaction: Undo Move Nodes
-[2020.03.01-16.51.31:914][640]LogEditorTransaction: Undo Create Pin Link
-[2020.03.01-16.51.40:959][712]BlueprintLog: New page: Compile NPC_AI
-[2020.03.01-16.52.05:053][106]LogSavePackage: Save=188.53ms
-[2020.03.01-16.52.05:053][106]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/NPC_AI75323AC944D6618F326C40A82C51F6C0.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset'
-[2020.03.01-16.52.05:069][106]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset
-[2020.03.01-17.01.47:892][101]LogSavePackage: Save=383.72ms
-[2020.03.01-17.01.47:892][101]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap7B8D2A3248FBF7B735B7829F150FEA05.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2020.03.01-17.01.47:920][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2020.03.01-17.01.49:360][184]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.03.01-17.01.49:716][185]Cmd: QUIT_EDITOR
-[2020.03.01-17.01.50:218][185]LogExit: Preparing to exit.
-[2020.03.01-17.01.50:879][185]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
-[2020.03.01-17.01.51:084][185]LogExit: Editor shut down
-[2020.03.01-17.01.51:110][185]LogExit: Transaction tracking system shut down
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2020.03.01-17.01.51:448][185]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2020.03.01-17.02.06:408][185]LogWindows: Error: === Critical error: ===
-[2020.03.01-17.02.06:408][185]LogWindows: Error: 
-[2020.03.01-17.02.06:408][185]LogWindows: Error: Fatal error!
-[2020.03.01-17.02.06:408][185]LogWindows: Error: 
-[2020.03.01-17.02.06:408][185]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
-[2020.03.01-17.02.06:408][185]LogWindows: Error: 
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000008ACD2605 UE4Editor-Dialogue_BS.dll!BehaviourModifier::~BehaviourModifier() [c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\behaviourmodifier.cpp:13]
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000008ACD9900 UE4Editor-Dialogue_BS.dll!UPersonalityFrameWork::~UPersonalityFrameWork() [c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\personalityframework.cpp:37]
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000008ACD99BB UE4Editor-Dialogue_BS.dll!UPersonalityFrameWork::`vector deleting destructor'() []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009D8C8CE4 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009D95E56F UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009D7A2547 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA0AE5 UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA0953 UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA4791 UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA5465 UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFA54AA UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFB2379 UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x000000009CFB3D57 UE4Editor.exe!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x00000000F8D17974 KERNEL32.DLL!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x00000000FA05A261 ntdll.dll!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: [Callstack] 0x00000000FA05A261 ntdll.dll!UnknownFunction []
-[2020.03.01-17.02.06:408][185]LogWindows: Error: 
+[2020.03.04-19.28.18:819][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.04-19.28.18:819][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.04-19.28.20:148][  0]LogInit: Computer: DESKTOP-M25UTED
+[2020.03.04-19.28.20:149][  0]LogInit: User: Delam
+[2020.03.04-19.28.20:149][  0]LogInit: CPU Page size=4096, Cores=3
+[2020.03.04-19.28.20:149][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.04-19.28.20:667][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.03.04-19.28.20:667][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.04-19.28.20:667][  0]LogMemory: Process Physical Memory: 273.53 MB used, 273.53 MB peak
+[2020.03.04-19.28.20:667][  0]LogMemory: Process Virtual Memory: 270.85 MB used, 270.85 MB peak
+[2020.03.04-19.28.20:667][  0]LogMemory: Physical Memory: 6987.25 MB used,  1163.33 MB free, 8150.58 MB total
+[2020.03.04-19.28.20:667][  0]LogMemory: Virtual Memory: 4767.50 MB used,  1163.33 MB free, 134217728.00 MB total
+[2020.03.04-19.28.25:871][  0]LogInit: Using OS detected language (en-US).
+[2020.03.04-19.28.25:871][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.04-19.28.28:530][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.04-19.28.35:472][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.04-19.28.56:119][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.04-19.28.58:427][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2020.03.04-19.28.58:428][  0]LogD3D11RHI:       4043/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.03.04-19.28.59:308][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.04-19.28.59:309][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.04-19.28.59:309][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.04-19.28.59:394][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.04-19.28.59:400][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2020.03.04-19.28.59:400][  0]LogWindows: EnumDisplayDevices:
+[2020.03.04-19.28.59:401][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
+[2020.03.04-19.28.59:416][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.04-19.28.59:417][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.04-19.28.59:417][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.04-19.28.59:417][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.03.04-19.28.59:418][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.03.04-19.28.59:418][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2020.03.04-19.28.59:418][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.03.04-19.28.59:418][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.03.04-19.28.59:418][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2020.03.04-19.29.00:570][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.04-19.29.02:019][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.04-19.29.02:263][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/7340/).
+[2020.03.04-19.29.02:263][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/89A16A07470CA8094361D4A056880D9C/'.
+[2020.03.04-19.29.02:284][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.04-19.29.18:644][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.04-19.29.18:818][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.04-19.29.18:989][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.04-19.29.19:192][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.04-19.29.19:471][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.04-19.29.19:653][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.04-19.29.20:294][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.04-19.29.20:490][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.04-19.29.20:738][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.04-19.29.20:964][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.03.04-19.29.21:208][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.03.04-19.29.21:432][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.03.04-19.29.21:891][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.03.04-19.29.22:118][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.03.04-19.29.22:593][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.03.04-19.29.22:593][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.03.04-19.29.22:936][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.04-19.29.23:401][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.04-19.29.24:235][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.04-19.29.24:378][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.04-19.29.24:572][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.04-19.29.24:878][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.04-19.29.25:085][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.04-19.29.25:694][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.04-19.29.25:710][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.04-19.29.37:211][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.04-19.30.06:725][  0]LogDerivedDataCache: Loaded boot cache 29.48s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.03.04-19.30.06:741][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.03.04-19.30.06:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.04-19.30.06:741][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.04-19.30.06:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.04-19.30.06:741][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.04-19.30.07:046][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.04-19.30.07:120][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.04-19.30.07:908][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.04-19.30.08:246][  0]LogSlate: Using Freetype 2.6.0
+[2020.03.04-19.30.08:520][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.04-19.30.08:534][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.04-19.30.40:164][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.04-19.30.49:627][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.04-19.30.49:981][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.04-19.30.50:018][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.04-19.30.50:018][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.04-19.30.50:018][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.03.04-19.30.50:018][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.03.04-19.30.54:619][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
+[2020.03.04-19.31.06:470][  0]LogAssetRegistry: FAssetRegistry took 0.0670 seconds to start up
+[2020.03.04-19.31.27:175][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.588097 seconds
+[2020.03.04-19.31.27:360][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.03.04-19.31.28:110][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.03.04-19.31.28:110][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.04-19.31.28:368][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.03.04-19.32.52:349][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.04-19.32.52:787][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.04-19.33.16:748][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.03.04-19.33.21:002][  0]SourceControl: Source control is disabled
+[2020.03.04-19.33.21:019][  0]SourceControl: Source control is disabled
+[2020.03.04-19.33.21:303][  0]SourceControl: Source control is disabled
+[2020.03.04-19.33.22:091][  0]SourceControl: Source control is disabled
+[2020.03.04-19.33.30:534][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.04-19.33.32:542][  0]LogOcInput: OculusInput pre-init called
+[2020.03.04-19.33.35:856][  0]LogEngine: Initializing Engine...
+[2020.03.04-19.33.36:099][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.04-19.33.39:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.04-19.33.39:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.007 s
+[2020.03.04-19.33.42:426][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.04-19.33.43:969][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-19.33.44:102][  0]LogInit: FAudioDevice initialized.
+[2020.03.04-19.33.47:331][  0]LogDerivedDataCache: Saved boot cache 3.12s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.03.04-19.33.47:379][  0]LogInit: Texture streaming: Enabled
+[2020.03.04-19.33.49:569][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.04-19.33.49:569][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={E4298F75-4723-64DA-90E0-BD98D4A4A2F9}
+[2020.03.04-19.33.52:003][  0]LogInit: Transaction tracking system initialized
+[2020.03.04-19.33.54:966][  0]BlueprintLog: New page: Editor Load
+[2020.03.04-19.34.10:196][  0]LocalizationService: Localization service is disabled
+[2020.03.04-19.34.17:005][  0]LogConsoleResponse: Display: 
+[2020.03.04-19.34.32:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.09s
+[2020.03.04-19.34.32:070][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.04-19.34.32:123][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.04-19.34.32:148][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.04-19.34.45:795][  0]SourceControl: Source control is disabled
+[2020.03.04-19.34.47:911][  0]LogSlate: Took 0.132477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.04-19.39.16:699][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.04-19.39.17:132][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.04-19.39.18:890][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.04-19.39.19:442][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.04-19.39.19:684][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.04-19.39.19:778][  0]LightingResults: New page: Lighting Build
+[2020.03.04-19.39.24:423][  0]MapCheck: New page: Map Check
+[2020.03.04-19.39.24:423][  0]LightingResults: New page: Lighting Build
+[2020.03.04-19.39.37:419][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.04-19.39.47:360][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.04-19.39.48:985][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.04-19.39.51:603][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,593.3ms to complete.
+[2020.03.04-19.39.51:604][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 32.019
+[2020.03.04-19.40.08:746][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1fb0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2aa0_0///####STATCAT_Advanced####
+[2020.03.04-19.40.08:746][  0]LogCollectionManager: Loaded 0 collections in 0.005697 seconds
+[2020.03.04-19.40.14:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
+[2020.03.04-19.40.14:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' took 0.01s
+[2020.03.04-19.40.14:921][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
+[2020.03.04-19.40.14:921][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.04-19.40.15:973][  0]LogContentBrowser: Native class hierarchy populated in 1.0246 seconds. Added 2367 classes and 522 folders.
+[2020.03.04-19.40.16:717][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2020.03.04-19.40.22:534][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2020.03.04-19.40.23:160][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2020.03.04-19.40.25:516][  0]LogSlate: Took 0.026744 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.04-19.40.25:987][  0]LogSlate: Took 0.143141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.04-19.40.29:736][  0]LogRenderer: Reallocating scene render targets to support 1008x556 Format 10 NumSamples 1 (Frame:1).
+[2020.03.04-19.40.35:856][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2020.03.04-19.40.35:856][  0]LogLoad: (Engine Initialization) Total time: 872.34 seconds
+[2020.03.04-19.40.35:856][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.04-19.40.35:915][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.03.04-19.40.43:105][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.04-19.40.48:976][  1]LogSlate: Took 0.132123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.04-19.40.50:914][  2]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.04-19.40.51:533][  4]LogAssetRegistry: Asset discovery search completed in 585.0868 seconds
+[2020.03.04-19.40.51:572][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.04-19.40.51:573][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.017436 seconds (updated 0 objects)
+[2020.03.04-19.43.29:468][475]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2020.03.04-19.43.29:468][475]LogSynthBenchmark: Display: ===============
+[2020.03.04-19.43.29:468][475]LogSynthBenchmark: Display: Main Processor:
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:          ... 0.033287 s/Run 'RayIntersect'
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:          ... 0.025029 s/Run 'Fractal'
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display: 
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 8
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   NumberOfCores (physical): 3
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   NumberOfCores (logical): 6
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   CPU Perf Index 0: 76.9 (weight 1.00)
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   CPU Perf Index 1: 114.3 (weight 1.50)
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:  
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display: Graphics:
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   Adapter Name: 'Radeon(TM) RX 460 Graphics'
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   Vendor Id: 0x1002
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   Device Id: 0x67EF
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   Device Revision: 0xCF
+[2020.03.04-19.43.29:760][475]LogSynthBenchmark: Display:   GPU Memory: 4044/0/4076 MB
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:   GPU first test: 0.04s
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 4.024 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 3.008 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 2.694 s/GigaPix, Confidence=89% 'DepTexHeavy' (likely to be very inaccurate)
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 7.443 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 0.306 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 1.226 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2020.03.04-19.43.30:290][475]LogSynthBenchmark: Display:          ... 2.209 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:   GPU second test: 0.28s
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 5.770 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 4.061 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 3.921 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 16.141 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 0.323 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 1.225 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 2.196 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:   GPU Final Results:
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 5.770 s/GigaPix, Confidence=89% 'ALUHeavyNoise'
+[2020.03.04-19.43.30:670][475]LogSynthBenchmark: Display:          ... 4.061 s/GigaPix, Confidence=100% 'TexHeavy'
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:          ... 3.921 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:          ... 16.141 s/GigaPix, Confidence=100% 'FillOnly'
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:          ... 0.323 s/GigaPix, Confidence=100% 'Bandwidth'
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:          ... 1.225 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:          ... 2.196 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display: 
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 0: 125.4 (weight 1.00)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 1: 54.5 (weight 0.10)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 2: 101.9 (weight 0.10)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 3: 63.4 (weight 3.00)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 4: 30.1 (weight 1.00)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 5: 79.7 (weight 0.00)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPU Perf Index 6: 124.3 (weight 0.00)
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   CPUIndex: 99.3
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:   GPUIndex: 69.5
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display: 
+[2020.03.04-19.43.30:671][475]LogSynthBenchmark: Display:          ... Total Time: 1.202943 sec
+[2020.03.04-19.53.55:228][964]LogSlate: Took 0.116512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.04-19.53.55:450][964]LogSlate: Took 0.038765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.04-19.54.05:299][964]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0420 seconds. Added 116 classes and 0 folders.
+[2020.03.04-19.54.19:740][964]LogSlate: Took 0.082459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.04-19.54.20:482][965]LogSlate: Took 0.043633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.04-20.09.17:022][ 32]BlueprintLog: New page: Compile DialogueReader
+[2020.03.04-20.09.50:597][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.043
+[2020.03.04-20.09.50:623][930]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Dialogue/DialogueReader] ([1] browsable assets)...
+[2020.03.04-20.09.50:632][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Dialogue/DialogueReader]
+[2020.03.04-20.09.50:819][930]LogSavePackage: Save=79.22ms
+[2020.03.04-20.09.50:819][930]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueReader_Auto1C808FDB646F1D763A67DEEA8C882EB54.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/DialogueReader_Auto1.uasset'
+[2020.03.04-20.09.50:878][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/DialogueReader_Auto1.uasset
+[2020.03.04-20.09.50:878][930]LogFileHelpers: Auto-saving content packages took 0.278
+[2020.03.04-20.13.20:194][969]LogSavePackage: Save=24.87ms
+[2020.03.04-20.13.20:195][969]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueTableEE3573C94046D5FFA0636CA16C91FB3B.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueTable.uasset'
+[2020.03.04-20.13.20:209][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueTable.uasset
+[2020.03.04-20.15.16:813][535]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\Users\Delam\OneDrive\Documents\GitHub\Dialogue V1 - Sheet1.csv)
+[2020.03.04-20.15.30:642][535]LogCSVImportFactory: Imported DataTable 'Dialogue_V1_-_Sheet1' - 2 Problems
+[2020.03.04-20.15.30:642][535]LogCSVImportFactory: 0:Cannot find Property for column 'DialogueKey' in struct 'DialogueLibrary'.
+[2020.03.04-20.15.30:642][535]LogCSVImportFactory: 1:Expected column 'DialogueKey' not found in input.
+[2020.03.04-20.17.02:827][564]LogSavePackage: Save=9.26ms
+[2020.03.04-20.17.02:827][564]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueTableD92B372345EDAB1249EF75B617E3B1C7.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueTable.uasset'
+[2020.03.04-20.17.02:834][564]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueTable.uasset
+[2020.03.04-20.17.15:302][244]LogCSVImportFactory: Imported DataTable 'DialogueTable' - 2 Problems
+[2020.03.04-20.17.15:302][244]LogCSVImportFactory: 0:Cannot find Property for column 'DialogueKey' in struct 'DialogueLibrary'.
+[2020.03.04-20.17.15:302][244]LogCSVImportFactory: 1:Expected column 'DialogueKey' not found in input.
+[2020.03.04-20.19.59:292][663]LogCSVImportFactory: Imported DataTable 'DialogueTable' - 0 Problems
+[2020.03.04-20.20.21:066][896]LogSavePackage: Save=28.38ms
+[2020.03.04-20.20.21:066][896]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueTable56ED6A3946D260C0B8F515895671EE4C.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueTable.uasset'
+[2020.03.04-20.20.21:079][896]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueTable.uasset
+[2020.03.04-20.21.08:939][958]LogSlate: Took 0.043676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.03.04-20.22.25:004][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.058
+[2020.03.04-20.22.25:010][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Dialogue/DialogueReader] ([1] browsable assets)...
+[2020.03.04-20.22.25:010][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Dialogue/DialogueReader]
+[2020.03.04-20.22.25:082][181]LogSavePackage: Save=30.74ms
+[2020.03.04-20.22.25:083][181]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueReader_Auto202C0DC7D4D03E18EA9BC78B0ECCCA2C3.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/DialogueReader_Auto2.uasset'
+[2020.03.04-20.22.25:120][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/DialogueReader_Auto2.uasset
+[2020.03.04-20.22.25:120][181]LogFileHelpers: Auto-saving content packages took 0.115
+[2020.03.04-20.23.26:841][497]BlueprintLog: New page: Compile DialogueReader
+[2020.03.04-20.32.10:686][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.04-20.32.10:707][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.03.04-20.32.10:710][826]LogPlayLevel: [PlayLevel] Compiling TestReader before play...
+[2020.03.04-20.32.10:788][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
+[2020.03.04-20.32.10:788][826]BlueprintLog: Blueprint TestReader failed to compile
+[2020.03.04-20.32.16:076][826]PIE: New page: SIE session: ThirdPersonExampleMap (Mar 4, 2020, 10:32:16 AM)
+[2020.03.04-20.32.16:103][826]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.04-20.32.16:487][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.383935s)
+[2020.03.04-20.32.16:490][826]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.04-20.32.16:510][826]LogPlayLevel: PIE: World Init took: (0.022973s)
+[2020.03.04-20.32.16:517][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.423150s)
+[2020.03.04-20.32.16:653][826]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.04-20.32.16:672][826]LogInit: FAudioDevice initialized.
+[2020.03.04-20.32.16:970][826]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.04-20.32.17:069][826]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.03.04-15.32.17
+[2020.03.04-20.32.17:240][826]LogWorld: Bringing up level for play took: 0.243445
+[2020.03.04-20.32.17:633][826]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
+[2020.03.04-20.32.17:672][826]LogScript: Warning: Accessed None trying to read property PersonalityFrameWork
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:02C3
+[2020.03.04-20.32.17:705][826]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.04-20.32.17:705][826]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:02E6
+[2020.03.04-20.32.17:705][826]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.04-20.32.17:705][826]LogScript: Warning: Accessed None attempting to assign variable on an object
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:02FB
+[2020.03.04-20.32.17:705][826]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.04-20.32.17:705][826]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0310
+[2020.03.04-20.32.17:705][826]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.04-20.32.17:746][826]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 7.949
+[2020.03.04-20.32.17:980][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.04-20.32.28:475][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.04-20.32.28:647][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.04-20.33.15:981][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.036
+[2020.03.04-20.33.15:985][644]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Dialogue/TestReader] ([1] browsable assets)...
+[2020.03.04-20.33.15:985][644]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Dialogue/TestReader]
+[2020.03.04-20.33.16:082][644]LogSavePackage: Save=55.72ms
+[2020.03.04-20.33.16:082][644]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/TestReader_Auto36B0A6FFB440864BF5E240985B50EEA4A.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/TestReader_Auto3.uasset'
+[2020.03.04-20.33.16:112][644]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/TestReader_Auto3.uasset
+[2020.03.04-20.33.16:112][644]LogFileHelpers: Auto-saving content packages took 0.130
+[2020.03.04-20.47.20:534][872]BlueprintLog: New page: Compile TestReader
+[2020.03.04-20.47.20:592][872]LogBlueprint: Error: [Compiler TestReader] No DataTable in  Get Data Table Row NONE
+[2020.03.04-20.47.20:592][872]LogBlueprint: Error: [Compiler TestReader] No DataTable in  Get Data Table Row NONE
+[2020.03.04-20.47.20:596][872]LogBlueprint: Error: [Compiler TestReader] GetDataTableRow must have a DataTable specified.
+[2020.03.04-20.47.20:600][872]LogBlueprint: Error: [Compiler TestReader] GetDataTableRow must have a DataTable specified.
+[2020.03.04-20.47.20:689][872]LogBlueprint: Warning: [Compiler TestReader] [4877.15] Compile of TestReader failed. 4 Fatal Issue(s) 0 Warning(s) [in 125 ms] (/Game/ThirdPersonCPP/Dialogue/TestReader.TestReader)
+[2020.03.04-20.51.33:583][510]BlueprintLog: New page: Compile TestReader
+[2020.03.04-20.51.33:607][510]LogBlueprint: Error: [Compiler TestReader] No DataTable in  Get Data Table Row NONE
+[2020.03.04-20.51.33:611][510]LogBlueprint: Error: [Compiler TestReader] GetDataTableRow must have a DataTable specified.
+[2020.03.04-20.51.33:664][510]LogBlueprint: Warning: [Compiler TestReader] [5130.15] Compile of TestReader failed. 2 Fatal Issue(s) 0 Warning(s) [in 81 ms] (/Game/ThirdPersonCPP/Dialogue/TestReader.TestReader)
+[2020.03.04-20.51.45:942][916]BlueprintLog: New page: Compile TestReader
+[2020.03.04-20.53.14:668][225]BlueprintLog: New page: Compile TestReader
+[2020.03.04-20.54.31:083][121]LogSavePackage: Save=369.21ms
+[2020.03.04-20.54.31:083][121]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/TestReaderAF0B64F24C0270DB589C44959D5A3929.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/TestReader.uasset'
+[2020.03.04-20.54.31:094][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/TestReader.uasset
+[2020.03.04-20.54.32:609][300]BlueprintLog: New page: Compile TestReader
+[2020.03.04-20.54.32:643][300]LogClass: Warning: Type mismatch in CurrentLoadedDialogue of TestReader_C - Previous (BoolProperty) Current(StructProperty) for package:  FObjectReader
+[2020.03.04-20.54.32:643][300]LogBlueprint: Warning: [Compiler TestReader] Can't parse default value 'False' for  Current Loaded Dialogue . Property: CurrentLoadedDialogue.
+[2020.03.04-20.54.32:683][300]LogBlueprint: Warning: [Compiler TestReader] [5309.17] Compile of TestReader successful, but with 1 Warning(s) [in 74 ms] (/Game/ThirdPersonCPP/Dialogue/TestReader.TestReader)
+[2020.03.04-20.55.34:214][545]LogSavePackage: Save=98.93ms
+[2020.03.04-20.55.34:215][545]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/TestReader43E5A52B4FB82BB8B6CDC4823E29F65F.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/TestReader.uasset'
+[2020.03.04-20.55.34:229][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/TestReader.uasset
+[2020.03.04-20.56.30:735][176]LogEditorTransaction: Undo Delete current selection
+[2020.03.04-20.56.31:320][224]LogEditorTransaction: Undo Move Node
+[2020.03.04-20.56.31:856][284]LogEditorTransaction: Undo Create Pin Link
+[2020.03.04-20.56.32:370][345]LogEditorTransaction: Undo Move Node
+[2020.03.04-20.57.22:630][ 44]BlueprintLog: New page: Compile TestReader
+[2020.03.04-20.59.02:468][839]BlueprintLog: New page: Compile TestReader
+[2020.03.04-21.00.22:323][ 72]BlueprintLog: New page: Compile TestReader
+[2020.03.04-21.00.47:606][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.049
+[2020.03.04-21.00.47:621][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Dialogue/TestReader] ([1] browsable assets)...
+[2020.03.04-21.00.47:621][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Dialogue/TestReader]
+[2020.03.04-21.00.47:836][191]LogSavePackage: Save=167.01ms
+[2020.03.04-21.00.47:837][191]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/TestReader_Auto43BBA18FD474ED67E6BDEF09C1F107747.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/TestReader_Auto4.uasset'
+[2020.03.04-21.00.47:843][191]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/TestReader_Auto4.uasset
+[2020.03.04-21.00.47:843][191]LogFileHelpers: Auto-saving content packages took 0.229
+[2020.03.04-21.06.16:316][817]BlueprintLog: New page: Compile TestReader
+[2020.03.04-21.07.10:339][944]LogSlate: Took 0.114830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.03.04-21.10.57:417][451]BlueprintLog: New page: Compile TestReader
+[2020.03.04-21.11.05:504][372]LogSavePackage: Save=139.00ms
+[2020.03.04-21.11.05:504][372]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/TestReader730503A14F1B77DB5B84CD833D013FB1.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/TestReader.uasset'
+[2020.03.04-21.11.05:594][372]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/TestReader.uasset
