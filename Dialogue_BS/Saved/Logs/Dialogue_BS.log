@@ -319,3 +319,134 @@ LogInit: Object subsystem initialized
 [2020.03.08-02.21.05:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.02s
 [2020.03.08-02.21.05:969][  0]SourceControl: Source control is disabled
 [2020.03.08-02.21.06:089][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.08-02.28.36:537][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.08-02.28.36:564][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.08-02.28.36:566][  0]Cmd: MAP LOAD FILE="C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.08-02.28.36:566][  0]LightingResults: New page: Lighting Build
+[2020.03.08-02.28.36:648][  0]MapCheck: New page: Map Check
+[2020.03.08-02.28.36:648][  0]LightingResults: New page: Lighting Build
+[2020.03.08-02.28.37:580][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.08-02.28.37:604][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.08-02.28.37:623][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.08-02.28.37:700][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.88ms to complete.
+[2020.03.08-02.28.37:700][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.135
+[2020.03.08-02.28.37:806][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_6fec_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2af8_0///####STATCAT_Advanced####
+[2020.03.08-02.28.37:806][  0]LogCollectionManager: Loaded 0 collections in 0.001439 seconds
+[2020.03.08-02.28.37:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
+[2020.03.08-02.28.37:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/fuckm/Collections/' took 0.01s
+[2020.03.08-02.28.37:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
+[2020.03.08-02.28.37:894][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.08-02.28.37:908][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 2367 classes and 522 folders.
+[2020.03.08-02.28.37:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2020.03.08-02.28.38:035][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2020.03.08-02.28.38:085][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2020.03.08-02.28.38:132][  0]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.08-02.28.38:139][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.08-02.28.38:310][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2020.03.08-02.28.38:550][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2020.03.08-02.28.38:550][  0]LogLoad: (Engine Initialization) Total time: 472.30 seconds
+[2020.03.08-02.28.38:550][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.08-02.28.38:550][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.03.08-02.28.38:587][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.08-02.28.38:634][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.08-02.28.38:678][  1]LogAssetRegistry: Asset discovery search completed in 462.6980 seconds
+[2020.03.08-02.28.38:681][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.08-02.28.38:681][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2020.03.08-02.28.39:622][ 50]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.08-02.28.44:327][332]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.08-02.28.44:774][332]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2020.03.08-02.28.45:715][332]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.08-02.28.45:780][332]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.08-02.28.45:897][333]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.08-02.28.59:822][134]LogSavePackage: Save=291.86ms
+[2020.03.08-02.28.59:822][134]LogSavePackage: Moving 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap76FED3764C118E02A70DD580B2D3E0A9.tmp' to 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.03.08-02.28.59:831][134]LogSavePackage: Display: Finished SavePackage C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2020.03.08-02.29.00:161][134]LogSavePackage: Save=248.18ms
+[2020.03.08-02.29.00:161][134]LogSavePackage: Moving 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_BuiltData22510CA6444DADF02C34B88A24DD9AC2.tmp' to 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.03.08-02.29.00:164][134]LogSavePackage: Display: Finished SavePackage C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2020.03.08-02.29.10:626][743]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.08-02.29.12:930][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.08-02.29.12:951][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.08-02.29.12:978][743]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 7, 2020, 4:29:12 PM)
+[2020.03.08-02.29.12:988][743]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.08-02.29.13:029][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040447s)
+[2020.03.08-02.29.13:030][743]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.08-02.29.13:037][743]LogPlayLevel: PIE: World Init took: (0.008121s)
+[2020.03.08-02.29.13:047][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.058300s)
+[2020.03.08-02.29.13:096][743]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.08-02.29.13:186][743]LogInit: FAudioDevice initialized.
+[2020.03.08-02.29.13:257][743]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.08-02.29.13:364][743]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.07-21.29.13
+[2020.03.08-02.29.13:504][743]LogWorld: Bringing up level for play took: 0.160269
+[2020.03.08-02.29.13:659][743]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2020.03.08-02.29.13:704][743]LogScript: Warning: Accessed None trying to read property PersonalityFrameWork
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0015
+[2020.03.08-02.29.13:704][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.08-02.29.13:704][743]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0038
+[2020.03.08-02.29.13:705][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.08-02.29.13:705][743]LogScript: Warning: Accessed None attempting to assign variable on an object
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:004D
+[2020.03.08-02.29.13:705][743]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.08-02.29.13:705][743]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0062
+[2020.03.08-02.29.13:705][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.08-02.29.13:713][743]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0122
+[2020.03.08-02.29.13:713][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.08-02.29.13:713][743]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0182
+[2020.03.08-02.29.13:713][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.08-02.29.13:713][743]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:01B2
+[2020.03.08-02.29.13:713][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.08-02.29.13:713][743]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0205
+[2020.03.08-02.29.13:714][743]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.08-02.29.13:726][743]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.177
+[2020.03.08-02.29.13:726][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.08-02.29.18:846][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.08-02.29.18:937][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.08-02.29.22:492][230]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.08-02.29.22:808][231]Cmd: QUIT_EDITOR
+[2020.03.08-02.29.23:314][231]LogExit: Preparing to exit.
+[2020.03.08-02.29.23:687][231]LogExit: Editor shut down
+[2020.03.08-02.29.23:702][231]LogExit: Transaction tracking system shut down
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for 'C:/Users/fuckm/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.03.08-02.29.23:941][231]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.03.08-02.29.25:360][231]LogWindows: Error: === Critical error: ===
+[2020.03.08-02.29.25:360][231]LogWindows: Error: 
+[2020.03.08-02.29.25:361][231]LogWindows: Error: Fatal error!
+[2020.03.08-02.29.25:361][231]LogWindows: Error: 
+[2020.03.08-02.29.25:361][231]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2020.03.08-02.29.25:361][231]LogWindows: Error: 
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000052A2605 UE4Editor-Dialogue_BS-7679.dll!BehaviourModifier::~BehaviourModifier() [c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\behaviourmodifier.cpp:13]
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000052A9900 UE4Editor-Dialogue_BS-7679.dll!UPersonalityFrameWork::~UPersonalityFrameWork() [c:\users\fuckm\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\personalityframework.cpp:37]
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000052A99BB UE4Editor-Dialogue_BS-7679.dll!UPersonalityFrameWork::`vector deleting destructor'() []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x000000002CBE8CE4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x000000002CC7E56F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x000000002CAC2547 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5C0AE5 UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5C0953 UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5C4791 UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5C5465 UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5C54AA UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5D2379 UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x00000000EE5D3D57 UE4Editor.exe!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x0000000073FC7BD4 KERNEL32.DLL!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x0000000074A8CED1 ntdll.dll!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: [Callstack] 0x0000000074A8CED1 ntdll.dll!UnknownFunction []
+[2020.03.08-02.29.25:361][231]LogWindows: Error: 
