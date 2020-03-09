@@ -123,14 +123,14 @@ void EmptyLinkFunctionForGeneratedCodePresetModifier() {}
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_personality_MetaData[] = {
-				{ "Category", "PresetModifier" },
+				{ "Category", "Framework" },
 				{ "ModuleRelativePath", "Public/PresetModifier.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_personality = { UE4CodeGen_Private::EPropertyClass::Object, "personality", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UPresetModifier, personality), Z_Construct_UClass_UPersonalityFrameWork_NoRegister, METADATA_PARAMS(NewProp_personality_MetaData, ARRAY_COUNT(NewProp_personality_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_base_MetaData[] = {
-				{ "Category", "PresetModifier" },
+				{ "Category", "BaseModifiers" },
 				{ "ModuleRelativePath", "Public/PresetModifier.h" },
 			};
 #endif
@@ -157,7 +157,7 @@ void EmptyLinkFunctionForGeneratedCodePresetModifier() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPresetModifier, 3477020865);
+	IMPLEMENT_CLASS(UPresetModifier, 1738749391);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPresetModifier(Z_Construct_UClass_UPresetModifier, &UPresetModifier::StaticClass, TEXT("/Script/Dialogue_BS"), TEXT("UPresetModifier"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPresetModifier);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

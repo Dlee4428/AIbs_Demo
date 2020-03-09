@@ -1,34 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Dialogue_BSEditor (no existing makefile)
   Parsing headers for Dialogue_BSEditor
     Running UnrealHeaderTool "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Dialogue_BSEditor in 21.6546801 seconds
-  Performing 23 actions (3 in parallel)
-  Modifier.gen.cpp
-  Dialogue_BSGameMode.gen.cpp
-  Relationship.cpp
-  Dialogue_BS.init.gen.cpp
-  Dialogue_BSCharacter.gen.cpp
+  Reflection code generated for Dialogue_BSEditor in 75.8375111 seconds
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-6891.dll".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-6891.pdb".
+  Performing 7 actions (3 in parallel)
   PresetModifier.cpp
-  TF.cpp
-  StatsModifier.cpp
-  SN.cpp
-c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\private\presetmodifier.cpp(343): warning C4701: potentially uninitialized local variable 'weight' used
   PersonalityFrameWork.gen.cpp
   PersonalityFrameWork.cpp
-  JP.cpp
-  IE.cpp
-  IDStore.cpp
-  IDHashTable.cpp
-  Dialogue_BSGameMode.cpp
-  Dialogue_BSCharacter.cpp
-  Dialogue_BS.cpp
-  BehaviourModifier.cpp
-  Personality.cpp
+c:\users\delam\onedrive\documents\github\aibs_demo\dialogue_bs\source\dialogue_bs\private\presetmodifier.cpp(343): warning C4701: potentially uninitialized local variable 'weight' used
   PresetModifier.gen.cpp
-  [22/23] Link UE4Editor-Dialogue_BS.dll
-  [23/23] Link UE4Editor-Dialogue_BS.lib
+  IDStore.cpp
+  [6/7] Link UE4Editor-Dialogue_BS.dll
+  [7/7] Link UE4Editor-Dialogue_BS.lib
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS.dll'
      Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.exp
-     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
-  Deploying Dialogue_BSEditor Win64 Development...
-  Total build time: 646.72 seconds (Local executor: 520.34 seconds)
+ERROR : UBT error : Failed to produce item: C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS.pdb
+  Total build time: 531.94 seconds (Local executor: 0.00 seconds)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" Dialogue_BSEditor Win64 Development "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
