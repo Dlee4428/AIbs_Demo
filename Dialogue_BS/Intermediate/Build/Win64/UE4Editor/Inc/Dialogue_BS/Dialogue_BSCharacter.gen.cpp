@@ -73,10 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_personalityFrameWork_MetaData[] = {
 				{ "AllowPrivateAccess", "true" },
 				{ "Category", "BS" },
+				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "Dialogue_BSCharacter.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_personalityFrameWork = { UE4CodeGen_Private::EPropertyClass::Object, "personalityFrameWork", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020015, 1, nullptr, STRUCT_OFFSET(ADialogue_BSCharacter, personalityFrameWork), Z_Construct_UClass_UPersonalityFrameWork_NoRegister, METADATA_PARAMS(NewProp_personalityFrameWork_MetaData, ARRAY_COUNT(NewProp_personalityFrameWork_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_personalityFrameWork = { UE4CodeGen_Private::EPropertyClass::Object, "personalityFrameWork", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ADialogue_BSCharacter, personalityFrameWork), Z_Construct_UClass_UPersonalityFrameWork_NoRegister, METADATA_PARAMS(NewProp_personalityFrameWork_MetaData, ARRAY_COUNT(NewProp_personalityFrameWork_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[] = {
 				{ "AllowPrivateAccess", "true" },
@@ -123,7 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADialogue_BSCharacter, 1763282561);
+	IMPLEMENT_CLASS(ADialogue_BSCharacter, 3611065969);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ADialogue_BSCharacter(Z_Construct_UClass_ADialogue_BSCharacter, &ADialogue_BSCharacter::StaticClass, TEXT("/Script/Dialogue_BS"), TEXT("ADialogue_BSCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADialogue_BSCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Dialogue_BS-5806.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Dialogue_BS-9847.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Dialogue_BS-5806.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Dialogue_BS-9847.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Dialogue_BS-5806.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Dialogue_BS-9847.lib",
 			"Type": "ImportLibrary"
 		},
 		{

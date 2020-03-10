@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/Class.h"
 
+#include "Components/ActorComponent.h"
 #include "StatsModifier.h"
 #include "BehaviourModifier.h"
 #include "Relationship.h"
@@ -15,7 +15,7 @@
  *
  */
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
-class DIALOGUE_BS_API  UPersonalityFrameWork : public UObject
+class DIALOGUE_BS_API  UPersonalityFrameWork : public UActorComponent
 {
 	GENERATED_BODY()
 	friend class IDStore;
