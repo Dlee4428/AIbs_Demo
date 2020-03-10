@@ -21,14 +21,13 @@ class DIALOGUE_BS_API  UPersonalityFrameWork : public UObject
 	friend class IDStore;
 public:
 
-private:
 
 	std::string* ID;
 
 	StatsModifier* stats;
 	BehaviourModifier* behaviour;
 	Relationship* relationship;
-public:
+
 	UPersonalityFrameWork();
 	//~UPersonalityFrameWork();
 

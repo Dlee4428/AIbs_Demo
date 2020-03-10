@@ -22,7 +22,7 @@ class ADialogue_BSCharacter : public ACharacter
 	class UCameraComponent* FollowCamera;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = BS, meta = (AllowPrivateAccess = "true"))
-	class UPersonalityFrameWork personalityFrameWork;
+	UPersonalityFrameWork* personalityFrameWork;
 
 public:
 	ADialogue_BSCharacter();
@@ -36,7 +36,7 @@ public:
 	float BaseLookUpRate;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = BS)
-	class UPresetModifier modifiers;
+	UPresetModifier* modifiers;
 protected:
 
 	/** Resets HMD orientation in VR. */

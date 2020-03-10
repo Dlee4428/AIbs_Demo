@@ -47,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_modifiers_MetaData[] = {
-				{ "Category", "Camera" },
+				{ "Category", "BS" },
 				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "Dialogue_BSCharacter.h" },
 			};
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_personalityFrameWork_MetaData[] = {
 				{ "AllowPrivateAccess", "true" },
-				{ "Category", "Personality" },
+				{ "Category", "BS" },
 				{ "ModuleRelativePath", "Dialogue_BSCharacter.h" },
 			};
 #endif
@@ -123,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADialogue_BSCharacter, 2877424205);
+	IMPLEMENT_CLASS(ADialogue_BSCharacter, 1763282561);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ADialogue_BSCharacter(Z_Construct_UClass_ADialogue_BSCharacter, &ADialogue_BSCharacter::StaticClass, TEXT("/Script/Dialogue_BS"), TEXT("ADialogue_BSCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADialogue_BSCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

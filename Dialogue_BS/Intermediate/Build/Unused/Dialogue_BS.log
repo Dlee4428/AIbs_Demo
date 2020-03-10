@@ -1,24 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Dialogue_BSEditor (game project files are newer)
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2088.dll".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2088.pdb".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2205.dll".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2205.pdb".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-4486.dll".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-4486.pdb".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7504.dll".
-  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7504.pdb".
-  Performing 9 actions (3 in parallel)
-  PersonalityFrameWork.gen.cpp
-  PresetModifier.cpp
-  Dialogue_BSCharacter.gen.cpp
-  IDStore.cpp
-  Dialogue_BSGameMode.cpp
+  Compiling game modules for hot reload
+  Performing 3 actions (3 in parallel)
   Dialogue_BSCharacter.cpp
-  PresetModifier.gen.cpp
-  [8/9] Link UE4Editor-Dialogue_BS.dll
-  [9/9] Link UE4Editor-Dialogue_BS.lib
-     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.exp
-     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
+  [2/3] Link UE4Editor-Dialogue_BS-160.dll
+  [3/3] Link UE4Editor-Dialogue_BS-160.lib
+     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-160.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-160.exp
+     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-160.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-160.suppressed.exp
   Deploying Dialogue_BSEditor Win64 Development...
-  Total build time: 256.64 seconds (Local executor: 85.39 seconds)
+  Total build time: 10.35 seconds (Local executor: 7.39 seconds)
