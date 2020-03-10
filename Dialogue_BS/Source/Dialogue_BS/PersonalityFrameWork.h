@@ -58,6 +58,6 @@ public:
 
 	//Display subsystem info
 	void PrintStats();
-	void PrintBehaviour();
+	//void PrintBehaviour();
 	void PrintRelationship(std::string nameOfRelationshipParameter);
 };

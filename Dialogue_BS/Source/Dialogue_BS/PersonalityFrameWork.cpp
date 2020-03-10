@@ -85,14 +85,14 @@ void UPersonalityFrameWork::PrintStats()
 {
 	stats->Print();
 }
-
-void UPersonalityFrameWork::PrintBehaviour()
-{
-	for (int i = 0; i < 4; i++)
-	{
-		behaviour->PrintPersonalityInfo(i);
-	}
-}
+//
+//void UPersonalityFrameWork::PrintBehaviour()
+//{
+//	for (int i = 0; i < 4; i++)
+//	{
+//		behaviour->PrintPersonalityInfo(i);
+//	}
+//}
 
 void UPersonalityFrameWork::PrintRelationship(std::string nameOfRelationshipParameter)
 {
