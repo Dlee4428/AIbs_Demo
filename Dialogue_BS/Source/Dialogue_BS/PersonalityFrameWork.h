@@ -30,7 +30,7 @@ private:
 	Relationship* relationship;
 public:
 	UPersonalityFrameWork();
-	~UPersonalityFrameWork();
+	//~UPersonalityFrameWork();
 
 	void AttachID(std::string &ID);
 	UFUNCTION(BlueprintCallable)

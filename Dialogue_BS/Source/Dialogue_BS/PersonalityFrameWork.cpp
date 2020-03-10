@@ -30,16 +30,19 @@ UPersonalityFrameWork::UPersonalityFrameWork()
 	stats = new StatsModifier();
 	relationship = new Relationship();
 }
-
-UPersonalityFrameWork::~UPersonalityFrameWork()
-{
-	behaviour->~BehaviourModifier();
-	delete stats;
-	delete relationship;
-	stats = nullptr;
-	relationship = nullptr;
-	
-}
+//
+//UPersonalityFrameWork::~UPersonalityFrameWork()
+//{
+//	if(behaviour)
+//	behaviour->~BehaviourModifier();
+//	if(stats)
+//	delete stats;
+//	if(relationship)
+//	delete relationship;
+//	stats = nullptr;
+//	relationship = nullptr;
+//	
+//}
 
 void UPersonalityFrameWork::AttachID(std::string & ID_)
 {

@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "PersonalityFrameWork.h"
+#include "PresetModifier.h"
 #include "Dialogue_BSCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -18,6 +20,10 @@ class ADialogue_BSCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = BS, meta = (AllowPrivateAccess = "true"))
+	class UPersonalityFrameWork personalityFrameWork;
+
 public:
 	ADialogue_BSCharacter();
 
@@ -29,6 +35,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = BS)
+	class UPresetModifier modifiers;
 protected:
 
 	/** Resets HMD orientation in VR. */

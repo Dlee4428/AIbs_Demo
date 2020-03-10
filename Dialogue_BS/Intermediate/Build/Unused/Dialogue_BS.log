@@ -1,45 +1,24 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Performing 22 actions (3 in parallel)
-  Dialogue_BSGameMode.gen.cpp
-  Relationship.cpp
-  Modifier.gen.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Dialogue_BSGameMode.gen.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Relationship.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Modifier.gen.cpp': No such file or directory
-  Dialogue_BSCharacter.gen.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Dialogue_BSCharacter.gen.cpp': No such file or directory
-  Dialogue_BS.init.gen.cpp
+  Creating makefile for Dialogue_BSEditor (game project files are newer)
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2088.dll".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2088.pdb".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2205.dll".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-2205.pdb".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-4486.dll".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-4486.pdb".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7504.dll".
+  Deleting old hot reload file: "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-7504.pdb".
+  Performing 9 actions (3 in parallel)
+  PersonalityFrameWork.gen.cpp
   PresetModifier.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Dialogue_BS.init.gen.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp': No such file or directory
-  TF.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\TF.cpp': No such file or directory
-  StatsModifier.cpp
-  SN.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\StatsModifier.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\SN.cpp': No such file or directory
-  PersonalityFrameWork.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\PersonalityFrameWork.cpp': No such file or directory
-  JP.cpp
-  IE.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\JP.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IE.cpp': No such file or directory
+  Dialogue_BSCharacter.gen.cpp
   IDStore.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDStore.cpp': No such file or directory
-  IDHashTable.cpp
   Dialogue_BSGameMode.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\IDHashTable.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Dialogue_BSGameMode.cpp': No such file or directory
   Dialogue_BSCharacter.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Dialogue_BSCharacter.cpp': No such file or directory
-  BehaviourModifier.cpp
-  Dialogue_BS.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\BehaviourModifier.cpp': No such file or directory
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Dialogue_BS.cpp': No such file or directory
-  Personality.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Personality.cpp': No such file or directory
   PresetModifier.gen.cpp
-c1xx : fatal error C1083: Cannot open source file: 'C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\PresetModifier.gen.cpp': No such file or directory
-ERROR : UBT error : Failed to produce item: C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS.pdb
-  Total build time: 6.57 seconds (Local executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" Dialogue_BSEditor Win64 Development "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+  [8/9] Link UE4Editor-Dialogue_BS.dll
+  [9/9] Link UE4Editor-Dialogue_BS.lib
+     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.exp
+     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
+  Deploying Dialogue_BSEditor Win64 Development...
+  Total build time: 256.64 seconds (Local executor: 85.39 seconds)

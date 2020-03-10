@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 	DIALOGUE_BS_API UClass* Z_Construct_UClass_ADialogue_BSCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Dialogue_BS();
+	DIALOGUE_BS_API UClass* Z_Construct_UClass_UPresetModifier_NoRegister();
+	DIALOGUE_BS_API UClass* Z_Construct_UClass_UPersonalityFrameWork_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -44,6 +46,14 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_modifiers_MetaData[] = {
+				{ "Category", "Camera" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Dialogue_BSCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_modifiers = { UE4CodeGen_Private::EPropertyClass::Object, "modifiers", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(ADialogue_BSCharacter, modifiers), Z_Construct_UClass_UPresetModifier_NoRegister, METADATA_PARAMS(NewProp_modifiers_MetaData, ARRAY_COUNT(NewProp_modifiers_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[] = {
 				{ "Category", "Camera" },
 				{ "ModuleRelativePath", "Dialogue_BSCharacter.h" },
@@ -59,6 +69,14 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate = { UE4CodeGen_Private::EPropertyClass::Float, "BaseTurnRate", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000020015, 1, nullptr, STRUCT_OFFSET(ADialogue_BSCharacter, BaseTurnRate), METADATA_PARAMS(NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(NewProp_BaseTurnRate_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_personalityFrameWork_MetaData[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Personality" },
+				{ "ModuleRelativePath", "Dialogue_BSCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_personalityFrameWork = { UE4CodeGen_Private::EPropertyClass::Object, "personalityFrameWork", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020015, 1, nullptr, STRUCT_OFFSET(ADialogue_BSCharacter, personalityFrameWork), Z_Construct_UClass_UPersonalityFrameWork_NoRegister, METADATA_PARAMS(NewProp_personalityFrameWork_MetaData, ARRAY_COUNT(NewProp_personalityFrameWork_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[] = {
 				{ "AllowPrivateAccess", "true" },
@@ -80,8 +98,10 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom = { UE4CodeGen_Private::EPropertyClass::Object, "CameraBoom", RF_Public|RF_Transient|RF_MarkAsNative, 0x00400000000a001d, 1, nullptr, STRUCT_OFFSET(ADialogue_BSCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(NewProp_CameraBoom_MetaData, ARRAY_COUNT(NewProp_CameraBoom_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_modifiers,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BaseLookUpRate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BaseTurnRate,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_personalityFrameWork,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_FollowCamera,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CameraBoom,
 			};
@@ -103,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogue_BSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADialogue_BSCharacter, 3033309579);
+	IMPLEMENT_CLASS(ADialogue_BSCharacter, 2877424205);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ADialogue_BSCharacter(Z_Construct_UClass_ADialogue_BSCharacter, &ADialogue_BSCharacter::StaticClass, TEXT("/Script/Dialogue_BS"), TEXT("ADialogue_BSCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADialogue_BSCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
