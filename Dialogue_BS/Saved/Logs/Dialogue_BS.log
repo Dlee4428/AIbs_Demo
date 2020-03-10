@@ -445,3 +445,16 @@ LogInit: Object subsystem initialized
 [2020.03.09-23.56.16:762][397]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
 [2020.03.09-23.56.17:062][397]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 116 classes and 0 folders.
 [2020.03.09-23.56.19:542][397]LogSlate: Took 0.044507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.10-00.03.48:469][658]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.03.10-00.03.48:478][658]Candidate modules for hot reload:
+[2020.03.10-00.03.48:478][658]  Dialogue_BS
+[2020.03.10-00.03.48:478][658]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS -ModuleWithSuffix Dialogue_BS 6486 Win64 Development -editorrecompile -canskiplink "C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" ]
+[2020.03.10-00.03.48:668][658]Warning: Starting HotReload took  0.2s.
+[2020.03.10-00.03.51:817][884]CompilerResultsLog: New page: Compilation - Mar 9, 2020, 4:03:51 PM
+[2020.03.10-00.03.51:817][884]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2020.03.10-00.03.51:817][884]CompilerResultsLog: Compiling game modules for hot reload
+[2020.03.10-00.03.51:817][884]CompilerResultsLog: Target is up to date
+[2020.03.10-00.03.51:817][884]CompilerResultsLog: Total build time: 2.50 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2020.03.10-00.03.51:817][884]LogMainFrame: MainFrame: Module compiling took 3.349 seconds
+[2020.03.10-00.03.52:330][884]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2369 classes and 526 folders.
+[2020.03.10-00.03.52:336][884]Display: HotReload took  3.9s.
