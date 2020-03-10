@@ -458,3 +458,39 @@ LogInit: Object subsystem initialized
 [2020.03.10-00.03.51:817][884]LogMainFrame: MainFrame: Module compiling took 3.349 seconds
 [2020.03.10-00.03.52:330][884]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2369 classes and 526 folders.
 [2020.03.10-00.03.52:336][884]Display: HotReload took  3.9s.
+[2020.03.10-00.05.35:287][488]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.10-00.05.35:734][489]Cmd: QUIT_EDITOR
+[2020.03.10-00.05.36:415][489]LogExit: Preparing to exit.
+[2020.03.10-00.05.36:855][489]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.03.10-00.05.37:069][489]LogExit: Editor shut down
+[2020.03.10-00.05.37:082][489]LogExit: Transaction tracking system shut down
+[2020.03.10-00.05.37:508][489]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.03.10-00.05.37:508][489]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.03.10-00.05.37:508][489]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.03.10-00.05.37:508][489]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.03.10-00.05.37:509][489]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.03.10-00.05.37:509][489]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.03.10-00.05.37:509][489]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.03.10-00.06.13:484][489]LogWindows: Error: === Critical error: ===
+[2020.03.10-00.06.13:484][489]LogWindows: Error: 
+[2020.03.10-00.06.13:484][489]LogWindows: Error: Fatal error!
+[2020.03.10-00.06.13:484][489]LogWindows: Error: 
+[2020.03.10-00.06.13:485][489]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2020.03.10-00.06.13:485][489]LogWindows: Error: 
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000001742605 UE4Editor-Dialogue_BS.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000001749900 UE4Editor-Dialogue_BS.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x00000000017499BB UE4Editor-Dialogue_BS.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x000000001A508CE4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x000000001A59E56F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x000000001A3E2547 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000082640AE5 UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000082640953 UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000082644791 UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000082645465 UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x00000000826454AA UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000082652379 UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000082653D57 UE4Editor.exe!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000085997BD4 KERNEL32.DLL!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000085D6CED1 ntdll.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: [Callstack] 0x0000000085D6CED1 ntdll.dll!UnknownFunction []
+[2020.03.10-00.06.13:485][489]LogWindows: Error: 
