@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Dialogue_BS.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A0AFEC12-8630-4E34-8480-60277CD34394}</UniqueIdentifier>
+			<UniqueIdentifier>{BA51EE84-D609-41A8-98D8-EE69E243034E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Dialogue_BS.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{27A882D6-8141-4901-A68D-D3E26C46C7B7}</UniqueIdentifier>
+			<UniqueIdentifier>{3A63D59E-6CAC-408A-B4F9-802F7BBF9798}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Dialogue_BS">
-			<UniqueIdentifier>{F8E00BAE-D5E7-4734-B0FC-E7396D3ADCCA}</UniqueIdentifier>
+			<UniqueIdentifier>{B9797319-D179-4CDF-ADA4-45F759F9B5C8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Dialogue_BS\BehaviourModifier.cpp">
 			<Filter>Source\Dialogue_BS</Filter>
@@ -121,13 +121,13 @@
 			<Filter>Source\Dialogue_BS</Filter>
 		</ClInclude >
 		<Filter Include="Source\Dialogue_BS\Private">
-			<UniqueIdentifier>{47B6533E-7AF8-4702-B2DB-A418617D273E}</UniqueIdentifier>
+			<UniqueIdentifier>{28AD87FB-2DFF-47DD-B024-B273FB25B3D1}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Dialogue_BS\Private\PresetModifier.cpp">
 			<Filter>Source\Dialogue_BS\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\Dialogue_BS\Public">
-			<UniqueIdentifier>{22C129DF-DE64-4E17-8D1C-88D741EA8BC7}</UniqueIdentifier>
+			<UniqueIdentifier>{A1EA9BB2-AD42-41F1-8C0B-7BCA9D2FA3D6}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifier.h">
 			<Filter>Source\Dialogue_BS\Public</Filter>

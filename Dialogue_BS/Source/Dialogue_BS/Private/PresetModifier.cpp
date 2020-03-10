@@ -338,6 +338,7 @@ unsigned int UPresetModifier::GetDialogueTraitWeight(unsigned int type)
 		}
 		break;
 	default:
+		weight = Introvert;
 		break;
 	}
 	return weight;
