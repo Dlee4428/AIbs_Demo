@@ -1,0 +1,163 @@
+ID,Tag,Weight,DialogueLine,CurrentStage,TransitionStage,TransitionID,DialogueKey,IsLinear
+00000001,Sarah,INFJ,Hey.,00,01,00000033,Hi,True
+00000002,Sarah,INFP,H-hey.,00,01,00000034,Hi,True
+00000003,Sarah,INTJ,Excuse me.,00,01,00000035,Yes?,True
+00000004,Sarah,INTP,E-excuse me.,00,01,00000036,Yes?,True
+00000005,Sarah,ISTJ,Hey you.,00,01,00000037,What is it?,True
+00000006,Sarah,ISTP,H-hey you.,00,01,00000038,What is it?,True
+00000007,Sarah,ISFJ,Hi.,00,01,00000039,Hi,True
+00000008,Sarah,ISFP,H-hi.,00,01,00000040,Hello,True
+00000009,Sarah,ENFJ,Hi there.,00,01,00000041,Hey,True
+00000010,Sarah,ENFP,Sup.,00,01,00000042,Hey,True
+00000011,Sarah,ENTJ,Hello.,00,01,00000043,Hey,True
+00000012,Sarah,ENTP,Hi!,00,01,00000044,H-hi,True
+00000013,Sarah,ESTJ,Yo.,00,01,00000045,Hey,True
+00000014,Sarah,ESTP,Hi?,00,01,00000046,...Hi there.,True
+00000015,Sarah,ESFJ,Hello there.,00,01,00000047,Hi there,True
+00000016,Sarah,ESFP,Hey~?,00,01,00000048,Yes?,True
+00000017,Fin,INFJ,"Tsk, hey.",00,01,00000049,"Uh, hi?",True
+00000018,Fin,INFP,... Hey.,00,01,00000050,...Hi,True
+00000019,Fin,INTJ,Pardon me.,00,01,00000051,Yes?,True
+00000020,Fin,INTP,Greetings.,00,01,00000052,Hello,True
+00000021,Fin,ISTJ,You!,00,01,00000053,Hm?,True
+00000022,Fin,ISTP,You there!,00,01,00000054,"Hm, may I help you?",True
+00000023,Fin,ISFJ,Psst.,00,01,00000055,What is it?,True
+00000024,Fin,ISFP,"Psst, h-hey",00,01,00000056,What is it?,True
+00000025,Fin,ENFJ,Hi there.,00,01,00000057,Hey,True
+00000026,Fin,ENFP,Sup.,00,01,00000058,Yo,True
+00000027,Fin,ENTJ,Hello.,00,01,00000059,Hello,True
+00000028,Fin,ENTP,Hey,00,01,00000060,Hey,True
+00000029,Fin,ESTJ,Yo.,00,01,00000061,Sup,True
+00000030,Fin,ESTP,Hi?,00,01,00000062,What is it?,True
+00000031,Fin,ESFJ,Hello there.,00,01,00000063,What is it?,True
+00000032,Fin,ESFP,Hey?,00,01,00000064,What is it?,True
+00000033,Sarah,INFJ,"Can you help me? 
+I need your help with sensitive information, but first let's talk somewhere else. 
+Someone's near by, I can sense it. ",01,02,00000065,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000034,Sarah,INFP,"Can you help me? 
+I need your help with sensitive information, but can we talk somewhere else? 
+Someone's near by, I can sense it.",01,02,00000066,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000035,Sarah,INTJ,"Can you help me?
+I need your help with confidential information, but let's we talk elsewhere?
+Someone's near by, I can sense it.  ",01,02,00000067,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000036,Sarah,INTP,"Can you help me?
+I need your help with confidential information.
+We should talk somewhere else though. 
+Someone's near by, I can sense it.",01,02,00000068,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000037,Sarah,ISTJ,"I need your help.
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000069,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000038,Sarah,ISTP,"I need your help, will you help me?
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000070,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000039,Sarah,ISFJ,"Please, I need your help.
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000071,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000040,Sarah,ISFP,"I need your help, please.
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000072,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000041,Sarah,ENFJ,"Will you help me? 
+I need your help with sensitive information, but first let's talk somewhere else. 
+Someone's near by, I can sense it. ",01,02,00000073,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000042,Sarah,ENFP,"Will you help me? 
+I need your help with sensitive information, but can we talk somewhere else? 
+Someone's near by, I can sense it.",01,02,00000074,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000043,Sarah,ENTJ,"Will you help me?
+I need your help with confidential information, but let's we talk elsewhere?
+Someone's near by, I can sense it.  ",01,02,00000075,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000044,Sarah,ENTP,"Will you help me?
+I need your help with confidential information.
+We should talk somewhere else though. 
+Someone's near by, I can sense it.",01,02,00000076,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000045,Sarah,ESTJ,"I need your help.
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000077,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000046,Sarah,ESTP,"I need your help, will you help me?
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000078,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000047,Sarah,ESFJ,"Please, I need your help.
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000079,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000048,Sarah,ESFP,"I need your help, please.
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000080,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000049,Fin,INFJ,Something's wrong.,01,02,00000081,We should stay on our toes.,True
+00000050,Fin,INFP,Something's wrong.,01,02,00000082,We should stay on our toes.,True
+00000051,Fin,INTJ,Something's wrong.,01,02,00000083,We should stay on our toes.,True
+00000052,Fin,INTP,Something's wrong.,01,02,00000084,We should stay on our toes.,True
+00000053,Fin,ISTJ,"Hold up, I heard something just now",01,02,00000085,We should stay on our toes.,True
+00000054,Fin,ISTP,"Hold up, I heard something just now",01,02,00000086,We should stay on our toes.,True
+00000055,Fin,ISFJ,"Hold up, I heard something just now",01,02,00000087,We should stay on our toes.,True
+00000056,Fin,ISFP,"Hold up, I heard something just now",01,02,00000088,We should stay on our toes.,True
+00000057,Fin,ENFJ,"Hold up, something's wrong.",01,02,00000089,We should stay on our toes.,True
+00000058,Fin,ENFP,"Hold up, something's wrong.",01,02,00000090,We should stay on our toes.,True
+00000059,Fin,ENTJ,"Hold up, something's wrong.",01,02,00000091,We should stay on our toes.,True
+00000060,Fin,ENTP,"Hold up, something's wrong.",01,02,00000092,We should stay on our toes.,True
+00000061,Fin,ESTJ,"Wait, I just heard something.",01,02,00000093,We should stay on our toes.,True
+00000062,Fin,ESTP,"Wait, I just heard something.",01,02,00000094,We should stay on our toes.,True
+00000063,Fin,ESFJ,"Wait, I just heard something.",01,02,00000095,We should stay on our toes.,True
+00000064,Fin,ESFP,"Wait, I just heard something.",01,02,00000096,We should stay on our toes.,True
+00000065,Sarah,INFJ,"Okay, let's go.",02,END,END,,True
+00000066,Sarah,INFP,"Okay, let's go.",02,END,END,,True
+00000067,Sarah,INTJ,"Okay, follow me.",02,END,END,,True
+00000068,Sarah,INTP,"Okay, follow me.",02,END,END,,True
+00000069,Sarah,ISTJ,"Okay, follow me.",02,END,END,,True
+00000070,Sarah,ISTP,"Okay, follow me.",02,END,END,,True
+00000071,Sarah,ISFJ,"Okay, let's go.",02,END,END,,True
+00000072,Sarah,ISFP,"Okay, let's go.",02,END,END,,True
+00000073,Sarah,ENFJ,"Okay quickly, let's go .",02,END,END,,True
+00000074,Sarah,ENFP,"Okay quickly, let's go .",02,END,END,,True
+00000075,Sarah,ENTJ,"Okay quickly, follow me.",02,END,END,,True
+00000076,Sarah,ENTP,"Okay quickly, follow me.",02,END,END,,True
+00000077,Sarah,ESTJ,"Okay quickly, follow me.",02,END,END,,True
+00000078,Sarah,ESTP,"Okay quickly, follow me.",02,END,END,,True
+00000079,Sarah,ESFJ,"Okay quickly, let's go .",02,END,END,,True
+00000080,Sarah,ESFP,"Okay quickly, let's go .",02,END,END,,True
+00000081,Fin,INFJ,"Okay, let's go.",02,END,END,,True
+00000082,Fin,INFP,"Okay, let's go.",02,END,END,,True
+00000083,Fin,INTJ,"Okay, follow me.",02,END,END,,True
+00000084,Fin,INTP,"Okay, follow me.",02,END,END,,True
+00000085,Fin,ISTJ,"Okay, follow me.",02,END,END,,True
+00000086,Fin,ISTP,"Okay, follow me.",02,END,END,,True
+00000087,Fin,ISFJ,"Okay, let's go.",02,END,END,,True
+00000088,Fin,ISFP,"Okay, let's go.",02,END,END,,True
+00000089,Fin,ENFJ,"Okay quickly, let's go .",02,END,END,,True
+00000090,Fin,ENFP,"Okay quickly, let's go .",02,END,END,,True
+00000091,Fin,ENTJ,"Okay quickly, follow me.",02,END,END,,True
+00000092,Fin,ENTP,"Okay quickly, follow me.",02,END,END,,True
+00000093,Fin,ESTJ,"Okay quickly, follow me.",02,END,END,,True
+00000094,Fin,ESTP,"Okay quickly, follow me.",02,END,END,,True
+00000095,Fin,ESFJ,"Okay quickly, let's go .",02,END,END,,True
+00000096,Fin,ESFP,"Okay quickly, let's go .",02,END,END,,True
