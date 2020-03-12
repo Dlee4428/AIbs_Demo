@@ -46,6 +46,11 @@ public:
 	Relationship* GetRelationship();
 	std::string *GetID();
 
+	UFUNCTION(BlueprintCallable)
+	FString GetPersonalityType(int type);
+	UFUNCTION(BlueprintCallable)
+	float GetPersonalityValue(int type);
+
 
 	//Allows the user to manually set personality attributes
 	void OverridePersonalityValue(int personalityType, double value);

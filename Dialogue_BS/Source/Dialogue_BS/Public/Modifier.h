@@ -48,7 +48,7 @@ struct FModifier
 	GENERATED_USTRUCT_BODY()
 
 		//Speeds
-		UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")
 		float movementSpeed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")
 		float searchSpeed;
