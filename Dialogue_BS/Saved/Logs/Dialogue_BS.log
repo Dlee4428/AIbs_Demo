@@ -1,4 +1,4 @@
-﻿Log file open, 03/10/20 16:13:35
+﻿Log file open, 03/11/20 21:08:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dialogue_BS
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(14153451) SRandInit(14153451).
+LogInit: Display: RandInit(1623336123) SRandInit(1623336124).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.199961
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.175902
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -77,7 +77,88 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-9847.dll (API version 3709383).
+LogModuleManager: Warning: Module file C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS-398.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogInit: Warning: Incompatible or missing module: UE4Editor-Dialogue_BS.dll
+Running D:/EpicGames/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Dialogue_BS Development Win64 -project="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Dialogue_BS.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+@progress pop
+Target is up to date
+Total build time: 1.06 seconds (NoActionsToExecute executor: 0.00 seconds)
+LogModuleManager: Display: Found up-to-date module file C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64/UE4Editor-Dialogue_BS.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -192,213 +273,865 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: D:/EpicGames/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.03.10-20.13.46:582][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.10-20.13.46:582][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.10-20.13.47:341][  0]LogInit: Computer: DESKTOP-M25UTED
-[2020.03.10-20.13.47:341][  0]LogInit: User: Delam
-[2020.03.10-20.13.47:341][  0]LogInit: CPU Page size=4096, Cores=3
-[2020.03.10-20.13.47:341][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.10-20.13.47:343][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.03.10-20.13.47:343][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.10-20.13.47:343][  0]LogMemory: Process Physical Memory: 274.25 MB used, 274.25 MB peak
-[2020.03.10-20.13.47:343][  0]LogMemory: Process Virtual Memory: 273.05 MB used, 273.05 MB peak
-[2020.03.10-20.13.47:343][  0]LogMemory: Physical Memory: 6164.64 MB used,  1985.94 MB free, 8150.58 MB total
-[2020.03.10-20.13.47:343][  0]LogMemory: Virtual Memory: 4755.28 MB used,  1985.94 MB free, 134217728.00 MB total
-[2020.03.10-20.13.49:324][  0]LogInit: Using OS detected language (en-US).
-[2020.03.10-20.13.49:324][  0]LogInit: Using OS detected locale (en-US).
-[2020.03.10-20.13.49:430][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.03.10-20.13.51:394][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.10-20.13.57:082][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.10-20.13.57:235][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
-[2020.03.10-20.13.57:235][  0]LogD3D11RHI:       4041/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.03.10-20.13.57:415][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.10-20.13.57:415][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.10-20.13.57:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.10-20.13.57:438][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.10-20.13.57:439][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
-[2020.03.10-20.13.57:439][  0]LogWindows: EnumDisplayDevices:
-[2020.03.10-20.13.57:441][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
-[2020.03.10-20.13.57:443][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.10-20.13.57:444][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.10-20.13.57:444][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.10-20.13.57:445][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.10-20.13.57:446][  0]LogWindows:    5. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.10-20.13.57:446][  0]LogWindows:    6. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.03.10-20.13.57:447][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.03.10-20.13.57:447][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
-[2020.03.10-20.13.57:447][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.03.10-20.13.57:447][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.03.10-20.13.57:447][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
-[2020.03.10-20.13.58:027][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.10-20.13.58:042][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.03.10-20.13.58:044][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/13032/).
-[2020.03.10-20.13.58:044][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/6D0283E54C046C6D54445D91F017CBA4/'.
-[2020.03.10-20.13.58:044][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.10-20.14.04:910][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.03.10-20.14.05:079][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.03.10-20.14.05:246][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.03.10-20.14.05:428][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.03.10-20.14.05:635][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.03.10-20.14.05:831][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.03.10-20.14.06:013][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.03.10-20.14.06:198][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.03.10-20.14.06:412][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.03.10-20.14.06:614][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.03.10-20.14.06:818][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.03.10-20.14.06:993][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.03.10-20.14.07:162][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.03.10-20.14.07:336][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.03.10-20.14.07:705][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.03.10-20.14.07:705][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.03.10-20.14.07:922][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.03.10-20.14.08:136][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.03.10-20.14.08:508][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.03.10-20.14.08:603][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.03.10-20.14.08:793][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.03.10-20.14.09:000][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.03.10-20.14.09:229][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.03.10-20.14.09:461][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.03.10-20.14.09:461][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.10-20.14.11:863][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.10-20.14.13:040][  0]LogDerivedDataCache: Loaded boot cache 1.15s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.03.10-20.14.13:040][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.03.10-20.14.13:040][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.10-20.14.13:040][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.10-20.14.13:041][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.10-20.14.13:041][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.10-20.14.13:066][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.10-20.14.13:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.10-20.14.13:098][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.10-20.14.13:099][  0]LogSlate: Using Freetype 2.6.0
-[2020.03.10-20.14.13:100][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.10-20.14.13:100][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.10-20.14.16:895][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.10-20.14.18:299][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.03.10-20.14.18:492][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.03.10-20.14.18:492][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.10-20.14.18:492][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.03.10-20.14.18:492][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.03.10-20.14.18:492][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.03.10-20.14.18:544][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
-[2020.03.10-20.14.18:900][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
-[2020.03.10-20.14.20:908][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.410667 seconds
-[2020.03.10-20.14.20:915][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.03.10-20.14.20:915][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2020.03.10-20.14.20:915][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.10-20.14.21:184][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.03.10-20.15.02:821][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.10-20.15.03:080][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.10-20.15.08:467][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.03.10-20.15.10:527][  0]SourceControl: Source control is disabled
-[2020.03.10-20.15.10:527][  0]SourceControl: Source control is disabled
-[2020.03.10-20.15.10:765][  0]SourceControl: Source control is disabled
-[2020.03.10-20.15.11:015][  0]SourceControl: Source control is disabled
-[2020.03.10-20.15.14:601][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.10-20.15.15:852][  0]LogOcInput: OculusInput pre-init called
-[2020.03.10-20.15.16:923][  0]LogEngine: Initializing Engine...
-[2020.03.10-20.15.16:930][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.10-20.15.17:400][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.03.10-20.15.17:400][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.03.10-20.15.18:014][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.10-20.15.18:092][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.03.10-20.15.18:198][  0]LogInit: FAudioDevice initialized.
-[2020.03.10-20.15.18:484][  0]LogDerivedDataCache: Saved boot cache 0.28s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.03.10-20.15.18:530][  0]LogInit: Texture streaming: Enabled
-[2020.03.10-20.15.19:077][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.10-20.15.19:091][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={66D3F754-4FDF-A9D8-FA5F-A885A21F8C97}
-[2020.03.10-20.15.19:700][  0]LogInit: Transaction tracking system initialized
-[2020.03.10-20.15.21:225][  0]BlueprintLog: New page: Editor Load
-[2020.03.10-20.15.25:524][  0]LocalizationService: Localization service is disabled
-[2020.03.10-20.15.28:836][  0]LogConsoleResponse: Display: 
-[2020.03.10-20.15.30:574][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.03s
-[2020.03.10-20.15.30:574][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.10-20.15.30:574][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.10-20.15.30:574][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.03.10-20.15.36:212][  0]SourceControl: Source control is disabled
-[2020.03.10-20.15.36:346][  0]LogSlate: Took 0.000493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.10-20.15.57:568][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.03.10-20.15.57:602][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.10-20.15.57:752][  0]LightingResults: New page: Lighting Build
-[2020.03.10-20.15.57:955][  0]MapCheck: New page: Map Check
-[2020.03.10-20.15.57:955][  0]LightingResults: New page: Lighting Build
-[2020.03.10-20.15.59:788][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.03.10-20.15.59:885][  0]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Bob_251
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.15.59:888][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.10-20.15.59:920][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.10-20.16.00:108][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 187.916ms to complete.
-[2020.03.10-20.16.00:108][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.507
-[2020.03.10-20.16.00:274][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_4590_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_4498_0///####STATCAT_Advanced####
-[2020.03.10-20.16.00:275][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.03.10-20.16.00:862][  0]LogCollectionManager: Loaded 0 collections in 0.003217 seconds
-[2020.03.10-20.16.01:061][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
-[2020.03.10-20.16.01:061][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' took 0.01s
-[2020.03.10-20.16.01:061][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
-[2020.03.10-20.16.01:061][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.03.10-20.16.01:078][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2367 classes and 522 folders.
-[2020.03.10-20.16.01:332][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
-[2020.03.10-20.16.03:561][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0031 seconds. Added 0 classes and 0 folders.
-[2020.03.10-20.16.03:783][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
-[2020.03.10-20.16.03:919][  0]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.10-20.16.03:944][  0]LogSlate: Took 0.019224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.10-20.16.04:473][  0]LogRenderer: Reallocating scene render targets to support 1008x556 Format 10 NumSamples 1 (Frame:1).
-[2020.03.10-20.16.04:672][  0]LogSlate: Took 0.044134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.10-20.16.05:040][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
-[2020.03.10-20.16.05:040][  0]LogLoad: (Engine Initialization) Total time: 153.05 seconds
-[2020.03.10-20.16.05:040][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.10-20.16.05:040][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.03.10-20.16.05:401][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.10-20.16.05:732][  1]LogAssetRegistry: Asset discovery search completed in 106.8537 seconds
-[2020.03.10-20.16.05:734][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2020.03.10-20.16.05:734][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2020.03.10-20.16.06:115][  3]LogSlate: Took 0.000547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.10-20.16.45:608][384]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_1:PersistentLevel.Bob_C_0
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.16.46:218][421]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.03.10-20.16.46:840][421]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 116 classes and 0 folders.
-[2020.03.10-20.16.48:047][421]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.10-20.16.48:363][421]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_2:PersistentLevel.Bob_C_1
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.16.48:387][421]LogSlate: Took 0.019531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.03.10-20.16.48:606][422]LogSlate: Took 0.012993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.03.10-20.16.59:652][665]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Bob_251
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.16.59:655][665]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_1:PersistentLevel.Bob_C_0
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.16.59:656][665]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_2:PersistentLevel.Bob_C_1
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:102][183]BlueprintLog: New page: Compile Bob
-[2020.03.10-20.17.04:268][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Bob_251
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:397][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_1:PersistentLevel.Bob_C_0
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:525][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_2:PersistentLevel.Bob_C_1
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:695][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Bob_251
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:697][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_1:PersistentLevel.Bob_C_0
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:698][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_2:PersistentLevel.Bob_C_1
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.04:699][183]LogScript: Warning: Accessed None trying to read property personalityFrameWork
-	Bob_C /Engine/Transient.World_1:PersistentLevel.Bob_C_8
-	Function /Game/ThirdPersonCPP/Dialogue/Bob.Bob_C:UserConstructionScript:000D
-[2020.03.10-20.17.24:657][532]BlueprintLog: New page: Compile Bob
-[2020.03.10-20.17.51:155][555]BlueprintLog: New page: Compile Bob
+[2020.03.12-01.08.35:026][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.12-01.08.35:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.12-01.08.35:038][  0]LogInit: Computer: MSI
+[2020.03.12-01.08.35:038][  0]LogInit: User: DongHyeongLee
+[2020.03.12-01.08.35:038][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.12-01.08.35:038][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.12-01.08.35:039][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.12-01.08.35:039][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.12-01.08.35:039][  0]LogMemory: Process Physical Memory: 282.63 MB used, 282.63 MB peak
+[2020.03.12-01.08.35:039][  0]LogMemory: Process Virtual Memory: 272.82 MB used, 272.82 MB peak
+[2020.03.12-01.08.35:039][  0]LogMemory: Physical Memory: 4356.92 MB used,  11947.20 MB free, 16304.11 MB total
+[2020.03.12-01.08.35:039][  0]LogMemory: Virtual Memory: 4819.29 MB used,  11947.20 MB free, 134217728.00 MB total
+[2020.03.12-01.08.35:130][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.03.12-01.08.35:130][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.03.12-01.08.35:509][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.12-01.08.35:732][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.12-01.08.35:804][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.03.12-01.08.35:804][  0]LogD3D11RHI:       4021/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.12-01.08.35:822][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.03.12-01.08.35:822][  0]LogD3D11RHI:       128/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.12-01.08.35:824][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.12-01.08.35:824][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.12-01.08.35:824][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.12-01.08.35:834][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.12-01.08.35:835][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.03.12-01.08.35:835][  0]LogWindows: EnumDisplayDevices:
+[2020.03.12-01.08.35:835][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.03.12-01.08.35:835][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.03.12-01.08.35:835][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.03.12-01.08.35:835][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.03.12-01.08.35:835][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.03.12-01.08.35:835][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.03.12-01.08.35:835][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.03.12-01.08.35:835][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2020.03.12-01.08.35:879][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.12-01.08.35:890][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.12-01.08.35:891][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/7340/).
+[2020.03.12-01.08.35:891][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dong Hyeong Lee/AppData/Local/Temp/UnrealShaderWorkingDir/26EFD21C43A400972CA2CEAE9FA74082/'.
+[2020.03.12-01.08.35:891][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.12-01.08.36:734][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.12-01.08.36:772][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.12-01.08.36:808][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.12-01.08.36:843][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.12-01.08.36:877][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.12-01.08.36:912][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.12-01.08.36:949][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.12-01.08.36:986][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.12-01.08.37:016][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.12-01.08.37:054][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.03.12-01.08.37:091][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.03.12-01.08.37:130][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.03.12-01.08.37:168][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.03.12-01.08.37:204][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.03.12-01.08.37:274][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.03.12-01.08.37:274][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.03.12-01.08.37:309][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.12-01.08.37:336][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.12-01.08.37:404][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.12-01.08.37:427][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.12-01.08.37:485][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.12-01.08.37:536][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.12-01.08.37:581][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.12-01.08.37:616][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.12-01.08.37:616][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.12-01.08.38:024][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.12-01.08.38:099][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/Dong Hyeong Lee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.03.12-01.08.38:099][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dong Hyeong Lee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.03.12-01.08.38:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.12-01.08.38:100][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.12-01.08.38:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.12-01.08.38:100][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.12-01.08.38:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.12-01.08.38:130][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dong Hyeong Lee/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.12-01.08.38:140][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.12-01.08.38:140][  0]LogSlate: Using Freetype 2.6.0
+[2020.03.12-01.08.38:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.12-01.08.38:141][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.12-01.08.38:552][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.12-01.08.38:894][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.12-01.08.38:934][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.12-01.08.38:934][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.12-01.08.38:934][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.12-01.08.38:934][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.03.12-01.08.38:934][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.03.12-01.08.38:970][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
+[2020.03.12-01.08.39:150][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2020.03.12-01.08.39:602][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.032043 seconds
+[2020.03.12-01.08.39:607][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.03.12-01.08.39:607][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.03.12-01.08.39:608][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.12-01.08.39:644][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.03.12-01.08.41:922][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.12-01.08.41:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.12-01.08.42:941][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.03.12-01.08.43:289][  0]SourceControl: Source control is disabled
+[2020.03.12-01.08.43:289][  0]SourceControl: Source control is disabled
+[2020.03.12-01.08.43:335][  0]SourceControl: Source control is disabled
+[2020.03.12-01.08.43:374][  0]SourceControl: Source control is disabled
+[2020.03.12-01.08.43:990][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.12-01.08.44:181][  0]LogOcInput: OculusInput pre-init called
+[2020.03.12-01.08.44:398][  0]LogEngine: Initializing Engine...
+[2020.03.12-01.08.44:400][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.12-01.08.44:638][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.12-01.08.44:638][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.12-01.08.44:744][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.12-01.08.44:769][  0]LogInit: XAudio2 using 'SAMSUNG(인텔(R) 디스플레이 오디오)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.12-01.08.44:783][  0]LogInit: FAudioDevice initialized.
+[2020.03.12-01.08.44:869][  0]LogDerivedDataCache: Saved boot cache 0.09s 79MB C:/Users/Dong Hyeong Lee/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.03.12-01.08.44:887][  0]LogInit: Texture streaming: Enabled
+[2020.03.12-01.08.44:963][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.12-01.08.45:060][  0]LogInit: Transaction tracking system initialized
+[2020.03.12-01.08.45:296][  0]BlueprintLog: New page: Editor Load
+[2020.03.12-01.08.45:995][  0]LocalizationService: Localization service is disabled
+[2020.03.12-01.08.46:605][  0]LogConsoleResponse: Display: 
+[2020.03.12-01.08.46:775][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.12-01.08.46:775][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.12-01.08.46:775][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.12-01.08.47:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.02s
+[2020.03.12-01.08.47:640][  0]SourceControl: Source control is disabled
+[2020.03.12-01.08.47:640][  0]Cmd: MAP LOAD FILE="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.12-01.08.47:649][  0]LightingResults: New page: Lighting Build
+[2020.03.12-01.08.47:677][  0]MapCheck: New page: Map Check
+[2020.03.12-01.08.47:677][  0]LightingResults: New page: Lighting Build
+[2020.03.12-01.08.48:650][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.08.48:675][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.12-01.08.48:688][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.12-01.08.48:732][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.016ms to complete.
+[2020.03.12-01.08.48:732][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.092
+[2020.03.12-01.08.48:918][  0]LogCollectionManager: Loaded 0 collections in 0.000825 seconds
+[2020.03.12-01.08.49:003][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
+[2020.03.12-01.08.49:003][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/DongHyeongLee/Collections/' took 0.01s
+[2020.03.12-01.08.49:003][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
+[2020.03.12-01.08.49:003][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.12-01.08.49:013][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2367 classes and 522 folders.
+[2020.03.12-01.08.49:062][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.03.12-01.08.49:550][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.03.12-01.08.49:586][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.03.12-01.08.49:638][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.12-01.08.49:643][  0]LogSlate: Took 0.000665 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.12-01.08.49:667][  0]LogSlate: Took 0.011342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.12-01.08.49:913][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2020.03.12-01.08.50:148][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2020.03.12-01.08.50:148][  0]LogLoad: (Engine Initialization) Total time: 20.92 seconds
+[2020.03.12-01.08.50:148][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.12-01.08.50:148][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.03.12-01.08.50:188][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.12-01.08.50:254][  0]LogSlate: Took 0.007237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.12-01.08.50:273][  1]LogAssetRegistry: Asset discovery search completed in 11.1458 seconds
+[2020.03.12-01.08.50:275][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.12-01.08.50:275][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2020.03.12-01.08.51:188][ 43]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.12-01.08.57:385][408]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.03.12-01.08.57:793][408]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2020.03.12-01.08.58:903][408]LogSlate: Took 0.007278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.12-01.08.59:059][409]LogSlate: Took 0.006222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.12-01.10.08:102][762]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.11.24:288][448]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.12-01.11.24:380][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.11.24:380][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.11.24:382][448]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:11:24 PM)
+[2020.03.12-01.11.24:382][448]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.11.24:421][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039212s)
+[2020.03.12-01.11.24:423][448]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.11.24:423][448]LogPlayLevel: PIE: World Init took: (0.001828s)
+[2020.03.12-01.11.24:423][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.041606s)
+[2020.03.12-01.11.24:475][448]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.11.24:551][448]LogInit: FAudioDevice initialized.
+[2020.03.12-01.11.24:604][448]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.11.24:608][448]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.11.24
+[2020.03.12-01.11.24:611][448]LogWorld: Bringing up level for play took: 0.006390
+[2020.03.12-01.11.24:649][448]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2020.03.12-01.11.24:651][448]LogScript: Warning: Accessed None trying to read property PersonalityFrameWork
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0015
+[2020.03.12-01.11.24:651][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.11.24:651][448]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0038
+[2020.03.12-01.11.24:651][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.11.24:651][448]LogScript: Warning: Accessed None attempting to assign variable on an object
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:004D
+[2020.03.12-01.11.24:651][448]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.11.24:651][448]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0062
+[2020.03.12-01.11.24:651][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.11.24:653][448]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0122
+[2020.03.12-01.11.24:653][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.11.24:653][448]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0182
+[2020.03.12-01.11.24:653][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.11.24:653][448]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:01B2
+[2020.03.12-01.11.24:654][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.11.24:654][448]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0205
+[2020.03.12-01.11.24:654][448]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.11.24:654][448]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.168
+[2020.03.12-01.11.24:655][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.11.30:934][783]LogBlueprintUserMessages: [DialogueV2_C_2] Dialogue: Gathering Data.
+[2020.03.12-01.11.30:934][783]LogBlueprintUserMessages: [DialogueV2_C_2] Searching Through Library
+[2020.03.12-01.11.30:938][783]LogBlueprintUserMessages: [DialogueV2_C_2] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.32:632][882]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Gathering Data.
+[2020.03.12-01.11.32:632][882]LogBlueprintUserMessages: [DialogueV2_C_3] Searching Through Library
+[2020.03.12-01.11.32:632][882]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.33:561][934]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Gathering Data.
+[2020.03.12-01.11.33:562][934]LogBlueprintUserMessages: [DialogueV2_C_4] Searching Through Library
+[2020.03.12-01.11.33:565][934]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.34:114][964]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Gathering Data.
+[2020.03.12-01.11.34:114][964]LogBlueprintUserMessages: [DialogueV2_C_5] Searching Through Library
+[2020.03.12-01.11.34:115][964]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.34:565][989]LogBlueprintUserMessages: [DialogueV2_C_6] Dialogue: Gathering Data.
+[2020.03.12-01.11.34:565][989]LogBlueprintUserMessages: [DialogueV2_C_6] Searching Through Library
+[2020.03.12-01.11.34:565][989]LogBlueprintUserMessages: [DialogueV2_C_6] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.34:940][ 10]LogBlueprintUserMessages: [DialogueV2_C_7] Dialogue: Gathering Data.
+[2020.03.12-01.11.34:940][ 10]LogBlueprintUserMessages: [DialogueV2_C_7] Searching Through Library
+[2020.03.12-01.11.34:942][ 10]LogBlueprintUserMessages: [DialogueV2_C_7] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.35:202][ 24]LogBlueprintUserMessages: [DialogueV2_C_8] Dialogue: Gathering Data.
+[2020.03.12-01.11.35:202][ 24]LogBlueprintUserMessages: [DialogueV2_C_8] Searching Through Library
+[2020.03.12-01.11.35:203][ 24]LogBlueprintUserMessages: [DialogueV2_C_8] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.35:450][ 38]LogBlueprintUserMessages: [DialogueV2_C_9] Dialogue: Gathering Data.
+[2020.03.12-01.11.35:450][ 38]LogBlueprintUserMessages: [DialogueV2_C_9] Searching Through Library
+[2020.03.12-01.11.35:450][ 38]LogBlueprintUserMessages: [DialogueV2_C_9] Dialogue: Finished Creating Buttons
+[2020.03.12-01.11.37:034][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.11.37:077][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.13.22:028][495]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.12-01.13.22:066][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.13.22:066][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.13.22:066][495]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:13:22 PM)
+[2020.03.12-01.13.22:066][495]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.13.22:092][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025135s)
+[2020.03.12-01.13.22:094][495]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.13.22:094][495]LogPlayLevel: PIE: World Init took: (0.002187s)
+[2020.03.12-01.13.22:094][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027981s)
+[2020.03.12-01.13.22:134][495]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.13.22:205][495]LogInit: FAudioDevice initialized.
+[2020.03.12-01.13.22:242][495]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.13.22:245][495]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.13.22
+[2020.03.12-01.13.22:246][495]LogWorld: Bringing up level for play took: 0.003481
+[2020.03.12-01.13.22:247][495]LogScript: Warning: Accessed None trying to read property PersonalityFrameWork
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0015
+[2020.03.12-01.13.22:248][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.13.22:248][495]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0038
+[2020.03.12-01.13.22:248][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.13.22:248][495]LogScript: Warning: Accessed None attempting to assign variable on an object
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:004D
+[2020.03.12-01.13.22:248][495]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.13.22:248][495]LogScript: Warning: Accessed None trying to read property PresetModifiers
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0062
+[2020.03.12-01.13.22:248][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.13.22:249][495]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0122
+[2020.03.12-01.13.22:249][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.13.22:249][495]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0182
+[2020.03.12-01.13.22:249][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.13.22:249][495]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:01B2
+[2020.03.12-01.13.22:249][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.13.22:249][495]LogScript: Warning: Accessed None trying to read property MyBB
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0205
+[2020.03.12-01.13.22:249][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.13.22:250][495]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.763
+[2020.03.12-01.13.22:250][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.13.28:346][819]LogBlueprintUserMessages: [DialogueV2_C_10] Dialogue: Gathering Data.
+[2020.03.12-01.13.28:346][819]LogBlueprintUserMessages: [DialogueV2_C_10] Searching Through Library
+[2020.03.12-01.13.28:347][819]LogBlueprintUserMessages: [DialogueV2_C_10] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.42:430][586]LogBlueprintUserMessages: [DialogueV2_C_11] Dialogue: Gathering Data.
+[2020.03.12-01.13.42:430][586]LogBlueprintUserMessages: [DialogueV2_C_11] Searching Through Library
+[2020.03.12-01.13.42:430][586]LogBlueprintUserMessages: [DialogueV2_C_11] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.47:367][856]LogBlueprintUserMessages: [DialogueV2_C_12] Dialogue: Gathering Data.
+[2020.03.12-01.13.47:367][856]LogBlueprintUserMessages: [DialogueV2_C_12] Searching Through Library
+[2020.03.12-01.13.47:367][856]LogBlueprintUserMessages: [DialogueV2_C_12] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.49:101][949]LogBlueprintUserMessages: [DialogueV2_C_13] Dialogue: Gathering Data.
+[2020.03.12-01.13.49:101][949]LogBlueprintUserMessages: [DialogueV2_C_13] Searching Through Library
+[2020.03.12-01.13.49:102][949]LogBlueprintUserMessages: [DialogueV2_C_13] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.49:618][977]LogBlueprintUserMessages: [DialogueV2_C_14] Dialogue: Gathering Data.
+[2020.03.12-01.13.49:618][977]LogBlueprintUserMessages: [DialogueV2_C_14] Searching Through Library
+[2020.03.12-01.13.49:618][977]LogBlueprintUserMessages: [DialogueV2_C_14] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.49:945][994]LogBlueprintUserMessages: [DialogueV2_C_15] Dialogue: Gathering Data.
+[2020.03.12-01.13.49:945][994]LogBlueprintUserMessages: [DialogueV2_C_15] Searching Through Library
+[2020.03.12-01.13.49:946][994]LogBlueprintUserMessages: [DialogueV2_C_15] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.50:135][  4]LogBlueprintUserMessages: [DialogueV2_C_16] Dialogue: Gathering Data.
+[2020.03.12-01.13.50:135][  4]LogBlueprintUserMessages: [DialogueV2_C_16] Searching Through Library
+[2020.03.12-01.13.50:135][  4]LogBlueprintUserMessages: [DialogueV2_C_16] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.50:434][ 20]LogBlueprintUserMessages: [DialogueV2_C_17] Dialogue: Gathering Data.
+[2020.03.12-01.13.50:434][ 20]LogBlueprintUserMessages: [DialogueV2_C_17] Searching Through Library
+[2020.03.12-01.13.50:434][ 20]LogBlueprintUserMessages: [DialogueV2_C_17] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.50:733][ 36]LogBlueprintUserMessages: [DialogueV2_C_18] Dialogue: Gathering Data.
+[2020.03.12-01.13.50:733][ 36]LogBlueprintUserMessages: [DialogueV2_C_18] Searching Through Library
+[2020.03.12-01.13.50:735][ 36]LogBlueprintUserMessages: [DialogueV2_C_18] Dialogue: Finished Creating Buttons
+[2020.03.12-01.13.59:065][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.13.59:111][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.16.04:742][279]BlueprintLog: New page: Compile DialogueV2
+[2020.03.12-01.16.05:546][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Dialogue/DialogueV2" FILE="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset" SILENT=true
+[2020.03.12-01.16.05:942][312]LogSavePackage: Save=363.79ms
+[2020.03.12-01.16.05:942][312]LogSavePackage: Moving 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV229A673EA4C09CBF7DD4517BF45EBE9BF.tmp' to 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.03.12-01.16.05:945][312]LogSavePackage: Display: Finished SavePackage C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.03.12-01.16.07:994][422]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.12-01.16.08:045][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.16.08:046][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.16.08:046][422]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:16:08 PM)
+[2020.03.12-01.16.08:046][422]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.16.08:070][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023817s)
+[2020.03.12-01.16.08:071][422]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.16.08:071][422]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2020.03.12-01.16.08:071][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025315s)
+[2020.03.12-01.16.08:117][422]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.16.08:186][422]LogInit: FAudioDevice initialized.
+[2020.03.12-01.16.08:227][422]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.16.08:231][422]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.16.08
+[2020.03.12-01.16.08:231][422]LogWorld: Bringing up level for play took: 0.002854
+[2020.03.12-01.16.08:232][422]LogScript: Warning: Accessed None trying to read property PersonalityFrameWork
+	NPC_AI_C /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_AI_C_0
+	Function /Game/ThirdPersonCPP/AI/NPC/NPC_AI.NPC_AI_C:ExecuteUbergraph_NPC_AI:0015
+[2020.03.12-01.16.08:233][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.16.08:233][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.16.08:233][422]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.16.08:233][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.16.08:234][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.16.08:234][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.16.08:234][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.16.08:234][422]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.16.08:234][422]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.748
+[2020.03.12-01.16.08:234][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.16.12:188][628]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Gathering Data.
+[2020.03.12-01.16.12:189][628]LogBlueprintUserMessages: [DialogueV2_C_3] Searching Through Library
+[2020.03.12-01.16.12:189][628]LogBlueprintUserMessages: [DialogueV2_C_3] Loading Button Creation
+[2020.03.12-01.16.12:189][628]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Finished Creating Buttons
+[2020.03.12-01.16.28:735][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.16.28:776][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.10:375][237]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.12-01.19.10:432][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.10:432][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.19.10:433][237]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:19:10 PM)
+[2020.03.12-01.19.10:433][237]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.19.10:454][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021113s)
+[2020.03.12-01.19.10:455][237]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.19.10:456][237]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2020.03.12-01.19.10:456][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023450s)
+[2020.03.12-01.19.10:504][237]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.19.10:582][237]LogInit: FAudioDevice initialized.
+[2020.03.12-01.19.10:649][237]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.19.10:653][237]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.19.10
+[2020.03.12-01.19.10:654][237]LogWorld: Bringing up level for play took: 0.003533
+[2020.03.12-01.19.10:656][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.19.10:659][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.19.10:660][237]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.19.10:660][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.19.10:665][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.10:665][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.10:665][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.10:666][237]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.10:670][237]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.184
+[2020.03.12-01.19.10:671][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.10:725][237]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2020.03.12-01.19.13:419][348]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.12-01.19.13:419][348]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.12-01.19.18:649][575]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.12-01.19.18:652][575]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.03.12-01.19.21:879][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.21:961][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.31:577][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.31:578][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.19.31:578][188]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:19:31 PM)
+[2020.03.12-01.19.31:578][188]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.19.31:603][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025279s)
+[2020.03.12-01.19.31:604][188]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.19.31:605][188]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2020.03.12-01.19.31:605][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026779s)
+[2020.03.12-01.19.31:651][188]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.19.31:733][188]LogInit: FAudioDevice initialized.
+[2020.03.12-01.19.31:801][188]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.19.31:805][188]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.19.31
+[2020.03.12-01.19.31:806][188]LogWorld: Bringing up level for play took: 0.003584
+[2020.03.12-01.19.31:807][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.19.31:807][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.19.31:807][188]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.19.31:807][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.19.31:808][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.31:808][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.31:808][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.31:808][188]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.19.31:812][188]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.326
+[2020.03.12-01.19.31:813][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.43:419][704]LogBlueprintUserMessages: [DialogueV2_C_9] Dialogue: Gathering Data.
+[2020.03.12-01.19.43:419][704]LogBlueprintUserMessages: [DialogueV2_C_9] Searching Through Library
+[2020.03.12-01.19.43:419][704]LogBlueprintUserMessages: [DialogueV2_C_9] Loading Button Creation
+[2020.03.12-01.19.43:419][704]LogBlueprintUserMessages: [DialogueV2_C_9] Dialogue: Finished Creating Buttons
+[2020.03.12-01.19.46:689][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.19.46:777][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.20.49:178][190]BlueprintLog: New page: Compile DialogueV2
+[2020.03.12-01.20.49:876][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Dialogue/DialogueV2" FILE="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset" SILENT=true
+[2020.03.12-01.20.50:248][216]LogSavePackage: Save=365.38ms
+[2020.03.12-01.20.50:248][216]LogSavePackage: Moving 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2CE69DD3C4282BEBBE05B159FD022E067.tmp' to 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.03.12-01.20.50:251][216]LogSavePackage: Display: Finished SavePackage C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.03.12-01.20.51:600][289]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.12-01.20.51:636][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.20.51:637][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.20.51:637][289]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:20:51 PM)
+[2020.03.12-01.20.51:637][289]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.20.51:660][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022844s)
+[2020.03.12-01.20.51:661][289]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.20.51:662][289]LogPlayLevel: PIE: World Init took: (0.001548s)
+[2020.03.12-01.20.51:662][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024978s)
+[2020.03.12-01.20.51:702][289]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.20.51:774][289]LogInit: FAudioDevice initialized.
+[2020.03.12-01.20.51:840][289]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.20.51:844][289]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.20.51
+[2020.03.12-01.20.51:846][289]LogWorld: Bringing up level for play took: 0.005281
+[2020.03.12-01.20.51:847][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.20.51:847][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.20.51:847][289]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.20.51:847][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.20.51:848][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.20.51:848][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.20.51:848][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.20.51:849][289]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.20.51:853][289]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.367
+[2020.03.12-01.20.51:854][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.20.55:746][448]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Gathering Data.
+[2020.03.12-01.20.55:746][448]LogBlueprintUserMessages: [DialogueV2_C_3] Searching Through Library
+[2020.03.12-01.20.55:746][448]LogBlueprintUserMessages: [DialogueV2_C_3] Loading Button Creation
+[2020.03.12-01.20.55:746][448]LogBlueprintUserMessages: [DialogueV2_C_3] Linear Path Initiated (false)
+[2020.03.12-01.20.55:746][448]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Finished Creating Buttons
+[2020.03.12-01.21.04:181][819]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Gathering Data.
+[2020.03.12-01.21.04:181][819]LogBlueprintUserMessages: [DialogueV2_C_4] Searching Through Library
+[2020.03.12-01.21.04:181][819]LogBlueprintUserMessages: [DialogueV2_C_4] Loading Button Creation
+[2020.03.12-01.21.04:181][819]LogBlueprintUserMessages: [DialogueV2_C_4] Linear Path Initiated (false)
+[2020.03.12-01.21.04:182][819]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Finished Creating Buttons
+[2020.03.12-01.21.07:044][943]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Gathering Data.
+[2020.03.12-01.21.07:044][943]LogBlueprintUserMessages: [DialogueV2_C_5] Searching Through Library
+[2020.03.12-01.21.07:044][943]LogBlueprintUserMessages: [DialogueV2_C_5] Loading Button Creation
+[2020.03.12-01.21.07:044][943]LogBlueprintUserMessages: [DialogueV2_C_5] Linear Path Initiated (false)
+[2020.03.12-01.21.07:044][943]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Finished Creating Buttons
+[2020.03.12-01.21.08:908][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.21.08:984][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.22.00:200][745]BlueprintLog: New page: Compile DialogueV2
+[2020.03.12-01.22.00:787][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Dialogue/DialogueV2" FILE="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset" SILENT=true
+[2020.03.12-01.22.01:185][766]LogSavePackage: Save=377.05ms
+[2020.03.12-01.22.01:185][766]LogSavePackage: Moving 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV291596FC14B68DCB60598C9AC3DC3DBB2.tmp' to 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.03.12-01.22.01:192][766]LogSavePackage: Display: Finished SavePackage C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.03.12-01.22.01:942][808]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.12-01.22.01:973][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.22.01:973][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.22.01:973][808]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:22:01 PM)
+[2020.03.12-01.22.01:973][808]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.22.01:999][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025380s)
+[2020.03.12-01.22.02:000][808]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.22.02:000][808]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2020.03.12-01.22.02:000][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027234s)
+[2020.03.12-01.22.02:045][808]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.22.02:115][808]LogInit: FAudioDevice initialized.
+[2020.03.12-01.22.02:176][808]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.22.02:181][808]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.22.02
+[2020.03.12-01.22.02:184][808]LogWorld: Bringing up level for play took: 0.006260
+[2020.03.12-01.22.02:185][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.22.02:186][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.22.02:186][808]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.22.02:186][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.22.02:188][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.22.02:189][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.22.02:189][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.22.02:191][808]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.22.02:201][808]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.715
+[2020.03.12-01.22.02:202][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.22.06:713][ 14]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Gathering Data.
+[2020.03.12-01.22.06:713][ 14]LogBlueprintUserMessages: [DialogueV2_C_3] Searching Through Library
+[2020.03.12-01.22.06:713][ 14]LogBlueprintUserMessages: [DialogueV2_C_3] Loading Button Creation
+[2020.03.12-01.22.06:713][ 14]LogBlueprintUserMessages: [DialogueV2_C_3] Linear Path Initiated (false)
+[2020.03.12-01.22.06:713][ 14]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Finished Creating Buttons
+[2020.03.12-01.22.09:531][146]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Gathering Data.
+[2020.03.12-01.22.09:531][146]LogBlueprintUserMessages: [DialogueV2_C_5] Searching Through Library
+[2020.03.12-01.22.09:532][146]LogBlueprintUserMessages: [DialogueV2_C_5] Loading Button Creation
+[2020.03.12-01.22.09:532][146]LogBlueprintUserMessages: [DialogueV2_C_5] Linear Path Initiated (false)
+[2020.03.12-01.22.09:533][146]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Finished Creating Buttons
+[2020.03.12-01.22.12:467][287]LogBlueprintUserMessages: [DialogueV2_C_6] Dialogue: Gathering Data.
+[2020.03.12-01.22.12:467][287]LogBlueprintUserMessages: [DialogueV2_C_6] Searching Through Library
+[2020.03.12-01.22.12:467][287]LogBlueprintUserMessages: [DialogueV2_C_6] Loading Button Creation
+[2020.03.12-01.22.12:467][287]LogBlueprintUserMessages: [DialogueV2_C_6] Linear Path Initiated (false)
+[2020.03.12-01.22.12:467][287]LogBlueprintUserMessages: [DialogueV2_C_6] Dialogue: Finished Creating Buttons
+[2020.03.12-01.22.16:319][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.22.16:402][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.24.27:110][699]BlueprintLog: New page: Compile DialogueV2
+[2020.03.12-01.24.27:795][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Dialogue/DialogueV2" FILE="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset" SILENT=true
+[2020.03.12-01.24.28:184][724]LogSavePackage: Save=379.35ms
+[2020.03.12-01.24.28:184][724]LogSavePackage: Moving 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2359F2AF44CE3456C42A0EFAEB04CFDC8.tmp' to 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.03.12-01.24.28:187][724]LogSavePackage: Display: Finished SavePackage C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.03.12-01.24.28:999][768]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.12-01.24.29:035][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.24.29:036][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.12-01.24.29:036][768]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 11, 2020, 5:24:29 PM)
+[2020.03.12-01.24.29:036][768]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.03.12-01.24.29:057][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020480s)
+[2020.03.12-01.24.29:060][768]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.12-01.24.29:061][768]LogPlayLevel: PIE: World Init took: (0.004474s)
+[2020.03.12-01.24.29:062][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025898s)
+[2020.03.12-01.24.29:108][768]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.03.12-01.24.29:178][768]LogInit: FAudioDevice initialized.
+[2020.03.12-01.24.29:244][768]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.03.12-01.24.29:249][768]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.03.11-21.24.29
+[2020.03.12-01.24.29:250][768]LogWorld: Bringing up level for play took: 0.004149
+[2020.03.12-01.24.29:251][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PersonalityFrameWork from function: 'ExecuteUbergraph_NPC_AI' from node: Establish Personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PersonalityFrameWork
+[2020.03.12-01.24.29:251][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.24.29:251][768]PIE: Error: Blueprint Runtime Error: Accessed None attempting to assign variable on an object from function: 'ExecuteUbergraph_NPC_AI' from node: Set personality in graph: EventGraph in object: NPC_AI with description: Accessed None attempting to assign variable on an object
+[2020.03.12-01.24.29:251][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property PresetModifiers from function: 'ExecuteUbergraph_NPC_AI' from node: Load All in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property PresetModifiers
+[2020.03.12-01.24.29:252][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Bool in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.24.29:252][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Int in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.24.29:252][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.24.29:252][768]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property MyBB from function: 'ExecuteUbergraph_NPC_AI' from node: Set Value as Float in graph: EventGraph in object: NPC_AI with description: Accessed None trying to read property MyBB
+[2020.03.12-01.24.29:264][768]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.221
+[2020.03.12-01.24.29:265][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.24.34:082][978]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Gathering Data.
+[2020.03.12-01.24.34:082][978]LogBlueprintUserMessages: [DialogueV2_C_3] Searching Through Library
+[2020.03.12-01.24.34:082][978]LogBlueprintUserMessages: [DialogueV2_C_3] Loading Button Creation
+[2020.03.12-01.24.34:082][978]LogBlueprintUserMessages: [DialogueV2_C_3] Linear Path Initiated (false)
+[2020.03.12-01.24.34:083][978]LogBlueprintUserMessages: [DialogueV2_C_3] Dialogue: Finished Creating Buttons
+[2020.03.12-01.24.37:508][130]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Gathering Data.
+[2020.03.12-01.24.37:509][130]LogBlueprintUserMessages: [DialogueV2_C_4] Searching Through Library
+[2020.03.12-01.24.37:509][130]LogBlueprintUserMessages: [DialogueV2_C_4] Loading Button Creation
+[2020.03.12-01.24.37:509][130]LogBlueprintUserMessages: [DialogueV2_C_4] Linear Path Initiated (false)
+[2020.03.12-01.24.37:509][130]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Finished Creating Buttons
+[2020.03.12-01.24.39:850][235]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Gathering Data.
+[2020.03.12-01.24.39:851][235]LogBlueprintUserMessages: [DialogueV2_C_5] Searching Through Library
+[2020.03.12-01.24.39:851][235]LogBlueprintUserMessages: [DialogueV2_C_5] Loading Button Creation
+[2020.03.12-01.24.39:851][235]LogBlueprintUserMessages: [DialogueV2_C_5] Linear Path Initiated (false)
+[2020.03.12-01.24.39:851][235]LogBlueprintUserMessages: [DialogueV2_C_5] Dialogue: Finished Creating Buttons
+[2020.03.12-01.24.42:235][342]LogBlueprintUserMessages: [DialogueV2_C_6] Dialogue: Gathering Data.
+[2020.03.12-01.24.42:235][342]LogBlueprintUserMessages: [DialogueV2_C_6] Searching Through Library
+[2020.03.12-01.24.42:235][342]LogBlueprintUserMessages: [DialogueV2_C_6] Loading Button Creation
+[2020.03.12-01.24.42:235][342]LogBlueprintUserMessages: [DialogueV2_C_6] Linear Path Initiated (false)
+[2020.03.12-01.24.42:235][342]LogBlueprintUserMessages: [DialogueV2_C_6] Dialogue: Finished Creating Buttons
+[2020.03.12-01.24.59:403][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.24.59:472][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.03.12-01.25.05:934][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Dialogue/DialogueV2" FILE="C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset" SILENT=true
+[2020.03.12-01.25.06:301][454]LogSavePackage: Save=358.21ms
+[2020.03.12-01.25.06:301][454]LogSavePackage: Moving 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2209860914B57D2E8D59C749E685F6B2C.tmp' to 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.03.12-01.25.06:304][454]LogSavePackage: Display: Finished SavePackage C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.03.12-01.25.10:863][661]LogSavePackage: Save=229.45ms
+[2020.03.12-01.25.10:863][661]LogSavePackage: Moving 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap4B97B07F4E598FF16F346B9EA61DB1CD.tmp' to 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.03.12-01.25.10:867][661]LogSavePackage: Display: Finished SavePackage C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2020.03.12-01.25.10:902][661]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.372
+[2020.03.12-01.25.28:353][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.12-01.25.28:466][540]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.03.12-01.25.28:753][541]Cmd: QUIT_EDITOR
+[2020.03.12-01.25.29:616][541]LogExit: Preparing to exit.
+[2020.03.12-01.25.30:693][541]LogExit: Editor shut down
+[2020.03.12-01.25.30:698][541]LogExit: Transaction tracking system shut down
+[2020.03.12-01.25.30:970][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.03.12-01.25.30:971][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.03.12-01.25.30:971][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.03.12-01.25.30:971][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.03.12-01.25.30:971][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.03.12-01.25.30:971][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.03.12-01.25.30:971][541]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.03.12-01.25.31:083][541]LogExit: Object subsystem successfully closed.
+[2020.03.12-01.25.31:107][541]LogD3D11RHI: Shutdown
+[2020.03.12-01.25.31:107][541]LogD3D11RHI: CleanupD3DDevice
+[2020.03.12-01.25.31:110][541]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.12-01.25.31:118][541]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (556)
+[2020.03.12-01.25.31:118][541]LogModuleManager: Shutting down and abandoning module SequencerWidgets (554)
+[2020.03.12-01.25.31:118][541]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2020.03.12-01.25.31:118][541]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2020.03.12-01.25.31:118][541]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2020.03.12-01.25.31:118][541]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2020.03.12-01.25.31:119][541]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.18/FeaturePacks/' was aborted.
+[2020.03.12-01.25.31:120][541]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2020.03.12-01.25.31:121][541]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2020.03.12-01.25.31:121][541]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2020.03.12-01.25.31:121][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' was aborted.
+[2020.03.12-01.25.31:121][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/DongHyeongLee/Collections/' was aborted.
+[2020.03.12-01.25.31:121][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' was aborted.
+[2020.03.12-01.25.31:121][541]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
+[2020.03.12-01.25.31:121][541]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
+[2020.03.12-01.25.31:121][541]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
+[2020.03.12-01.25.31:122][541]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
+[2020.03.12-01.25.31:122][541]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
+[2020.03.12-01.25.31:122][541]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
+[2020.03.12-01.25.31:122][541]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
+[2020.03.12-01.25.31:122][541]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
+[2020.03.12-01.25.31:122][541]LogModuleManager: Shutting down and abandoning module BspMode (522)
+[2020.03.12-01.25.31:123][541]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
+[2020.03.12-01.25.31:124][541]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
+[2020.03.12-01.25.31:124][541]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
+[2020.03.12-01.25.31:124][541]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
+[2020.03.12-01.25.31:125][541]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
+[2020.03.12-01.25.31:125][541]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
+[2020.03.12-01.25.31:125][541]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
+[2020.03.12-01.25.31:125][541]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module SessionServices (480)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
+[2020.03.12-01.25.31:126][541]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
+[2020.03.12-01.25.31:127][541]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
+[2020.03.12-01.25.31:127][541]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
+[2020.03.12-01.25.31:127][541]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
+[2020.03.12-01.25.31:127][541]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
+[2020.03.12-01.25.31:127][541]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
+[2020.03.12-01.25.31:127][541]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
+[2020.03.12-01.25.31:903][541]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module MergeActors (448)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module SizeMap (446)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module TreeMap (444)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module XmlParser (430)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module Blutility (428)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
+[2020.03.12-01.25.31:904][541]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
+[2020.03.12-01.25.31:905][541]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
+[2020.03.12-01.25.31:960][541]LogModuleManager: Shutting down and abandoning module AutomationController (408)
+[2020.03.12-01.25.31:960][541]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
+[2020.03.12-01.25.31:960][541]LogModuleManager: Shutting down and abandoning module Layers (404)
+[2020.03.12-01.25.31:960][541]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
+[2020.03.12-01.25.31:960][541]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
+[2020.03.12-01.25.31:960][541]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
+[2020.03.12-01.25.31:961][541]LogModuleManager: Shutting down and abandoning module Persona (396)
+[2020.03.12-01.25.31:961][541]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
+[2020.03.12-01.25.31:961][541]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2020.03.12-01.25.31:961][541]LogModuleManager: Shutting down and abandoning module Kismet (390)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module Toolbox (386)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module OutputLog (380)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module GammaUI (378)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module Documentation (376)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module MovieScene (372)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module PortalServices (364)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module AIModule (358)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
+[2020.03.12-01.25.31:974][541]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2020.03.12-01.25.32:181][541]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2020.03.12-01.25.32:181][541]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2020.03.12-01.25.32:181][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2020.03.12-01.25.32:182][541]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2020.03.12-01.25.32:183][541]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2020.03.12-01.25.32:183][541]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2020.03.12-01.25.32:183][541]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2020.03.12-01.25.32:183][541]LogDirectoryWatcher: A directory notification for 'C:/Users/Dong Hyeong Lee/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64' was aborted.
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module Dialogue_BS (272)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2020.03.12-01.25.32:184][541]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2020.03.12-01.25.32:285][541]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2020.03.12-01.25.32:385][541]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2020.03.12-01.25.32:385][541]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2020.03.12-01.25.32:385][541]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2020.03.12-01.25.32:385][541]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2020.03.12-01.25.32:385][541]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2020.03.12-01.25.32:385][541]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2020.03.12-01.25.32:399][541]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2020.03.12-01.25.32:399][541]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2020.03.12-01.25.32:400][541]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2020.03.12-01.25.32:400][541]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2020.03.12-01.25.32:418][541]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2020.03.12-01.25.32:418][541]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2020.03.12-01.25.32:418][541]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2020.03.12-01.25.32:419][541]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2020.03.12-01.25.32:419][541]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2020.03.12-01.25.32:419][541]LogModuleManager: Shutting down and abandoning module Media (223)
+[2020.03.12-01.25.32:440][541]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.03.12-01.25.32:440][541]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.03.12-01.25.32:440][541]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.03.12-01.25.32:441][541]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.03.12-01.25.32:443][541]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.03.12-01.25.32:446][541]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.03.12-01.25.32:446][541]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.03.12-01.25.32:448][541]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.03.12-01.25.32:448][541]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.03.12-01.25.32:449][541]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.03.12-01.25.32:457][541]LogModuleManager: Shutting down and abandoning module MRMesh (186)
+[2020.03.12-01.25.32:457][541]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2020.03.12-01.25.32:457][541]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2020.03.12-01.25.32:457][541]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2020.03.12-01.25.32:458][541]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2020.03.12-01.25.32:458][541]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.03.12-01.25.32:458][541]LogModuleManager: Shutting down and abandoning module LevelSequence (170)
+[2020.03.12-01.25.32:458][541]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (168)
+[2020.03.12-01.25.32:460][541]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
+[2020.03.12-01.25.32:460][541]LogModuleManager: Shutting down and abandoning module MeshUtilities (164)
+[2020.03.12-01.25.32:461][541]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (163)
+[2020.03.12-01.25.32:461][541]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (162)
+[2020.03.12-01.25.32:461][541]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (161)
+[2020.03.12-01.25.32:461][541]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (159)
+[2020.03.12-01.25.32:461][541]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (157)
+[2020.03.12-01.25.32:462][541]LogModuleManager: Shutting down and abandoning module MaterialBaking (153)
+[2020.03.12-01.25.32:463][541]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
+[2020.03.12-01.25.32:473][541]LogDerivedDataCache: Shutdown
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
+[2020.03.12-01.25.32:473][541]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
+[2020.03.12-01.25.32:474][541]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
+[2020.03.12-01.25.32:474][541]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
+[2020.03.12-01.25.32:474][541]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
+[2020.03.12-01.25.32:474][541]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.03.12-01.25.32:475][541]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
+[2020.03.12-01.25.32:476][541]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2020.03.12-01.25.32:477][541]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2020.03.12-01.25.32:478][541]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2020.03.12-01.25.32:478][541]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2020.03.12-01.25.32:478][541]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2020.03.12-01.25.32:478][541]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2020.03.12-01.25.32:479][541]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2020.03.12-01.25.32:479][541]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2020.03.12-01.25.32:479][541]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2020.03.12-01.25.32:480][541]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2020.03.12-01.25.32:480][541]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2020.03.12-01.25.32:480][541]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2020.03.12-01.25.32:480][541]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2020.03.12-01.25.32:480][541]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2020.03.12-01.25.32:480][541]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2020.03.12-01.25.32:482][541]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2020.03.12-01.25.32:483][541]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2020.03.12-01.25.32:483][541]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2020.03.12-01.25.32:483][541]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.12-01.25.32:483][541]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B14FF8548-4F9E-AD02-1A80-5798318E6873%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=56c8a1144d03872e3e543198f618894f%7Cf7d31359d5164f9c8fd51a5ffce8700a%7Cd055f830-bd36-4d32-9cd8-1c1e3a960e0b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.12-01.25.32:517][541]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.03.12-01.25.32:519][541]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.03.12-01.25.32:522][541]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.03.12-01.25.32:556][541]LogExit: Exiting.
+[2020.03.12-01.25.32:588][541]Log file closed, 03/11/20 21:25:32
