@@ -1,139 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Dialogue_BS.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{DEDE1EC5-2FF5-4CAA-90FC-7B7EE9B3BC16}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Dialogue_BS.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Dialogue_BSEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{336BB7E7-2F85-4749-97C5-32D0476A2392}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Dialogue_BS">
-			<UniqueIdentifier>{74292BC6-495F-45F3-817E-BE2192D05DA1}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Dialogue_BS\BehaviourModifier.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\BehaviourModifier.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\Dialogue_BS\Dialogue_BS.Build.cs">
-			<Filter>Source\Dialogue_BS</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BS.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BS.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\IDHashTable.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\IDHashTable.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\IDStore.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\IDStore.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\IE.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\IE.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\JP.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\JP.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\Personality.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\Personality.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\Relationship.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\Relationship.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\SN.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\SN.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\StatsModifier.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\StatsModifier.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Dialogue_BS\TF.cpp">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Dialogue_BS\TF.h">
-			<Filter>Source\Dialogue_BS</Filter>
-		</ClInclude >
-		<Filter Include="Source\Dialogue_BS\Private">
-			<UniqueIdentifier>{C95682E1-BE31-4FC1-9489-8EFBCD787326}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Dialogue_BS\Private\PresetModifier.cpp">
-			<Filter>Source\Dialogue_BS\Private</Filter>
-		</ClCompile >
-		<Filter Include="Source\Dialogue_BS\Public">
-			<UniqueIdentifier>{EF50076D-9FEA-4927-962C-DE2C03A39A2B}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifier.h">
-			<Filter>Source\Dialogue_BS\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifier.h">
-			<Filter>Source\Dialogue_BS\Public</Filter>
-		</ClInclude >
-	</ItemGroup>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Dialogue_BS\BehaviourModifier.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BS.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\IDHashTable.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\IDStore.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\IE.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\JP.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\Personality.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\Relationship.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\SN.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\StatsModifier.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\TF.cpp" />
+    <ClCompile Include="..\..\Source\Dialogue_BS\Private\PresetModifier.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Dialogue_BS\BehaviourModifier.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BS.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\IDHashTable.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\IDStore.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\IE.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\JP.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Personality.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Relationship.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\SN.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\StatsModifier.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\TF.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifier.h" />
+    <ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifier.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Dialogue_BS.uproject" />
+    <None Include="..\..\Source\Dialogue_BS.Target.cs" />
+    <None Include="..\..\Source\Dialogue_BSEditor.Target.cs" />
+    <None Include="..\..\Config\DefaultEditor.ini" />
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini" />
+    <None Include="..\..\Config\DefaultEngine.ini" />
+    <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Config\DefaultInput.ini" />
+    <None Include="..\..\Source\Dialogue_BS\Dialogue_BS.Build.cs" />
+  </ItemGroup>
 </Project>
