@@ -1,142 +1,139 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Dialogue_BS.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{BA51EE84-D609-41A8-98D8-EE69E243034E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Dialogue_BS.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\Dialogue_BSEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{3A63D59E-6CAC-408A-B4F9-802F7BBF9798}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Dialogue_BS">
-      <UniqueIdentifier>{B9797319-D179-4CDF-ADA4-45F759F9B5C8}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Dialogue_BS\BehaviourModifier.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\BehaviourModifier.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\Dialogue_BS\Dialogue_BS.Build.cs">
-      <Filter>Source\Dialogue_BS</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BS.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BS.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\IDHashTable.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\IDHashTable.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\IDStore.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\IDStore.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\IE.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\IE.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\JP.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\JP.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\Personality.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Personality.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\Relationship.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Relationship.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\SN.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\SN.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\StatsModifier.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\StatsModifier.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Dialogue_BS\TF.cpp">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Dialogue_BS\TF.h">
-      <Filter>Source\Dialogue_BS</Filter>
-    </ClInclude>
-    <Filter Include="Source\Dialogue_BS\Private">
-      <UniqueIdentifier>{28AD87FB-2DFF-47DD-B024-B273FB25B3D1}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Dialogue_BS\Private\PresetModifier.cpp">
-      <Filter>Source\Dialogue_BS\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\Dialogue_BS\Public">
-      <UniqueIdentifier>{A1EA9BB2-AD42-41F1-8C0B-7BCA9D2FA3D6}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifier.h">
-      <Filter>Source\Dialogue_BS\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifier.h">
-      <Filter>Source\Dialogue_BS\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.cpp">
-      <Filter>Source\Dialogue_BS\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.h">
-      <Filter>Source\Dialogue_BS\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Dialogue_BS.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1FA97E00-559B-480E-8E91-C0BF952D4277}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Dialogue_BS.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Dialogue_BSEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{049BB15B-CDEC-45A5-AC6B-56D17F086258}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Dialogue_BS">
+			<UniqueIdentifier>{5E63F8D6-2566-413C-88F9-BF648040C9DA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Dialogue_BS\BehaviourModifier.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\BehaviourModifier.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Dialogue_BS\Dialogue_BS.Build.cs">
+			<Filter>Source\Dialogue_BS</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BS.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BS.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSCharacter.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\Dialogue_BSGameMode.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\IDHashTable.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\IDHashTable.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\IDStore.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\IDStore.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\IE.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\IE.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\JP.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\JP.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\Personality.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\Personality.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\PersonalityFrameWork.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\Relationship.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\Relationship.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\SN.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\SN.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\StatsModifier.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\StatsModifier.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Dialogue_BS\TF.cpp">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Dialogue_BS\TF.h">
+			<Filter>Source\Dialogue_BS</Filter>
+		</ClInclude >
+		<Filter Include="Source\Dialogue_BS\Private">
+			<UniqueIdentifier>{4EE99925-AEA4-4283-8C83-6AE8C56F1B29}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Dialogue_BS\Private\PresetModifier.cpp">
+			<Filter>Source\Dialogue_BS\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Dialogue_BS\Public">
+			<UniqueIdentifier>{0463C9EC-1116-40BF-B5C5-157372C71480}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Dialogue_BS\Public\Modifier.h">
+			<Filter>Source\Dialogue_BS\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Dialogue_BS\Public\PresetModifier.h">
+			<Filter>Source\Dialogue_BS\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>

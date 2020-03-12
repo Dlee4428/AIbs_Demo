@@ -1,22 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading Dialogue_BSEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Parsing headers for Dialogue_BSEditor
-    Running UnrealHeaderTool "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Dialogue_BSEditor in 14.4607125 seconds
-  Performing 11 actions (3 in parallel)
-  Dialogue_BS.init.gen.cpp
-  PresetModifier.cpp
-  Dialogue_BSCharacter.gen.cpp
-  PersonalityFrameWork.gen.cpp
-  PersonalityFrameWork.cpp
-  IDStore.cpp
-  Dialogue_BSGameMode.cpp
-  Dialogue_BSCharacter.cpp
-  PresetModifier.gen.cpp
-  [10/11] Link UE4Editor-Dialogue_BS-9847.dll
-  [11/11] Link UE4Editor-Dialogue_BS-9847.lib
-     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-9847.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-9847.exp
-     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-9847.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS-9847.suppressed.exp
+  Creating makefile for Dialogue_BSEditor (no existing makefile)
+  Performing 1 actions (4 in parallel)
+  [1/1] Link UE4Editor-Dialogue_BS.dll
+     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
   Deploying Dialogue_BSEditor Win64 Development...
-  Total build time: 213.76 seconds (Local executor: 182.31 seconds)
+  Total build time: 45.55 seconds (Local executor: 0.92 seconds)
