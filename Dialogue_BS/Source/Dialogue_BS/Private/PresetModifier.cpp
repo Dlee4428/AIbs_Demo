@@ -10,7 +10,6 @@
 #define SN_BASETYPE personality->GetBehaviour()->getPersonalityName(1)
 #define TF_BASETYPE personality->GetBehaviour()->getPersonalityName(2)
 #define JP_BASETYPE personality->GetBehaviour()->getPersonalityName(3)
-
 //Modifiers are MODIFERVALUE / 100  
 //.15x = 0.0015f
 #define REACTIONMODIFIER 0.0015f
@@ -25,14 +24,13 @@
 //0.5x = 0.005f
 #define SEARCHMODIFIER 0.005f
 
-
 // Sets default values for this component's properties
 UPresetModifier::UPresetModifier()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
+	base = FModifier();
 	// ...
 
 }
@@ -42,38 +40,6 @@ UPresetModifier::UPresetModifier(UPersonalityFrameWork & personality_)
 {
 	personality = &personality_;
 
-	if (IE_BASETYPE == "Introvert")
-	{
-		IE = float(-(50 - IE_BASEVALUE));
-	}
-	else
-	{
-		IE = float(IE_BASEVALUE - 50); //IE_BASETYPE == EXTROVERT
-	}
-	if (SN_BASETYPE == "Sensing")
-	{
-		SN = float(-(50 - SN_BASEVALUE));
-	}
-	else
-	{
-		SN = float(SN_BASEVALUE - 50); //SN_BASETYPE == INTUITIVE
-	}
-	if (TF_BASETYPE == "Thinking")
-	{
-		TF = float(-(50 - TF_BASEVALUE));
-	}
-	else
-	{
-		TF = float(TF_BASEVALUE - 50); //SN_BASETYPE == INTUITIVE
-	}
-	if (JP_BASETYPE == "Judging")
-	{
-		JP = float(-(50 - JP_BASEVALUE));
-	}
-	else
-	{
-		JP = float(JP_BASEVALUE - 50); //SN_BASETYPE == INTUITIVE
-	}
 }
 
 UPresetModifier::~UPresetModifier()
@@ -106,6 +72,38 @@ void UPresetModifier::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 void UPresetModifier::LoadAll()
 {
+	if (IE_BASETYPE == "Introvert")
+	{
+		IE = float(-(50 - IE_BASEVALUE));
+	}
+	else
+	{
+		IE = float(IE_BASEVALUE - 50); //IE_BASETYPE == EXTROVERT
+	}
+	if (SN_BASETYPE == "Sensing")
+	{
+		SN = float(-(50 - SN_BASEVALUE));
+	}
+	else
+	{
+		SN = float(SN_BASEVALUE - 50); //SN_BASETYPE == INTUITIVE
+	}
+	if (TF_BASETYPE == "Thinking")
+	{
+		TF = float(-(50 - TF_BASEVALUE));
+	}
+	else
+	{
+		TF = float(TF_BASEVALUE - 50); //SN_BASETYPE == INTUITIVE
+	}
+	if (JP_BASETYPE == "Judging")
+	{
+		JP = float(-(50 - JP_BASEVALUE));
+	}
+	else
+	{
+		JP = float(JP_BASEVALUE - 50); //SN_BASETYPE == INTUITIVE
+	}
 	LoadMovementPresetModules();
 	LoadActionPresetModules();
 	LoadFrequencies();
