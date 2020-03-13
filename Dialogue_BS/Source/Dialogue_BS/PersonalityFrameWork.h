@@ -50,6 +50,8 @@ public:
 	FString GetPersonalityType(int type);
 	UFUNCTION(BlueprintCallable)
 	float GetPersonalityValue(int type);
+	UFUNCTION(BlueprintCallable)
+	FString GetPersonalityInfo(int type);
 
 
 	//Allows the user to manually set personality attributes

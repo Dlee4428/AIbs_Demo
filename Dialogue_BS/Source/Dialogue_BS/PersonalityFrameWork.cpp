@@ -87,6 +87,12 @@ float UPersonalityFrameWork::GetPersonalityValue(int type)
 	return (float)behaviour->getPersonalityValue(type);
 }
 
+FString UPersonalityFrameWork::GetPersonalityInfo(int type)
+{
+	std::string tmpS = behaviour->getPersonalityName(type) + " : " + std::to_string(behaviour->getPersonalityValue(type));
+	return FString(tmpS.c_str());
+}
+
 void UPersonalityFrameWork::OverridePersonalityValue(int personalityType, double value)
 {
 	behaviour->ForcefullySetPersonalityValue(personalityType, value);
