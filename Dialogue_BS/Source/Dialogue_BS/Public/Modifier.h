@@ -94,6 +94,8 @@ struct FModifier
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")
 		int currentDialogueWeight;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")
+		FString currentDialogueWeightString;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")
 		int currentDialogueStage;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Modifiers")

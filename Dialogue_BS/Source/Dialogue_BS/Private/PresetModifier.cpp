@@ -108,6 +108,7 @@ void UPresetModifier::LoadAll()
 	LoadActionPresetModules();
 	LoadFrequencies();
 	LoadPropertiesPresetModules();
+	LoadDialogue();
 }
 
 void UPresetModifier::LoadMovementPresetModules()
@@ -144,6 +145,134 @@ void UPresetModifier::LoadPropertiesPresetModules()
 	base.movementVariances = float(SN + TF * 1.5) * MOVEMENTMODIFIER;
 	base.patrolVariances = float(SN + TF * 1.5) * PATROLMODIFIER;
 	base.searchVariances = float(SN + TF * 1.5 + JP) *SEARCHMODIFIER;
+}
+
+void UPresetModifier::LoadDialogue()
+{
+	dialogueCategoryWeights weight;
+	if (IE_BASETYPE == "Introvert")
+	{
+		if (SN_BASETYPE == "Sensing")
+		{
+			if (TF_BASETYPE == "Thinking")
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = ISTJ;
+					base.currentDialogueWeightString = "ISTJ";
+				}
+				else
+				{
+					weight = ISTP;
+					base.currentDialogueWeightString = "ISTP";
+				}
+					
+			}
+			else
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = ISFJ;
+					base.currentDialogueWeightString = "ISFJ";
+				}
+				else
+				{
+					weight = ISFP;
+					base.currentDialogueWeightString = "ISFP";
+				}
+			}//end if(JP_BASETYPE)
+		}
+		else
+		{
+			if (TF_BASETYPE == "Thinking")
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = INTJ;
+					base.currentDialogueWeightString = "INTJ";
+				}
+				else
+				{
+					weight = INTP;
+					base.currentDialogueWeightString = "INTP";
+				}
+			}
+			else
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = INFJ;
+					base.currentDialogueWeightString = "INFJ";
+				}
+				else
+				{
+					weight = INFP;
+					base.currentDialogueWeightString = "INFP";
+				}
+			}//end if(JP_BASETYPE)
+		}
+	}
+	else //extrovert
+	{
+		if (SN_BASETYPE == "Sensing")
+		{
+			if (TF_BASETYPE == "Thinking")
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = ESTJ;
+					base.currentDialogueWeightString = "ESTJ";
+				}
+				else
+				{
+					weight = ESTP;
+					base.currentDialogueWeightString = "ESTP";
+				}
+			}
+			else
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = ESFJ;
+					base.currentDialogueWeightString = "ESFJ";
+				}
+				else
+				{
+					weight = ESFP;
+					base.currentDialogueWeightString = "ESFP";
+				}
+			}//end if(JP_BASETYPE)
+		}
+		else
+		{
+			if (TF_BASETYPE == "Thinking")
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = ENTJ;
+					base.currentDialogueWeightString = "ENTJ";
+				}
+				else
+				{
+					weight = ENTP;
+					base.currentDialogueWeightString = "ENTP";
+				}
+			}
+			else
+			{
+				if (JP_BASETYPE == "Judging")
+				{
+					weight = ENFJ;
+					base.currentDialogueWeightString = "ENFJ";
+				}
+				else
+				{
+					weight = ENFP;
+					base.currentDialogueWeightString = "ENFP";
+				}
+			}//end if(JP_BASETYPE)
+		}
+	}
 }
 
 void UPresetModifier::SetModifiers(FModifier modifier)

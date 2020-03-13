@@ -51,7 +51,7 @@ public:
 	void LoadActionPresetModules();
 	void LoadFrequencies();
 	void LoadPropertiesPresetModules();
-
+	void LoadDialogue();
 	UFUNCTION(BlueprintCallable)
 	void SetModifiers(FModifier modifier);
 

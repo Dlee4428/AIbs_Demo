@@ -97,6 +97,13 @@ static struct FScriptStruct_Dialogue_BS_StaticRegisterNativesFModifier
 #endif
 			static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_currentDialogueStage = { UE4CodeGen_Private::EPropertyClass::Int, "currentDialogueStage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000020005, 1, nullptr, STRUCT_OFFSET(FModifier, currentDialogueStage), METADATA_PARAMS(NewProp_currentDialogueStage_MetaData, ARRAY_COUNT(NewProp_currentDialogueStage_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentDialogueWeightString_MetaData[] = {
+				{ "Category", "Modifiers" },
+				{ "ModuleRelativePath", "Public/Modifier.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FStrPropertyParams NewProp_currentDialogueWeightString = { UE4CodeGen_Private::EPropertyClass::Str, "currentDialogueWeightString", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000020005, 1, nullptr, STRUCT_OFFSET(FModifier, currentDialogueWeightString), METADATA_PARAMS(NewProp_currentDialogueWeightString_MetaData, ARRAY_COUNT(NewProp_currentDialogueWeightString_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentDialogueWeight_MetaData[] = {
 				{ "Category", "Modifiers" },
 				{ "ModuleRelativePath", "Public/Modifier.h" },
@@ -248,6 +255,7 @@ static struct FScriptStruct_Dialogue_BS_StaticRegisterNativesFModifier
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_dialogueChoice,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_currentActionType,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_currentDialogueStage,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_currentDialogueWeightString,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_currentDialogueWeight,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_interactVariances,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_interceptVariances,
@@ -285,7 +293,7 @@ static struct FScriptStruct_Dialogue_BS_StaticRegisterNativesFModifier
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FModifier_CRC() { return 1363798763U; }
+	uint32 Get_Z_Construct_UScriptStruct_FModifier_CRC() { return 2834850160U; }
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
