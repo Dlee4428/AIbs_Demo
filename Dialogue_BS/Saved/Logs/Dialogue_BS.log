@@ -313,3 +313,5 @@ LogInit: Object subsystem initialized
 [2020.03.13-02.05.51:894][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9E04434C-49AD-FDF7-033F-E9B6A80751FA}
 [2020.03.13-02.05.53:505][  0]LogInit: Transaction tracking system initialized
 [2020.03.13-02.05.57:397][  0]BlueprintLog: New page: Editor Load
+[2020.03.13-02.06.05:003][  0]LocalizationService: Localization service is disabled
+[2020.03.13-02.06.11:558][  0]LogConsoleResponse: Display: 
