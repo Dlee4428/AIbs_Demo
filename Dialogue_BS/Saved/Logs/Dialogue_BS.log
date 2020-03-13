@@ -302,3 +302,14 @@ LogInit: Object subsystem initialized
 [2020.03.13-02.05.31:378][  0]LogOcInput: OculusInput pre-init called
 [2020.03.13-02.05.34:991][  0]LogEngine: Initializing Engine...
 [2020.03.13-02.05.35:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.13-02.05.40:707][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.13-02.05.40:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.13-02.05.46:244][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.13-02.05.47:160][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-02.05.48:742][  0]LogInit: FAudioDevice initialized.
+[2020.03.13-02.05.49:991][  0]LogDerivedDataCache: Saved boot cache 1.21s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.03.13-02.05.50:048][  0]LogInit: Texture streaming: Enabled
+[2020.03.13-02.05.51:763][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.13-02.05.51:894][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9E04434C-49AD-FDF7-033F-E9B6A80751FA}
+[2020.03.13-02.05.53:505][  0]LogInit: Transaction tracking system initialized
+[2020.03.13-02.05.57:397][  0]BlueprintLog: New page: Editor Load
