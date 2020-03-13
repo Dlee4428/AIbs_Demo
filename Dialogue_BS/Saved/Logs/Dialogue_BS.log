@@ -315,3 +315,7 @@ LogInit: Object subsystem initialized
 [2020.03.13-02.05.57:397][  0]BlueprintLog: New page: Editor Load
 [2020.03.13-02.06.05:003][  0]LocalizationService: Localization service is disabled
 [2020.03.13-02.06.11:558][  0]LogConsoleResponse: Display: 
+[2020.03.13-02.06.18:546][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.13s
+[2020.03.13-02.06.18:546][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.13-02.06.18:546][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.13-02.06.18:586][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
