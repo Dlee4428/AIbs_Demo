@@ -1,0 +1,323 @@
+ID,Tag,Weight,DialogueLine,CurrentStage,TransitionStage,TransitionID,DialogueKey,IsLinear
+00000001,Sarah,INFJ,Hey.,00,01,00000033,Hi,True
+00000002,Sarah,INFP,H-hey.,00,01,00000034,Hi,True
+00000003,Sarah,INTJ,Excuse me.,00,01,00000035,Yes?,True
+00000004,Sarah,INTP,E-excuse me.,00,01,00000036,Yes?,True
+00000005,Sarah,ISTJ,Hey you.,00,01,00000037,What is it?,True
+00000006,Sarah,ISTP,H-hey you.,00,01,00000038,What is it?,True
+00000007,Sarah,ISFJ,Hi.,00,01,00000039,Hi,True
+00000008,Sarah,ISFP,H-hi.,00,01,00000040,Hello,True
+00000009,Sarah,ENFJ,Hi there.,00,01,00000041,Hey,True
+00000010,Sarah,ENFP,Sup.,00,01,00000042,Hey,True
+00000011,Sarah,ENTJ,Hello.,00,01,00000043,Hey,True
+00000012,Sarah,ENTP,Hi!,00,01,00000044,H-hi,True
+00000013,Sarah,ESTJ,Yo.,00,01,00000045,Hey,True
+00000014,Sarah,ESTP,Hi?,00,01,00000046,...Hi there.,True
+00000015,Sarah,ESFJ,Hello there.,00,01,00000047,Hi there,True
+00000016,Sarah,ESFP,Hey~?,00,01,00000048,Yes?,True
+00000017,Fin,INFJ,"Tsk, hey.",00,01,00000049,"Uh, hi?",True
+00000018,Fin,INFP,... Hey.,00,01,00000050,...Hi,True
+00000019,Fin,INTJ,Pardon me.,00,01,00000051,Yes?,True
+00000020,Fin,INTP,Greetings.,00,01,00000052,Hello,True
+00000021,Fin,ISTJ,You!,00,01,00000053,Hm?,True
+00000022,Fin,ISTP,You there!,00,01,00000054,"Hm, may I help you?",True
+00000023,Fin,ISFJ,Psst.,00,01,00000055,What is it?,True
+00000024,Fin,ISFP,"Psst, h-hey",00,01,00000056,What is it?,True
+00000025,Fin,ENFJ,Hi there.,00,01,00000057,Hey,True
+00000026,Fin,ENFP,Sup.,00,01,00000058,Yo,True
+00000027,Fin,ENTJ,Hello.,00,01,00000059,Hello,True
+00000028,Fin,ENTP,Hey,00,01,00000060,Hey,True
+00000029,Fin,ESTJ,Yo.,00,01,00000061,Sup,True
+00000030,Fin,ESTP,Hi?,00,01,00000062,What is it?,True
+00000031,Fin,ESFJ,Hello there.,00,01,00000063,What is it?,True
+00000032,Fin,ESFP,Hey?,00,01,00000064,What is it?,True
+00000033,Sarah,INFJ,"Can you help me? 
+I need your help with sensitive information, but first let's talk somewhere else. 
+Someone's near by, I can sense it. ",01,02,00000065,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000034,Sarah,INFP,"Can you help me? 
+I need your help with sensitive information, but can we talk somewhere else? 
+Someone's near by, I can sense it.",01,02,00000066,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000035,Sarah,INTJ,"Can you help me?
+I need your help with confidential information, but let's we talk elsewhere?
+Someone's near by, I can sense it.  ",01,02,00000067,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000036,Sarah,INTP,"Can you help me?
+I need your help with confidential information.
+We should talk somewhere else though. 
+Someone's near by, I can sense it.",01,02,00000068,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000037,Sarah,ISTJ,"I need your help.
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000069,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000038,Sarah,ISTP,"I need your help, will you help me?
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000070,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000039,Sarah,ISFJ,"Please, I need your help.
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000071,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000040,Sarah,ISFP,"I need your help, please.
+I could use your help with important information.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000072,"Alright, we should stay on our toes.
+I'll follow you.",True
+00000041,Sarah,ENFJ,"Will you help me? 
+I need your help with sensitive information, but first let's talk somewhere else. 
+Someone's near by, I can sense it. ",01,02,00000073,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000042,Sarah,ENFP,"Will you help me? 
+I need your help with sensitive information, but can we talk somewhere else? 
+Someone's near by, I can sense it.",01,02,00000074,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000043,Sarah,ENTJ,"Will you help me?
+I need your help with confidential information, but let's we talk elsewhere?
+Someone's near by, I can sense it.  ",01,02,00000075,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000044,Sarah,ENTP,"Will you help me?
+I need your help with confidential information.
+We should talk somewhere else though. 
+Someone's near by, I can sense it.",01,02,00000076,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000045,Sarah,ESTJ,"I need your help.
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000077,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000046,Sarah,ESTP,"I need your help, will you help me?
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000078,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000047,Sarah,ESFJ,"Please, I need your help.
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else.",01,02,00000079,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000048,Sarah,ESFP,"I need your help, please.
+I have important information that needs to be delivered.
+Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",01,02,00000080,"Okay.
+We should stay on our toes.
+Lead the way.",True
+00000049,Fin,INFJ,"Can you help me? 
+I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+00000050,Fin,INFP,"Can you help me? 
+I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+00000051,Fin,INTJ,"Can you help me?
+I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+00000052,Fin,INTP,"Can you help me?
+I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+00000053,Fin,ISTJ,"I need your help.
+I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+00000054,Fin,ISTP,"I need your help, will you help me?
+I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+00000055,Fin,ISFJ,"Please, I need your help.
+I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+00000056,Fin,ISFP,"I need your help, please.
+I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+00000057,Fin,ENFJ,"Will you help me? 
+I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+00000058,Fin,ENFP,"Will you help me? 
+I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+00000059,Fin,ENTJ,"Will you help me?
+I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+00000060,Fin,ENTP,"Will you help me?
+I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+00000061,Fin,ESTJ,"I need your help.
+I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+00000062,Fin,ESTP,"I need your help, will you help me?
+I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+00000063,Fin,ESFJ,"Please, I need your help.
+I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+00000064,Fin,ESFP,"I need your help, please.
+I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+00000065,Sarah,INFJ,"Okay, let's go.",02,END,END,,True
+00000066,Sarah,INFP,"Okay, let's go.",02,END,END,,True
+00000067,Sarah,INTJ,"Okay, follow me.",02,END,END,,True
+00000068,Sarah,INTP,"Okay, follow me.",02,END,END,,True
+00000069,Sarah,ISTJ,"Okay, follow me.",02,END,END,,True
+00000070,Sarah,ISTP,"Okay, follow me.",02,END,END,,True
+00000071,Sarah,ISFJ,"Okay, let's go.",02,END,END,,True
+00000072,Sarah,ISFP,"Okay, let's go.",02,END,END,,True
+00000073,Sarah,ENFJ,"Okay quickly, let's go .",02,END,END,,True
+00000074,Sarah,ENFP,"Okay quickly, let's go .",02,END,END,,True
+00000075,Sarah,ENTJ,"Okay quickly, follow me.",02,END,END,,True
+00000076,Sarah,ENTP,"Okay quickly, follow me.",02,END,END,,True
+00000077,Sarah,ESTJ,"Okay quickly, follow me.",02,END,END,,True
+00000078,Sarah,ESTP,"Okay quickly, follow me.",02,END,END,,True
+00000079,Sarah,ESFJ,"Okay quickly, let's go .",02,END,END,,True
+00000080,Sarah,ESFP,"Okay quickly, let's go .",02,END,END,,True
+00000081,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,03,00000145,No I haven't heard of the Muffin Man,True
+00000082,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,03,00000146,No I haven't heard of the Muffin Man,True
+00000083,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,03,00000147,No I haven't heard of the Muffin Man,True
+00000084,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,03,00000148,No I haven't heard of the Muffin Man,True
+00000085,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,03,00000149,No I haven't heard of the Muffin Man,True
+00000086,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,03,00000150,No I haven't heard of the Muffin Man,True
+00000087,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,03,00000151,No I haven't heard of the Muffin Man,True
+00000088,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,03,00000152,No I haven't heard of the Muffin Man,True
+00000089,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000153,No I haven't heard of the Muffin Man,True
+00000090,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000154,No I haven't heard of the Muffin Man,True
+00000091,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000155,No I haven't heard of the Muffin Man,True
+00000092,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000156,No I haven't heard of the Muffin Man,True
+00000093,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,03,00000157,No I haven't heard of the Muffin Man,True
+00000094,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,03,00000158,No I haven't heard of the Muffin Man,True
+00000095,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,03,00000159,No I haven't heard of the Muffin Man,True
+00000096,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,03,00000160,No I haven't heard of the Muffin Man,True
+00000097,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,04,00000161,You Mean the one that lives on Dreary Lane?,True
+00000098,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,04,00000162,You Mean the one that lives on Dreary Lane?,True
+00000099,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,04,00000163,You Mean the one that lives on Dreary Lane?,True
+00000100,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,04,00000164,You Mean the one that lives on Dreary Lane?,True
+00000101,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,04,00000165,You Mean the one that lives on Dreary Lane?,True
+00000102,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,04,00000167,You Mean the one that lives on Dreary Lane?,True
+00000103,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,04,00000168,You Mean the one that lives on Dreary Lane?,True
+00000104,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,04,00000169,You Mean the one that lives on Dreary Lane?,True
+00000105,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000170,You Mean the one that lives on Dreary Lane?,True
+00000106,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000171,You Mean the one that lives on Dreary Lane?,True
+00000107,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000172,You Mean the one that lives on Dreary Lane?,True
+00000108,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000173,You Mean the one that lives on Dreary Lane?,True
+00000109,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,04,00000174,You Mean the one that lives on Dreary Lane?,True
+00000110,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,04,00000175,You Mean the one that lives on Dreary Lane?,True
+00000111,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,04,00000176,You Mean the one that lives on Dreary Lane?,True
+00000112,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,04,00000177,You Mean the one that lives on Dreary Lane?,True
+00000113,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,05,00000178,Buzz Off.,True
+00000114,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,05,00000179,Buzz Off.,True
+00000115,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,05,00000180,Buzz Off.,True
+00000116,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,05,00000181,Buzz Off.,True
+00000117,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,05,00000182,Buzz Off.,True
+00000118,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,05,00000183,Buzz Off.,True
+00000119,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,05,00000184,Buzz Off.,True
+00000120,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,05,00000185,Buzz Off.,True
+00000121,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000186,Buzz Off.,True
+00000122,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000187,Buzz Off.,True
+00000123,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000188,Buzz Off.,True
+00000124,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000189,Buzz Off.,True
+00000125,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,05,00000190,Buzz Off.,True
+00000126,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,05,00000191,Buzz Off.,True
+00000127,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,05,00000192,Buzz Off.,True
+00000128,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,05,00000193,Buzz Off.,True
+00000129,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,06,00000194,"Maybe, what's it to you?",True
+00000130,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,06,00000195,"Maybe, what's it to you?",True
+00000131,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,06,00000196,"Maybe, what's it to you?",True
+00000132,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,06,00000197,"Maybe, what's it to you?",True
+00000133,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,06,00000198,"Maybe, what's it to you?",True
+00000134,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,06,00000199,"Maybe, what's it to you?",True
+00000135,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,06,00000200,"Maybe, what's it to you?",True
+00000136,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,06,00000201,"Maybe, what's it to you?",True
+00000137,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000202,"Maybe, what's it to you?",True
+00000138,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000203,"Maybe, what's it to you?",True
+00000139,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000204,"Maybe, what's it to you?",True
+00000140,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000205,"Maybe, what's it to you?",True
+00000141,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,06,00000206,"Maybe, what's it to you?",True
+00000142,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,06,00000207,"Maybe, what's it to you?",True
+00000143,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,06,00000208,"Maybe, what's it to you?",True
+00000144,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,06,00000209,"Maybe, what's it to you?",True
+00000145,Fin,INFJ,Really? That's a shame.,03,07,00000210,So who is this muffin man?,True
+00000146,Fin,INFP,Really? That's a shame.,03,07,00000211,So who is this muffin man?,True
+00000147,Fin,INTJ,Really? ,03,07,00000212,So who is this muffin man?,True
+00000148,Fin,INTP,Really? ,03,07,00000214,So who is this muffin man?,True
+00000149,Fin,ISTJ,Really? ,03,07,00000215,So who is this muffin man?,True
+00000150,Fin,ISTP,Really? ,03,07,00000216,So who is this muffin man?,True
+00000151,Fin,ISFJ,Really? That's a shame.,03,07,00000217,So who is this muffin man?,True
+00000152,Fin,ISFP,Really? That's a shame.,03,07,00000218,So who is this muffin man?,True
+00000153,Fin,ENFJ,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000219,"N-no, so who is this muffin man?",True
+00000154,Fin,ENFP,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000220,"N-no, so who is this muffin man?",True
+00000155,Fin,ENTJ,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000221,"N-no, so who is this muffin man?",True
+00000156,Fin,ENTP,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000222,"N-no, so who is this muffin man?",True
+00000157,Fin,ESTJ,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000223,"N-no, so who is this muffin man?",True
+00000158,Fin,ESTP,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000224,"N-no, so who is this muffin man?",True
+00000159,Fin,ESFJ,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000225,"N-no, so who is this muffin man?",True
+00000160,Fin,ESFP,You haven't head of the Muffin Man?! Have you been living under a cave?,03,07,00000226,"N-no, so who is this muffin man?",True
+00000161,Fin,INFJ,"That's great, this will make things easier.",04,07,00000210,So who is this muffin man?,True
+00000162,Fin,INFP,"That's great, this will make things easier.",04,07,00000211,So who is this muffin man?,True
+00000163,Fin,INTJ,"That's great, this will make things easier.",04,07,00000212,So who is this muffin man?,True
+00000164,Fin,INTP,"That's great, this will make things easier.",04,07,00000214,So who is this muffin man?,True
+00000165,Fin,ISTJ,"That's great, this will make things easier.",04,07,00000215,So who is this muffin man?,True
+00000167,Fin,ISTP,"That's great, this will make things easier.",04,07,00000216,So who is this muffin man?,True
+00000168,Fin,ISFJ,"That's great, this will make things easier.",04,07,00000217,So who is this muffin man?,True
+00000169,Fin,ISFP,"That's great, this will make things easier.",04,07,00000218,So who is this muffin man?,True
+00000170,Fin,ENFJ,"Sweet, you knowing this will make things much easier.",04,07,00000219,"Good to know, so who's this muffin man?",True
+00000171,Fin,ENFP,"Sweet, you knowing this will make things much easier.",04,07,00000220,"Good to know, so who's this muffin man?",True
+00000172,Fin,ENTJ,"Sweet, you knowing this will make things much easier.",04,07,00000221,"Good to know, so who's this muffin man?",True
+00000173,Fin,ENTP,"Sweet, you knowing this will make things much easier.",04,07,00000222,"Good to know, so who's this muffin man?",True
+00000174,Fin,ESTJ,"Sweet, you knowing this will make things much easier.",04,07,00000223,"Good to know, so who's this muffin man?",True
+00000175,Fin,ESTP,"Sweet, you knowing this will make things much easier.",04,07,00000224,"Good to know, so who's this muffin man?",True
+00000176,Fin,ESFJ,"Sweet, you knowing this will make things much easier.",04,07,00000225,"Good to know, so who's this muffin man?",True
+00000177,Fin,ESFP,"Sweet, you knowing this will make things much easier.",04,07,00000226,"Good to know, so who's this muffin man?",True
+00000178,Fin,INFJ,...Rude,05,END,END,,True
+00000179,Fin,INFP,...Rude,05,END,END,,True
+00000180,Fin,INTJ,Rude,05,END,END,,True
+00000181,Fin,INTP,Rude,05,END,END,,True
+00000182,Fin,ISTJ,Rude,05,END,END,,True
+00000183,Fin,ISTP,Rude,05,END,END,,True
+00000184,Fin,ISFJ,Rude,05,END,END,,True
+00000185,Fin,ISFP,Rude,05,END,END,,True
+00000186,Fin,ENFJ,Rude,05,END,END,,True
+00000187,Fin,ENFP,Rude,05,END,END,,True
+00000188,Fin,ENTJ,Rude,05,END,END,,True
+00000189,Fin,ENTP,Rude,05,END,END,,True
+00000190,Fin,ESTJ,Rude,05,END,END,,True
+00000191,Fin,ESTP,Rude,05,END,END,,True
+00000192,Fin,ESFJ,Rude,05,END,END,,True
+00000193,Fin,ESFP,Rude,05,END,END,,True
+00000194,Fin,INFJ,It would have saved me the time to explain things to you.,06,07,00000210,"Really? That's good, so who's this muffin man?",True
+00000195,Fin,INFP,It would have saved me the time to explain things to you.,06,07,00000211,"Really? That's good, so who's this muffin man?",True
+00000196,Fin,INTJ,It would have saved me the time to explain things to you.,06,07,00000212,"Really? That's good, so who's this muffin man?",True
+00000197,Fin,INTP,It would have saved me the time to explain things to you.,06,07,00000214,"Really? That's good, so who's this muffin man?",True
+00000198,Fin,ISTJ,It would have saved me the time to explain things to you.,06,07,00000215,"Really? That's good, so who's this muffin man?",True
+00000199,Fin,ISTP,It would have saved me the time to explain things to you.,06,07,00000216,"Really? That's good, so who's this muffin man?",True
+00000200,Fin,ISFJ,It would have saved me the time to explain things to you.,06,07,00000217,"Really? That's good, so who's this muffin man?",True
+00000201,Fin,ISFP,It would have saved me the time to explain things to you.,06,07,00000218,"Really? That's good, so who's this muffin man?",True
+00000202,Fin,ENFJ,"Well, it would have made things much easier if you did know about him.",06,07,00000219,"Really? That's good, so who's this muffin man?",True
+00000203,Fin,ENFP,"Well, it would have made things much easier if you did know about him.",06,07,00000220,"Really? That's good, so who's this muffin man?",True
+00000204,Fin,ENTJ,"Well, it would have made things much easier if you did know about him.",06,07,00000221,"Really? That's good, so who's this muffin man?",True
+00000205,Fin,ENTP,"Well, it would have made things much easier if you did know about him.",06,07,00000222,"Really? That's good, so who's this muffin man?",True
+00000206,Fin,ESTJ,"Well, it would have made things much easier if you did know about him.",06,07,00000223,"Really? That's good, so who's this muffin man?",True
+00000207,Fin,ESTP,"Well, it would have made things much easier if you did know about him.",06,07,00000224,"Really? That's good, so who's this muffin man?",True
+00000208,Fin,ESFJ,"Well, it would have made things much easier if you did know about him.",06,07,00000225,"Really? That's good, so who's this muffin man?",True
+00000209,Fin,ESFP,"Well, it would have made things much easier if you did know about him.",06,07,00000226,"Really? That's good, so who's this muffin man?",True
+00000210,Fin,INFJ,"First let's talk somewhere else. 
+Someone's near by, I can sense it. ",07,END,END,,True
+00000211,Fin,INFP,"Wait, can we talk somewhere else? 
+Someone's near by, I can sense it.",07,END,END,,True
+00000212,Fin,INTJ,"Let's talk elsewhere first?
+Someone's near by, I can sense it.  ",07,END,END,,True
+00000214,Fin,INTP,"We should talk somewhere else though. 
+Someone's near by, I can sense it.",07,END,END,,True
+00000215,Fin,ISTJ,"Wait did you hear that?
+I think someone could be near, let's go somewhere else.",07,END,END,,True
+00000216,Fin,ISTP,"Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",07,END,END,,True
+00000217,Fin,ISFJ,"Wait did you hear that?
+I think someone could be near, let's go somewhere else.",07,END,END,,True
+00000218,Fin,ISFP,"Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",07,END,END,,True
+00000219,Fin,ENFJ,"First let's talk somewhere else. 
+Someone's near by, I can sense it. ",07,END,END,,True
+00000220,Fin,ENFP,"Can we talk somewhere else first? 
+Someone's near by, I can sense it.",07,END,END,,True
+00000221,Fin,ENTJ,"Let's we talk elsewhere before anything else.
+Someone's near by, I can sense it.  ",07,END,END,,True
+00000222,Fin,ENTP,"We should talk somewhere else though. 
+Someone's near by, I can sense it.",07,END,END,,True
+00000223,Fin,ESTJ,"Wait did you hear that?
+I think someone could be near, let's go somewhere else.",07,END,END,,True
+00000224,Fin,ESTP,"Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",07,END,END,,True
+00000225,Fin,ESFJ,"Wait did you hear that?
+I think someone could be near, let's go somewhere else.",07,END,END,,True
+00000226,Fin,ESFP,"Wait did you hear that?
+I think someone could be near, let's go somewhere else to talk.",07,END,END,,True
