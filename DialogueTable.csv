@@ -114,37 +114,37 @@ I think someone could be near, let's go somewhere else to talk.",01,02,00000080,
 We should stay on our toes.
 Lead the way.",True
 00000049,Fin,INFJ,"Can you help me? 
-I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with sensitive information.",01,02,00000081,"Alright, but first tell me what this is about.",True
 00000050,Fin,INFP,"Can you help me? 
-I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with sensitive information.",01,02,00000082,"Alright, but first tell me what this is about.",True
 00000051,Fin,INTJ,"Can you help me?
-I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with confidential information.",01,02,00000083,"Alright, but first tell me what this is about.",True
 00000052,Fin,INTP,"Can you help me?
-I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with confidential information.",01,02,00000084,"Alright, but first tell me what this is about.",True
 00000053,Fin,ISTJ,"I need your help.
-I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+I could use your help with important information.",01,02,00000085,"Alright, but first tell me what this is about.",True
 00000054,Fin,ISTP,"I need your help, will you help me?
-I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+I could use your help with important information.",01,02,00000086,"Alright, but first tell me what this is about.",True
 00000055,Fin,ISFJ,"Please, I need your help.
-I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+I could use your help with important information.",01,02,00000087,"Alright, but first tell me what this is about.",True
 00000056,Fin,ISFP,"I need your help, please.
-I could use your help with important information.",01,02,,"Alright, but first tell me what this is about.",False
+I could use your help with important information.",01,02,00000088,"Alright, but first tell me what this is about.",True
 00000057,Fin,ENFJ,"Will you help me? 
-I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with sensitive information.",01,02,00000089,"Alright, but first tell me what this is about.",True
 00000058,Fin,ENFP,"Will you help me? 
-I need your help with sensitive information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with sensitive information.",01,02,00000090,"Alright, but first tell me what this is about.",True
 00000059,Fin,ENTJ,"Will you help me?
-I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with confidential information.",01,02,00000091,"Alright, but first tell me what this is about.",True
 00000060,Fin,ENTP,"Will you help me?
-I need your help with confidential information.",01,02,,"Alright, but first tell me what this is about.",False
+I need your help with confidential information.",01,02,00000092,"Alright, but first tell me what this is about.",True
 00000061,Fin,ESTJ,"I need your help.
-I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+I have important information that needs to be delivered.",01,02,00000093,"Alright, but first tell me what this is about.",True
 00000062,Fin,ESTP,"I need your help, will you help me?
-I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+I have important information that needs to be delivered.",01,02,00000094,"Alright, but first tell me what this is about.",True
 00000063,Fin,ESFJ,"Please, I need your help.
-I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+I have important information that needs to be delivered.",01,02,00000095,"Alright, but first tell me what this is about.",True
 00000064,Fin,ESFP,"I need your help, please.
-I have important information that needs to be delivered.",01,02,,"Alright, but first tell me what this is about.",False
+I have important information that needs to be delivered.",01,02,00000096,"Alright, but first tell me what this is about.",True
 00000065,Sarah,INFJ,"Okay, let's go.",02,END,END,,True
 00000066,Sarah,INFP,"Okay, let's go.",02,END,END,,True
 00000067,Sarah,INTJ,"Okay, follow me.",02,END,END,,True
@@ -161,70 +161,70 @@ I have important information that needs to be delivered.",01,02,,"Alright, but f
 00000078,Sarah,ESTP,"Okay quickly, follow me.",02,END,END,,True
 00000079,Sarah,ESFJ,"Okay quickly, let's go .",02,END,END,,True
 00000080,Sarah,ESFP,"Okay quickly, let's go .",02,END,END,,True
-00000081,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,03,00000145,No I haven't heard of the Muffin Man,True
-00000082,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,03,00000146,No I haven't heard of the Muffin Man,True
-00000083,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,03,00000147,No I haven't heard of the Muffin Man,True
-00000084,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,03,00000148,No I haven't heard of the Muffin Man,True
-00000085,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,03,00000149,No I haven't heard of the Muffin Man,True
-00000086,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,03,00000150,No I haven't heard of the Muffin Man,True
-00000087,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,03,00000151,No I haven't heard of the Muffin Man,True
-00000088,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,03,00000152,No I haven't heard of the Muffin Man,True
-00000089,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000153,No I haven't heard of the Muffin Man,True
-00000090,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000154,No I haven't heard of the Muffin Man,True
-00000091,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000155,No I haven't heard of the Muffin Man,True
-00000092,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000156,No I haven't heard of the Muffin Man,True
-00000093,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,03,00000157,No I haven't heard of the Muffin Man,True
-00000094,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,03,00000158,No I haven't heard of the Muffin Man,True
-00000095,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,03,00000159,No I haven't heard of the Muffin Man,True
-00000096,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,03,00000160,No I haven't heard of the Muffin Man,True
-00000097,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,04,00000161,You Mean the one that lives on Dreary Lane?,True
-00000098,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,04,00000162,You Mean the one that lives on Dreary Lane?,True
-00000099,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,04,00000163,You Mean the one that lives on Dreary Lane?,True
-00000100,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,04,00000164,You Mean the one that lives on Dreary Lane?,True
-00000101,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,04,00000165,You Mean the one that lives on Dreary Lane?,True
-00000102,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,04,00000167,You Mean the one that lives on Dreary Lane?,True
-00000103,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,04,00000168,You Mean the one that lives on Dreary Lane?,True
-00000104,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,04,00000169,You Mean the one that lives on Dreary Lane?,True
-00000105,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000170,You Mean the one that lives on Dreary Lane?,True
-00000106,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000171,You Mean the one that lives on Dreary Lane?,True
-00000107,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000172,You Mean the one that lives on Dreary Lane?,True
-00000108,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000173,You Mean the one that lives on Dreary Lane?,True
-00000109,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,04,00000174,You Mean the one that lives on Dreary Lane?,True
-00000110,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,04,00000175,You Mean the one that lives on Dreary Lane?,True
-00000111,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,04,00000176,You Mean the one that lives on Dreary Lane?,True
-00000112,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,04,00000177,You Mean the one that lives on Dreary Lane?,True
-00000113,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,05,00000178,Buzz Off.,True
-00000114,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,05,00000179,Buzz Off.,True
-00000115,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,05,00000180,Buzz Off.,True
-00000116,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,05,00000181,Buzz Off.,True
-00000117,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,05,00000182,Buzz Off.,True
-00000118,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,05,00000183,Buzz Off.,True
-00000119,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,05,00000184,Buzz Off.,True
-00000120,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,05,00000185,Buzz Off.,True
-00000121,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000186,Buzz Off.,True
-00000122,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000187,Buzz Off.,True
-00000123,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000188,Buzz Off.,True
-00000124,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000189,Buzz Off.,True
-00000125,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,05,00000190,Buzz Off.,True
-00000126,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,05,00000191,Buzz Off.,True
-00000127,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,05,00000192,Buzz Off.,True
-00000128,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,05,00000193,Buzz Off.,True
-00000129,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,06,00000194,"Maybe, what's it to you?",True
-00000130,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,06,00000195,"Maybe, what's it to you?",True
-00000131,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,06,00000196,"Maybe, what's it to you?",True
-00000132,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,06,00000197,"Maybe, what's it to you?",True
-00000133,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,06,00000198,"Maybe, what's it to you?",True
-00000134,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,06,00000199,"Maybe, what's it to you?",True
-00000135,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,06,00000200,"Maybe, what's it to you?",True
-00000136,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,06,00000201,"Maybe, what's it to you?",True
-00000137,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000202,"Maybe, what's it to you?",True
-00000138,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000203,"Maybe, what's it to you?",True
-00000139,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000204,"Maybe, what's it to you?",True
-00000140,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000205,"Maybe, what's it to you?",True
-00000141,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,06,00000206,"Maybe, what's it to you?",True
-00000142,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,06,00000207,"Maybe, what's it to you?",True
-00000143,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,06,00000208,"Maybe, what's it to you?",True
-00000144,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,06,00000209,"Maybe, what's it to you?",True
+00000081,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,03,00000145,No I haven't heard of the Muffin Man,False
+00000082,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,03,00000146,No I haven't heard of the Muffin Man,False
+00000083,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,03,00000147,No I haven't heard of the Muffin Man,False
+00000084,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,03,00000148,No I haven't heard of the Muffin Man,False
+00000085,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,03,00000149,No I haven't heard of the Muffin Man,False
+00000086,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,03,00000150,No I haven't heard of the Muffin Man,False
+00000087,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,03,00000151,No I haven't heard of the Muffin Man,False
+00000088,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,03,00000152,No I haven't heard of the Muffin Man,False
+00000089,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000153,No I haven't heard of the Muffin Man,False
+00000090,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000154,No I haven't heard of the Muffin Man,False
+00000091,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000155,No I haven't heard of the Muffin Man,False
+00000092,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,03,00000156,No I haven't heard of the Muffin Man,False
+00000093,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,03,00000157,No I haven't heard of the Muffin Man,False
+00000094,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,03,00000158,No I haven't heard of the Muffin Man,False
+00000095,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,03,00000159,No I haven't heard of the Muffin Man,False
+00000096,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,03,00000160,No I haven't heard of the Muffin Man,False
+00000097,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,04,00000161,You Mean the one that lives on Dreary Lane?,False
+00000098,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,04,00000162,You Mean the one that lives on Dreary Lane?,False
+00000099,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,04,00000163,You Mean the one that lives on Dreary Lane?,False
+00000100,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,04,00000164,You Mean the one that lives on Dreary Lane?,False
+00000101,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,04,00000165,You Mean the one that lives on Dreary Lane?,False
+00000102,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,04,00000167,You Mean the one that lives on Dreary Lane?,False
+00000103,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,04,00000168,You Mean the one that lives on Dreary Lane?,False
+00000104,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,04,00000169,You Mean the one that lives on Dreary Lane?,False
+00000105,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000170,You Mean the one that lives on Dreary Lane?,False
+00000106,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000171,You Mean the one that lives on Dreary Lane?,False
+00000107,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000172,You Mean the one that lives on Dreary Lane?,False
+00000108,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,04,00000173,You Mean the one that lives on Dreary Lane?,False
+00000109,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,04,00000174,You Mean the one that lives on Dreary Lane?,False
+00000110,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,04,00000175,You Mean the one that lives on Dreary Lane?,False
+00000111,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,04,00000176,You Mean the one that lives on Dreary Lane?,False
+00000112,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,04,00000177,You Mean the one that lives on Dreary Lane?,False
+00000113,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,05,00000178,Buzz Off.,False
+00000114,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,05,00000179,Buzz Off.,False
+00000115,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,05,00000180,Buzz Off.,False
+00000116,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,05,00000181,Buzz Off.,False
+00000117,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,05,00000182,Buzz Off.,False
+00000118,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,05,00000183,Buzz Off.,False
+00000119,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,05,00000184,Buzz Off.,False
+00000120,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,05,00000185,Buzz Off.,False
+00000121,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000186,Buzz Off.,False
+00000122,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000187,Buzz Off.,False
+00000123,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000188,Buzz Off.,False
+00000124,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,05,00000189,Buzz Off.,False
+00000125,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,05,00000190,Buzz Off.,False
+00000126,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,05,00000191,Buzz Off.,False
+00000127,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,05,00000192,Buzz Off.,False
+00000128,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,05,00000193,Buzz Off.,False
+00000129,Fin,INFJ,*looks away* Have you heard of the Muffin Man?,02,06,00000194,"Maybe, what's it to you?",False
+00000130,Fin,INFP,*looks away* Have you heard of the Muffin Man?,02,06,00000195,"Maybe, what's it to you?",False
+00000131,Fin,INTJ,*looks away* Have you heard of the Muffin Man?,02,06,00000196,"Maybe, what's it to you?",False
+00000132,Fin,INTP,*looks away* Have you heard of the Muffin Man?,02,06,00000197,"Maybe, what's it to you?",False
+00000133,Fin,ISTJ,*looks around* Have you heard of the Muffin Man?,02,06,00000198,"Maybe, what's it to you?",False
+00000134,Fin,ISTP,*looks around* Have you heard of the Muffin Man?,02,06,00000199,"Maybe, what's it to you?",False
+00000135,Fin,ISFJ,*looks around* Have you heard of the Muffin Man?,02,06,00000200,"Maybe, what's it to you?",False
+00000136,Fin,ISFP,*looks around* Have you heard of the Muffin Man?,02,06,00000201,"Maybe, what's it to you?",False
+00000137,Fin,ENFJ,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000202,"Maybe, what's it to you?",False
+00000138,Fin,ENFP,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000203,"Maybe, what's it to you?",False
+00000139,Fin,ENTJ,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000204,"Maybe, what's it to you?",False
+00000140,Fin,ENTP,*looks briefly at you* Have you heard of the Muffin Man?,02,06,00000205,"Maybe, what's it to you?",False
+00000141,Fin,ESTJ,*looks at you* Have you heard of the Muffin Man?,02,06,00000206,"Maybe, what's it to you?",False
+00000142,Fin,ESTP,*looks at you* Have you heard of the Muffin Man?,02,06,00000207,"Maybe, what's it to you?",False
+00000143,Fin,ESFJ,*looks at you* Have you heard of the Muffin Man?,02,06,00000208,"Maybe, what's it to you?",False
+00000144,Fin,ESFP,*looks at you* Have you heard of the Muffin Man?,02,06,00000209,"Maybe, what's it to you?",False
 00000145,Fin,INFJ,Really? That's a shame.,03,07,00000210,So who is this muffin man?,True
 00000146,Fin,INFP,Really? That's a shame.,03,07,00000211,So who is this muffin man?,True
 00000147,Fin,INTJ,Really? ,03,07,00000212,So who is this muffin man?,True
