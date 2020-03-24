@@ -1,15 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading Dialogue_BSEditor (modules to compile have changed)
-  Compiling game modules for hot reload
+  Creating makefile for Dialogue_BSEditor (no existing makefile)
   Performing full C++ include scan (no include cache file)
-  Performing 7 actions (3 in parallel)
+  Parsing headers for Dialogue_BSEditor
+    Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Dialogue_BSEditor in 13.3221613 seconds
+  Performing 26 actions (4 in parallel)
+  [2/26] Resource PCLaunch.rc
+  [3/26] Resource ModuleVersionResource.rc.inl
+  SharedPCH.Engine.cpp
+  Modifier.gen.cpp
+  Relationship.cpp
   Dialogue_BSCharacter.gen.cpp
+  Dialogue_BSGameMode.gen.cpp
+  Dialogue_BS.init.gen.cpp
   PresetModifier.cpp
+  TF.cpp
+  StatsModifier.cpp
+  SN.cpp
+  PersonalityFrameWork.gen.cpp
+  PersonalityFrameWork.cpp
+  JP.cpp
+  IE.cpp
+  IDStore.cpp
+  IDHashTable.cpp
   Dialogue_BSGameMode.cpp
-C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Source\Dialogue_BS\Private\PresetModifier.cpp : fatal error C1083: Cannot open compiler generated file: 'C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\Dialogue_BS\PresetModifier.cpp.obj': Permission denied
   Dialogue_BSCharacter.cpp
-C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Inc\Dialogue_BS\Dialogue_BSCharacter.gen.cpp : fatal error C1083: Cannot open compiler generated file: 'C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\Dialogue_BS\Dialogue_BSCharacter.gen.cpp.obj': Permission denied
+  Dialogue_BS.cpp
+  Personality.cpp
+  BehaviourModifier.cpp
   PresetModifier.gen.cpp
-ERROR : UBT error : Failed to produce item: C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Binaries\Win64\UE4Editor-Dialogue_BS-9530.dll
-  Total build time: 595.75 seconds (Local executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.18\Engine\Build\BatchFiles\Build.bat" Dialogue_BSEditor Win64 Development "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+  [25/26] Link UE4Editor-Dialogue_BS.dll
+  [26/26] Link UE4Editor-Dialogue_BS.lib
+     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.exp
+     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
+  Deploying Dialogue_BSEditor Win64 Development...
+  Total build time: 61.42 seconds (Local executor: 41.11 seconds)
