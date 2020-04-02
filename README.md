@@ -1,7 +1,10 @@
 # Team
 Internal Team Members: Richard De La Merced, Nathaniel Mentis, Dong Hyeong Lee 
+
 External Members: Peter Adams, Arielle Vachon
+
 Project Lead/Owner & (Scrum Master): Richard De La Merced
+
 Developers: Richard De La Merced, Nathaniel Mentis, Dong Hyeong Lee 
 
 
