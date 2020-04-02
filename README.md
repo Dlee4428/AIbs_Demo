@@ -33,3 +33,6 @@ Custom Dialogue System
 AI Behaviour System Demo
 AI Behaviour System Demo Showcase
 C++ Personality Generator
+
+# Side Note
+This repository is a plugin in the works of being developed. If you wish to use content from this project please give us credit. If you wish to join this collaboration or wish to contact us you can email delamercedrichard@gmail.com 
