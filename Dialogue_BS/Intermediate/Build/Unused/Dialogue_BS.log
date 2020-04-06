@@ -1,37 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Dialogue_BSEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Parsing headers for Dialogue_BSEditor
-    Running UnrealHeaderTool "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Dialogue_BSEditor in 13.3221613 seconds
-  Performing 26 actions (4 in parallel)
-  [2/26] Resource PCLaunch.rc
-  [3/26] Resource ModuleVersionResource.rc.inl
-  SharedPCH.Engine.cpp
-  Modifier.gen.cpp
-  Relationship.cpp
-  Dialogue_BSCharacter.gen.cpp
-  Dialogue_BSGameMode.gen.cpp
-  Dialogue_BS.init.gen.cpp
-  PresetModifier.cpp
-  TF.cpp
-  StatsModifier.cpp
-  SN.cpp
-  PersonalityFrameWork.gen.cpp
-  PersonalityFrameWork.cpp
-  JP.cpp
-  IE.cpp
-  IDStore.cpp
-  IDHashTable.cpp
-  Dialogue_BSGameMode.cpp
-  Dialogue_BSCharacter.cpp
-  Dialogue_BS.cpp
-  Personality.cpp
-  BehaviourModifier.cpp
-  PresetModifier.gen.cpp
-  [25/26] Link UE4Editor-Dialogue_BS.dll
-  [26/26] Link UE4Editor-Dialogue_BS.lib
-     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.exp
-     Creating library C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\fuckm\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
+  Target is up to date
   Deploying Dialogue_BSEditor Win64 Development...
-  Total build time: 61.42 seconds (Local executor: 41.11 seconds)
+  Total build time: 1.57 seconds (NoActionsToExecute executor: 0.00 seconds)
