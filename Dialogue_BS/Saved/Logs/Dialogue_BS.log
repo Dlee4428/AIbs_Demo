@@ -402,3 +402,641 @@ LogInit: Object subsystem initialized
 [2020.04.06-20.20.26:075][883]LogSavePackage: Save=970.94ms
 [2020.04.06-20.20.26:075][883]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_BuiltData98C085DA4EC57635955F88B25F4D8665.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
 [2020.04.06-20.20.26:084][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2020.04.06-20.21.21:239][428]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.06-20.21.25:137][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.21.25:158][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.06-20.21.25:238][428]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 6, 2020, 12:21:25 PM)
+[2020.04.06-20.21.25:251][428]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.06-20.21.25:396][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144469s)
+[2020.04.06-20.21.25:397][428]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.06-20.21.25:421][428]LogPlayLevel: PIE: World Init took: (0.024992s)
+[2020.04.06-20.21.25:434][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.182089s)
+[2020.04.06-20.21.25:558][428]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.06-20.21.25:584][428]LogInit: FAudioDevice initialized.
+[2020.04.06-20.21.25:685][428]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.04.06-20.21.25:727][428]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.06-16.21.25
+[2020.04.06-20.21.25:864][428]LogWorld: Bringing up level for play took: 0.170380
+[2020.04.06-20.21.26:144][428]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
+[2020.04.06-20.21.26:197][428]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: 0.041306
+[2020.04.06-20.21.26:202][428]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 114.560532
+[2020.04.06-20.21.26:202][428]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 80.789246
+[2020.04.06-20.21.26:202][428]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 277.472015
+[2020.04.06-20.21.26:202][428]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.767649
+[2020.04.06-20.21.26:202][428]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 1.04311
+[2020.04.06-20.21.26:202][428]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: 0.380467
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 114.433357
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 125.108879
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 300.984436
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 0.458103
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 0.999977
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: 0.009946
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 108.583099
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 97.003319
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 254.985962
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.402684
+[2020.04.06-20.21.26:203][428]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 1.032147
+[2020.04.06-20.21.26:204][428]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.134
+[2020.04.06-20.21.26:205][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.21.38:638][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Dialogue: Dialogue Weight = INTP
+[2020.04.06-20.21.38:638][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Dialogue: Gathering Data.
+[2020.04.06-20.21.38:638][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Searching Through Library
+[2020.04.06-20.21.38:658][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Linear Dialogue Loaded
+[2020.04.06-20.21.38:660][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Loading Button Creation
+[2020.04.06-20.21.38:660][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Linear Path Initiated
+[2020.04.06-20.21.38:699][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Transition ID 00000036
+[2020.04.06-20.21.38:699][ 89]LogBlueprintUserMessages: [DialogueV2_C_24] Current Dialogue Stage0
+[2020.04.06-20.21.43:665][381]LogBlueprintUserMessages: [DialogueV2_C_24] Option Clicked0
+[2020.04.06-20.21.43:665][381]LogBlueprintUserMessages: [DialogueV2_C_24] Continued Linear Path Dialogue
+[2020.04.06-20.21.43:665][381]LogBlueprintUserMessages: [DialogueV2_C_24] Searching Through Library
+[2020.04.06-20.21.43:666][381]LogBlueprintUserMessages: [DialogueV2_C_24] Linear Dialogue Loaded
+[2020.04.06-20.21.43:667][381]LogBlueprintUserMessages: [DialogueV2_C_24] Loading Button Creation
+[2020.04.06-20.21.43:667][381]LogBlueprintUserMessages: [DialogueV2_C_24] Linear Path Initiated
+[2020.04.06-20.21.43:668][381]LogBlueprintUserMessages: [DialogueV2_C_24] Transition ID 00000068
+[2020.04.06-20.21.43:668][381]LogBlueprintUserMessages: [DialogueV2_C_24] Current Dialogue Stage1
+[2020.04.06-20.21.44:934][458]LogBlueprintUserMessages: [DialogueV2_C_24] Option Clicked0
+[2020.04.06-20.21.44:935][458]LogBlueprintUserMessages: [DialogueV2_C_24] Continued Linear Path Dialogue
+[2020.04.06-20.21.44:935][458]LogBlueprintUserMessages: [DialogueV2_C_24] Searching Through Library
+[2020.04.06-20.21.44:935][458]LogBlueprintUserMessages: [DialogueV2_C_24] Linear Dialogue Loaded
+[2020.04.06-20.21.44:936][458]LogBlueprintUserMessages: [DialogueV2_C_24] Loading Button Creation
+[2020.04.06-20.21.44:937][458]LogBlueprintUserMessages: [DialogueV2_C_24] Linear Path Initiated
+[2020.04.06-20.21.44:937][458]LogBlueprintUserMessages: [DialogueV2_C_24] Transition ID END
+[2020.04.06-20.21.44:937][458]LogBlueprintUserMessages: [DialogueV2_C_24] Current Dialogue Stage2
+[2020.04.06-20.21.45:939][520]LogBlueprintUserMessages: [DialogueV2_C_24] Option Clicked0
+[2020.04.06-20.21.52:473][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.21.52:628][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.22.51:525][747]BlueprintLog: New page: Compile Fin
+[2020.04.06-20.22.53:701][813]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.06-20.22.53:766][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.22.53:766][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.06-20.22.53:766][813]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 6, 2020, 12:22:53 PM)
+[2020.04.06-20.22.53:767][813]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.06-20.22.53:873][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106245s)
+[2020.04.06-20.22.53:874][813]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.06-20.22.53:874][813]LogPlayLevel: PIE: World Init took: (0.001541s)
+[2020.04.06-20.22.53:876][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.108484s)
+[2020.04.06-20.22.53:961][813]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.06-20.22.53:987][813]LogInit: FAudioDevice initialized.
+[2020.04.06-20.22.54:055][813]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.04.06-20.22.54:089][813]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.06-16.22.54
+[2020.04.06-20.22.54:092][813]LogWorld: Bringing up level for play took: 0.034593
+[2020.04.06-20.22.54:093][813]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: 0.402273
+[2020.04.06-20.22.54:096][813]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 137.218842
+[2020.04.06-20.22.54:096][813]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 119.709702
+[2020.04.06-20.22.54:096][813]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 310.744873
+[2020.04.06-20.22.54:096][813]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.799723
+[2020.04.06-20.22.54:096][813]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 0.819105
+[2020.04.06-20.22.54:096][813]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: -0.136101
+[2020.04.06-20.22.54:097][813]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 84.645554
+[2020.04.06-20.22.54:097][813]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 99.790802
+[2020.04.06-20.22.54:097][813]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 222.988907
+[2020.04.06-20.22.54:097][813]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 1.061552
+[2020.04.06-20.22.54:097][813]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 1.012171
+[2020.04.06-20.22.54:097][813]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: 0.283853
+[2020.04.06-20.22.54:098][813]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 129.102097
+[2020.04.06-20.22.54:098][813]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 107.147728
+[2020.04.06-20.22.54:098][813]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 299.622803
+[2020.04.06-20.22.54:098][813]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.008635
+[2020.04.06-20.22.54:098][813]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 0.967628
+[2020.04.06-20.22.54:099][813]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.028
+[2020.04.06-20.22.54:100][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.22.57:684][ 20]LogBlueprintUserMessages: [Fin] Fin
+[2020.04.06-20.23.00:019][151]LogBlueprintUserMessages: [Fin] Fin
+[2020.04.06-20.23.02:282][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.23.02:345][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.23.16:532][671]BlueprintLog: New page: Compile Fin
+[2020.04.06-20.23.31:499][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.06-20.23.31:587][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.23.31:587][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.06-20.23.31:588][ 23]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 6, 2020, 12:23:31 PM)
+[2020.04.06-20.23.31:588][ 23]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.06-20.23.31:682][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094411s)
+[2020.04.06-20.23.31:683][ 23]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.06-20.23.31:684][ 23]LogPlayLevel: PIE: World Init took: (0.001478s)
+[2020.04.06-20.23.31:684][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.096575s)
+[2020.04.06-20.23.31:764][ 23]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.06-20.23.31:788][ 23]LogInit: FAudioDevice initialized.
+[2020.04.06-20.23.31:825][ 23]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.04.06-20.23.31:840][ 23]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.06-16.23.31
+[2020.04.06-20.23.31:843][ 23]LogWorld: Bringing up level for play took: 0.016621
+[2020.04.06-20.23.31:845][ 23]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: 0.22286
+[2020.04.06-20.23.31:846][ 23]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 101.772217
+[2020.04.06-20.23.31:846][ 23]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 127.097183
+[2020.04.06-20.23.31:846][ 23]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 267.474884
+[2020.04.06-20.23.31:846][ 23]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.934177
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 1.009902
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: 0.550213
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 116.366882
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 153.123047
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 306.919647
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 1.195456
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 1.122636
+[2020.04.06-20.23.31:847][ 23]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: 0.174022
+[2020.04.06-20.23.31:848][ 23]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 116.800415
+[2020.04.06-20.23.31:848][ 23]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 112.330154
+[2020.04.06-20.23.31:848][ 23]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 272.474335
+[2020.04.06-20.23.31:848][ 23]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.181384
+[2020.04.06-20.23.31:848][ 23]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 0.932503
+[2020.04.06-20.23.31:849][ 23]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.778
+[2020.04.06-20.23.31:849][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.23.40:577][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.23.40:639][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.07:047][675]BlueprintLog: New page: Compile Fin
+[2020.04.06-20.24.09:939][771]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.06-20.24.09:993][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.09:993][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.06-20.24.09:993][771]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 6, 2020, 12:24:09 PM)
+[2020.04.06-20.24.09:993][771]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.06-20.24.10:086][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092540s)
+[2020.04.06-20.24.10:087][771]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.06-20.24.10:087][771]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2020.04.06-20.24.10:088][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095027s)
+[2020.04.06-20.24.10:168][771]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.06-20.24.10:198][771]LogInit: FAudioDevice initialized.
+[2020.04.06-20.24.10:237][771]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.04.06-20.24.10:254][771]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.06-16.24.10
+[2020.04.06-20.24.10:257][771]LogWorld: Bringing up level for play took: 0.018592
+[2020.04.06-20.24.10:258][771]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: -0.210632
+[2020.04.06-20.24.10:260][771]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 95.022072
+[2020.04.06-20.24.10:260][771]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 66.600082
+[2020.04.06-20.24.10:260][771]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 241.273438
+[2020.04.06-20.24.10:260][771]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.779514
+[2020.04.06-20.24.10:260][771]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 1.082128
+[2020.04.06-20.24.10:260][771]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: 0.450628
+[2020.04.06-20.24.10:261][771]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 114.263611
+[2020.04.06-20.24.10:261][771]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 141.263458
+[2020.04.06-20.24.10:261][771]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 298.862061
+[2020.04.06-20.24.10:261][771]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 0.625512
+[2020.04.06-20.24.10:261][771]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 0.958274
+[2020.04.06-20.24.10:261][771]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: -0.54375
+[2020.04.06-20.24.10:262][771]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 60.886547
+[2020.04.06-20.24.10:262][771]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 67.504578
+[2020.04.06-20.24.10:262][771]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 173.745514
+[2020.04.06-20.24.10:262][771]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.178815
+[2020.04.06-20.24.10:262][771]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 1.103244
+[2020.04.06-20.24.10:262][771]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.191
+[2020.04.06-20.24.10:263][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.17:653][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.17:716][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.32:793][272]BlueprintLog: New page: Compile Fin
+[2020.04.06-20.24.36:610][499]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.06-20.24.36:656][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.36:657][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.06-20.24.36:657][499]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 6, 2020, 12:24:36 PM)
+[2020.04.06-20.24.36:657][499]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.06-20.24.36:751][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093614s)
+[2020.04.06-20.24.36:752][499]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.06-20.24.36:752][499]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2020.04.06-20.24.36:752][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.095296s)
+[2020.04.06-20.24.36:823][499]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.06-20.24.36:848][499]LogInit: FAudioDevice initialized.
+[2020.04.06-20.24.36:883][499]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.04.06-20.24.36:898][499]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.06-16.24.36
+[2020.04.06-20.24.36:900][499]LogWorld: Bringing up level for play took: 0.015997
+[2020.04.06-20.24.36:902][499]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: 0.046881
+[2020.04.06-20.24.36:903][499]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 99.094818
+[2020.04.06-20.24.36:903][499]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 99.461243
+[2020.04.06-20.24.36:903][499]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 259.914917
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.678762
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 1.026453
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: 0.142348
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 91.569962
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 130.083557
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 248.386063
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 0.948086
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 0.983844
+[2020.04.06-20.24.36:904][499]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: -0.165377
+[2020.04.06-20.24.36:905][499]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 74.087982
+[2020.04.06-20.24.36:905][499]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 95.752419
+[2020.04.06-20.24.36:905][499]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 221.172119
+[2020.04.06-20.24.36:905][499]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 0.338011
+[2020.04.06-20.24.36:905][499]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 0.984241
+[2020.04.06-20.24.36:905][499]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.166
+[2020.04.06-20.24.36:906][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.38:992][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.24.39:047][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.25.50:710][373]BlueprintLog: New page: Compile Sarah
+[2020.04.06-20.25.53:042][487]LogSavePackage: Save=129.61ms
+[2020.04.06-20.25.53:042][487]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Sarah483DF6DE49803EB41D91FAA2214F48F9.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/Sarah.uasset'
+[2020.04.06-20.25.53:056][487]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/Sarah.uasset
+[2020.04.06-20.25.54:302][588]BlueprintLog: New page: Compile Fin
+[2020.04.06-20.25.55:608][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Dialogue/Fin" FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/Fin.uasset" SILENT=true
+[2020.04.06-20.25.55:777][618]LogSavePackage: Save=139.34ms
+[2020.04.06-20.25.55:779][618]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/FinF759C5C94DBB06241F5D5FAD77064E51.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/Fin.uasset'
+[2020.04.06-20.25.55:792][618]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/Fin.uasset
+[2020.04.06-20.25.57:181][697]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.06-20.25.57:248][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.25.57:248][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.06-20.25.57:248][697]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 6, 2020, 12:25:57 PM)
+[2020.04.06-20.25.57:248][697]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.04.06-20.25.57:335][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086612s)
+[2020.04.06-20.25.57:336][697]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.06-20.25.57:337][697]LogPlayLevel: PIE: World Init took: (0.001889s)
+[2020.04.06-20.25.57:337][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.089164s)
+[2020.04.06-20.25.57:413][697]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.06-20.25.57:435][697]LogInit: FAudioDevice initialized.
+[2020.04.06-20.25.57:481][697]LogLoad: Game class is 'Dialogue_BSGameMode'
+[2020.04.06-20.25.57:496][697]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.06-16.25.57
+[2020.04.06-20.25.57:498][697]LogWorld: Bringing up level for play took: 0.016915
+[2020.04.06-20.25.57:500][697]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: 0.105859
+[2020.04.06-20.25.57:501][697]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 121.01799
+[2020.04.06-20.25.57:501][697]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 88.993469
+[2020.04.06-20.25.57:501][697]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 282.178345
+[2020.04.06-20.25.57:501][697]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.834025
+[2020.04.06-20.25.57:501][697]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 0.959286
+[2020.04.06-20.25.57:501][697]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: 0.101814
+[2020.04.06-20.25.57:502][697]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 119.459045
+[2020.04.06-20.25.57:502][697]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 85.295563
+[2020.04.06-20.25.57:502][697]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 285.067291
+[2020.04.06-20.25.57:502][697]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 0.764285
+[2020.04.06-20.25.57:502][697]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 1.013399
+[2020.04.06-20.25.57:502][697]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: -0.298723
+[2020.04.06-20.25.57:503][697]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 93.893692
+[2020.04.06-20.25.57:503][697]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 66.096222
+[2020.04.06-20.25.57:503][697]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 224.159119
+[2020.04.06-20.25.57:503][697]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.388442
+[2020.04.06-20.25.57:503][697]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 1.107684
+[2020.04.06-20.25.57:504][697]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.433
+[2020.04.06-20.25.57:504][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.26.01:160][904]LogBlueprintUserMessages: [DialogueV2_C_42] Dialogue: Dialogue Weight = ESTP
+[2020.04.06-20.26.01:160][904]LogBlueprintUserMessages: [DialogueV2_C_42] Dialogue: Gathering Data.
+[2020.04.06-20.26.01:160][904]LogBlueprintUserMessages: [DialogueV2_C_42] Searching Through Library
+[2020.04.06-20.26.01:161][904]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Dialogue Loaded
+[2020.04.06-20.26.01:162][904]LogBlueprintUserMessages: [DialogueV2_C_42] Loading Button Creation
+[2020.04.06-20.26.01:162][904]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Path Initiated
+[2020.04.06-20.26.01:163][904]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000062
+[2020.04.06-20.26.01:163][904]LogBlueprintUserMessages: [DialogueV2_C_42] Current Dialogue Stage0
+[2020.04.06-20.26.02:545][980]LogBlueprintUserMessages: [DialogueV2_C_42] Option Clicked0
+[2020.04.06-20.26.02:546][980]LogBlueprintUserMessages: [DialogueV2_C_42] Continued Linear Path Dialogue
+[2020.04.06-20.26.02:546][980]LogBlueprintUserMessages: [DialogueV2_C_42] Searching Through Library
+[2020.04.06-20.26.02:546][980]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Dialogue Loaded
+[2020.04.06-20.26.02:547][980]LogBlueprintUserMessages: [DialogueV2_C_42] Loading Button Creation
+[2020.04.06-20.26.02:547][980]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Path Initiated
+[2020.04.06-20.26.02:548][980]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000094
+[2020.04.06-20.26.02:548][980]LogBlueprintUserMessages: [DialogueV2_C_42] Current Dialogue Stage1
+[2020.04.06-20.26.03:030][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Option Clicked0
+[2020.04.06-20.26.03:030][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Continued Non Linear Path
+[2020.04.06-20.26.03:031][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Dialogue Node: 0 Added 
+[2020.04.06-20.26.03:031][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Dialogue Node: 1 Added 
+[2020.04.06-20.26.03:031][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Dialogue Node: 2 Added 
+[2020.04.06-20.26.03:031][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Dialogue Node: 3 Added 
+[2020.04.06-20.26.03:032][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Number Of Options In Dialogue: 4
+[2020.04.06-20.26.03:032][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Loading Button Creation
+[2020.04.06-20.26.03:032][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Multiple Paths Initiated 
+[2020.04.06-20.26.03:034][  7]LogBlueprintUserMessages: [DialogueV2_C_42] 3
+[2020.04.06-20.26.03:034][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000158
+[2020.04.06-20.26.03:034][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000158
+[2020.04.06-20.26.03:034][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000158
+[2020.04.06-20.26.03:034][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000158
+[2020.04.06-20.26.03:034][  7]LogBlueprintUserMessages: [DialogueV2_C_42] Current Dialogue Stage2
+[2020.04.06-20.26.05:182][127]LogBlueprintUserMessages: [DialogueV2_C_42] Option Clicked3
+[2020.04.06-20.26.05:182][127]LogBlueprintUserMessages: [DialogueV2_C_42] Continued Linear Path Dialogue
+[2020.04.06-20.26.05:182][127]LogBlueprintUserMessages: [DialogueV2_C_42] Searching Through Library
+[2020.04.06-20.26.05:183][127]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Dialogue Loaded
+[2020.04.06-20.26.05:184][127]LogBlueprintUserMessages: [DialogueV2_C_42] Loading Button Creation
+[2020.04.06-20.26.05:184][127]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Path Initiated
+[2020.04.06-20.26.05:184][127]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID 00000224
+[2020.04.06-20.26.05:184][127]LogBlueprintUserMessages: [DialogueV2_C_42] Current Dialogue Stage6
+[2020.04.06-20.26.05:741][159]LogBlueprintUserMessages: [DialogueV2_C_42] Option Clicked0
+[2020.04.06-20.26.05:742][159]LogBlueprintUserMessages: [DialogueV2_C_42] Continued Linear Path Dialogue
+[2020.04.06-20.26.05:742][159]LogBlueprintUserMessages: [DialogueV2_C_42] Searching Through Library
+[2020.04.06-20.26.05:744][159]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Dialogue Loaded
+[2020.04.06-20.26.05:744][159]LogBlueprintUserMessages: [DialogueV2_C_42] Loading Button Creation
+[2020.04.06-20.26.05:744][159]LogBlueprintUserMessages: [DialogueV2_C_42] Linear Path Initiated
+[2020.04.06-20.26.05:745][159]LogBlueprintUserMessages: [DialogueV2_C_42] Transition ID END
+[2020.04.06-20.26.05:745][159]LogBlueprintUserMessages: [DialogueV2_C_42] Current Dialogue Stage7
+[2020.04.06-20.26.06:296][191]LogBlueprintUserMessages: [DialogueV2_C_42] Option Clicked0
+[2020.04.06-20.26.12:206][510]LogBlueprintUserMessages: [DialogueV2_C_43] Dialogue: Dialogue Weight = ENFJ
+[2020.04.06-20.26.12:206][510]LogBlueprintUserMessages: [DialogueV2_C_43] Dialogue: Gathering Data.
+[2020.04.06-20.26.12:206][510]LogBlueprintUserMessages: [DialogueV2_C_43] Searching Through Library
+[2020.04.06-20.26.12:206][510]LogBlueprintUserMessages: [DialogueV2_C_43] Linear Dialogue Loaded
+[2020.04.06-20.26.12:208][510]LogBlueprintUserMessages: [DialogueV2_C_43] Loading Button Creation
+[2020.04.06-20.26.12:208][510]LogBlueprintUserMessages: [DialogueV2_C_43] Linear Path Initiated
+[2020.04.06-20.26.12:209][510]LogBlueprintUserMessages: [DialogueV2_C_43] Transition ID 00000041
+[2020.04.06-20.26.12:209][510]LogBlueprintUserMessages: [DialogueV2_C_43] Current Dialogue Stage0
+[2020.04.06-20.26.13:149][572]LogBlueprintUserMessages: [DialogueV2_C_43] Option Clicked0
+[2020.04.06-20.26.13:149][572]LogBlueprintUserMessages: [DialogueV2_C_43] Continued Linear Path Dialogue
+[2020.04.06-20.26.13:149][572]LogBlueprintUserMessages: [DialogueV2_C_43] Searching Through Library
+[2020.04.06-20.26.13:150][572]LogBlueprintUserMessages: [DialogueV2_C_43] Linear Dialogue Loaded
+[2020.04.06-20.26.13:153][572]LogBlueprintUserMessages: [DialogueV2_C_43] Loading Button Creation
+[2020.04.06-20.26.13:153][572]LogBlueprintUserMessages: [DialogueV2_C_43] Linear Path Initiated
+[2020.04.06-20.26.13:153][572]LogBlueprintUserMessages: [DialogueV2_C_43] Transition ID 00000073
+[2020.04.06-20.26.13:153][572]LogBlueprintUserMessages: [DialogueV2_C_43] Current Dialogue Stage1
+[2020.04.06-20.26.13:560][599]LogBlueprintUserMessages: [DialogueV2_C_43] Option Clicked0
+[2020.04.06-20.26.13:561][599]LogBlueprintUserMessages: [DialogueV2_C_43] Continued Linear Path Dialogue
+[2020.04.06-20.26.13:561][599]LogBlueprintUserMessages: [DialogueV2_C_43] Searching Through Library
+[2020.04.06-20.26.13:561][599]LogBlueprintUserMessages: [DialogueV2_C_43] Linear Dialogue Loaded
+[2020.04.06-20.26.13:562][599]LogBlueprintUserMessages: [DialogueV2_C_43] Loading Button Creation
+[2020.04.06-20.26.13:562][599]LogBlueprintUserMessages: [DialogueV2_C_43] Linear Path Initiated
+[2020.04.06-20.26.13:563][599]LogBlueprintUserMessages: [DialogueV2_C_43] Transition ID END
+[2020.04.06-20.26.13:563][599]LogBlueprintUserMessages: [DialogueV2_C_43] Current Dialogue Stage2
+[2020.04.06-20.26.13:963][625]LogBlueprintUserMessages: [DialogueV2_C_43] Option Clicked0
+[2020.04.06-20.26.18:140][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.26.18:200][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.04.06-20.26.43:812][944]LogSavePackage: Save=1234.86ms
+[2020.04.06-20.26.43:812][944]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMapE36E82294D62235513ED289E7A467E0B.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.04.06-20.26.43:826][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2020.04.06-20.26.44:645][944]LogSavePackage: Save=679.45ms
+[2020.04.06-20.26.44:645][944]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_BuiltDataDEBDE09E4615EEF45DC50A8B9F55E803.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.04.06-20.26.44:652][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2020.04.06-20.40.24:276][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.06-20.40.24:375][617]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.06-20.40.24:779][618]Cmd: QUIT_EDITOR
+[2020.04.06-20.40.25:282][618]LogExit: Preparing to exit.
+[2020.04.06-20.40.26:648][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.04.06-20.40.27:160][618]LogExit: Editor shut down
+[2020.04.06-20.40.27:174][618]LogExit: Transaction tracking system shut down
+[2020.04.06-20.40.27:691][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.04.06-20.40.27:691][618]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
+[2020.04.06-20.40.27:691][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.04.06-20.40.27:691][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.04.06-20.40.27:691][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.04.06-20.40.27:692][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.04.06-20.40.27:692][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.04.06-20.40.30:037][618]LogExit: Object subsystem successfully closed.
+[2020.04.06-20.40.30:327][618]LogD3D11RHI: Shutdown
+[2020.04.06-20.40.30:356][618]LogD3D11RHI: CleanupD3DDevice
+[2020.04.06-20.40.30:514][618]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.06-20.40.31:367][618]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (558)
+[2020.04.06-20.40.31:367][618]LogModuleManager: Shutting down and abandoning module SequencerWidgets (556)
+[2020.04.06-20.40.31:367][618]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2020.04.06-20.40.31:367][618]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
+[2020.04.06-20.40.31:367][618]LogModuleManager: Shutting down and abandoning module DesktopPlatform (550)
+[2020.04.06-20.40.31:384][618]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2020.04.06-20.40.31:384][618]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2020.04.06-20.40.31:389][618]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2020.04.06-20.40.31:394][618]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2020.04.06-20.40.31:394][618]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2020.04.06-20.40.31:394][618]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2020.04.06-20.40.31:402][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' was aborted.
+[2020.04.06-20.40.31:402][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' was aborted.
+[2020.04.06-20.40.31:402][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' was aborted.
+[2020.04.06-20.40.31:402][618]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
+[2020.04.06-20.40.31:416][618]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
+[2020.04.06-20.40.31:416][618]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
+[2020.04.06-20.40.31:453][618]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module BspMode (522)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
+[2020.04.06-20.40.31:464][618]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
+[2020.04.06-20.40.31:465][618]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
+[2020.04.06-20.40.31:489][618]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
+[2020.04.06-20.40.31:503][618]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
+[2020.04.06-20.40.31:511][618]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
+[2020.04.06-20.40.31:623][618]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
+[2020.04.06-20.40.31:624][618]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
+[2020.04.06-20.40.31:636][618]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
+[2020.04.06-20.40.31:639][618]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
+[2020.04.06-20.40.31:639][618]LogModuleManager: Shutting down and abandoning module SessionServices (480)
+[2020.04.06-20.40.31:639][618]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
+[2020.04.06-20.40.31:639][618]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
+[2020.04.06-20.40.31:639][618]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
+[2020.04.06-20.40.31:702][618]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
+[2020.04.06-20.40.31:900][618]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
+[2020.04.06-20.40.31:909][618]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
+[2020.04.06-20.40.31:937][618]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
+[2020.04.06-20.40.32:053][618]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
+[2020.04.06-20.40.32:053][618]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
+[2020.04.06-20.40.32:053][618]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
+[2020.04.06-20.40.32:053][618]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
+[2020.04.06-20.40.32:992][618]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
+[2020.04.06-20.40.32:992][618]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
+[2020.04.06-20.40.32:992][618]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
+[2020.04.06-20.40.32:992][618]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
+[2020.04.06-20.40.33:011][618]LogModuleManager: Shutting down and abandoning module MergeActors (448)
+[2020.04.06-20.40.33:021][618]LogModuleManager: Shutting down and abandoning module SizeMap (446)
+[2020.04.06-20.40.33:021][618]LogModuleManager: Shutting down and abandoning module TreeMap (444)
+[2020.04.06-20.40.33:034][618]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
+[2020.04.06-20.40.33:034][618]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
+[2020.04.06-20.40.33:045][618]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
+[2020.04.06-20.40.33:054][618]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
+[2020.04.06-20.40.33:054][618]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
+[2020.04.06-20.40.33:054][618]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
+[2020.04.06-20.40.33:054][618]LogModuleManager: Shutting down and abandoning module XmlParser (430)
+[2020.04.06-20.40.33:067][618]LogModuleManager: Shutting down and abandoning module Blutility (428)
+[2020.04.06-20.40.33:067][618]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
+[2020.04.06-20.40.33:067][618]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
+[2020.04.06-20.40.33:067][618]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
+[2020.04.06-20.40.33:067][618]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
+[2020.04.06-20.40.33:078][618]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
+[2020.04.06-20.40.33:095][618]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
+[2020.04.06-20.40.33:166][618]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
+[2020.04.06-20.40.33:208][618]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
+[2020.04.06-20.40.33:263][618]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
+[2020.04.06-20.40.33:330][618]LogModuleManager: Shutting down and abandoning module AutomationController (408)
+[2020.04.06-20.40.33:419][618]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
+[2020.04.06-20.40.33:433][618]LogModuleManager: Shutting down and abandoning module Layers (404)
+[2020.04.06-20.40.33:445][618]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
+[2020.04.06-20.40.33:445][618]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
+[2020.04.06-20.40.33:467][618]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
+[2020.04.06-20.40.33:482][618]LogModuleManager: Shutting down and abandoning module Persona (396)
+[2020.04.06-20.40.33:515][618]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
+[2020.04.06-20.40.33:515][618]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
+[2020.04.06-20.40.33:515][618]LogModuleManager: Shutting down and abandoning module Kismet (390)
+[2020.04.06-20.40.33:559][618]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
+[2020.04.06-20.40.33:559][618]LogModuleManager: Shutting down and abandoning module Toolbox (386)
+[2020.04.06-20.40.33:559][618]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
+[2020.04.06-20.40.33:569][618]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
+[2020.04.06-20.40.33:590][618]LogModuleManager: Shutting down and abandoning module OutputLog (380)
+[2020.04.06-20.40.33:604][618]LogModuleManager: Shutting down and abandoning module GammaUI (378)
+[2020.04.06-20.40.33:610][618]LogModuleManager: Shutting down and abandoning module Documentation (376)
+[2020.04.06-20.40.33:610][618]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module MovieScene (372)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module PortalServices (364)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module AIModule (358)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
+[2020.04.06-20.40.33:611][618]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
+[2020.04.06-20.40.33:620][618]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
+[2020.04.06-20.40.33:668][618]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
+[2020.04.06-20.40.33:690][618]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
+[2020.04.06-20.40.33:690][618]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
+[2020.04.06-20.40.33:690][618]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
+[2020.04.06-20.40.33:694][618]LogModuleManager: Shutting down and abandoning module OculusInput (342)
+[2020.04.06-20.40.33:710][618]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
+[2020.04.06-20.40.33:710][618]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
+[2020.04.06-20.40.33:710][618]LogModuleManager: Shutting down and abandoning module CableComponent (336)
+[2020.04.06-20.40.33:719][618]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
+[2020.04.06-20.40.33:719][618]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
+[2020.04.06-20.40.33:719][618]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2020.04.06-20.40.33:719][618]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
+[2020.04.06-20.40.33:925][618]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
+[2020.04.06-20.40.33:925][618]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
+[2020.04.06-20.40.33:925][618]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
+[2020.04.06-20.40.33:925][618]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
+[2020.04.06-20.40.33:929][618]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
+[2020.04.06-20.40.33:929][618]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2020.04.06-20.40.33:934][618]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2020.04.06-20.40.33:934][618]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
+[2020.04.06-20.40.33:934][618]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
+[2020.04.06-20.40.33:949][618]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
+[2020.04.06-20.40.33:959][618]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2020.04.06-20.40.33:959][618]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2020.04.06-20.40.33:959][618]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2020.04.06-20.40.33:959][618]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2020.04.06-20.40.33:964][618]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2020.04.06-20.40.33:974][618]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2020.04.06-20.40.33:989][618]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2020.04.06-20.40.33:998][618]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
+[2020.04.06-20.40.33:998][618]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
+[2020.04.06-20.40.33:998][618]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
+[2020.04.06-20.40.33:998][618]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
+[2020.04.06-20.40.34:019][618]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
+[2020.04.06-20.40.34:028][618]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
+[2020.04.06-20.40.34:042][618]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
+[2020.04.06-20.40.34:054][618]LogModuleManager: Shutting down and abandoning module MainFrame (278)
+[2020.04.06-20.40.34:054][618]LogModuleManager: Shutting down and abandoning module HotReload (277)
+[2020.04.06-20.40.34:065][618]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64' was aborted.
+[2020.04.06-20.40.34:067][618]LogModuleManager: Shutting down and abandoning module Dialogue_BS (272)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
+[2020.04.06-20.40.34:068][618]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
+[2020.04.06-20.40.34:080][618]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
+[2020.04.06-20.40.34:202][618]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
+[2020.04.06-20.40.34:312][618]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
+[2020.04.06-20.40.34:349][618]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
+[2020.04.06-20.40.34:349][618]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
+[2020.04.06-20.40.34:349][618]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
+[2020.04.06-20.40.34:360][618]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
+[2020.04.06-20.40.34:360][618]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
+[2020.04.06-20.40.34:363][618]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2020.04.06-20.40.34:363][618]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2020.04.06-20.40.34:363][618]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2020.04.06-20.40.34:376][618]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2020.04.06-20.40.34:395][618]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
+[2020.04.06-20.40.34:395][618]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2020.04.06-20.40.34:395][618]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2020.04.06-20.40.34:395][618]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2020.04.06-20.40.34:410][618]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2020.04.06-20.40.34:410][618]LogModuleManager: Shutting down and abandoning module Media (223)
+[2020.04.06-20.40.34:417][618]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.04.06-20.40.34:418][618]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.04.06-20.40.34:418][618]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (216)
+[2020.04.06-20.40.34:439][618]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2020.04.06-20.40.34:463][618]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2020.04.06-20.40.34:472][618]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2020.04.06-20.40.34:472][618]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2020.04.06-20.40.34:494][618]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2020.04.06-20.40.34:498][618]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2020.04.06-20.40.34:512][618]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2020.04.06-20.40.34:512][618]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2020.04.06-20.40.34:520][618]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2020.04.06-20.40.34:520][618]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2020.04.06-20.40.34:521][618]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2020.04.06-20.40.34:521][618]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2020.04.06-20.40.34:555][618]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2020.04.06-20.40.34:555][618]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2020.04.06-20.40.34:567][618]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.04.06-20.40.34:567][618]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.04.06-20.40.34:568][618]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.04.06-20.40.34:568][618]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.04.06-20.40.34:568][618]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.04.06-20.40.34:568][618]LogModuleManager: Shutting down and abandoning module Core (172)
+[2020.04.06-20.40.34:568][618]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2020.04.06-20.40.34:575][618]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2020.04.06-20.40.34:603][618]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.04.06-20.40.34:604][618]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2020.04.06-20.40.34:624][618]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2020.04.06-20.40.34:634][618]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2020.04.06-20.40.34:634][618]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2020.04.06-20.40.34:637][618]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2020.04.06-20.40.34:637][618]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2020.04.06-20.40.34:645][618]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2020.04.06-20.40.34:656][618]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.04.06-20.40.34:675][618]LogDerivedDataCache: Shutdown
+[2020.04.06-20.40.34:675][618]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2020.04.06-20.40.34:676][618]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2020.04.06-20.40.34:684][618]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2020.04.06-20.40.34:690][618]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2020.04.06-20.40.34:700][618]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2020.04.06-20.40.34:712][618]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2020.04.06-20.40.34:729][618]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2020.04.06-20.40.34:729][618]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2020.04.06-20.40.34:729][618]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2020.04.06-20.40.34:741][618]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2020.04.06-20.40.34:768][618]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2020.04.06-20.40.34:768][618]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2020.04.06-20.40.34:769][618]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2020.04.06-20.40.34:770][618]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2020.04.06-20.40.34:770][618]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2020.04.06-20.40.34:770][618]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2020.04.06-20.40.34:770][618]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2020.04.06-20.40.34:770][618]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2020.04.06-20.40.34:770][618]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2020.04.06-20.40.34:771][618]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2020.04.06-20.40.34:772][618]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2020.04.06-20.40.34:772][618]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2020.04.06-20.40.34:772][618]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2020.04.06-20.40.34:772][618]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2020.04.06-20.40.34:773][618]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2020.04.06-20.40.34:789][618]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2020.04.06-20.40.34:789][618]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2020.04.06-20.40.34:789][618]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2020.04.06-20.40.34:789][618]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.04.06-20.40.34:789][618]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.04.06-20.40.34:805][618]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.04.06-20.40.34:827][618]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.04.06-20.40.34:827][618]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.06-20.40.34:839][618]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF63674E3-4AB0-77C3-317D-DF8153325199%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=7bb62920447e14c7a1fea3ba6f048eee%7C433ff53fa1834d9fa4871fd6fa4afd61%7Cfc2b0267-6694-4009-b4f6-945db30adf84&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.06-20.40.34:873][618]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.04.06-20.40.34:886][618]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.04.06-20.40.34:897][618]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.04.06-20.40.34:897][618]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.04.06-20.40.34:906][618]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.04.06-20.40.34:971][618]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.04.06-20.40.34:971][618]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.04.06-20.40.34:971][618]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.04.06-20.40.35:003][618]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.04.06-20.40.35:019][618]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.04.06-20.40.35:019][618]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.04.06-20.40.35:035][618]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.04.06-20.40.35:035][618]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.04.06-20.40.35:035][618]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.04.06-20.40.35:035][618]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.04.06-20.40.35:049][618]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.04.06-20.40.35:049][618]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.04.06-20.40.35:061][618]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.04.06-20.40.35:070][618]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.04.06-20.40.35:104][618]LogExit: Exiting.
+[2020.04.06-20.40.35:161][618]Log file closed, 04/06/20 16:40:35
