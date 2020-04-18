@@ -5,5 +5,5 @@ AI Behaviour System Demo
 https://youtu.be/Xf8pax210Pg
 
 # Team
-Project Owner: Richard D
-Developers: Dong L, Nathaniel M
+# Project Owner: Richard D
+# Developers: Dong L, Nathaniel M
