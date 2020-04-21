@@ -1,4 +1,37 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Creating makefile for Dialogue_BSEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for Dialogue_BSEditor
+    Running UnrealHeaderTool "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Dialogue_BS.uproject" "C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\Dialogue_BSEditor\Development\Dialogue_BSEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Dialogue_BSEditor in 41.080624 seconds
+  Performing 26 actions (3 in parallel)
+  [2/26] Resource PCLaunch.rc
+  [3/26] Resource ModuleVersionResource.rc.inl
+  SharedPCH.Engine.cpp
+  Dialogue_BSGameMode.gen.cpp
+  Modifier.gen.cpp
+  Relationship.cpp
+  Dialogue_BS.init.gen.cpp
+  Dialogue_BSCharacter.gen.cpp
+  PresetModifier.cpp
+  TF.cpp
+  StatsModifier.cpp
+  SN.cpp
+  PersonalityFrameWork.gen.cpp
+  PersonalityFrameWork.cpp
+  JP.cpp
+  IE.cpp
+  IDStore.cpp
+  IDHashTable.cpp
+  Dialogue_BSGameMode.cpp
+  Dialogue_BSCharacter.cpp
+  BehaviourModifier.cpp
+  Dialogue_BS.cpp
+  Personality.cpp
+  PresetModifier.gen.cpp
+  [25/26] Link UE4Editor-Dialogue_BS.dll
+  [26/26] Link UE4Editor-Dialogue_BS.lib
+     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.exp
+     Creating library C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.lib and object C:\Users\Delam\OneDrive\Documents\GitHub\AIbs_Demo\Dialogue_BS\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Dialogue_BS.suppressed.exp
   Deploying Dialogue_BSEditor Win64 Development...
-  Total build time: 1.57 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 479.40 seconds (Local executor: 346.03 seconds)

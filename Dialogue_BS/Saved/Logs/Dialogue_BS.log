@@ -1,4 +1,4 @@
-﻿Log file open, 04/09/20 22:00:11
+﻿Log file open, 04/21/20 15:58:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dialogue_BS
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1102351774) SRandInit(-1102351774).
+LogInit: Display: RandInit(-1251996752) SRandInit(-1251996752).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.212343
+LogStats: Stats thread started at 0.240204
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -197,1200 +197,216 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.04.10-02.00.16:628][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.10-02.00.16:628][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.10-02.00.16:654][  0]LogInit: Computer: DESKTOP-M25UTED
-[2020.04.10-02.00.16:654][  0]LogInit: User: Delam
-[2020.04.10-02.00.16:654][  0]LogInit: CPU Page size=4096, Cores=3
-[2020.04.10-02.00.16:654][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.10-02.00.16:654][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2020.04.10-02.00.16:654][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.10-02.00.16:654][  0]LogMemory: Process Physical Memory: 272.69 MB used, 272.70 MB peak
-[2020.04.10-02.00.16:654][  0]LogMemory: Process Virtual Memory: 270.90 MB used, 270.90 MB peak
-[2020.04.10-02.00.16:654][  0]LogMemory: Physical Memory: 6018.86 MB used,  2131.72 MB free, 8150.58 MB total
-[2020.04.10-02.00.16:654][  0]LogMemory: Virtual Memory: 4753.26 MB used,  2131.72 MB free, 134217728.00 MB total
-[2020.04.10-02.00.17:284][  0]LogInit: Using OS detected language (en-US).
-[2020.04.10-02.00.17:284][  0]LogInit: Using OS detected locale (en-US).
-[2020.04.10-02.00.17:290][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.10-02.00.17:866][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.10-02.00.18:438][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.10-02.00.18:518][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
-[2020.04.10-02.00.18:518][  0]LogD3D11RHI:       4041/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2020.04.10-02.00.18:522][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.10-02.00.18:522][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.10-02.00.18:522][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.10-02.00.18:539][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.10-02.00.18:539][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
-[2020.04.10-02.00.18:539][  0]LogWindows: EnumDisplayDevices:
-[2020.04.10-02.00.18:539][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
-[2020.04.10-02.00.18:540][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.04.10-02.00.18:540][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.04.10-02.00.18:540][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.04.10-02.00.18:541][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.04.10-02.00.18:541][  0]LogWindows:    5. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.04.10-02.00.18:542][  0]LogWindows:    6. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
-[2020.04.10-02.00.18:542][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.04.10-02.00.18:542][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
-[2020.04.10-02.00.18:542][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.04.10-02.00.18:542][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.04.10-02.00.18:542][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
-[2020.04.10-02.00.18:612][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.10-02.00.18:626][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2020.04.10-02.00.18:627][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/10500/).
-[2020.04.10-02.00.18:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/028078FF40F23475465A28824BFD5D45/'.
-[2020.04.10-02.00.18:628][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.10-02.00.21:013][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.04.10-02.00.21:189][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.04.10-02.00.21:383][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.04.10-02.00.21:571][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.04.10-02.00.21:752][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.04.10-02.00.21:942][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.04.10-02.00.22:120][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.04.10-02.00.22:302][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.04.10-02.00.22:475][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.04.10-02.00.22:656][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.04.10-02.00.22:871][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.04.10-02.00.23:095][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.04.10-02.00.23:285][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.04.10-02.00.23:472][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.04.10-02.00.23:856][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.04.10-02.00.23:856][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.04.10-02.00.24:047][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.04.10-02.00.24:214][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.04.10-02.00.24:532][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.04.10-02.00.24:661][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.04.10-02.00.24:864][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.04.10-02.00.25:066][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.04.10-02.00.25:254][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.04.10-02.00.25:446][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.04.10-02.00.25:446][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.10-02.00.27:546][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.10-02.00.27:757][  0]LogDerivedDataCache: Loaded boot cache 0.21s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.04.10-02.00.27:757][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.04.10-02.00.27:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.10-02.00.27:757][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.10-02.00.27:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.10-02.00.27:757][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.10-02.00.27:791][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.10-02.00.27:805][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.10-02.00.27:827][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.10-02.00.27:828][  0]LogSlate: Using Freetype 2.6.0
-[2020.04.10-02.00.27:829][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.10-02.00.27:829][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.10-02.00.28:756][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.10-02.00.29:868][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.04.10-02.00.30:036][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.04.10-02.00.30:036][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.10-02.00.30:036][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.04.10-02.00.30:036][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.04.10-02.00.30:036][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.04.10-02.00.30:092][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
-[2020.04.10-02.00.30:457][  0]LogAssetRegistry: FAssetRegistry took 0.0297 seconds to start up
-[2020.04.10-02.00.31:645][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.162924 seconds
-[2020.04.10-02.00.31:652][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.04.10-02.00.31:652][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2020.04.10-02.00.31:652][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.10-02.00.31:897][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.04.10-02.00.39:941][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.10-02.00.40:071][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.10-02.00.43:290][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.04.10-02.00.44:727][  0]SourceControl: Source control is disabled
-[2020.04.10-02.00.44:727][  0]SourceControl: Source control is disabled
-[2020.04.10-02.00.44:926][  0]SourceControl: Source control is disabled
-[2020.04.10-02.00.45:124][  0]SourceControl: Source control is disabled
-[2020.04.10-02.00.48:242][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.10-02.00.49:256][  0]LogOcInput: OculusInput pre-init called
-[2020.04.10-02.00.50:172][  0]LogEngine: Initializing Engine...
-[2020.04.10-02.00.50:176][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.10-02.00.50:589][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.04.10-02.00.50:589][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.04.10-02.00.51:158][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.10-02.00.51:205][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.04.10-02.00.51:270][  0]LogInit: FAudioDevice initialized.
-[2020.04.10-02.00.51:507][  0]LogDerivedDataCache: Saved boot cache 0.24s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.04.10-02.00.51:529][  0]LogInit: Texture streaming: Enabled
-[2020.04.10-02.00.51:984][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.10-02.00.52:530][  0]LogInit: Transaction tracking system initialized
-[2020.04.10-02.00.53:818][  0]BlueprintLog: New page: Editor Load
-[2020.04.10-02.00.57:632][  0]LocalizationService: Localization service is disabled
-[2020.04.10-02.01.00:757][  0]LogConsoleResponse: Display: 
-[2020.04.10-02.01.01:140][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.10-02.01.01:140][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.10-02.01.01:140][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.04.10-02.01.02:117][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.02s
-[2020.04.10-02.01.05:851][  0]SourceControl: Source control is disabled
-[2020.04.10-02.01.05:851][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.10-02.01.05:852][  0]LightingResults: New page: Lighting Build
-[2020.04.10-02.01.06:028][  0]MapCheck: New page: Map Check
-[2020.04.10-02.01.06:028][  0]LightingResults: New page: Lighting Build
-[2020.04.10-02.01.09:357][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
-[2020.04.10-02.01.09:358][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 512X256)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
-[2020.04.10-02.01.10:445][  0]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
-[2020.04.10-02.01.11:216][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.10-02.01.11:386][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.10-02.01.11:425][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.10-02.01.11:618][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 192.75ms to complete.
-[2020.04.10-02.01.11:618][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.767
-[2020.04.10-02.01.11:953][  0]LogCollectionManager: Loaded 0 collections in 0.003066 seconds
-[2020.04.10-02.01.12:177][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
-[2020.04.10-02.01.12:177][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' took 0.01s
-[2020.04.10-02.01.12:177][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
-[2020.04.10-02.01.12:177][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2020.04.10-02.01.12:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2374 classes and 524 folders.
-[2020.04.10-02.01.12:480][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2020.04.10-02.01.14:620][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0052 seconds. Added 0 classes and 0 folders.
-[2020.04.10-02.01.14:881][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
-[2020.04.10-02.01.15:066][  0]LogSlate: Took 0.018596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.10-02.01.15:075][  0]LogSlate: Took 0.006224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.10-02.01.15:093][  0]LogSlate: Took 0.011074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.10-02.01.15:297][  0]LogRenderer: Reallocating scene render targets to support 1008x556 Format 10 NumSamples 1 (Frame:1).
-[2020.04.10-02.01.15:866][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
-[2020.04.10-02.01.15:866][  0]LogLoad: (Engine Initialization) Total time: 66.42 seconds
-[2020.04.10-02.01.15:866][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.10-02.01.15:867][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.04.10-02.01.16:230][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.10-02.01.16:375][  0]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.04.10-02.01.16:879][  2]LogAssetRegistry: Asset discovery search completed in 46.4438 seconds
-[2020.04.10-02.01.16:881][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.04.10-02.01.16:881][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
-[2020.04.10-02.02.10:598][190]MapCheck: New page: Map Check
-[2020.04.10-02.02.10:665][190]Cmd: MAP REBUILD ALLVISIBLE
-[2020.04.10-02.02.10:669][190]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2020.04.10-02.02.13:851][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2020.04.10-02.02.13:967][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2020.04.10-02.02.13:976][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
-[2020.04.10-02.02.13:984][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ground_Grass, compiling. 
-[2020.04.10-02.02.13:994][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Tiles, compiling. 
-[2020.04.10-02.02.14:004][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CobbleStone_Smooth, compiling. 
-[2020.04.10-02.02.14:018][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2020.04.10-02.02.14:026][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
-[2020.04.10-02.02.14:054][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Marble_Polished, compiling. 
-[2020.04.10-02.02.14:062][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
-[2020.04.10-02.02.14:069][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Gold, compiling. 
-[2020.04.10-02.02.14:078][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Chrome, compiling. 
-[2020.04.10-02.02.14:086][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Tech_Hex_Tile_Pulse, compiling. 
-[2020.04.10-02.02.14:095][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_ChestLogo, compiling. 
-[2020.04.10-02.02.14:105][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
-[2020.04.10-02.02.14:113][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_MaterialSphere, compiling. 
-[2020.04.10-02.02.14:121][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body_Green, compiling. 
-[2020.04.10-02.02.14:132][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
-[2020.04.10-02.02.14:145][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2020.04.10-02.02.19:438][190]TextureStreamingBuild: Display: Compiling optional shaders took 5.605 seconds.
-[2020.04.10-02.02.19:523][190]LogLevel: Display: Export Material TexCoord Scales took 0.085 seconds.
-[2020.04.10-02.02.19:563][190]TextureStreamingBuild: Display: Build Texture Streaming took 0.040 seconds.
-[2020.04.10-02.02.19:673][190]LightingResults: New page: Lighting Build - Apr 9, 2020, 6:02:19 PM
-[2020.04.10-02.02.19:891][190]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2020.04.10-02.02.20:183][190]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2020.04.10-02.02.20:283][190]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2020.04.10-02.02.22:079][190]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2020.04.10-02.02.22:079][190]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10500
-[2020.04.10-02.02.37:427][190]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2020.04.10-02.02.37:427][190]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2020.04.10-02.02.37:427][190]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2020.04.10-02.02.37:427][190]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2020.04.10-02.02.37:427][190]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2020.04.10-02.02.38:337][190]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2020.04.10-02.02.38:337][190]MapCheck: New page: ThirdPersonExampleMap - Apr 9, 2020, 6:02:38 PM
-[2020.04.10-02.02.38:401][190]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
-[2020.04.10-02.02.38:600][190]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 262.771ms to complete.
-[2020.04.10-02.02.38:624][190]LogEditorBuildUtils: Build time 0:27
-[2020.04.10-02.03.08:730][300]Job is a success!
-[2020.04.10-02.03.09:193][301]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.04.10-02.03.09:540][301]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.186s
-[2020.04.10-02.03.09:541][301]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
-[2020.04.10-02.03.09:541][301]LogVolumetricLightmapImport:      BrickData 735x5x5 = 0.6Mb
-[2020.04.10-02.03.09:541][301]LogVolumetricLightmapImport:      Bricks at Level
-[2020.04.10-02.03.09:541][301]LogVolumetricLightmapImport:          0: 5.4% covering 100.0% of volume
-[2020.04.10-02.03.09:541][301]LogVolumetricLightmapImport:          1: 8.2% covering 2.3% of volume
-[2020.04.10-02.03.09:541][301]LogVolumetricLightmapImport:          2: 86.4% covering 0.4% of volume
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
-[2020.04.10-02.03.15:197][301]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
-[2020.04.10-02.03.15:198][301]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
-[2020.04.10-02.03.15:811][301]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
-[2020.04.10-02.03.15:811][301]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
-[2020.04.10-02.03.15:811][301]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X512)
-[2020.04.10-02.03.15:811][301]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 256X128)
-[2020.04.10-02.03.16:104][301]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
-[2020.04.10-02.03.16:849][301]Lightmass on DESKTOP-M25UTED: 34.9 sec total, 582 ms importing, 26 ms setup, 3.13 sec photons, 31.1 sec processing, 0 ms extra exporting [659/659 mappings]. Threads: 2:35 min total, 1:22 min processing.
-[2020.04.10-02.03.17:388][301]LogStaticLightingSystem: Illumination: 57.3 sec (4.95 sec encoding lightmaps, 904 ms encoding shadowmaps)
-[2020.04.10-02.03.17:388][301]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (8.0 MB streaming, 2.7 MB non-streaming), 12 textures
-[2020.04.10-02.03.17:388][301]LogStaticLightingSystem: Shadowmap texture memory: 8.2 MB (5.5 MB streaming, 2.7 MB non-streaming), 5 textures
-[2020.04.10-02.03.23:513][301]DumpUnbuiltLightIteractions
-[2020.04.10-02.03.23:513][301]Lights with unbuilt interactions: 0
-[2020.04.10-02.03.23:513][301]
-[2020.04.10-02.03.23:513][301]Primitives with unbuilt interactions: 0
-[2020.04.10-02.03.23:538][302]Cmd: MAP CHECK NOTIFYRESULTS
-[2020.04.10-02.03.23:539][302]MapCheck: New page: ThirdPersonExampleMap - Apr 9, 2020, 6:03:23 PM
-[2020.04.10-02.03.23:790][302]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 251.5ms to complete.
-[2020.04.10-02.04.39:075][672]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.10-02.04.43:554][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.04.43:565][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.10-02.04.43:597][672]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 9, 2020, 6:04:43 PM)
-[2020.04.10-02.04.43:614][672]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.10-02.04.43:840][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.225844s)
-[2020.04.10-02.04.43:841][672]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.10-02.04.43:851][672]LogPlayLevel: PIE: World Init took: (0.010236s)
-[2020.04.10-02.04.43:863][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.248718s)
-[2020.04.10-02.04.43:956][672]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.04.10-02.04.43:980][672]LogInit: FAudioDevice initialized.
-[2020.04.10-02.04.44:081][672]LogLoad: Game class is 'Dialogue_BSGameMode'
-[2020.04.10-02.04.44:267][672]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.09-22.04.44
-[2020.04.10-02.04.44:493][672]LogWorld: Bringing up level for play took: 0.287877
-[2020.04.10-02.04.44:818][672]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0070 seconds. Added 11 classes and 0 folders.
-[2020.04.10-02.04.44:851][672]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: -0.048928
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 120.242661
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 71.064545
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 538.299561
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 0.819718
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 0.91283
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: -0.487501
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 77.354324
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 50.568413
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 403.862671
-[2020.04.10-02.04.44:866][672]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 0.722899
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 1.042213
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: -0.689429
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 70.553772
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 43.372124
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 337.484192
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.269432
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 1.012479
-[2020.04.10-02.04.44:867][672]LogBlueprintUserMessages: [NPC_AI_C_3] Movement Speed: 0.217433
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_3] Search Speed: 92.639992
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_3] Patrol Speed: 136.876007
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_3] Intercept Speed: 513.221313
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_3] Patrol Wait Time: 0.90678
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_3] Search Wait Time: 1.007984
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_4] Movement Speed: -0.366563
-[2020.04.10-02.04.44:868][672]LogBlueprintUserMessages: [NPC_AI_C_4] Search Speed: 83.784447
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_4] Patrol Speed: 61.927528
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_4] Intercept Speed: 429.519745
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_4] Patrol Wait Time: 0.2549
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_4] Search Wait Time: 0.869655
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_5] Movement Speed: 0.199546
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_5] Search Speed: 103.233154
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_5] Patrol Speed: 129.589462
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_5] Intercept Speed: 520.639343
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_5] Patrol Wait Time: 1.049743
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_5] Search Wait Time: 0.93193
-[2020.04.10-02.04.44:869][672]LogBlueprintUserMessages: [NPC_AI_C_6] Movement Speed: -0.354149
-[2020.04.10-02.04.44:870][672]LogBlueprintUserMessages: [NPC_AI_C_6] Search Speed: 79.909821
-[2020.04.10-02.04.44:870][672]LogBlueprintUserMessages: [NPC_AI_C_6] Patrol Speed: 77.33799
-[2020.04.10-02.04.44:870][672]LogBlueprintUserMessages: [NPC_AI_C_6] Intercept Speed: 403.664368
-[2020.04.10-02.04.44:870][672]LogBlueprintUserMessages: [NPC_AI_C_6] Patrol Wait Time: 0.724796
-[2020.04.10-02.04.44:870][672]LogBlueprintUserMessages: [NPC_AI_C_6] Search Wait Time: 0.875279
-[2020.04.10-02.04.44:870][672]LogBlueprintUserMessages: [NPC_AI_C_7] Movement Speed: 0.496577
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_7] Search Speed: 138.954132
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_7] Patrol Speed: 129.654037
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_7] Intercept Speed: 639.322876
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_7] Patrol Wait Time: 1.530855
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_7] Search Wait Time: 1.056084
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_8] Movement Speed: 0.219988
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_8] Search Speed: 104.100189
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_8] Patrol Speed: 126.132362
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_8] Intercept Speed: 535.730347
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_8] Patrol Wait Time: 1.083229
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_8] Search Wait Time: 1.021154
-[2020.04.10-02.04.44:871][672]LogBlueprintUserMessages: [NPC_AI_C_9] Movement Speed: -0.520208
-[2020.04.10-02.04.44:872][672]LogBlueprintUserMessages: [NPC_AI_C_9] Search Speed: 61.939301
-[2020.04.10-02.04.44:872][672]LogBlueprintUserMessages: [NPC_AI_C_9] Patrol Speed: 70.531036
-[2020.04.10-02.04.44:872][672]LogBlueprintUserMessages: [NPC_AI_C_9] Intercept Speed: 350.854828
-[2020.04.10-02.04.44:872][672]LogBlueprintUserMessages: [NPC_AI_C_9] Patrol Wait Time: 0.965439
-[2020.04.10-02.04.44:872][672]LogBlueprintUserMessages: [NPC_AI_C_9] Search Wait Time: 1.024323
-[2020.04.10-02.04.44:872][672]LogBlueprintUserMessages: [NPC_AI_C_10] Movement Speed: -0.237813
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_10] Search Speed: 91.585098
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_10] Patrol Speed: 73.260246
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_10] Intercept Speed: 458.354309
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_10] Patrol Wait Time: 0.878033
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_10] Search Wait Time: 1.016567
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_11] Movement Speed: 0.613196
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_11] Search Speed: 120.267403
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_11] Patrol Speed: 157.433273
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_11] Intercept Speed: 630.411865
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_11] Patrol Wait Time: 1.236236
-[2020.04.10-02.04.44:873][672]LogBlueprintUserMessages: [NPC_AI_C_11] Search Wait Time: 1.13227
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_12] Movement Speed: 0.128408
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_12] Search Speed: 120.164818
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_12] Patrol Speed: 97.687645
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_12] Intercept Speed: 555.987854
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_12] Patrol Wait Time: 1.453051
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_12] Search Wait Time: 1.077291
-[2020.04.10-02.04.44:874][672]LogBlueprintUserMessages: [NPC_AI_C_13] Movement Speed: -0.784913
-[2020.04.10-02.04.44:875][672]LogBlueprintUserMessages: [NPC_AI_C_13] Search Speed: 63.30006
-[2020.04.10-02.04.44:875][672]LogBlueprintUserMessages: [NPC_AI_C_13] Patrol Speed: 37.714184
-[2020.04.10-02.04.44:875][672]LogBlueprintUserMessages: [NPC_AI_C_13] Intercept Speed: 310.606506
-[2020.04.10-02.04.44:875][672]LogBlueprintUserMessages: [NPC_AI_C_13] Patrol Wait Time: 0.683522
-[2020.04.10-02.04.44:875][672]LogBlueprintUserMessages: [NPC_AI_C_13] Search Wait Time: 0.851626
-[2020.04.10-02.04.44:875][672]LogBlueprintUserMessages: [NPC_AI_C_14] Movement Speed: 0.233812
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_14] Search Speed: 98.824722
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_14] Patrol Speed: 130.826385
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_14] Intercept Speed: 531.871948
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_14] Patrol Wait Time: 0.802206
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_14] Search Wait Time: 0.990426
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_15] Movement Speed: -0.201614
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_15] Search Speed: 82.406967
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_15] Patrol Speed: 80.234047
-[2020.04.10-02.04.44:876][672]LogBlueprintUserMessages: [NPC_AI_C_15] Intercept Speed: 458.88623
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_15] Patrol Wait Time: 0.073264
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_15] Search Wait Time: 0.911753
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_16] Movement Speed: -0.443202
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_16] Search Speed: 63.420441
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_16] Patrol Speed: 77.804695
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_16] Intercept Speed: 367.109924
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_16] Patrol Wait Time: 0.787571
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_16] Search Wait Time: 0.996909
-[2020.04.10-02.04.44:877][672]LogBlueprintUserMessages: [NPC_AI_C_17] Movement Speed: -0.130498
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_17] Search Speed: 89.242516
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_17] Patrol Speed: 82.926933
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_17] Intercept Speed: 481.946777
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_17] Patrol Wait Time: 0.682009
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_17] Search Wait Time: 1.080287
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_18] Movement Speed: 0.024509
-[2020.04.10-02.04.44:878][672]LogBlueprintUserMessages: [NPC_AI_C_18] Search Speed: 91.152084
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_18] Patrol Speed: 114.252892
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_18] Intercept Speed: 481.297821
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_18] Patrol Wait Time: 1.399924
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_18] Search Wait Time: 1.116915
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_19] Movement Speed: -0.055288
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_19] Search Speed: 88.893829
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_19] Patrol Speed: 94.772171
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_19] Intercept Speed: 488.340332
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_19] Patrol Wait Time: 0.953013
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_19] Search Wait Time: 1.148127
-[2020.04.10-02.04.44:879][672]LogBlueprintUserMessages: [NPC_AI_C_20] Movement Speed: -0.098106
-[2020.04.10-02.04.44:880][672]LogBlueprintUserMessages: [NPC_AI_C_20] Search Speed: 74.425873
-[2020.04.10-02.04.44:880][672]LogBlueprintUserMessages: [NPC_AI_C_20] Patrol Speed: 114.953011
-[2020.04.10-02.04.44:880][672]LogBlueprintUserMessages: [NPC_AI_C_20] Intercept Speed: 430.851746
-[2020.04.10-02.04.44:880][672]LogBlueprintUserMessages: [NPC_AI_C_20] Patrol Wait Time: 1.164461
-[2020.04.10-02.04.44:880][672]LogBlueprintUserMessages: [NPC_AI_C_20] Search Wait Time: 1.079356
-[2020.04.10-02.04.44:880][672]LogBlueprintUserMessages: [NPC_AI_C_21] Movement Speed: 0.524074
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_21] Search Speed: 122.53215
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_21] Patrol Speed: 144.958466
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_21] Intercept Speed: 619.71283
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_21] Patrol Wait Time: 0.901564
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_21] Search Wait Time: 0.99107
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_22] Movement Speed: -0.486891
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_22] Search Speed: 79.511108
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_22] Patrol Speed: 52.786003
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_22] Intercept Speed: 399.671539
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_22] Patrol Wait Time: 0.266652
-[2020.04.10-02.04.44:881][672]LogBlueprintUserMessages: [NPC_AI_C_22] Search Wait Time: 0.834534
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_23] Movement Speed: 0.197971
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_23] Search Speed: 111.603371
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_23] Patrol Speed: 108.938011
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_23] Intercept Speed: 561.312256
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_23] Patrol Wait Time: 0.873653
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_23] Search Wait Time: 1.034903
-[2020.04.10-02.04.44:882][672]LogBlueprintUserMessages: [NPC_AI_C_24] Movement Speed: -0.549985
-[2020.04.10-02.04.44:883][672]LogBlueprintUserMessages: [NPC_AI_C_24] Search Speed: 71.188416
-[2020.04.10-02.04.44:883][672]LogBlueprintUserMessages: [NPC_AI_C_24] Patrol Speed: 56.864662
-[2020.04.10-02.04.44:883][672]LogBlueprintUserMessages: [NPC_AI_C_24] Intercept Speed: 366.276489
-[2020.04.10-02.04.44:883][672]LogBlueprintUserMessages: [NPC_AI_C_24] Patrol Wait Time: 1.022641
-[2020.04.10-02.04.44:883][672]LogBlueprintUserMessages: [NPC_AI_C_24] Search Wait Time: 1.017461
-[2020.04.10-02.04.44:883][672]LogBlueprintUserMessages: [NPC_AI_C_25] Movement Speed: 0.473627
-[2020.04.10-02.04.44:884][672]LogBlueprintUserMessages: [NPC_AI_C_25] Search Speed: 120.957115
-[2020.04.10-02.04.44:884][672]LogBlueprintUserMessages: [NPC_AI_C_25] Patrol Speed: 146.969299
-[2020.04.10-02.04.44:884][672]LogBlueprintUserMessages: [NPC_AI_C_25] Intercept Speed: 595.512268
-[2020.04.10-02.04.44:884][672]LogBlueprintUserMessages: [NPC_AI_C_25] Patrol Wait Time: 1.148324
-[2020.04.10-02.04.44:884][672]LogBlueprintUserMessages: [NPC_AI_C_25] Search Wait Time: 0.957347
-[2020.04.10-02.04.44:891][672]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.93
-[2020.04.10-02.04.44:892][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.06.17:338][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.06.17:526][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.06.45:409][283]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.10-02.06.45:439][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.06.45:439][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.10-02.06.45:439][283]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 9, 2020, 6:06:45 PM)
-[2020.04.10-02.06.45:440][283]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.10-02.06.45:545][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104825s)
-[2020.04.10-02.06.45:546][283]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.10-02.06.45:546][283]LogPlayLevel: PIE: World Init took: (0.001243s)
-[2020.04.10-02.06.45:546][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.106667s)
-[2020.04.10-02.06.45:636][283]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.04.10-02.06.45:658][283]LogInit: FAudioDevice initialized.
-[2020.04.10-02.06.45:695][283]LogLoad: Game class is 'Dialogue_BSGameMode'
-[2020.04.10-02.06.45:733][283]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.09-22.06.45
-[2020.04.10-02.06.45:744][283]LogWorld: Bringing up level for play took: 0.047839
-[2020.04.10-02.06.45:745][283]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: -0.326662
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 71.805588
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 80.509682
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 408.315674
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 1.0454
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 1.127483
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: 0.746415
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 136.949356
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 163.49707
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 671.571777
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 1.76331
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 1.17892
-[2020.04.10-02.06.45:747][283]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: 0.397987
-[2020.04.10-02.06.45:748][283]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 110.709587
-[2020.04.10-02.06.45:748][283]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 139.85997
-[2020.04.10-02.06.45:748][283]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 579.474976
-[2020.04.10-02.06.45:748][283]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 1.402043
-[2020.04.10-02.06.45:748][283]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 1.165714
-[2020.04.10-02.06.45:748][283]LogBlueprintUserMessages: [NPC_AI_C_3] Movement Speed: 0.717701
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_3] Search Speed: 140.382828
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_3] Patrol Speed: 149.429245
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_3] Intercept Speed: 688.221863
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_3] Patrol Wait Time: 1.064182
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_3] Search Wait Time: 1.058097
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_4] Movement Speed: 0.983678
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_4] Search Speed: 140.665237
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_4] Patrol Speed: 191.144196
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_4] Intercept Speed: 711.182922
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_4] Patrol Wait Time: 1.257524
-[2020.04.10-02.06.45:749][283]LogBlueprintUserMessages: [NPC_AI_C_4] Search Wait Time: 1.043844
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_5] Movement Speed: -0.008727
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_5] Search Speed: 98.202576
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_5] Patrol Speed: 107.870956
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_5] Intercept Speed: 480.767181
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_5] Patrol Wait Time: 0.800318
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_5] Search Wait Time: 0.836057
-[2020.04.10-02.06.45:750][283]LogBlueprintUserMessages: [NPC_AI_C_6] Movement Speed: -0.478138
-[2020.04.10-02.06.45:751][283]LogBlueprintUserMessages: [NPC_AI_C_6] Search Speed: 72.586006
-[2020.04.10-02.06.45:751][283]LogBlueprintUserMessages: [NPC_AI_C_6] Patrol Speed: 60.761032
-[2020.04.10-02.06.45:751][283]LogBlueprintUserMessages: [NPC_AI_C_6] Intercept Speed: 387.222748
-[2020.04.10-02.06.45:751][283]LogBlueprintUserMessages: [NPC_AI_C_6] Patrol Wait Time: 0.630212
-[2020.04.10-02.06.45:751][283]LogBlueprintUserMessages: [NPC_AI_C_6] Search Wait Time: 0.96701
-[2020.04.10-02.06.45:751][283]LogBlueprintUserMessages: [NPC_AI_C_7] Movement Speed: 0.480434
-[2020.04.10-02.06.45:752][283]LogBlueprintUserMessages: [NPC_AI_C_7] Search Speed: 127.905945
-[2020.04.10-02.06.45:752][283]LogBlueprintUserMessages: [NPC_AI_C_7] Patrol Speed: 128.615494
-[2020.04.10-02.06.45:752][283]LogBlueprintUserMessages: [NPC_AI_C_7] Intercept Speed: 634.942627
-[2020.04.10-02.06.45:752][283]LogBlueprintUserMessages: [NPC_AI_C_7] Patrol Wait Time: 1.333448
-[2020.04.10-02.06.45:752][283]LogBlueprintUserMessages: [NPC_AI_C_7] Search Wait Time: 1.177406
-[2020.04.10-02.06.45:752][283]LogBlueprintUserMessages: [NPC_AI_C_8] Movement Speed: -0.827375
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_8] Search Speed: 55.263149
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_8] Patrol Speed: 33.22332
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_8] Intercept Speed: 302.603363
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_8] Patrol Wait Time: 0.687716
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_8] Search Wait Time: 0.975741
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_9] Movement Speed: 0.191056
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_9] Search Speed: 100.964775
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_9] Patrol Speed: 112.933044
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_9] Intercept Speed: 550.556458
-[2020.04.10-02.06.45:753][283]LogBlueprintUserMessages: [NPC_AI_C_9] Patrol Wait Time: 0.448929
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_9] Search Wait Time: 1.024536
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_10] Movement Speed: 0.083534
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_10] Search Speed: 107.259521
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_10] Patrol Speed: 95.414886
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_10] Intercept Speed: 542.583984
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_10] Patrol Wait Time: 1.166703
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_10] Search Wait Time: 1.163538
-[2020.04.10-02.06.45:754][283]LogBlueprintUserMessages: [NPC_AI_C_11] Movement Speed: 0.477469
-[2020.04.10-02.06.45:755][283]LogBlueprintUserMessages: [NPC_AI_C_11] Search Speed: 118.864319
-[2020.04.10-02.06.45:755][283]LogBlueprintUserMessages: [NPC_AI_C_11] Patrol Speed: 146.531219
-[2020.04.10-02.06.45:755][283]LogBlueprintUserMessages: [NPC_AI_C_11] Intercept Speed: 597.925232
-[2020.04.10-02.06.45:755][283]LogBlueprintUserMessages: [NPC_AI_C_11] Patrol Wait Time: 1.544518
-[2020.04.10-02.06.45:755][283]LogBlueprintUserMessages: [NPC_AI_C_11] Search Wait Time: 1.128515
-[2020.04.10-02.06.45:755][283]LogBlueprintUserMessages: [NPC_AI_C_12] Movement Speed: -0.195228
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_12] Search Speed: 102.327538
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_12] Patrol Speed: 68.405334
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_12] Intercept Speed: 485.098297
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_12] Patrol Wait Time: 0.737491
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_12] Search Wait Time: 0.943294
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_13] Movement Speed: 0.497695
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_13] Search Speed: 129.654053
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_13] Patrol Speed: 136.35318
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_13] Intercept Speed: 626.371643
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_13] Patrol Wait Time: 0.954243
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_13] Search Wait Time: 0.952362
-[2020.04.10-02.06.45:756][283]LogBlueprintUserMessages: [NPC_AI_C_14] Movement Speed: 0.087758
-[2020.04.10-02.06.45:757][283]LogBlueprintUserMessages: [NPC_AI_C_14] Search Speed: 104.924568
-[2020.04.10-02.06.45:757][283]LogBlueprintUserMessages: [NPC_AI_C_14] Patrol Speed: 108.905838
-[2020.04.10-02.06.45:757][283]LogBlueprintUserMessages: [NPC_AI_C_14] Intercept Speed: 517.291565
-[2020.04.10-02.06.45:757][283]LogBlueprintUserMessages: [NPC_AI_C_14] Patrol Wait Time: 0.622812
-[2020.04.10-02.06.45:757][283]LogBlueprintUserMessages: [NPC_AI_C_14] Search Wait Time: 0.848906
-[2020.04.10-02.06.45:757][283]LogBlueprintUserMessages: [NPC_AI_C_15] Movement Speed: 0.031682
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_15] Search Speed: 88.638145
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_15] Patrol Speed: 127.590271
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_15] Intercept Speed: 457.492432
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_15] Patrol Wait Time: 1.528622
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_15] Search Wait Time: 1.015779
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_16] Movement Speed: -0.419973
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_16] Search Speed: 72.864319
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_16] Patrol Speed: 62.666012
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_16] Intercept Speed: 406.67868
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_16] Patrol Wait Time: 0.607428
-[2020.04.10-02.06.45:758][283]LogBlueprintUserMessages: [NPC_AI_C_16] Search Wait Time: 1.048737
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_17] Movement Speed: -1.102438
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_17] Search Speed: 42.047935
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_17] Patrol Speed: 9.004807
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_17] Intercept Speed: 241.015137
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_17] Patrol Wait Time: 0.458302
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_17] Search Wait Time: 0.930436
-[2020.04.10-02.06.45:759][283]LogBlueprintUserMessages: [NPC_AI_C_18] Movement Speed: 0.052912
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_18] Search Speed: 94.330017
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_18] Patrol Speed: 106.253098
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_18] Intercept Speed: 508.6586
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_18] Patrol Wait Time: 1.153131
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_18] Search Wait Time: 1.165318
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_19] Movement Speed: -0.272445
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_19] Search Speed: 89.590302
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_19] Patrol Speed: 80.353523
-[2020.04.10-02.06.45:760][283]LogBlueprintUserMessages: [NPC_AI_C_19] Intercept Speed: 430.314789
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_19] Patrol Wait Time: 0.824101
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_19] Search Wait Time: 0.857167
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_20] Movement Speed: 0.130695
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_20] Search Speed: 112.358704
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_20] Patrol Speed: 108.744148
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_20] Intercept Speed: 534.789795
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_20] Patrol Wait Time: 1.083898
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_20] Search Wait Time: 0.94601
-[2020.04.10-02.06.45:761][283]LogBlueprintUserMessages: [NPC_AI_C_21] Movement Speed: 0.212232
-[2020.04.10-02.06.45:762][283]LogBlueprintUserMessages: [NPC_AI_C_21] Search Speed: 118.411209
-[2020.04.10-02.06.45:762][283]LogBlueprintUserMessages: [NPC_AI_C_21] Patrol Speed: 109.755409
-[2020.04.10-02.06.45:762][283]LogBlueprintUserMessages: [NPC_AI_C_21] Intercept Speed: 565.381958
-[2020.04.10-02.06.45:762][283]LogBlueprintUserMessages: [NPC_AI_C_21] Patrol Wait Time: 1.279732
-[2020.04.10-02.06.45:762][283]LogBlueprintUserMessages: [NPC_AI_C_21] Search Wait Time: 1.051874
-[2020.04.10-02.06.45:762][283]LogBlueprintUserMessages: [NPC_AI_C_22] Movement Speed: 0.548466
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_22] Search Speed: 111.109734
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_22] Patrol Speed: 166.742035
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_22] Intercept Speed: 585.902344
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_22] Patrol Wait Time: 1.178703
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_22] Search Wait Time: 1.004284
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_23] Movement Speed: 0.121959
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_23] Search Speed: 113.127434
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_23] Patrol Speed: 92.381264
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_23] Intercept Speed: 564.021179
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_23] Patrol Wait Time: 0.626051
-[2020.04.10-02.06.45:763][283]LogBlueprintUserMessages: [NPC_AI_C_23] Search Wait Time: 1.021917
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_24] Movement Speed: 0.213824
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_24] Search Speed: 122.073975
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_24] Patrol Speed: 104.381676
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_24] Intercept Speed: 576.766479
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_24] Patrol Wait Time: 1.351181
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_24] Search Wait Time: 1.091329
-[2020.04.10-02.06.45:764][283]LogBlueprintUserMessages: [NPC_AI_C_25] Movement Speed: 0.205607
-[2020.04.10-02.06.45:765][283]LogBlueprintUserMessages: [NPC_AI_C_25] Search Speed: 98.653511
-[2020.04.10-02.06.45:765][283]LogBlueprintUserMessages: [NPC_AI_C_25] Patrol Speed: 125.17794
-[2020.04.10-02.06.45:765][283]LogBlueprintUserMessages: [NPC_AI_C_25] Intercept Speed: 531.886841
-[2020.04.10-02.06.45:765][283]LogBlueprintUserMessages: [NPC_AI_C_25] Patrol Wait Time: 0.922361
-[2020.04.10-02.06.45:765][283]LogBlueprintUserMessages: [NPC_AI_C_25] Search Wait Time: 1.05505
-[2020.04.10-02.06.45:766][283]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.804
-[2020.04.10-02.06.45:777][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.07.02:009][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.07.02:092][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.08.04:644][880]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.10-02.08.04:676][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.08.04:676][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.10-02.08.04:676][880]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 9, 2020, 6:08:04 PM)
-[2020.04.10-02.08.04:676][880]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.10-02.08.04:793][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116292s)
-[2020.04.10-02.08.04:794][880]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.10-02.08.04:794][880]LogPlayLevel: PIE: World Init took: (0.001324s)
-[2020.04.10-02.08.04:795][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.118148s)
-[2020.04.10-02.08.04:855][880]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.04.10-02.08.04:878][880]LogInit: FAudioDevice initialized.
-[2020.04.10-02.08.04:913][880]LogLoad: Game class is 'Dialogue_BSGameMode'
-[2020.04.10-02.08.04:952][880]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.09-22.08.04
-[2020.04.10-02.08.04:965][880]LogWorld: Bringing up level for play took: 0.050932
-[2020.04.10-02.08.04:967][880]LogBlueprintUserMessages: [NPC_AI_C_0] Movement Speed: 0.063847
-[2020.04.10-02.08.04:969][880]LogBlueprintUserMessages: [NPC_AI_C_0] Search Speed: 107.349854
-[2020.04.10-02.08.04:969][880]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Speed: 103.446632
-[2020.04.10-02.08.04:969][880]LogBlueprintUserMessages: [NPC_AI_C_0] Intercept Speed: 518.645508
-[2020.04.10-02.08.04:969][880]LogBlueprintUserMessages: [NPC_AI_C_0] Patrol Wait Time: 1.361918
-[2020.04.10-02.08.04:969][880]LogBlueprintUserMessages: [NPC_AI_C_0] Search Wait Time: 1.058657
-[2020.04.10-02.08.04:969][880]LogBlueprintUserMessages: [NPC_AI_C_1] Movement Speed: -0.040886
-[2020.04.10-02.08.04:970][880]LogBlueprintUserMessages: [NPC_AI_C_1] Search Speed: 90.634163
-[2020.04.10-02.08.04:970][880]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Speed: 108.880821
-[2020.04.10-02.08.04:970][880]LogBlueprintUserMessages: [NPC_AI_C_1] Intercept Speed: 465.884003
-[2020.04.10-02.08.04:970][880]LogBlueprintUserMessages: [NPC_AI_C_1] Patrol Wait Time: 0.923299
-[2020.04.10-02.08.04:970][880]LogBlueprintUserMessages: [NPC_AI_C_1] Search Wait Time: 0.926502
-[2020.04.10-02.08.04:970][880]LogBlueprintUserMessages: [NPC_AI_C_2] Movement Speed: -0.366805
-[2020.04.10-02.08.04:971][880]LogBlueprintUserMessages: [NPC_AI_C_2] Search Speed: 98.275169
-[2020.04.10-02.08.04:971][880]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Speed: 47.536297
-[2020.04.10-02.08.04:971][880]LogBlueprintUserMessages: [NPC_AI_C_2] Intercept Speed: 458.205383
-[2020.04.10-02.08.04:971][880]LogBlueprintUserMessages: [NPC_AI_C_2] Patrol Wait Time: 0.337906
-[2020.04.10-02.08.04:971][880]LogBlueprintUserMessages: [NPC_AI_C_2] Search Wait Time: 0.849084
-[2020.04.10-02.08.04:971][880]LogBlueprintUserMessages: [NPC_AI_C_3] Movement Speed: 0.022983
-[2020.04.10-02.08.04:972][880]LogBlueprintUserMessages: [NPC_AI_C_3] Search Speed: 99.241455
-[2020.04.10-02.08.04:972][880]LogBlueprintUserMessages: [NPC_AI_C_3] Patrol Speed: 112.162918
-[2020.04.10-02.08.04:972][880]LogBlueprintUserMessages: [NPC_AI_C_3] Intercept Speed: 484.867218
-[2020.04.10-02.08.04:972][880]LogBlueprintUserMessages: [NPC_AI_C_3] Patrol Wait Time: 1.581661
-[2020.04.10-02.08.04:972][880]LogBlueprintUserMessages: [NPC_AI_C_3] Search Wait Time: 1.053972
-[2020.04.10-02.08.04:972][880]LogBlueprintUserMessages: [NPC_AI_C_4] Movement Speed: -0.167002
-[2020.04.10-02.08.04:973][880]LogBlueprintUserMessages: [NPC_AI_C_4] Search Speed: 99.698883
-[2020.04.10-02.08.04:973][880]LogBlueprintUserMessages: [NPC_AI_C_4] Patrol Speed: 68.058441
-[2020.04.10-02.08.04:973][880]LogBlueprintUserMessages: [NPC_AI_C_4] Intercept Speed: 497.082367
-[2020.04.10-02.08.04:973][880]LogBlueprintUserMessages: [NPC_AI_C_4] Patrol Wait Time: 0.939125
-[2020.04.10-02.08.04:973][880]LogBlueprintUserMessages: [NPC_AI_C_4] Search Wait Time: 1.115577
-[2020.04.10-02.08.04:973][880]LogBlueprintUserMessages: [NPC_AI_C_5] Movement Speed: -0.059708
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_5] Search Speed: 112.587204
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_5] Patrol Speed: 74.173653
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_5] Intercept Speed: 527.769409
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_5] Patrol Wait Time: 0.764984
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_5] Search Wait Time: 0.964933
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_6] Movement Speed: -0.271884
-[2020.04.10-02.08.04:974][880]LogBlueprintUserMessages: [NPC_AI_C_6] Search Speed: 82.496788
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_6] Patrol Speed: 73.290939
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_6] Intercept Speed: 444.664581
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_6] Patrol Wait Time: 0.830515
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_6] Search Wait Time: 1.093892
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_7] Movement Speed: -0.672134
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_7] Search Speed: 53.95533
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_7] Patrol Speed: 54.397209
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_7] Intercept Speed: 322.351807
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_7] Patrol Wait Time: 0.930417
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_7] Search Wait Time: 1.080489
-[2020.04.10-02.08.04:975][880]LogBlueprintUserMessages: [NPC_AI_C_8] Movement Speed: -0.394831
-[2020.04.10-02.08.04:976][880]LogBlueprintUserMessages: [NPC_AI_C_8] Search Speed: 81.730553
-[2020.04.10-02.08.04:976][880]LogBlueprintUserMessages: [NPC_AI_C_8] Patrol Speed: 59.54015
-[2020.04.10-02.08.04:976][880]LogBlueprintUserMessages: [NPC_AI_C_8] Intercept Speed: 422.987396
-[2020.04.10-02.08.04:976][880]LogBlueprintUserMessages: [NPC_AI_C_8] Patrol Wait Time: 0.818788
-[2020.04.10-02.08.04:976][880]LogBlueprintUserMessages: [NPC_AI_C_8] Search Wait Time: 1.05224
-[2020.04.10-02.08.04:976][880]LogBlueprintUserMessages: [NPC_AI_C_9] Movement Speed: -0.075568
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_9] Search Speed: 86.197861
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_9] Patrol Speed: 106.952499
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_9] Intercept Speed: 455.86792
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_9] Patrol Wait Time: 0.926186
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_9] Search Wait Time: 0.963315
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_10] Movement Speed: -0.273739
-[2020.04.10-02.08.04:977][880]LogBlueprintUserMessages: [NPC_AI_C_10] Search Speed: 87.721085
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_10] Patrol Speed: 78.43499
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_10] Intercept Speed: 433.634613
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_10] Patrol Wait Time: 0.576656
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_10] Search Wait Time: 0.842641
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_11] Movement Speed: 0.823091
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_11] Search Speed: 148.78476
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_11] Patrol Speed: 161.05394
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_11] Intercept Speed: 707.128418
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_11] Patrol Wait Time: 1.337596
-[2020.04.10-02.08.04:978][880]LogBlueprintUserMessages: [NPC_AI_C_11] Search Wait Time: 1.035834
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_12] Movement Speed: 0.889896
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_12] Search Speed: 144.869064
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_12] Patrol Speed: 174.298645
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_12] Intercept Speed: 707.360901
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_12] Patrol Wait Time: 1.157137
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_12] Search Wait Time: 0.993799
-[2020.04.10-02.08.04:979][880]LogBlueprintUserMessages: [NPC_AI_C_13] Movement Speed: 0.221334
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_13] Search Speed: 103.909782
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_13] Patrol Speed: 115.502151
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_13] Intercept Speed: 557.529297
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_13] Patrol Wait Time: 0.536845
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_13] Search Wait Time: 1.022946
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_14] Movement Speed: 0.141151
-[2020.04.10-02.08.04:980][880]LogBlueprintUserMessages: [NPC_AI_C_14] Search Speed: 97.190865
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_14] Patrol Speed: 121.42382
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_14] Intercept Speed: 513.61261
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_14] Patrol Wait Time: 1.323902
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_14] Search Wait Time: 1.122794
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_15] Movement Speed: -0.017579
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_15] Search Speed: 96.844429
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_15] Patrol Speed: 103.510521
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_15] Intercept Speed: 485.947174
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_15] Patrol Wait Time: 1.071792
-[2020.04.10-02.08.04:981][880]LogBlueprintUserMessages: [NPC_AI_C_15] Search Wait Time: 0.988763
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_16] Movement Speed: -0.134484
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_16] Search Speed: 80.60643
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_16] Patrol Speed: 92.284859
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_16] Intercept Speed: 461.636627
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_16] Patrol Wait Time: 0.944793
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_16] Search Wait Time: 1.165833
-[2020.04.10-02.08.04:982][880]LogBlueprintUserMessages: [NPC_AI_C_17] Movement Speed: -0.110628
-[2020.04.10-02.08.04:983][880]LogBlueprintUserMessages: [NPC_AI_C_17] Search Speed: 101.441162
-[2020.04.10-02.08.04:983][880]LogBlueprintUserMessages: [NPC_AI_C_17] Patrol Speed: 79.378326
-[2020.04.10-02.08.04:983][880]LogBlueprintUserMessages: [NPC_AI_C_17] Intercept Speed: 496.992096
-[2020.04.10-02.08.04:983][880]LogBlueprintUserMessages: [NPC_AI_C_17] Patrol Wait Time: 0.579787
-[2020.04.10-02.08.04:983][880]LogBlueprintUserMessages: [NPC_AI_C_17] Search Wait Time: 0.925001
-[2020.04.10-02.08.04:983][880]LogBlueprintUserMessages: [NPC_AI_C_18] Movement Speed: 0.539514
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_18] Search Speed: 132.623199
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_18] Patrol Speed: 130.102325
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_18] Intercept Speed: 655.601013
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_18] Patrol Wait Time: 0.41156
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_18] Search Wait Time: 0.917695
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_19] Movement Speed: -0.105404
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_19] Search Speed: 96.725212
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_19] Patrol Speed: 93.820969
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_19] Intercept Speed: 470.196472
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_19] Patrol Wait Time: 1.482574
-[2020.04.10-02.08.04:984][880]LogBlueprintUserMessages: [NPC_AI_C_19] Search Wait Time: 1.075056
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_20] Movement Speed: -0.206631
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_20] Search Speed: 74.492439
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_20] Patrol Speed: 103.629814
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_20] Intercept Speed: 410.087952
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_20] Patrol Wait Time: 1.589587
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_20] Search Wait Time: 1.14764
-[2020.04.10-02.08.04:985][880]LogBlueprintUserMessages: [NPC_AI_C_21] Movement Speed: 0.253517
-[2020.04.10-02.08.04:986][880]LogBlueprintUserMessages: [NPC_AI_C_21] Search Speed: 103.254898
-[2020.04.10-02.08.04:986][880]LogBlueprintUserMessages: [NPC_AI_C_21] Patrol Speed: 135.72551
-[2020.04.10-02.08.04:986][880]LogBlueprintUserMessages: [NPC_AI_C_21] Intercept Speed: 529.955627
-[2020.04.10-02.08.04:986][880]LogBlueprintUserMessages: [NPC_AI_C_21] Patrol Wait Time: 1.579976
-[2020.04.10-02.08.04:986][880]LogBlueprintUserMessages: [NPC_AI_C_21] Search Wait Time: 1.111907
-[2020.04.10-02.08.04:986][880]LogBlueprintUserMessages: [NPC_AI_C_22] Movement Speed: 0.323925
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_22] Search Speed: 119.720993
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_22] Patrol Speed: 117.648087
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_22] Intercept Speed: 594.274048
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_22] Patrol Wait Time: 0.758487
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_22] Search Wait Time: 0.988091
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_23] Movement Speed: 0.409564
-[2020.04.10-02.08.04:987][880]LogBlueprintUserMessages: [NPC_AI_C_23] Search Speed: 119.385391
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_23] Patrol Speed: 135.846115
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_23] Intercept Speed: 592.133606
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_23] Patrol Wait Time: 1.388374
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_23] Search Wait Time: 1.089969
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_24] Movement Speed: -0.249682
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_24] Search Speed: 90.022957
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_24] Patrol Speed: 73.255257
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_24] Intercept Speed: 453.616852
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_24] Patrol Wait Time: 0.430148
-[2020.04.10-02.08.04:988][880]LogBlueprintUserMessages: [NPC_AI_C_24] Search Wait Time: 0.885471
-[2020.04.10-02.08.04:989][880]LogBlueprintUserMessages: [NPC_AI_C_25] Movement Speed: -0.6798
-[2020.04.10-02.08.04:989][880]LogBlueprintUserMessages: [NPC_AI_C_25] Search Speed: 66.241577
-[2020.04.10-02.08.04:989][880]LogBlueprintUserMessages: [NPC_AI_C_25] Patrol Speed: 36.496239
-[2020.04.10-02.08.04:989][880]LogBlueprintUserMessages: [NPC_AI_C_25] Intercept Speed: 355.087646
-[2020.04.10-02.08.04:989][880]LogBlueprintUserMessages: [NPC_AI_C_25] Patrol Wait Time: 0.672702
-[2020.04.10-02.08.04:989][880]LogBlueprintUserMessages: [NPC_AI_C_25] Search Wait Time: 1.03444
-[2020.04.10-02.08.04:990][880]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.028
-[2020.04.10-02.08.05:003][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.08.22:836][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.08.23:021][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.08.29:114][256]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC11)
-[2020.04.10-02.08.49:067][553]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC16)
-[2020.04.10-02.08.50:033][563]Cmd: DELETE
-[2020.04.10-02.08.50:033][563]Cmd: ACTOR DELETE
-[2020.04.10-02.08.50:303][563]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.08.50:332][563]LogEditorActor: Deleted 1 Actors (0.109 secs)
-[2020.04.10-02.08.51:114][574]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC17)
-[2020.04.10-02.08.51:829][583]Cmd: DELETE
-[2020.04.10-02.08.51:829][583]Cmd: ACTOR DELETE
-[2020.04.10-02.08.51:851][583]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.08.51:907][583]LogEditorActor: Deleted 1 Actors (0.078 secs)
-[2020.04.10-02.09.09:915][795]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC)
-[2020.04.10-02.09.11:148][809]Cmd: DELETE
-[2020.04.10-02.09.11:148][809]Cmd: ACTOR DELETE
-[2020.04.10-02.09.11:202][809]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.09.11:231][809]LogEditorActor: Deleted 1 Actors (0.082 secs)
-[2020.04.10-02.09.14:444][844]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC2)
-[2020.04.10-02.09.15:485][857]Cmd: DELETE
-[2020.04.10-02.09.15:485][857]Cmd: ACTOR DELETE
-[2020.04.10-02.09.15:506][857]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.09.15:564][857]LogEditorActor: Deleted 1 Actors (0.079 secs)
-[2020.04.10-02.09.19:554][911]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC14)
-[2020.04.10-02.09.20:653][926]Cmd: DELETE
-[2020.04.10-02.09.20:653][926]Cmd: ACTOR DELETE
-[2020.04.10-02.09.20:676][926]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.09.20:717][926]LogEditorActor: Deleted 1 Actors (0.065 secs)
-[2020.04.10-02.09.26:611][ 26]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC15)
-[2020.04.10-02.09.27:453][ 36]Cmd: DELETE
-[2020.04.10-02.09.27:453][ 36]Cmd: ACTOR DELETE
-[2020.04.10-02.09.27:491][ 36]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.09.27:526][ 36]LogEditorActor: Deleted 1 Actors (0.073 secs)
-[2020.04.10-02.09.42:185][266]LogEditorViewport: Clicking on Actor (LMB): NPC_C (GuardNPC19)
-[2020.04.10-02.09.42:796][277]Cmd: DELETE
-[2020.04.10-02.09.42:796][277]Cmd: ACTOR DELETE
-[2020.04.10-02.09.42:818][277]LogEditorActor: Deleted Actor: NPC_C
-[2020.04.10-02.09.42:843][277]LogEditorActor: Deleted 1 Actors (0.047 secs)
-[2020.04.10-02.10.18:601][113]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
-[2020.04.10-02.10.34:837][386]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.10-02.10.35:162][386]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 116 classes and 0 folders.
-[2020.04.10-02.10.37:236][386]LogSlate: Took 0.035712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.04.10-02.10.38:096][387]LogSlate: Took 0.015733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.04.10-02.11.27:844][187]BlueprintLog: New page: Compile NPC_AI
-[2020.04.10-02.11.29:741][251]LogSavePackage: Save=462.61ms
-[2020.04.10-02.11.29:742][251]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/NPC_AI8D7DE9764B663F51D73E5780F17ED493.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset'
-[2020.04.10-02.11.29:799][251]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset
-[2020.04.10-02.11.53:445][641]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2020.04.10-02.12.19:512][847]LogSlate: Took 0.000524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.04.10-02.12.28:160][915]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
-[2020.04.10-02.12.28:160][915]LogSynthBenchmark: Display: ===============
-[2020.04.10-02.12.28:160][915]LogSynthBenchmark: Display: Main Processor:
-[2020.04.10-02.12.28:213][915]LogSynthBenchmark: Display:          ... 0.029559 s/Run 'RayIntersect'
-[2020.04.10-02.12.28:213][915]LogSynthBenchmark: Display:          ... 0.023822 s/Run 'Fractal'
-[2020.04.10-02.12.28:213][915]LogSynthBenchmark: Display: 
-[2020.04.10-02.12.28:213][915]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
-[2020.04.10-02.12.28:213][915]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
-[2020.04.10-02.12.28:213][915]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 8
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   NumberOfCores (physical): 3
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   NumberOfCores (logical): 6
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   CPU Perf Index 0: 86.6 (weight 1.00)
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   CPU Perf Index 1: 120.1 (weight 1.50)
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:  
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display: Graphics:
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   Adapter Name: 'Radeon(TM) RX 460 Graphics'
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   Vendor Id: 0x1002
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   Device Id: 0x67EF
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   Device Revision: 0xCF
-[2020.04.10-02.12.28:214][915]LogSynthBenchmark: Display:   GPU Memory: 4042/0/4076 MB
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:   GPU first test: 0.01s
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:          ... 1.495 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:          ... 1.301 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be very inaccurate)
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:          ... 1.205 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:          ... 1.866 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:          ... 0.247 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
-[2020.04.10-02.12.28:429][915]LogSynthBenchmark: Display:          ... 1.129 s/GigaVert, Confidence=11% 'VertThroughPut1' (likely to be very inaccurate)
-[2020.04.10-02.12.28:430][915]LogSynthBenchmark: Display:          ... 2.204 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:   GPU second test: 0.06s
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 4.723 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 3.443 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 2.981 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 10.089 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 0.313 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 1.237 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
-[2020.04.10-02.12.28:572][915]LogSynthBenchmark: Display:          ... 2.214 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
-[2020.04.10-02.12.29:221][915]LogSynthBenchmark: Display:   GPU third test: 0.57s
-[2020.04.10-02.12.29:221][915]LogSynthBenchmark: Display:          ... 5.649 s/GigaPix, Confidence=51% 'ALUHeavyNoise'
-[2020.04.10-02.12.29:221][915]LogSynthBenchmark: Display:          ... 3.989 s/GigaPix, Confidence=100% 'TexHeavy'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 3.984 s/GigaPix, Confidence=89% 'DepTexHeavy'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 17.195 s/GigaPix, Confidence=89% 'FillOnly'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 0.320 s/GigaPix, Confidence=100% 'Bandwidth'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 1.221 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 2.179 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Final Results:
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 5.649 s/GigaPix, Confidence=51% 'ALUHeavyNoise'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 3.989 s/GigaPix, Confidence=100% 'TexHeavy'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 3.984 s/GigaPix, Confidence=89% 'DepTexHeavy'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 17.195 s/GigaPix, Confidence=89% 'FillOnly'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 0.320 s/GigaPix, Confidence=100% 'Bandwidth'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 1.221 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... 2.179 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display: 
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 0: 122.8 (weight 1.00)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 1: 53.6 (weight 0.10)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 2: 103.6 (weight 0.10)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 3: 67.5 (weight 3.00)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 4: 29.8 (weight 1.00)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 5: 79.5 (weight 0.00)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPU Perf Index 6: 123.3 (weight 0.00)
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   CPUIndex: 106.7
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:   GPUIndex: 71.3
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display: 
-[2020.04.10-02.12.29:222][915]LogSynthBenchmark: Display:          ... Total Time: 1.063028 sec
-[2020.04.10-02.12.29:311][916]LogRenderer: Reallocating scene render targets to support 1008x556 Format 9 NumSamples 1 (Frame:3653).
-[2020.04.10-02.12.29:516][918]LogContentStreaming: Texture pool size now 800 MB
-[2020.04.10-02.16.01:739][335]BlueprintLog: New page: Compile DialogueV2
-[2020.04.10-02.16.03:431][384]LogSavePackage: Save=779.43ms
-[2020.04.10-02.16.03:431][384]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2BA139CAD407371244F61E1922899E2C8.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
-[2020.04.10-02.16.03:448][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
-[2020.04.10-02.17.12:101][842]BlueprintLog: New page: Compile DialogueV2
-[2020.04.10-02.17.13:561][877]LogSavePackage: Save=683.28ms
-[2020.04.10-02.17.13:561][877]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2C88B5DB74DDA24CEE35E24944551A0D7.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
-[2020.04.10-02.17.13:573][877]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
-[2020.04.10-02.17.16:941][985]LogSavePackage: Save=1625.61ms
-[2020.04.10-02.17.16:941][985]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMapBD0B53F142562831E67847AD7DAC38B9.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2020.04.10-02.17.16:954][985]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2020.04.10-02.17.18:342][985]LogSavePackage: Save=899.03ms
-[2020.04.10-02.17.18:342][985]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_BuiltData5931D73A46C5B6A6A1F9929E3291610D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2020.04.10-02.17.18:354][985]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2020.04.10-02.17.18:864][ 14]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.10-02.17.18:913][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.17.18:913][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.10-02.17.18:913][ 14]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 9, 2020, 6:17:18 PM)
-[2020.04.10-02.17.18:913][ 14]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.10-02.17.19:045][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131339s)
-[2020.04.10-02.17.19:046][ 14]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.10-02.17.19:046][ 14]LogPlayLevel: PIE: World Init took: (0.001244s)
-[2020.04.10-02.17.19:047][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.133284s)
-[2020.04.10-02.17.19:182][ 14]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.04.10-02.17.19:203][ 14]LogInit: FAudioDevice initialized.
-[2020.04.10-02.17.19:241][ 14]LogLoad: Game class is 'Dialogue_BSGameMode'
-[2020.04.10-02.17.19:273][ 14]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.09-22.17.19
-[2020.04.10-02.17.19:282][ 14]LogWorld: Bringing up level for play took: 0.040288
-[2020.04.10-02.17.19:294][ 14]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.332
-[2020.04.10-02.17.19:294][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.17.26:744][124]LogBlueprintUserMessages: [DialogueV2_C_4] Dialogue: Dialogue Weight = INTJ
-[2020.04.10-02.17.26:744][124]LogBlueprintUserMessages: [DialogueV2_C_4] Searching Through Library
-[2020.04.10-02.17.26:773][124]LogBlueprintUserMessages: [DialogueV2_C_4] Linear Dialogue Loaded
-[2020.04.10-02.17.49:412][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.17.49:512][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.20.14:278][585]BlueprintLog: New page: Compile DialogueV2
-[2020.04.10-02.20.15:799][627]LogSavePackage: Save=632.99ms
-[2020.04.10-02.20.15:799][627]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV282D3A0FC464F49BC85CB1BA47E4D1E9F.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
-[2020.04.10-02.20.15:811][627]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
-[2020.04.10-02.20.18:140][851]LogTemp: Repeating last play command: Selected Viewport
-[2020.04.10-02.20.18:176][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.20.18:176][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.04.10-02.20.18:176][851]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 9, 2020, 6:20:18 PM)
-[2020.04.10-02.20.18:176][851]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2020.04.10-02.20.18:286][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109922s)
-[2020.04.10-02.20.18:287][851]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.10-02.20.18:288][851]LogPlayLevel: PIE: World Init took: (0.001274s)
-[2020.04.10-02.20.18:288][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.111980s)
-[2020.04.10-02.20.18:360][851]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.04.10-02.20.18:384][851]LogInit: FAudioDevice initialized.
-[2020.04.10-02.20.18:421][851]LogLoad: Game class is 'Dialogue_BSGameMode'
-[2020.04.10-02.20.18:456][851]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.04.09-22.20.18
-[2020.04.10-02.20.18:465][851]LogWorld: Bringing up level for play took: 0.042252
-[2020.04.10-02.20.18:478][851]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.484
-[2020.04.10-02.20.18:478][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.21.21:241][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.21.21:346][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2020.04.10-02.21.30:103][  8]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2020.04.10-02.23.08:038][410]LogSavePackage: Save=1745.00ms
-[2020.04.10-02.23.08:038][410]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMapD275B74741504B83DDA455BB202D2898.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2020.04.10-02.23.08:054][410]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2020.04.10-02.23.08:114][410]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.132
-[2020.04.10-02.27.33:369][296]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-02.27.45:034][666]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-02.28.22:702][861]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-02.32.21:125][750]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-02.35.37:402][881]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-02.40.18:293][416]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-02.45.10:859][119]LogTemp: Repeating last play command: Standalone Game
-[2020.04.10-03.01.38:156][ 57]LogEditorTransaction: Undo Move Node
-[2020.04.10-03.01.45:457][549]LogEditorTransaction: Undo Create Reroute Node
-[2020.04.10-03.01.46:666][551]LogEditorTransaction: Undo Move Node
-[2020.04.10-03.05.01:730][950]BlueprintLog: New page: Compile NPC_AI
-[2020.04.10-03.05.03:370][  7]LogSavePackage: Save=324.46ms
-[2020.04.10-03.05.03:370][  7]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/NPC_AI532525474DDACDBBC788E69F84A00B57.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset'
-[2020.04.10-03.05.03:383][  7]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset
-[2020.04.10-03.10.20:078][886]LogEditorTransaction: Undo Edit Show Pin
-[2020.04.10-03.12.38:831][244]BlueprintLog: New page: Compile DialogueV2
-[2020.04.10-03.12.40:350][278]LogSavePackage: Save=671.68ms
-[2020.04.10-03.12.40:350][278]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV27A9F343147A10B1D96D19AB9C514B1E7.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
-[2020.04.10-03.12.40:386][278]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
-[2020.04.10-03.20.12:691][622]LogSavePackage: Save=325.32ms
-[2020.04.10-03.20.12:691][622]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/NPC_AI202D65124F721BC931DEAD9D77F7AE7C.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset'
-[2020.04.10-03.20.12:720][622]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/AI/NPC/NPC_AI.uasset
-[2020.04.10-03.20.17:345][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.04.10-03.20.17:798][963]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.04.10-03.20.18:987][964]Cmd: QUIT_EDITOR
-[2020.04.10-03.20.20:386][964]LogExit: Preparing to exit.
-[2020.04.10-03.20.26:063][964]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
-[2020.04.10-03.20.27:529][964]LogExit: Editor shut down
-[2020.04.10-03.20.31:000][964]LogExit: Transaction tracking system shut down
-[2020.04.10-03.20.32:475][964]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2020.04.10-03.20.32:475][964]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' was aborted.
-[2020.04.10-03.20.32:475][964]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2020.04.10-03.20.32:475][964]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2020.04.10-03.20.32:475][964]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2020.04.10-03.20.32:475][964]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2020.04.10-03.20.32:477][964]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2020.04.10-03.20.34:962][964]LogExit: Object subsystem successfully closed.
-[2020.04.10-03.20.35:360][964]LogD3D11RHI: Shutdown
-[2020.04.10-03.20.35:360][964]LogD3D11RHI: CleanupD3DDevice
-[2020.04.10-03.20.35:582][964]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.04.10-03.20.36:643][964]LogModuleManager: Shutting down and abandoning module DataTableEditor (564)
-[2020.04.10-03.20.36:643][964]LogModuleManager: Shutting down and abandoning module SequencerWidgets (562)
-[2020.04.10-03.20.36:644][964]LogModuleManager: Shutting down and abandoning module SynthBenchmark (560)
-[2020.04.10-03.20.36:644][964]LogModuleManager: Shutting down and abandoning module BlueprintGraph (558)
-[2020.04.10-03.20.36:644][964]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (556)
-[2020.04.10-03.20.36:644][964]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (554)
-[2020.04.10-03.20.36:644][964]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2020.04.10-03.20.36:645][964]LogModuleManager: Shutting down and abandoning module DesktopPlatform (550)
-[2020.04.10-03.20.36:654][964]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
-[2020.04.10-03.20.36:654][964]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2020.04.10-03.20.36:691][964]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2020.04.10-03.20.36:911][964]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2020.04.10-03.20.36:911][964]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2020.04.10-03.20.36:911][964]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2020.04.10-03.20.36:911][964]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' was aborted.
-[2020.04.10-03.20.36:911][964]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' was aborted.
-[2020.04.10-03.20.36:911][964]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' was aborted.
-[2020.04.10-03.20.36:911][964]LogModuleManager: Shutting down and abandoning module StatsViewer (538)
-[2020.04.10-03.20.36:937][964]LogModuleManager: Shutting down and abandoning module FoliageEdit (536)
-[2020.04.10-03.20.36:937][964]LogModuleManager: Shutting down and abandoning module LandscapeEditor (534)
-[2020.04.10-03.20.37:053][964]LogModuleManager: Shutting down and abandoning module MeshPaintMode (532)
-[2020.04.10-03.20.37:078][964]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (530)
-[2020.04.10-03.20.37:078][964]LogModuleManager: Shutting down and abandoning module ActorPickerMode (528)
-[2020.04.10-03.20.37:078][964]LogModuleManager: Shutting down and abandoning module GeometryMode (526)
-[2020.04.10-03.20.37:104][964]LogModuleManager: Shutting down and abandoning module TextureAlignMode (524)
-[2020.04.10-03.20.37:104][964]LogModuleManager: Shutting down and abandoning module BspMode (522)
-[2020.04.10-03.20.37:126][964]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (520)
-[2020.04.10-03.20.37:126][964]LogModuleManager: Shutting down and abandoning module HardwareSurvey (518)
-[2020.04.10-03.20.37:146][964]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (516)
-[2020.04.10-03.20.37:146][964]LogModuleManager: Shutting down and abandoning module AutomationWorker (514)
-[2020.04.10-03.20.37:146][964]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (512)
-[2020.04.10-03.20.37:524][964]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (510)
-[2020.04.10-03.20.37:587][964]LogModuleManager: Shutting down and abandoning module PlacementMode (509)
-[2020.04.10-03.20.37:587][964]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (506)
-[2020.04.10-03.20.37:587][964]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (504)
-[2020.04.10-03.20.37:587][964]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (502)
-[2020.04.10-03.20.37:587][964]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (500)
-[2020.04.10-03.20.37:588][964]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (498)
-[2020.04.10-03.20.37:617][964]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (496)
-[2020.04.10-03.20.37:617][964]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (494)
-[2020.04.10-03.20.37:617][964]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (492)
-[2020.04.10-03.20.37:617][964]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (490)
-[2020.04.10-03.20.37:617][964]LogModuleManager: Shutting down and abandoning module CharacterAI (488)
-[2020.04.10-03.20.37:617][964]LogModuleManager: Shutting down and abandoning module AudioCapture (486)
-[2020.04.10-03.20.37:637][964]LogModuleManager: Shutting down and abandoning module SequenceRecorder (485)
-[2020.04.10-03.20.37:638][964]LogModuleManager: Shutting down and abandoning module SmartSnapping (482)
-[2020.04.10-03.20.37:638][964]LogModuleManager: Shutting down and abandoning module SessionServices (480)
-[2020.04.10-03.20.37:638][964]LogModuleManager: Shutting down and abandoning module ViewportSnapping (478)
-[2020.04.10-03.20.37:638][964]LogModuleManager: Shutting down and abandoning module ViewportInteraction (476)
-[2020.04.10-03.20.37:638][964]LogModuleManager: Shutting down and abandoning module ClothPainter (474)
-[2020.04.10-03.20.37:719][964]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (473)
-[2020.04.10-03.20.37:736][964]LogModuleManager: Shutting down and abandoning module LogVisualizer (470)
-[2020.04.10-03.20.37:774][964]LogModuleManager: Shutting down and abandoning module IntroTutorials (468)
-[2020.04.10-03.20.37:799][964]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (467)
-[2020.04.10-03.20.37:822][964]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (464)
-[2020.04.10-03.20.37:838][964]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (462)
-[2020.04.10-03.20.37:838][964]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (460)
-[2020.04.10-03.20.37:839][964]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (459)
-[2020.04.10-03.20.38:032][964]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (456)
-[2020.04.10-03.20.38:032][964]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (454)
-[2020.04.10-03.20.38:032][964]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (452)
-[2020.04.10-03.20.38:032][964]LogModuleManager: Shutting down and abandoning module InputBindingEditor (450)
-[2020.04.10-03.20.38:054][964]LogModuleManager: Shutting down and abandoning module MergeActors (448)
-[2020.04.10-03.20.38:067][964]LogModuleManager: Shutting down and abandoning module SizeMap (446)
-[2020.04.10-03.20.38:067][964]LogModuleManager: Shutting down and abandoning module TreeMap (444)
-[2020.04.10-03.20.38:155][964]LogModuleManager: Shutting down and abandoning module ReferenceViewer (442)
-[2020.04.10-03.20.38:193][964]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (440)
-[2020.04.10-03.20.38:313][964]LogModuleManager: Shutting down and abandoning module LocalizationService (439)
-[2020.04.10-03.20.38:323][964]LogModuleManager: Shutting down and abandoning module HardwareTargeting (436)
-[2020.04.10-03.20.38:323][964]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (434)
-[2020.04.10-03.20.38:337][964]LogModuleManager: Shutting down and abandoning module UndoHistory (432)
-[2020.04.10-03.20.38:340][964]LogModuleManager: Shutting down and abandoning module XmlParser (430)
-[2020.04.10-03.20.38:352][964]LogModuleManager: Shutting down and abandoning module Blutility (428)
-[2020.04.10-03.20.38:367][964]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (426)
-[2020.04.10-03.20.38:383][964]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (425)
-[2020.04.10-03.20.38:414][964]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (422)
-[2020.04.10-03.20.38:432][964]LogModuleManager: Shutting down and abandoning module SettingsEditor (420)
-[2020.04.10-03.20.38:447][964]LogModuleManager: Shutting down and abandoning module ProjectLauncher (418)
-[2020.04.10-03.20.38:464][964]LogModuleManager: Shutting down and abandoning module SessionFrontend (416)
-[2020.04.10-03.20.38:476][964]LogModuleManager: Shutting down and abandoning module ProfilerClient (414)
-[2020.04.10-03.20.38:485][964]LogModuleManager: Shutting down and abandoning module DeviceManager (412)
-[2020.04.10-03.20.38:491][964]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (411)
-[2020.04.10-03.20.38:660][964]LogModuleManager: Shutting down and abandoning module AutomationController (408)
-[2020.04.10-03.20.38:660][964]LogModuleManager: Shutting down and abandoning module AutomationWindow (406)
-[2020.04.10-03.20.38:685][964]LogModuleManager: Shutting down and abandoning module Layers (404)
-[2020.04.10-03.20.38:700][964]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (402)
-[2020.04.10-03.20.38:700][964]LogModuleManager: Shutting down and abandoning module DetailCustomizations (400)
-[2020.04.10-03.20.38:719][964]LogModuleManager: Shutting down and abandoning module PackagesDialog (398)
-[2020.04.10-03.20.38:720][964]LogModuleManager: Shutting down and abandoning module Persona (396)
-[2020.04.10-03.20.38:751][964]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (395)
-[2020.04.10-03.20.38:751][964]LogModuleManager: Shutting down and abandoning module AnimGraph (393)
-[2020.04.10-03.20.38:751][964]LogModuleManager: Shutting down and abandoning module Kismet (390)
-[2020.04.10-03.20.38:796][964]LogModuleManager: Shutting down and abandoning module ClassViewer (388)
-[2020.04.10-03.20.38:796][964]LogModuleManager: Shutting down and abandoning module Toolbox (386)
-[2020.04.10-03.20.38:811][964]LogModuleManager: Shutting down and abandoning module ModuleUI (384)
-[2020.04.10-03.20.38:821][964]LogModuleManager: Shutting down and abandoning module MovieSceneTools (382)
-[2020.04.10-03.20.38:916][964]LogModuleManager: Shutting down and abandoning module OutputLog (380)
-[2020.04.10-03.20.38:923][964]LogModuleManager: Shutting down and abandoning module GammaUI (378)
-[2020.04.10-03.20.38:946][964]LogModuleManager: Shutting down and abandoning module Documentation (376)
-[2020.04.10-03.20.38:946][964]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (374)
-[2020.04.10-03.20.38:946][964]LogModuleManager: Shutting down and abandoning module MovieScene (372)
-[2020.04.10-03.20.38:946][964]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (370)
-[2020.04.10-03.20.38:946][964]LogModuleManager: Shutting down and abandoning module LauncherPlatform (368)
-[2020.04.10-03.20.38:946][964]LogModuleManager: Shutting down and abandoning module AnalyticsET (366)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module PortalServices (364)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module PortalRpc (362)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module MessagingRpc (360)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module AIModule (358)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module GameplayDebugger (357)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module AITestSuite (355)
-[2020.04.10-03.20.38:947][964]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module OculusInput (342)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module CableComponent (336)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
-[2020.04.10-03.20.39:049][964]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
-[2020.04.10-03.20.39:586][964]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
-[2020.04.10-03.20.39:586][964]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
-[2020.04.10-03.20.39:587][964]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
-[2020.04.10-03.20.39:587][964]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
-[2020.04.10-03.20.39:589][964]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
-[2020.04.10-03.20.39:590][964]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
-[2020.04.10-03.20.39:590][964]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
-[2020.04.10-03.20.39:590][964]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
-[2020.04.10-03.20.39:590][964]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
-[2020.04.10-03.20.39:677][964]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
-[2020.04.10-03.20.39:720][964]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
-[2020.04.10-03.20.39:720][964]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
-[2020.04.10-03.20.39:720][964]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
-[2020.04.10-03.20.39:720][964]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
-[2020.04.10-03.20.39:720][964]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
-[2020.04.10-03.20.39:720][964]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
-[2020.04.10-03.20.39:787][964]LogModuleManager: Shutting down and abandoning module SourceControl (293)
-[2020.04.10-03.20.39:787][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
-[2020.04.10-03.20.39:787][964]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
-[2020.04.10-03.20.39:787][964]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
-[2020.04.10-03.20.39:787][964]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
-[2020.04.10-03.20.39:833][964]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
-[2020.04.10-03.20.39:833][964]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
-[2020.04.10-03.20.39:878][964]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
-[2020.04.10-03.20.39:909][964]LogModuleManager: Shutting down and abandoning module MainFrame (278)
-[2020.04.10-03.20.39:919][964]LogModuleManager: Shutting down and abandoning module HotReload (277)
-[2020.04.10-03.20.39:919][964]LogDirectoryWatcher: A directory notification for 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Binaries/Win64' was aborted.
-[2020.04.10-03.20.39:932][964]LogModuleManager: Shutting down and abandoning module Dialogue_BS (272)
-[2020.04.10-03.20.39:932][964]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (270)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (268)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module PhysXVehicles (266)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module OculusEditor (264)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (262)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (260)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (258)
-[2020.04.10-03.20.39:933][964]LogModuleManager: Shutting down and abandoning module UdpMessaging (256)
-[2020.04.10-03.20.40:034][964]LogModuleManager: Shutting down and abandoning module TcpMessaging (254)
-[2020.04.10-03.20.40:135][964]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
-[2020.04.10-03.20.40:224][964]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
-[2020.04.10-03.20.40:262][964]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
-[2020.04.10-03.20.40:262][964]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
-[2020.04.10-03.20.40:262][964]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
-[2020.04.10-03.20.40:262][964]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
-[2020.04.10-03.20.40:287][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
-[2020.04.10-03.20.40:287][964]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2020.04.10-03.20.40:287][964]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2020.04.10-03.20.40:297][964]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2020.04.10-03.20.40:340][964]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
-[2020.04.10-03.20.40:340][964]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2020.04.10-03.20.40:344][964]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2020.04.10-03.20.40:372][964]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2020.04.10-03.20.40:372][964]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2020.04.10-03.20.40:372][964]LogModuleManager: Shutting down and abandoning module Media (223)
-[2020.04.10-03.20.40:379][964]LogModuleManager: Shutting down and abandoning module Overlay (220)
-[2020.04.10-03.20.40:379][964]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
-[2020.04.10-03.20.40:379][964]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (216)
-[2020.04.10-03.20.40:379][964]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2020.04.10-03.20.40:409][964]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2020.04.10-03.20.40:409][964]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2020.04.10-03.20.40:409][964]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2020.04.10-03.20.40:409][964]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2020.04.10-03.20.40:409][964]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2020.04.10-03.20.40:409][964]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2020.04.10-03.20.40:602][964]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2020.04.10-03.20.40:623][964]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2020.04.10-03.20.40:623][964]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2020.04.10-03.20.40:624][964]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2020.04.10-03.20.40:624][964]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2020.04.10-03.20.40:636][964]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2020.04.10-03.20.40:636][964]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2020.04.10-03.20.40:643][964]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2020.04.10-03.20.40:643][964]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2020.04.10-03.20.40:643][964]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2020.04.10-03.20.40:643][964]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2020.04.10-03.20.40:643][964]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2020.04.10-03.20.40:644][964]LogModuleManager: Shutting down and abandoning module Core (172)
-[2020.04.10-03.20.40:644][964]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2020.04.10-03.20.40:644][964]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2020.04.21-19.58.45:413][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.21-19.58.45:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.21-19.58.45:463][  0]LogInit: Computer: DESKTOP-M25UTED
+[2020.04.21-19.58.45:463][  0]LogInit: User: Delam
+[2020.04.21-19.58.45:463][  0]LogInit: CPU Page size=4096, Cores=3
+[2020.04.21-19.58.45:463][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.21-19.58.45:464][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.04.21-19.58.45:464][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.21-19.58.45:464][  0]LogMemory: Process Physical Memory: 272.57 MB used, 272.58 MB peak
+[2020.04.21-19.58.45:464][  0]LogMemory: Process Virtual Memory: 270.89 MB used, 270.89 MB peak
+[2020.04.21-19.58.45:464][  0]LogMemory: Physical Memory: 7501.93 MB used,  648.65 MB free, 8150.58 MB total
+[2020.04.21-19.58.45:464][  0]LogMemory: Virtual Memory: 4753.26 MB used,  648.65 MB free, 134217728.00 MB total
+[2020.04.21-19.58.46:242][  0]LogInit: Using OS detected language (en-US).
+[2020.04.21-19.58.46:242][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.21-19.58.46:249][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.21-19.58.46:963][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.21-19.58.47:646][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.21-19.58.47:696][  0]LogD3D11RHI:    0. 'Radeon(TM) RX 460 Graphics' (Feature Level 11_0)
+[2020.04.21-19.58.47:696][  0]LogD3D11RHI:       4041/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.04.21-19.58.47:700][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.21-19.58.47:700][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.21-19.58.47:700][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.21-19.58.47:721][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.21-19.58.47:721][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2020.04.21-19.58.47:721][  0]LogWindows: EnumDisplayDevices:
+[2020.04.21-19.58.47:721][  0]LogWindows:    0. 'Radeon(TM) RX 460 Graphics' (P:1 D:1)
+[2020.04.21-19.58.47:722][  0]LogWindows:    1. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.04.21-19.58.47:722][  0]LogWindows:    2. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.04.21-19.58.47:722][  0]LogWindows:    3. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.04.21-19.58.47:723][  0]LogWindows:    4. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.04.21-19.58.47:723][  0]LogWindows:    5. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.04.21-19.58.47:724][  0]LogWindows:    6. 'Radeon(TM) RX 460 Graphics' (P:0 D:0)
+[2020.04.21-19.58.47:724][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.04.21-19.58.47:724][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) RX 460 Graphics
+[2020.04.21-19.58.47:724][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.04.21-19.58.47:724][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.04.21-19.58.47:724][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
+[2020.04.21-19.58.47:807][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.21-19.58.47:821][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.04.21-19.58.47:823][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Intermediate/Shaders/WorkingDirectory/13836/).
+[2020.04.21-19.58.47:824][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Delam/AppData/Local/Temp/UnrealShaderWorkingDir/0552881C4BDF1A4207EE43AB3536EA13/'.
+[2020.04.21-19.58.47:824][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.21-19.58.51:513][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.04.21-19.58.51:748][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.04.21-19.58.52:019][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.04.21-19.58.52:272][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.04.21-19.58.52:496][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.04.21-19.58.52:780][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.04.21-19.58.53:133][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.04.21-19.58.53:610][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.04.21-19.58.53:884][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.04.21-19.58.54:145][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.04.21-19.58.54:366][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.04.21-19.58.54:720][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.04.21-19.58.55:030][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.04.21-19.58.55:450][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.04.21-19.58.56:096][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.04.21-19.58.56:096][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.04.21-19.58.56:519][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.04.21-19.58.56:756][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.04.21-19.58.57:440][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.04.21-19.58.57:618][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.04.21-19.58.57:936][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.04.21-19.58.58:251][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.04.21-19.58.58:606][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.04.21-19.59.00:230][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.04.21-19.59.00:230][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.21-19.59.06:521][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.21-19.59.22:436][  0]LogDerivedDataCache: Loaded boot cache 15.91s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.04.21-19.59.22:436][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.04.21-19.59.22:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.21-19.59.22:437][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.21-19.59.22:437][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.21-19.59.22:437][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.21-19.59.22:529][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.21-19.59.22:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Delam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.21-19.59.22:567][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.21-19.59.22:567][  0]LogSlate: Using Freetype 2.6.0
+[2020.04.21-19.59.22:907][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.21-19.59.22:907][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.21-20.00.27:507][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.21-20.00.29:889][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.04.21-20.00.30:127][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.04.21-20.00.30:127][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.21-20.00.30:127][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.04.21-20.00.30:127][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.04.21-20.00.30:127][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.04.21-20.00.30:194][  0]LogNetVersion: Dialogue_BS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2721781782)
+[2020.04.21-20.00.30:650][  0]LogAssetRegistry: FAssetRegistry took 0.0336 seconds to start up
+[2020.04.21-20.00.33:487][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.307746 seconds
+[2020.04.21-20.00.33:495][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.04.21-20.00.33:495][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.04.21-20.00.33:495][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.21-20.00.33:790][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.04.21-20.01.42:370][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.21-20.01.42:606][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.21-20.01.53:536][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.04.21-20.01.55:181][  0]SourceControl: Source control is disabled
+[2020.04.21-20.01.55:181][  0]SourceControl: Source control is disabled
+[2020.04.21-20.01.55:394][  0]SourceControl: Source control is disabled
+[2020.04.21-20.01.55:600][  0]SourceControl: Source control is disabled
+[2020.04.21-20.01.59:014][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.21-20.02.00:188][  0]LogOcInput: OculusInput pre-init called
+[2020.04.21-20.02.01:770][  0]LogEngine: Initializing Engine...
+[2020.04.21-20.02.01:775][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.21-20.02.02:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.04.21-20.02.02:956][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.04.21-20.02.03:835][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.21-20.02.04:660][  0]LogInit: XAudio2 using 'Speakers (2- Sennheiser USB headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.21-20.02.04:702][  0]LogInit: FAudioDevice initialized.
+[2020.04.21-20.02.06:187][  0]LogDerivedDataCache: Saved boot cache 1.48s 79MB C:/Users/Delam/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.04.21-20.02.06:220][  0]LogInit: Texture streaming: Enabled
+[2020.04.21-20.02.06:682][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.21-20.02.08:432][  0]LogInit: Transaction tracking system initialized
+[2020.04.21-20.02.10:598][  0]BlueprintLog: New page: Editor Load
+[2020.04.21-20.02.17:328][  0]LocalizationService: Localization service is disabled
+[2020.04.21-20.02.22:900][  0]LogConsoleResponse: Display: 
+[2020.04.21-20.02.24:454][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.21-20.02.24:455][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.21-20.02.24:455][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.04.21-20.02.25:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/' took 0.43s
+[2020.04.21-20.02.34:206][  0]SourceControl: Source control is disabled
+[2020.04.21-20.02.34:206][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.21-20.02.34:242][  0]LightingResults: New page: Lighting Build
+[2020.04.21-20.02.34:444][  0]MapCheck: New page: Map Check
+[2020.04.21-20.02.34:444][  0]LightingResults: New page: Lighting Build
+[2020.04.21-20.02.49:562][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.21-20.02.50:392][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.21-20.02.50:525][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.21-20.02.50:714][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 188.504ms to complete.
+[2020.04.21-20.02.50:714][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 16.508
+[2020.04.21-20.02.51:041][  0]LogCollectionManager: Loaded 0 collections in 0.009604 seconds
+[2020.04.21-20.02.51:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Collections/' took 0.01s
+[2020.04.21-20.02.51:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Developers/Delam/Collections/' took 0.01s
+[2020.04.21-20.02.51:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/Collections/' took 0.01s
+[2020.04.21-20.02.51:257][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.04.21-20.02.51:275][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2374 classes and 524 folders.
+[2020.04.21-20.02.51:887][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2020.04.21-20.02.52:075][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2020.04.21-20.02.52:257][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2020.04.21-20.02.52:464][  0]LogSlate: Took 0.000406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.21-20.02.52:467][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.21-20.02.52:476][  0]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.21-20.02.52:480][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.21-20.02.52:788][  0]LogRenderer: Reallocating scene render targets to support 1008x556 Format 9 NumSamples 1 (Frame:1).
+[2020.04.21-20.02.53:963][  0]LogSlate: Took 0.000494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.04.21-20.02.54:364][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2020.04.21-20.02.54:364][  0]LogLoad: (Engine Initialization) Total time: 257.96 seconds
+[2020.04.21-20.02.54:364][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.21-20.02.54:365][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.04.21-20.02.54:745][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.04.21-20.02.55:385][  2]LogAssetRegistry: Asset discovery search completed in 144.7581 seconds
+[2020.04.21-20.02.55:388][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.04.21-20.02.55:388][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000256 seconds (updated 0 objects)
+[2020.04.21-20.05.18:976][387]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.04.21-20.05.19:722][387]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.21-20.05.20:707][387]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0237 seconds. Added 116 classes and 0 folders.
+[2020.04.21-20.05.25:791][387]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.04.21-20.05.25:830][387]LogSlate: Took 0.038210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.21-20.06.30:490][590]LogSlate: Took 0.070196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.21-20.07.12:487][278]BlueprintLog: New page: Compile DialogueV2
+[2020.04.21-20.07.13:008][278]LogBlueprint: Error: [Compiler DialogueV2] Could not find a function named "ContinueConversationForNonLinearPath" in 'DialogueV2_C'.
+Make sure 'DialogueV2_C' has been compiled for  Continue Conversation for Non Linear Path
+[2020.04.21-20.07.14:392][278]LogBlueprint: Warning: [Compiler DialogueV2] [0517.99] Compile of DialogueV2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,904 ms] (/Game/ThirdPersonCPP/Dialogue/DialogueV2.DialogueV2)
+[2020.04.21-20.07.16:711][510]BlueprintLog: New page: Compile DialogueV2
+[2020.04.21-20.07.16:964][510]LogBlueprint: Error: [Compiler DialogueV2] Could not find a function named "ContinueConversationForNonLinearPath" in 'DialogueV2_C'.
+Make sure 'DialogueV2_C' has been compiled for  Continue Conversation for Non Linear Path
+[2020.04.21-20.07.17:021][510]LogBlueprint: Warning: [Compiler DialogueV2] [0520.62] Compile of DialogueV2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 310 ms] (/Game/ThirdPersonCPP/Dialogue/DialogueV2.DialogueV2)
+[2020.04.21-20.07.41:308][289]LogEditorTransaction: Undo Create Pin Link
+[2020.04.21-20.07.41:699][305]LogEditorTransaction: Undo Delete current selection
+[2020.04.21-20.07.42:220][356]LogEditorTransaction: Undo Delete current selection
+[2020.04.21-20.07.42:641][396]LogEditorTransaction: Undo Delete current selection
+[2020.04.21-20.08.19:451][644]BlueprintLog: New page: Compile DialogueV2
+[2020.04.21-20.09.43:012][  8]LogEditorTransaction: Undo Resize Node
+[2020.04.21-20.09.44:341][ 88]LogEditorTransaction: Undo Resize Node
+[2020.04.21-20.09.45:154][154]LogEditorTransaction: Undo Move Nodes
+[2020.04.21-20.09.45:936][224]LogEditorTransaction: Undo Move Node
+[2020.04.21-20.09.46:491][273]LogEditorTransaction: Undo Move Node
+[2020.04.21-20.09.47:080][328]LogEditorTransaction: Undo Move Node
+[2020.04.21-20.09.47:567][367]LogEditorTransaction: Undo Move Node
+[2020.04.21-20.09.48:028][403]LogEditorTransaction: Undo Move Node
+[2020.04.21-20.09.48:581][450]LogEditorTransaction: Undo Create Pin Link
+[2020.04.21-20.09.49:062][486]LogEditorTransaction: Undo Delete current selection
+[2020.04.21-20.09.49:547][522]LogEditorTransaction: Undo Move Node
+[2020.04.21-20.09.51:005][661]LogEditorTransaction: Undo Delete current selection
+[2020.04.21-20.09.52:395][794]LogEditorTransaction: Undo Delete current selection
+[2020.04.21-20.09.53:160][868]LogEditorTransaction: Undo Remove Graph
+[2020.04.21-20.09.57:400][307]LogEditorTransaction: Undo Rename Function
+[2020.04.21-20.10.06:106][148]BlueprintLog: New page: Compile DialogueV2
+[2020.04.21-20.12.35:058][595]BlueprintLog: New page: Compile DialogueV2
+[2020.04.21-20.14.00:789][251]LogSavePackage: Save=1858.99ms
+[2020.04.21-20.14.00:790][251]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_Auto1289C9EEA47456C23D4EE6FBB60418D86.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.04.21-20.14.00:835][251]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2020.04.21-20.14.00:851][251]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 2.185
+[2020.04.21-20.14.00:851][251]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.185
+[2020.04.21-20.14.00:859][251]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Dialogue/DialogueV2] ([1] browsable assets)...
+[2020.04.21-20.14.00:859][251]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Dialogue/DialogueV2]
+[2020.04.21-20.14.01:513][251]LogSavePackage: Save=642.04ms
+[2020.04.21-20.14.01:513][251]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2_Auto1D8537426462CEB977F1F84AFC7DB0D1D.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/DialogueV2_Auto1.uasset'
+[2020.04.21-20.14.01:519][251]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/Autosaves/Game/ThirdPersonCPP/Dialogue/DialogueV2_Auto1.uasset
+[2020.04.21-20.14.01:520][251]LogFileHelpers: Auto-saving content packages took 0.665
+[2020.04.21-20.14.27:947][851]LogSavePackage: Save=629.94ms
+[2020.04.21-20.14.27:947][851]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV2F467CCB945C2D1EED0A2BCAE4A262407.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.04.21-20.14.27:963][851]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.04.21-20.15.03:692][657]LogSavePackage: Save=602.52ms
+[2020.04.21-20.15.03:692][657]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/DialogueV23C67B9F84EBC4945AD99CDA4FA75F101.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset'
+[2020.04.21-20.15.03:706][657]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Dialogue/DialogueV2.uasset
+[2020.04.21-20.15.11:918][245]LogSavePackage: Save=1714.29ms
+[2020.04.21-20.15.11:918][245]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap23C910704167205AE47EB5BAB36D4303.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.04.21-20.15.11:934][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2020.04.21-20.15.13:499][245]LogSavePackage: Save=1312.12ms
+[2020.04.21-20.15.13:499][245]LogSavePackage: Moving '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Saved/ThirdPersonExampleMap_BuiltDataA8D77F694138698BA2B6C7B13E0D33E5.tmp' to '../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.04.21-20.15.13:507][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Delam/OneDrive/Documents/GitHub/AIbs_Demo/Dialogue_BS/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
